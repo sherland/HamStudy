@@ -1,0 +1,1522 @@
+Elektromagnetisk stråling - Nkom
+
+Hopp til hovedinnhold
+
+Gå til hovedsiden
+
+Søk
+
+Meny
+
+Om Nkom
+
+Om Nkom
+
+Kontakt oss
+
+Min side
+
+Karriere
+
+Aktuelt
+
+Presse
+
+Arrangementer
+
+Høringer
+
+Statistikk og analyse
+
+Rapporter og dokumenter
+
+Skjemaer
+
+Personvernerklæring
+
+Information in English
+
+Hovedmeny
+
+Frekvenser og elektronisk utstyr
+
+Radiostøy
+
+Frekvensbehov mot 2030
+
+Om 5G
+
+Frekvenser til mobilkommunikasjon og 5G
+
+Tillatelse til å bruke frekvenser
+
+Radioamatør
+
+Om ekom og vindturbiner
+
+Import og salg av utstyr
+
+Frekvensauksjoner
+
+Jammere og repeatere
+
+Satellitt
+
+Frekvensforvaltning og internasjonalt arbeid
+
+Fysiske nett og infrastruktur
+
+Vær forberedt til 2G-nettet stenger
+
+Veileder til offentlige aktører om innplassering av infrastruktur for mobilnett
+
+Informasjonskurs i ekomnett på Youtube
+
+Autorisasjon for installasjon og vedlikehold av ekomnett
+
+Tekniske krav til ekomnett
+
+Offentlig støtte til bredbåndsutbygging
+
+Ekomportalen - tilrettelegger for utbygging av bredbånd
+
+Europeisk stønad til offentlege Wi-Fi-soner
+
+Elektromagnetisk stråling
+
+Internett
+
+Informasjon om internett for forbruker
+
+Informasjonskapsler/cookies
+
+Domenenavn
+
+Nettnøytralitet
+
+Elektronisk ID og tillitstjenester
+
+Ekommarkedet
+
+Nye analyser av bredbåndsmarkedene
+
+Utfordrerhjelpen
+
+Om markedsregulering
+
+Markeder
+
+Kostnadsmodeller og WACC
+
+Plikter og regelverk
+
+Liste over registrerte tilbydere
+
+Tvister og klager
+
+Godkjentordning for prissammenligningstjenester
+
+Bredbåndsforum
+
+Telefoni og telefonnummer
+
+Informasjon om telefoni for sluttbruker
+
+Telefonnummer og den norske nummerplan
+
+Nødnummer, nødanrop og lokalisering
+
+Telefonsvindel
+
+Forvaltning av nummerressurser
+
+Andre nummerressurser
+
+Mobile nettverkskoder for ikke-offentlige nett og testformål
+
+Rapporteringsplikt for tilbydere av nummerbruk
+
+Nummerportering ved bytte av tilbyder av nummerbasert person-til-person-kommunikasjonstjeneste
+
+Hemmelig nummer og reservert nummer
+
+Arbeidsgruppe Nummer
+
+Relevante dokumenter for tilbydere
+
+Finn tilbyderen
+
+Post
+
+Informasjon til forbrukere
+
+Informasjon til posttilbydere
+
+Tilbydare med leveringsplikt
+
+Postregulering
+
+Sikkerhet og beredskap
+
+Nasjonale risiko- og sårbarhetsvurderinger – Nkom ROS
+
+Programmet for forsterket ekom
+
+Tilbyders sikkerhets- og beredskapsplikter
+
+Personvern og tilbyders taushetsplikt
+
+Prioritetsabonnement i mobilnett
+
+Sosial media
+
+ForsidenFysiske nett og infrastrukturElektromagnetisk stråling
+
+Hjem
+
+Elektromagnetisk stråling
+
+Eksponering for elektromagnetiske felt (EMF) blir ofte kalt stråling. Begrepet stråling skaper gjerne assosiasjoner til radioaktiv stråling, som er en helt annen type stråling enn det vi snakker om her. Vi informerer her om måling og fakta rundt eksponering fra trådløs kommunikasjon eller annen frekvensbruk i frekvensområdet 9 kHz - 400 GHz.
+
+16.03.2020
+
+Innhold
+
+Informasjonsbrosjyrer om stråling
+
+Eksempler på trådløs kommunikasjon
+
+Eksponering fra basestasjoner
+
+Ferdsel på tak hvor mobilantenner er montert
+
+Eksponering fra mobiltelefonen
+
+Test av 5G-telefoner
+
+Strålingskalkulator
+
+Grenseverdier
+
+Nkom gjennomfører målinger
+
+Ønsker du en EMF-måling?
+
+Test av instrumenter for måling av elektromagnetiske felt (EMF)
+
+Langtidsmålinger
+
+Prosjekt hverdagsmålinger
+
+Målerapporter
+
+5G målerapporter
+
+Relaterte
+
+Rapporter og dokumenter
+
+Informasjonsbrosjyrer om stråling
+
+Nkom og Direktoratet for strålevern og atomsikkerhet (DSA) har sammen laget flere informasjonsbrosjyrer om stråling.
+
+I denne folderen finner du informasjon om stråling fra mobiltelefoner, trådløse rutere (WLAN), automatiske strømmålere og basestasjoner.
+
+Bladbar informasjonsbrosjyre om stråling
+
+Vi har også en brosjyre om stråling fra antenneanlegg på norsk og engelsk. Den er rettet mot yrkesgrupper som gjennom arbeid med kommunikasjonsutstyr kan bli utsatt for stråling som overstiger tiltaksverdiene for arbeidstakere.
+
+Bladbar informasjonsbrosjyre for installatører om stråling
+
+Folder in english for installers about electromagnetic radiation
+
+Eksempler på trådløs kommunikasjon
+
+Mobiltelefoni
+
+Trådløst nettverk, wifi
+
+Digital radio, DAB
+
+Digitalt bakkenett for TV
+
+Radar på båter
+
+Automatisk strømmåler, AMS
+
+Garasjeportåpner
+
+Værstasjoner
+
+Trådløs mikrofon
+
+Stråling, videre kalt eksponering, er radiobølger, eller elektromagnetiske felt, som kommer fra en sender, for eksempel en basestasjon. Nivået på eksponeringen vi utsettes for avtar raskt når avstanden til senderen øker. Det vil si at de høyeste eksponeringsverdiene vil oppleves rett foran en antenne.
+
+Nkom har målekompetanse til å kartlegge eksponeringen fra ulike sendere, og for å kontrollere at den ikke overskrider grenseverdiene. Vi samarbeider tett med Direktoratet for strålevern og atomsikkerhet (DSA), som er fagmyndighet på området strålevern. De gir generell informasjon, råd og veiledning om mulige helseeffekter knyttet til eksponering for elektromagnetiske felt.
+
+Eksponering fra basestasjoner
+
+En basestasjon styrer effekten/signalet til de områdene som skal få mobildekning. Du kan sammenligne strålingsdiagrammet med en lykt som lyser i mørket. Over, under, bak og til sidene er eksponeringsfeltet svært lavt. Eksponeringsnivået minker når avstanden øker.
+
+Det må være en basestasjon i nærheten for at du skal kunne bruke mobilen og ha dekning. Basestasjoner plasseres ofte på bygg/fasader, tak og master høyt i terrenget for å styre dekningen dit det er behov. De plasseres høyt for å gi best mulig dekning.
+
+Ferdsel på tak hvor mobilantenner er montert
+
+Det skal settes opp informasjon ved utganger til tak hvor man kan ferdes foran mobilantenner. Ved innføring av 5G vil enkelte antenner få et sendemønster som gjør at det er behov for å nyansere dagens informasjon om ferdsel på tak hvor slike antenner er montert.
+
+Teleoperatørene i Norge, Nasjonal kommunikasjonsmyndighet (Nkom) og Direktoratet for strålevern og atomsikkerhet (DSA) har samarbeidet om å utvikle råd og retningslinjer for ferdsel på tak hvor det er montert mobilantenner.
+
+I dag finnes denne informasjonen på utgangsdører til tak hvor dette er aktuelt. Informasjonen er hovedsakelig rettet mot personell som vaktmestre, taktekkere, blikkenslagere osv. som ikke har funksjoner knyttet til telekommunikasjon.
+
+Eksisterende informasjon viser at man kan oppleve at grenseverdien overskrides inntil 10 meter foran en mobilantenne
+
+Med dagens raske utvikling av mobilteknologi og innføring av 5G vil enkelte antenner få et sendemønster som gjør at dagens informasjon ikke nødvendigvis er korrekt, og at grenseverdien i korte øyeblikk kan overstiges også utenfor den markerte sikkerhetssonen. Selv om eksponeringen i korte øyeblikk kan bli noe høyere enn opplyst, vil det fortsatt ikke være risiko for helseskade så lenge man følger de eksisterende rådene.
+
+Myndighetene følger med på utviklingen, og inntil standardiserte målemetoder og konfigurasjoner for 5G er på plass, gjelder eksisterende plakat.
+
+Ved spørsmål om dette kan DSA eller Nkom kontaktes.
+
+Eksponering fra mobiltelefonen
+
+Vi måler hvordan kroppen absorberer energi fra elektromagnetiske felt, i Specific Absorbation Rate (SAR) og det oppgis i watt per kilo (W/kg). For at en mobiltelefon skal være lovlig å selge på det europeiske markedet, må SAR-verdien være under 2 W/kg. SAR-verdien er oppgitt i brukermanualen til mobiltelefonen.
+
+Nkom måler ikke eksponering fra mobiltelefoner. Dette gjøres i akkrediterte laboratorier.
+
+For å ha lengst mulig batteritid, sparer dagens mobiltelefoner på energien og sender ikke mer enn den må for at signalet skal nå frem til basestasjonen den kommuniserer med. Den justerer sendestyrken automatisk avhengig av hvor god dekningen er der den befinner seg. Er det dårlig dekning, må mobiltelefonene skru opp effekten på samme måten som vi mennesker må rope om vi står langt fra hverandre.
+
+En mobiltelefon opererer per i dag i frekvensområdet 900 – 2600 MHz og sender med lav effekt, max 2 watt. For 5G vil frekvensområdet utvides fra 700 – 3800 MHz. De høyeste frekvensene egner seg godt for høy kapasitet som kreves for dataoverføring. Lavere frekvenser rekker lengre og gir bedre dekning.
+
+Test av 5G-telefoner
+
+Nkom fikk i 2021 utført målinger av elektromagnetisk stråling (SAR) fra sju populære 5G-mobiltelefoner på det norske markedet. Målingene er basert på stikkprøver og blir gjennomført for å verifisere at mobiltelefonene er trygge å bruke.
+
+Det ble gjennomført målinger av utvalgte frekvensbånd. Hensikten var å verifisere at utstrålingen fra telefonene overholdt kravene.
+
+Alle resultatene fra målingene lå under grenseverdiene som gjelder for å plassere mobiltelefoner på markedet.
+
+Disse telefonene ble testet:
+
+iPhone 12
+
+Motorola Moto G100
+
+Nokia X20
+
+OnePlus Nord
+
+Samsung A42
+
+Samsung S21
+
+Sony Xperia 5 II
+
+Mer informasjon om kontrollen av hver enkelt mobiltelefon finner du her:
+
+Resultat av markedskontroller
+
+Strålingskalkulator
+
+På finnsenderen.no/#/straaling (Strålingskalkulatoren) kan du beregne eksponeringsnivået i det punktet hvor du befinner deg. Du plasserer markøren der du ønsker en beregning, og så regner tjenesten ut et teoretisk nivå fra alle basestasjonene som befinner seg innenfor en radius av minimum 500 meter.
+
+Det er viktig å være klar over at dette er en teoretisk beregning, og i praksis vil nivåene være lavere.
+
+Grenseverdier
+
+Vi sammenligner våre eksponeringsmålinger med grenseverdiene Direktoratet for strålevern og atombsikkerhet (DSA) anbefaler. Grenseverdiene er gitt av en arbeidsgruppe anerkjent av Verdens helseorganisasjon (WHO), som heter International Comission on Non-Ionizing Radiation Protection (ICNIRP).
+
+Grenseverdiene gjelder ved eksponering av hele kroppen
+
+Det er forskjell på grenseverdier for befolkningen generelt og installatører som jobber i nærheten av sendere og antenner. For befolkningen generelt ligger grenseverdien 50 ganger under nivået hvor det er påvist helseeffekter.
+
+Ved helseeffekter snakker vi om oppvarming
+
+For installatører som klatrer i master og monterer utstyr, er grenseverdien høyere. I de arbeidssituasjonene hvor det er nødvendig å oppholde seg nær en antenne, kan grenseverdiene overskrides. Ansatte som gjennom sitt yrke eksponeres for dette, er klar over det og har nødvendig kompetanse til å avgrense eksponeringen.
+
+Grenseverdien for yrkeseksponering og befolkningen generelt er avhengig av i hvilket frekvensområde utstyret sender. Verdiene oppgis som effekttetthet, og har betegnelsen watt per kvadratmeter (W/m2).
+
+Grenseverdien for yrkeseksponering og befolkningen generelt
+
+Frekvensområde
+
+Grenseverdi (W/m2) yrkeseksponerte
+
+Grenseverdi (W/m2) befolkning generelt
+
+10 – 400 MHz
+
+10
+
+2
+
+400 – 2000 MHz
+
+10 – 50
+
+frekvens/200
+
+2 – 300 GHz
+
+50
+
+10
+
+Nkom gjennomfører målinger
+
+Nkom har gjort mange målinger i løpet av de siste årene. De viser at der hvor folk normalt ferdes og har opphold over tid, er nivåene på eksponeringen fra basestasjoner for mobiltelefoni svært lave, bare noen tusendeler av grenseverdiene.
+
+Nkom følger med og dokumenterer utviklingen av nivåene på eksponering fra trådløs kommunikasjon i samfunnet. Vi følger spesielt med på nye tjenester, og plassering av nye basestasjoner for å sikre at grenseverdiene ikke overskrides.
+
+Avanserte måle- og styringssystemer
+
+Ønsker du en EMF-måling?
+
+Elektromagnetiske felt (EMF) finnes overalt rundt oss. EMF oppstår bl.a. rundt basestasjoner, trådløse nett, mobiltelefoner, høyspentlinjer og transformatorstasjoner. Nivåene i samfunnet er lave. Dersom du ønsker å få gjennomført en måling kan du kjøpe dette fra et firma, som kan kartlegge hvilke nivåer av EMF det er der du oppholder deg.
+
+Vi anbefaler at du får med dette i rapporten fra firmaet som du kjøper tjenesten fra:
+
+Generell informasjon
+
+Dato
+
+Oppdragsgiver
+
+Hvem som utfører målingene
+
+Bakgrunn og hensikt
+
+Spesifisering av måleinstrument og måleantenne
+
+Herunder dato for kalibrering
+
+Målemetode
+
+Hvordan målingene er utført (måling av punkter, områder osv.)
+
+Beskrivelse av målepunktene markert i kart og med bilder
+
+Måleusikkerhet
+
+Vurdering av måleusikkerheten til instrument, antenne og ekstern påvirkning
+
+Opplisting av frekvensbånd/systemer som er målt
+
+Beskrivelse av resultatene
+
+Resultater for forskjellige frekvensområder/systemer, eventuelt vurdert opp mot ICNIRPs grenseverdier
+
+Totalsum
+
+Eventuelle avvik
+
+En målerapport skal kun inneholde måleresultater og hvordan en har kommet frem til disse. Før du bestiller tjenesten, kan det være lurt å spørre om å få tilsendt en tidligere målerapport som du kan vurdere opp mot kriteriene over.
+
+Se også eksempler på målerapporter fra Nkom
+
+Det er ikke dokumentert at nivåer under grenseverdiene er helseskadelig eller fører til helseplager. Direktoratet for strålevern og atomsikkerhet (DSA) har informasjon om helseeffekter på sine nettsider.
+
+Test av instrumenter for måling av elektromagnetiske felt (EMF)
+
+Nkom har fått utført tester av tre forskjellige instrumenter for måling av elektromagnetiske felt (EMF)/stråling, heretter omtalt som EMF. Målet med testen var å forstå hvordan instrumentene fungerer og hvordan de måler i forhold til en gitt referanseverdi.
+
+Nkom kjøpte inn to eksemplarer av hvert instrument. Målingene ble utført av Nemko Scandinavia AS.
+
+Instrumentene som ble testet:
+
+Cornet ED88TPlus (100 MHz – 8 GHz)
+
+Gigahertz Solutions HFW59D (2,4 GHz – 10 GHz)
+
+Gigahertz Solutions HF35C (800 MHz – 2,7 GHz)
+
+Oppsummert
+
+Instrumentene gir ingen indikasjon når de ikke håndterer signalene det måles på, eller om nivået overskrider måleområdet til instrumentet. Instrumentene som er testet kan ikke brukes til annet enn å påvise signaler.
+
+Frekvenser
+
+Instrumentene ble testet med kontrollerbare signaler som skal etterligne de mest typiske tjenestene som har fokus i saker som handler om EMF, eksempelvis automatiske strømmålere (AMS) og mobiltelefoni. Det ble testet med frekvenser som er representative for disse tjenestene. Signalformene som er brukt i testen er mindre komplisert enn i realiteten.
+
+Følgende frekvenser ble testet:
+
+869 MHz (AMS)
+
+1830 MHz (4G (LTE))
+
+2450 MHz (Wifi, Blåtann)
+
+3650 MHz (5G (NR))
+
+Hva viser testene?
+
+Testene viser at instrumentene gir en indikasjon på nivå, men ingen av dem gir god nok informasjon om hva de faktisk måler på. Skal man dokumentere nivået på en tilfredsstillende måte, må man ha en type instrument som gir informasjon om både nivå og hvilken frekvens man måler på.
+
+Instrumentene har minst avvik ved lave nivåer. Gigahertz Solutions HFW59D virker kun på pulset signal over 2,4 GHz, og gir ingen indikasjon når det ikke kan vise et riktig resultat. Instrumentet gir heller ingen indikasjon på hva slags signal man måler på, så man vet ikke hvilke frekvensområder som resulterer i den verdien som vises på skjermen.
+
+Cornet ED88Tplus angir hvilken frekvens det måler på, men kun opp til 2700 MHz. Da det ble målt på 3600 MHz viste displayet mellom 1198 MHz og 2529 MHz. Dette instrumentet viser heller ikke en feilmelding når nivået blir for høyt, det fortsetter bare å vise en verdi. I den medfølgende bruksanvisningen til dette instrumentet står det:
+
+«ED88T is designed for quick living environment RF radiation evaluation and is for reference use only, Official RF safety radiation measurement procedure is complicate and should be handled by trained technical person with lab instruments. Please do not use in medical, legal, commercial rental purpose or other related applications (for personal use only).»
+
+Instrumentene er testet i laboratorium, under ideelle forhold. I en normalsituasjon vil måten man holder instrumentet, plassering i forhold til sender og avstand til det man måler på ha stor innvirkning på resultatet.
+
+Målingene gir en øyeblikkverdi – det vil si at om man måler samme sted en gang til på et annet tidspunkt, vil man ikke nødvendigvis få samme resultat.
+
+Testene
+
+For å teste om instrumentene viser riktig verdi når det utsettes for ulike nivåer, ble de testet med følgende feltnivå:
+
+1 V/m
+
+3 V/m
+
+10 V/m
+
+20 V/m
+
+Instrumenter, antenner og kabler som brukes til slike målinger må kalibreres i henhold til produsentens spesifikasjoner for å kunne benyttes til å utføre en kvalitetsmessig god måling. En kalibrering av instrumentene vil sikre at de viser riktig nivå innenfor det måleområdet som er oppgitt. Eventuelle avvik justeres inn eller det beskrives i en kalibreringsrapport.
+
+Avhengig av frekvensbånd kan det virke som at instrumentene er spesifisert på samme måte som forbrukerelektronikk (eksempel radio, tv…). Det vil si at de slutter å virke slik de skal hvis nivået de blir utsatt for er høyt i forhold til hva elektronikken i utstyret skal tåle (typisk ca. 3 V/m). Når nivået i testen går over 3 V/m viser instrumentene en tilfeldig verdi i displayet, men ingen indikasjon på at de måler feil.
+
+For å oppnå måleresultater av en akseptabel kvalitet er man avhengig av mer avanserte instrumenter enn disse som er testet her. Skal EMF-eksponering dokumenteres på en god måte, kreves det mer avansert instrumentering slik at nivå i forskjellige frekvensbånd kan vises hver for seg. Det er vesentlig at instrumentene er tilpasset de signalene som man skal måle på og at de kalibreres for å opprettholde kvaliteten over tid.
+
+Rapport fra målingene utført av Nemko
+
+Langtidsmålinger
+
+Nkom har siden 2013 gjennomført målinger i Kristiansand i et samarbeidsprosjekt med DSA. I dette prosjektet ser vi på utviklingen av stråling i et bybilde over tid, når en ny generasjon teknologi overtar for en annen. Vi måler nivået på samme sted til samme tid fire ganger i året.
+
+Foreløpig ser det ikke ut til at den totale mengden eksponering øker med innføring av ny teknologi. Dette kan henge sammen med at ny teknologi ofte er mer energieffektiv.
+
+Rapport: Langtidsmålinger av radiofrekvente felt – utvikling over tid - 2020
+
+Rapport: Langtidsmålinger av radiofrekvente felt – utvikling over tid - 2016
+
+Prosjekt hverdagsmålinger
+
+I løpet av 2010 gjennomførte Nkom målinger i private boliger og ved en rekke skoler, barnehager og andre offentlige bygg i de største byene (Oslo, Kristiansand, Bergen og Trondheim). Et utvalg av rapportene finnes i tabellen nedenfor. Rapportene inneholder ikke helsemessige vurderinger, men er en beskrivelse av hva som er målt og hvorfor målingene er utført.
+
+Måleresultatene er sammenlignet med de grenseverdiene som er anbefalt av WHO/ICNIRP. Direktoratet for strålevern og atomsikkerhet (DSA) er fagmyndighet på område strålevern og vurderer eventuelle helsemessige effekter knyttet til eksponering fra elektromagnetiske felter. Se DSA sine hjemmesider for mer informasjon.
+
+Avstand*
+
+Mobilkommunikasjon (GSM900 og GSM1800)
+
+5-15 m
+
+Gatemåling Trondheim
+Bolig Oslo
+Bedrift Sola
+
+15-100m
+
+Skole Nesoddtangen
+Barnehage Tromsø
+
+>100m
+
+Barnehage Trondheim
+Bedrift Trondheim
+Bolig Fevik
+
+Antenner montert på vegg/fasade
+
+Avstand*
+
+Nødnett (TETRA)
+
+Mobilkommunikasjon
+(GSM900 og GSM1800)
+
+Trådløst internett (WLAN)
+
+Mobilkommunikasjon (LTE)
+
+0-5 m
+
+Drammen tinghus
+
+Drammen tinghus
+
+5-15 m
+
+Utendørs Oslo
+
+Bedrift Trondheim
+Bedrift Bergen
+Boligblokk Nesøya
+
+Skole Kristiansand
+Bolig Snarøya
+
+Boligblokk Nesøya
+
+15-50m
+
+Bolig Oslo
+
+Gatemåling Oslo
+Bolig Trondheim
+Bolig Sandnes
+
+50-100m
+
+Utendørs Oslo
+Bolig Oslo
+
+Barnehage Stavanger
+Bolig Oslo
+
+>100m
+
+Bolig Oslo
+
+Barnehage Oslo
+
+* Avstand vil her si avstand fra målepunkt (det punktet vi har målt i) og til senderantennen.
+
+Målerapporter
+
+Målerapportene er fra målinger utført mens Nkom er ute på måleoppdrag. De gjøres på bakkeplan på parkeringsplasser, veikryss, i park, gate, osv. Det er en øyeblikkmåling og resultatet viser nivået som ble målt der og da. Den totale eksponeringen oppgis i prosent i forhold til grenseverdiene vi forholder oss til Norge (ICNIRP).
+
+Agder
+
+Målerapporter, Agder
+
+Måling nr.
+
+Sted
+
+Dato for måling
+
+Total eksponering (prosent)
+
+152
+
+Auglandsbukta
+
+02.12.2021
+
+0,00458
+
+153
+
+Ballbinge Andøya
+
+02.12.2021
+
+0,0042
+
+154
+
+Høllesanden
+
+02.12.2021
+
+0,00859
+
+155
+
+Vestagdermuseet - Mandal
+
+02.12.2021
+
+0,39
+
+156
+
+Lekeplass Buen - Mandal
+
+02.12.2021
+
+0,0247
+
+157
+
+Lekeplass vanntårn Hellemyr
+
+02.12.2021
+
+0,559
+
+158
+
+Stener Heyerdahlspark - Kristiansand
+
+03.12.2021
+
+0,0313
+
+162
+
+Mobile Stoa - Arendal
+
+07.01.2022
+
+0,216
+
+163
+
+Harebakken - Arendal
+
+07.01.2022
+
+0,0379
+
+200
+
+Straismoen
+
+17.02.2022
+
+0,444
+
+201
+
+Vikeland
+
+17.02.2022
+
+0,00901
+
+202
+
+Moseidmoen
+
+17.02.2022
+
+0,00146
+
+203
+
+Kjåvann
+
+17.02.2022
+
+0,000866
+
+220
+
+Tvedestrand
+
+02.03.2022
+
+0,0207
+
+221
+
+Risør
+
+02.03.2022
+
+0,0306
+
+222
+
+Brokelandsheia
+
+02.03.2022
+
+0,000879
+
+232
+
+Hovden
+
+24.03.2022
+
+0,445
+
+233
+
+Rysstad
+
+24.03.2022
+
+0,00529
+
+234
+
+Moltemyr
+
+24.03.2022
+
+0,112
+
+239
+
+Kristiansand, Idda
+
+20.06.2022
+
+0,0313
+
+240
+
+Kristiansand, Tangen
+
+21.06.2022
+
+0,0253
+
+241
+
+Kristiansand, Avenyen
+
+21.06.2022
+
+0,405
+
+242
+
+Kristiansand, Travparken
+
+21.06.2022
+
+0,812
+
+247
+
+Kristiansand, Karuss
+
+23.06.2022
+
+0,0673
+
+248
+
+Kristiansand, Flekkerøy
+
+23.06.2022
+
+0,00464
+
+250
+
+Kristiansand, Lund
+
+23.06.2022
+
+0,359
+
+251
+
+Kristiansand, Sykehuset
+
+23.06.2022
+
+0,318
+
+265
+
+Lyngdal, Kvavik 1
+
+04.10.2022
+
+0,852
+
+270
+
+Kristiansand, Travparken
+
+06.10.2022
+
+7,87
+
+Innlandet
+
+Målerapporter, Innlandet
+
+Måling nr.
+
+Sted
+
+Dato for måling
+
+Total eksponering (prosent)
+
+75
+
+Vanntårnet Elverum
+
+10.09.2020
+
+1,06
+
+76
+
+Kiwi Elverum
+
+10.09.2020
+
+0,722
+
+77
+
+Rema 1000 Rena
+
+10.09.2020
+
+0,172
+
+78
+
+Rena ballbinge
+
+10.09.2020
+
+0,00483
+
+79
+
+Lillehammer Khall
+
+10.09.2020
+
+0,287
+
+121
+
+Tynset
+
+29.06.2021
+
+0,0469
+
+Oslo
+
+Målerapporter, Oslo
+
+Måling nr.
+
+Sted
+
+Dato for måling
+
+Total eksponering (prosent)
+
+133
+
+Bergslia 9d
+
+19.08.2021
+
+1,24
+
+Rogaland
+
+Målerapporter, Rogaland
+
+Måling nr.
+
+Sted
+
+Dato for måling
+
+Total eksponering (prosent)
+
+109
+
+Sveio
+
+05.05.2021
+
+1,48
+
+146
+
+Haugesund Storgata 3
+
+25.11.2021
+
+0,339
+
+147
+
+Haugesund Rådhusparken
+
+25.11.2021
+
+0,0837
+
+148
+
+Haugesund Landmannstorg
+
+25.11.2021
+
+0,898
+
+180
+
+Sauda
+
+18.01.2022
+
+0,633
+
+181
+
+Sauda - Kyrkjegata 1
+
+18.01.2022
+
+0,55
+
+182
+
+Vikedal idrettshall
+
+18.01.2022
+
+0,182
+
+183
+
+Ølen Myrabø
+
+18.01.2022
+
+0,229
+
+184
+
+Veavågen skole
+
+18.01.2022
+
+0,346
+
+204
+
+Egersund
+
+21.02.2022
+
+1,1
+
+237
+
+Svelgen
+
+27.04.2022
+
+0,00454
+
+238
+
+Stavanger Ishall
+
+12.05.2022
+
+0,953
+
+Trøndelag
+
+Målerapporter, Trøndelag
+
+Måling nr.
+
+Sted
+
+Dato for måling
+
+Total eksponering (prosent)
+
+68
+
+Festningen
+
+14.12.2020
+
+0,0336
+
+72
+
+Rema Moholt
+
+14.12.2020
+
+0,933
+
+80
+
+Tyholt
+
+14.12.2020
+
+0,413
+
+85
+
+Munkvoll trikk nordover
+
+21.04.2021
+
+2,22
+
+119
+
+Hitra kultursenter
+
+05.05.2021
+
+0,00813
+
+120
+
+Røros
+
+29.06.2021
+
+0,177
+
+136
+
+Stjørdal
+
+06.10.2021
+
+0,0273
+
+Troms og Finnmark
+
+Målerapporter, Troms og Finnmark
+
+Måling nr.
+
+Sted
+
+Dato for måling
+
+Total eksponering (prosent)
+
+123
+
+Vardø
+
+12.08.2021
+
+0,00219
+
+126
+
+Vardø
+
+12.08.2021
+
+0,0275
+
+Vestfold og Telemark
+
+Målerapporter, Vestfold og Telemark
+
+Måling nr.
+
+Sted
+
+Dato for måling
+
+Total eksponering (prosent)
+
+205
+
+Notodden
+
+16.02.2022
+
+1,7
+
+206
+
+Notodden
+
+16.02.2022
+
+1,56
+
+225
+
+Falkum barnehage
+
+15.03.2022
+
+0,163
+
+226
+
+Follaug, Skien
+
+15.03.2022
+
+1,06
+
+227
+
+Rjukan
+
+16.03.2022
+
+0,17
+
+228
+
+Åmot i Vinje
+
+16.03.2022
+
+0,564
+
+229
+
+Drangedal
+
+17.03.2022
+
+0,0102
+
+230
+
+Kragerø
+
+17.03.2022
+
+0,0509
+
+231
+
+Vrådal
+
+17.03.2022
+
+0,715
+
+235
+
+Kroken 1
+
+24.03.2022
+
+0,0889
+
+266
+
+Høgenheitunnelen
+
+05.10.2022
+
+0,016
+
+267
+
+Porsgrunn, DownTown
+
+05.10.2022
+
+0,428
+
+268
+
+Brevik
+
+05.10.2022
+
+9,31
+
+269
+
+Stathelle, Brotorvet
+
+05.10.2022
+
+2,45
+
+271
+
+Porsgrunn, Bohus
+
+05.10.2022
+
+0,532
+
+Vestland
+
+Målerapporter, Vestland
+
+Måling nr.
+
+Sted
+
+Dato for måling
+
+Total eksponering (prosent)
+
+87
+
+Lyngbøveien 87
+
+22.04.2021
+
+0,034
+
+95
+
+Nordfjordeid
+
+06.05.2021
+
+0,0776
+
+106
+
+Måløy
+
+06.05.2021
+
+0,179
+
+108
+
+Florø Fagmøbler
+
+05.05.2021
+
+0,119
+
+112
+
+Førde Domus
+
+04.05.2021
+
+0,771
+
+150
+
+Stord Nattrutekaien
+
+25.11.2021
+
+0,127
+
+151
+
+Osøyro
+
+25.11.2021
+
+0,138
+
+159
+
+Bekkjarvik
+
+10.12.2021
+
+0,00161
+
+160
+
+Storebø kai
+
+10.12.2021
+
+0,0102
+
+161
+
+Storebø Leavegen
+
+10.12.2021
+
+0,0898
+
+188
+
+Voss - Fleischer hotell
+
+28.01.2022
+
+0,061
+
+189
+
+Voss - Brynaskogen
+
+28.01.2022
+
+2,04
+
+190
+
+Gudvangen
+
+28.01.2022
+
+0,0394
+
+191
+
+Aurland
+
+28.01.2022
+
+0,107
+
+193
+
+Lærdal
+
+31.01.2022
+
+0,12
+
+236
+
+Kalvåg
+
+27.04.2022
+
+0,0444
+
+253
+
+Vestkanten
+
+30.06.2022
+
+0,0321
+
+256
+
+Bergen, Oasen
+
+30.06.2022
+
+3,91
+
+258
+
+Bergen, Byparken
+
+11.07.2022
+
+0,483
+
+259
+
+Bergen, Torgalmenningen
+
+11.07.2022
+
+0,624
+
+260
+
+Bergen, Torgutstikket
+
+11.07.2022
+
+5,36
+
+261
+
+Bergen, Exhibition
+
+11.07.2022
+
+6,1
+
+Viken
+
+Målerapporter, Viken
+
+Måling nr.
+
+Sted
+
+Dato for måling
+
+Total eksponering (prosent)
+
+135
+
+Ingierstrand
+
+22.09.2021
+
+2,15
+
+192
+
+Hemsedal
+
+31.01.2022
+
+0,107
+
+257
+
+Gardermoen
+
+30.06.2022
+
+0,0968
+
+5G målerapporter
+
+Følgende rapporter er fra målinger som ble gjort på rene 5G-basestasjoner i en tidlig fase av 5G-utbyggingen. Fra 2020 inngår 5G i de generelle EMF-målingene vi gjør under måleoppdrag. Målerapportene er tilgjengelige under «Målerapporter».
+
+5G målerapporter
+
+5G målerapporter
+
+Dato
+
+Sted
+
+16.11.2018
+
+Kongsberg
+
+22.10.2019
+
+Elverum
+
+06.02.2019
+
+Nydalen
+
+22.01.2020
+
+Fornebu
+
+Relaterte
+
+Rapporter og dokumenter
+
+Langtidsmålinger av radiofrekvente felt – utvikling over tid - 2020.pdf
+
+Langtidsmålinger av radiofrekvente felt – utvikling over tid - 2016.pdf
+
+Brosjyre om stråling, mai 2020.pdf
+
+Brosjyre om stråling for installatører, mai 2020.pdf
+
+Folder for installers about electromagnetic radiations, may 2020.pdf
+
+Avanserte måle- og styringssystemer - måling av eksponering og sendetid.pdf
+
+Abonner på vårt nyhetsbrev. Velg hvilke saker du ønsker informasjon om. Så holder du deg oppdatert og får nyhetsvarsel fra oss hver gang vi sender ut viktige nyheter.
+
+Abonner på vårt nyhetsbrev!
+
+Abonner
+
+Kontakt oss
+
+Presse
+
+Information in English
+
+Informasjonskapsler/cookies
+
+Tilgjengelighetserklæring

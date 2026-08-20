@@ -12,7 +12,7 @@ kapitlene forklarer *hvordan det virker*, viser kretser og regner eksempler.
 4. [Digital signalbehandling](04-digital-signalbehandling.md)
 5. [Antenner og transmisjonslinjer](05-antenner-og-transmisjonslinjer.md)
 6. [Radiobølgeutbredelse og linkbudsjett](06-utbredelse-og-linkbudsjett.md)
-7. Måleteknikk, interferens og EMC
+7. [Måleteknikk, interferens og EMC](07-maleteknikk-emc.md)
 8. Sikkerhet, operasjon og regelverk
 
 Kapitler uten lenke er ennå ikke skrevet. En kapitteloverskrift skal først få

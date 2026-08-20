@@ -81,6 +81,10 @@ flashcards:
 - [ ] Merk hver kilde som `bindende`, `normgivende`, `veiledende` eller
       `pedagogisk`.
 - [ ] Lagre lenke til originalkilden, ikke bare til et søkeresultat.
+- [ ] Arkiver primærkilder og versjonssensitive dokumenter lokalt i et søkbart
+      format når dette er mulig. Registrer arkivfil og
+      innhentingsdato. Wayback Machine kan brukes som et valgfritt supplement,
+      men erstatter ikke originalkilden.
 - [ ] Noter dersom en nettside omtaler gamle regler eller bruker gammel
       terminologi.
 
@@ -111,6 +115,14 @@ Frekvensinformasjonen skal lagres strukturert med feltene:
 | Fra | Til | Enhet | Status | Maks. effekt | Maks. båndbredde | Særvilkår | Lisensklasse | Kilde |
 |---|---|---|---|---|---|---|---|---|
 
+Juridiske frekvens-, effekt- og båndbreddeverdier skal kontrolleres mot
+gjeldende konsolidert forskriftstekst hos Lovdata og verifiseres gjennom en
+separat avlesnings- eller transkripsjonskontroll. Nkoms og andre relevante
+oversikter brukes som kryssjekk. Ved avvik dokumenteres begge opplysningene og
+årsaken undersøkes, men den til enhver tid gjeldende bindende kilden gis
+forrang. Verdien merkes `UKLART` bare dersom det ikke kan fastslås hvilken
+bindende tekst eller versjon som gjelder.
+
 ## Fase 3 – Fastslå Nkoms faktiske eksamenskrav
 
 Følgende opplysninger må hentes fra Nkom eller bekreftes skriftlig:
@@ -124,6 +136,11 @@ Følgende opplysninger må hentes fra Nkom eller bekreftes skriftlig:
 - [ ] Når prøveoppgavene ble oppdatert til forskriften fra 2026.
 - [ ] Om det finnes overgangsregler eller en egen prøve for begrenset lisens.
 - [ ] Hvordan HAREC dokumenteres etter bestått prøve.
+- [ ] Om det finnes offentlig tilgjengelige øvingsoppgaver, gamle
+      eksamenssett eller en oppgavebank, slik at pensummatrisen kan
+      stikkprøvekontrolleres mot oppgavetyper som faktisk har vært brukt.
+      Materialets dato og regelverks-/pensumversjon skal registreres. Eldre
+      oppgaver brukes ikke til å definere gjeldende pensum eller regler.
 
 Hvis en opplysning ikke finnes i en offentlig kilde, skal den merkes `uavklart`.
 Opplysninger fra lokale kursarrangører skal ikke presenteres som offisielle krav
@@ -134,6 +151,17 @@ uten bekreftelse.
 Alle overskrifter og underpunkter i pensumvedlegget til T/R 61-02 skal
 ekstraheres. Hvert punkt gjøres om til ett eller flere læringsmål uten å endre
 det faglige omfanget.
+
+Vedleggsnummeret i den aktive CEPT-utgaven (16. februar 2024) skal fastslås
+og registreres eksplisitt. Lærebokens kapittel 14 viser til "vedlegg 6", men
+dette kan avvike fra nummereringen i gjeldende CEPT-dokument dersom boken
+bygger på en eldre utgave — avviket skal avklares før pensumvedlegget
+ekstraheres, ikke antas.
+
+T/R 61-02 foreligger på engelsk, mens forskriften, eksamen og læreboken er på
+norsk. For hvert læringsmål registreres derfor også den engelske HAREC-termen
+sammen med den norske betegnelsen som brukes i forskriften og/eller boken, slik
+at oversettelses- og begrepsavvik blir synlige og ikke en skjult feilkilde.
 
 Hovedområdene omfatter blant annet:
 
@@ -242,6 +270,7 @@ retningslinjer skal fortsatt være hovedkilden.
 | ID | Stabil identifikator for læringsmålet |
 | Hovedområde | Teknikk, operasjon, regelverk eller sikkerhet |
 | HAREC-punkt | Punktnummer i T/R 61-02 |
+| Engelsk term | Betegnelse brukt i T/R 61-02 |
 | Læringsmål | Hva kandidaten konkret skal forstå eller kunne gjøre |
 | Detaljer | Formler, begreper, diagrammer og avgrensninger |
 | Norsk særregel | Aktuell paragraf eller nasjonalt krav |
@@ -271,8 +300,19 @@ Før materialet godkjennes som grunnlag for Anki, skal følgende være oppfylt:
 - [ ] Bokens dekning og eventuelle mangler er dokumentert.
 - [ ] Bindende regler er tydelig skilt fra anbefalt praksis.
 - [ ] Uavklarte spørsmål presenteres ikke som fakta.
-- [ ] Frekvens-, effekt- og båndbreddetabeller er kontrollert separat.
+- [ ] Frekvens-, effekt- og båndbreddetabeller er kontrollert mot gjeldende
+      Lovdata-tekst og gjennom en separat avlesnings- eller
+      transkripsjonskontroll. Eventuelle avvik mot andre oversikter er
+      dokumentert.
 - [ ] Alle kilder har versjon og kontrollert dato.
+- [ ] Primærkilder og versjonssensitive dokumenter er, når praktisk og
+      tillatt, arkivert lokalt i søkbart format med innhentingsdato.
+- [ ] Pensummatrisen er stikkprøvekontrollert mot tilgjengelige øvingsoppgaver
+      eller gamle eksamenssett, der slike finnes. Oppgavenes dato og relevante
+      regelverks-/pensumversjon er registrert, og historiske oppgaver er ikke
+      brukt som autoritet for gjeldende pensum.
+- [ ] Engelske HAREC-termer og norske betegnelser er registrert side om side
+      for hvert læringsmål, og eventuelle begrepsavvik er notert.
 
 ## Avgrensning før flashcards
 

@@ -1,0 +1,665 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Recommendation ITU-R P.525-5",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.0444260988788,
+          144.531694638124
+        ],
+        [
+          391.183826206313,
+          144.531694638124
+        ],
+        [
+          391.183826206313,
+          170.32421875
+        ],
+        [
+          65.0444260988788,
+          170.32421875
+        ]
+      ]
+    },
+    {
+      "title": "Calculation of free-space attenuation",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          64.88422891535146,
+          249.22309126815728
+        ],
+        [
+          457.2022234630825,
+          249.22309126815728
+        ],
+        [
+          457.2022234630825,
+          275.02423095703125
+        ],
+        [
+          64.88422891535146,
+          275.02423095703125
+        ]
+      ]
+    },
+    {
+      "title": "Foreword",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          269.7268378500374,
+          81.95382777389838
+        ],
+        [
+          324.07157763425886,
+          81.95382777389838
+        ],
+        [
+          324.07157763425886,
+          97.052001953125
+        ],
+        [
+          269.7268378500374,
+          97.052001953125
+        ]
+      ]
+    },
+    {
+      "title": "Policy on Intellectual Property Right (IPR)",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          184.5601782810778,
+          204.19343133452526
+        ],
+        [
+          409.0217279006612,
+          204.19343133452526
+        ],
+        [
+          409.0217279006612,
+          220.37200927734375
+        ],
+        [
+          184.5601782810778,
+          220.37200927734375
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          211.46866636492442,
+          323.67620496333757
+        ],
+        [
+          380.8345830422505,
+          323.67620496333757
+        ],
+        [
+          380.8345830422505,
+          336.68985814190506
+        ],
+        [
+          211.46866636492442,
+          336.68985814190506
+        ]
+      ]
+    },
+    {
+      "title": "RECOMMENDATION ITU-R P.525-5",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          180.32366059348925,
+          69.33051966516864
+        ],
+        [
+          413.1987550673016,
+          69.33051966516864
+        ],
+        [
+          413.1987550673016,
+          87.33966064453125
+        ],
+        [
+          180.32366059348925,
+          87.33966064453125
+        ]
+      ]
+    },
+    {
+      "title": "Calculation of free-space attenuation",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          183.91906884335148,
+          99.00188184485091
+        ],
+        [
+          408.38673473905857,
+          99.00188184485091
+        ],
+        [
+          408.38673473905857,
+          115.419677734375
+        ],
+        [
+          183.91906884335148,
+          115.419677734375
+        ]
+      ]
+    },
+    {
+      "title": "Scope",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          53.53312483242237,
+          145.93450688593958
+        ],
+        [
+          85.14148433502734,
+          145.93450688593958
+        ],
+        [
+          85.14148433502734,
+          159.83172607421875
+        ],
+        [
+          53.53312483242237,
+          159.83172607421875
+        ]
+      ]
+    },
+    {
+      "title": "Keywords",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          53.49427960681675,
+          201.30916350204183
+        ],
+        [
+          109.6232768714578,
+          201.30916350204183
+        ],
+        [
+          109.6232768714578,
+          216.35198974609375
+        ],
+        [
+          53.49427960681675,
+          216.35198974609375
+        ]
+      ]
+    },
+    {
+      "title": "Related ITU Recommendations",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          52.989211498039495,
+          241.1512691399293
+        ],
+        [
+          218.71271966506612,
+          241.1512691399293
+        ],
+        [
+          218.71271966506612,
+          257.9320068359375
+        ],
+        [
+          52.989211498039495,
+          257.9320068359375
+        ]
+      ]
+    },
+    {
+      "title": "Annex",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          276.55539670699187,
+          491.6843199759642
+        ],
+        [
+          318.14465408901725,
+          491.6843199759642
+        ],
+        [
+          318.14465408901725,
+          507.7196960449219
+        ],
+        [
+          276.55539670699187,
+          507.7196960449219
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          53.9678500389272,
+          529.6916356073992
+        ],
+        [
+          162.43000228459047,
+          529.6916356073992
+        ],
+        [
+          162.43000228459047,
+          545.5320129394531
+        ],
+        [
+          53.9678500389272,
+          545.5320129394531
+        ]
+      ]
+    },
+    {
+      "title": "2 Basic formulae for telecommunication links",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          53.92306034270702,
+          69.87720183103295
+        ],
+        [
+          320.00933945509286,
+          69.87720183103295
+        ],
+        [
+          320.00933945509286,
+          85.052001953125
+        ],
+        [
+          53.92306034270702,
+          85.052001953125
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Point-to-area links",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          53.71364660767524,
+          132.75862465346378
+        ],
+        [
+          192.6799013536583,
+          132.75862465346378
+        ],
+        [
+          192.6799013536583,
+          148.4119873046875
+        ],
+        [
+          53.71364660767524,
+          148.4119873046875
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Relations between the characteristics of a plane wave",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          53.16214519664082,
+          643.6955062037372
+        ],
+        [
+          368.378935614521,
+          643.6955062037372
+        ],
+        [
+          368.378935614521,
+          659.7119903564453
+        ],
+        [
+          53.16214519664082,
+          659.7119903564453
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Point-to-point links",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          53.61174876023299,
+          113.4151781987422
+        ],
+        [
+          197.06572948234808,
+          113.4151781987422
+        ],
+        [
+          197.06572948234808,
+          128.61199951171875
+        ],
+        [
+          53.61174876023299,
+          128.61199951171875
+        ]
+      ]
+    },
+    {
+      "title": "3 The free-space basic transmission loss for a radar system (symbols: Lbr or Abr)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          54.37872864077013,
+          518.5858784757972
+        ],
+        [
+          490.21018509180175,
+          518.5858784757972
+        ],
+        [
+          490.21018509180175,
+          535.3036804199219
+        ],
+        [
+          54.37872864077013,
+          535.3036804199219
+        ]
+      ]
+    },
+    {
+      "title": "4 Conversion formulae",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          53.75213676856207,
+          69.96718289654699
+        ],
+        [
+          206.20937902801282,
+          69.96718289654699
+        ],
+        [
+          206.20937902801282,
+          85.052001953125
+        ],
+        [
+          53.75213676856207,
+          85.052001953125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          17
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "Footnote",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          230
+        ],
+        [
+          "Line",
+          61
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          278
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          17
+        ],
+        [
+          "ListGroup",
+          5
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          152
+        ],
+        [
+          "Line",
+          24
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\ITU-R-P.525-5-2024"
+}

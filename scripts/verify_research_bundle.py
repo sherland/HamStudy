@@ -33,6 +33,8 @@ ARCHIVES = {
     "Kilder/primar/MIT-2.161-L10-sampling-DFT.pdf": "B349F3370D7BE33592E2084ADC3E1981883F378C53ED05565869153A7AE5DDAA",
     "Kilder/primar/MIT-2.161-L13-convolution.pdf": "6BEE1B0F85E0354EE08EFE8247ECD70D6DF4F709F2FFD18FFCC8BF619B64ABFF",
     "Kilder/primar/MIT-2.161-L18-FIR-IIR.pdf": "B41A566C20CBAE95D96A3CA17ED2EE4A6C81FC6AA70331E44BE44332FB16E869",
+    "Kilder/primar/USN-NEETS-mod10-propagation-lines-antennas.pdf": "2D80C2D8F312748DD1454AE40EF47FA6C17CEB695E3A171AEA3507CAD298ADC0",
+    "Kilder/primar/ITU-R-P.525-5-2024.pdf": "55FF9BF5BB4534B91863FD84D760FE689E2F969B91DB0EA786717FD078DF1DA5",
 }
 
 TEXT_EXTRACTS = {
@@ -61,6 +63,8 @@ TEXT_EXTRACTS = {
     "Kilder/tekst/MIT-2.161-L10-sampling-DFT.txt",
     "Kilder/tekst/MIT-2.161-L13-convolution.txt",
     "Kilder/tekst/MIT-2.161-L18-FIR-IIR.txt",
+    "Kilder/tekst/USN-NEETS-mod10-propagation-lines-antennas.txt",
+    "Kilder/tekst/ITU-R-P.525-5-2024.txt",
 }
 
 MARKER_EXTRACTS = {
@@ -84,6 +88,8 @@ MARKER_EXTRACTS = {
     "MIT-2.161-L10-sampling-DFT",
     "MIT-2.161-L13-convolution",
     "MIT-2.161-L18-FIR-IIR",
+    "USN-NEETS-mod10-propagation-lines-antennas",
+    "ITU-R-P.525-5-2024",
 }
 
 DOCUMENTS = {

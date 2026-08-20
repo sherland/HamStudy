@@ -7,6 +7,10 @@ HAREC-2024 bestemmer omfanget, men er normalt ikke en lærebok. Derfor brukes
 offentlige standarder, myndighetshåndbøker, ITU-publikasjoner og andre
 identifiserbare tekniske primær-/institusjonskilder til selve faginnholdet.
 
+Der tabeller, ligninger eller figurer inngår, er det også lagret strukturerte
+Marker-uttrekk under `markdown/`. Uttrekkene er avledede arbeidskopier; den
+registrerte original-PDF-en og dens kontrollsum er fortsatt fasit.
+
 ## Kvalitetskrav
 
 Et fagavsnitt er ikke ferdig før det har:

@@ -1,0 +1,416 @@
+{
+  "table_of_contents": [
+    {
+      "title": "IARU Region 1 HF band plan",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          190.88428180223747,
+          62.29426347795386
+        ],
+        [
+          485.0874487735162,
+          62.29426347795386
+        ],
+        [
+          485.0874487735162,
+          85.222412109375
+        ],
+        [
+          190.88428180223747,
+          85.222412109375
+        ]
+      ]
+    },
+    {
+      "title": "DEFINITIONS",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          67.09899664045281,
+          708.5121683339826
+        ],
+        [
+          128.37282441184863,
+          708.5121683339826
+        ],
+        [
+          128.37282441184863,
+          722.8974685668945
+        ],
+        [
+          67.09899664045281,
+          722.8974685668945
+        ]
+      ]
+    },
+    {
+      "title": "All modes",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.760156088572,
+          728.1320906220433
+        ],
+        [
+          101.51303746297917,
+          728.1320906220433
+        ],
+        [
+          101.51303746297917,
+          739.1496047973633
+        ],
+        [
+          66.760156088572,
+          739.1496047973633
+        ]
+      ]
+    },
+    {
+      "title": "IARU Region 1 HF band plan",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          191.36593282012555,
+          66.30366645194756
+        ],
+        [
+          485.05936429963003,
+          66.30366645194756
+        ],
+        [
+          485.05936429963003,
+          88.9423828125
+        ],
+        [
+          191.36593282012555,
+          88.9423828125
+        ]
+      ]
+    },
+    {
+      "title": "NOTES",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          66.97444910006199,
+          45.90477298862257
+        ],
+        [
+          102.36350909408453,
+          45.90477298862257
+        ],
+        [
+          102.36350909408453,
+          59.09722900390625
+        ],
+        [
+          66.97444910006199,
+          59.09722900390625
+        ]
+      ]
+    },
+    {
+      "title": "Contests",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          66.58365456223187,
+          353.7432664580782
+        ],
+        [
+          103.56004283530285,
+          353.7432664580782
+        ],
+        [
+          103.56004283530285,
+          365.4382019042969
+        ],
+        [
+          66.58365456223187,
+          365.4382019042969
+        ]
+      ]
+    },
+    {
+      "title": "60m band - 5351.5 - 5366.5 kHz",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          66.47293736532292,
+          278.5759788234639
+        ],
+        [
+          183.44794377632044,
+          278.5759788234639
+        ],
+        [
+          183.44794377632044,
+          290.0667724609375
+        ],
+        [
+          66.47293736532292,
+          290.0667724609375
+        ]
+      ]
+    },
+    {
+      "title": "Unmanned transmitting stations",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          66.4271340165991,
+          486.7101346404024
+        ],
+        [
+          189.88257550832907,
+          486.7101346404024
+        ],
+        [
+          189.88257550832907,
+          499.13818359375
+        ],
+        [
+          66.4271340165991,
+          499.13818359375
+        ]
+      ]
+    },
+    {
+      "title": "630m band - 472 - 479 kHz:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          66.5668290760415,
+          226.38549641637215
+        ],
+        [
+          171.1003875732422,
+          226.38549641637215
+        ],
+        [
+          171.1003875732422,
+          237.98675537109375
+        ],
+        [
+          66.5668290760415,
+          237.98675537109375
+        ]
+      ]
+    },
+    {
+      "title": "History",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          66.37542628521282,
+          179.3935399314493
+        ],
+        [
+          105.95953584377952,
+          179.3935399314493
+        ],
+        [
+          105.95953584377952,
+          193.42626953125
+        ],
+        [
+          66.37542628521282,
+          193.42626953125
+        ]
+      ]
+    },
+    {
+      "title": "Remote controlled operation on HF",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          66.29785037100766,
+          40.006279609931546
+        ],
+        [
+          190.9593264486087,
+          40.006279609931546
+        ],
+        [
+          190.9593264486087,
+          51.956787109375
+        ],
+        [
+          66.29785037100766,
+          51.956787109375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          299
+        ],
+        [
+          "Line",
+          67
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          257
+        ],
+        [
+          "Line",
+          71
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Table",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          89
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\IARU-R1_HF-bandplan_effective-2016"
+}

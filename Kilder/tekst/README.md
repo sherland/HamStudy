@@ -30,3 +30,7 @@ FAA-H-8083-30B er bare det relevante kapittelintervallet, PDF-side 442–615,
 bevart i `FAA-H-8083-30B-kap12.txt`; kommandoen bruker skriptets valgfrie
 parametere `FRA_SIDE TIL_SIDE`. Original-URL og fullfilens kontrollhash står i
 `../TEKNISK-KILDEREGISTER.md`.
+
+For kilder der tabeller, ligninger og figurer er viktige, finnes i tillegg
+Marker-uttrekk i `../markdown/`. Ren tekst og strukturert Markdown har ulike
+formål og beholdes derfor side om side.

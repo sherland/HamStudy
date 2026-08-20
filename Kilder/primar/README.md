@@ -12,3 +12,7 @@ Tekniske lærekilder føres i
 FAA-H-8083-30B-originalen er ikke lagret i Git; registeret inneholder URL og
 hash av den kontrollerte fullfilen, mens relevante PDF-sider 442–615 er bevart
 som sidenummerert søketekst i `../tekst/`.
+
+Strukturerte arbeidsuttrekk med tabeller og bilder ligger i `../markdown/`.
+Disse erstatter ikke original-PDF-ene, men gjør at figurer og tabellstruktur
+ikke må ekstraheres på nytt i hver arbeidsfase.

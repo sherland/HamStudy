@@ -1,0 +1,3 @@
+![](_page_0_Diagram_1.jpeg)
+
+## TRANSISTOR AMPLIFIER CONFIGURATIONS

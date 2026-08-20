@@ -1,0 +1,1252 @@
+{
+  "table_of_contents": [
+    {
+      "title": "8.022 (E&M) \u2013 Lecture 9",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          169.2777442932129,
+          131.87994384765625
+        ],
+        [
+          441.7101135253906,
+          131.87994384765625
+        ],
+        [
+          441.7101135253906,
+          160.823974609375
+        ],
+        [
+          169.2777442932129,
+          160.823974609375
+        ]
+      ]
+    },
+    {
+      "title": "Topics:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          145.5629653930664,
+          183.3599853515625
+        ],
+        [
+          194.71080017089844,
+          183.3599853515625
+        ],
+        [
+          194.71080017089844,
+          199.09487915039062
+        ],
+        [
+          145.5629653930664,
+          199.09487915039062
+        ]
+      ]
+    },
+    {
+      "title": "Last time",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          141.22400665283203,
+          459.4800720214844
+        ],
+        [
+          231.76495361328125,
+          459.4800720214844
+        ],
+        [
+          231.76495361328125,
+          483.575927734375
+        ],
+        [
+          141.22400665283203,
+          483.575927734375
+        ]
+      ]
+    },
+    {
+      "title": "Electromotive force:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          145.6799774169922,
+          499.61407470703125
+        ],
+        [
+          269.2486572265625,
+          499.61407470703125
+        ],
+        [
+          269.2486572265625,
+          514.8118896484375
+        ],
+        [
+          145.6799774169922,
+          514.8118896484375
+        ]
+      ]
+    },
+    {
+      "title": "Capacitors in circuits",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          141.20440292358398,
+          130.56011962890625
+        ],
+        [
+          332.14862060546875,
+          130.56011962890625
+        ],
+        [
+          332.14862060546875,
+          154.656005859375
+        ],
+        [
+          141.20440292358398,
+          154.656005859375
+        ]
+      ]
+    },
+    {
+      "title": "Discharging capacitors: qualitative",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          141.5980567932129,
+          459.4800720214844
+        ],
+        [
+          452.8155212402344,
+          459.4800720214844
+        ],
+        [
+          452.8155212402344,
+          483.575927734375
+        ],
+        [
+          141.5980567932129,
+          483.575927734375
+        ]
+      ]
+    },
+    {
+      "title": "Discharging capacitors: quantitative",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          141.81084823608398,
+          130.56011962890625
+        ],
+        [
+          466.1412353515625,
+          130.56011962890625
+        ],
+        [
+          466.1412353515625,
+          154.656005859375
+        ],
+        [
+          141.81084823608398,
+          154.656005859375
+        ]
+      ]
+    },
+    {
+      "title": "How to integrate RC circuits",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          141.14184951782227,
+          459.4800720214844
+        ],
+        [
+          397.4604187011719,
+          459.4800720214844
+        ],
+        [
+          397.4604187011719,
+          483.575927734375
+        ],
+        [
+          141.14184951782227,
+          483.575927734375
+        ]
+      ]
+    },
+    {
+      "title": "Solution of RC circuit",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          141.46844100952148,
+          130.56011962890625
+        ],
+        [
+          334.90948486328125,
+          130.56011962890625
+        ],
+        [
+          334.90948486328125,
+          154.656005859375
+        ],
+        [
+          141.46844100952148,
+          154.656005859375
+        ]
+      ]
+    },
+    {
+      "title": "Charging capacitors",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          141.52910614013672,
+          459.4800720214844
+        ],
+        [
+          324.4879150390625,
+          459.4800720214844
+        ],
+        [
+          324.4879150390625,
+          483.575927734375
+        ],
+        [
+          141.52910614013672,
+          483.575927734375
+        ]
+      ]
+    },
+    {
+      "title": "Charging capacitor: solve the circuit",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          138.388916015625,
+          129.30644989013672
+        ],
+        [
+          464.1136474609375,
+          129.30644989013672
+        ],
+        [
+          464.1136474609375,
+          153.51593017578125
+        ],
+        [
+          138.388916015625,
+          153.51593017578125
+        ]
+      ]
+    },
+    {
+      "title": "Details of integration",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          141.77776336669922,
+          459.4800720214844
+        ],
+        [
+          334.845947265625,
+          459.4800720214844
+        ],
+        [
+          334.845947265625,
+          483.575927734375
+        ],
+        [
+          141.77776336669922,
+          483.575927734375
+        ]
+      ]
+    },
+    {
+      "title": "Graphical solution",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          141.44373321533203,
+          128.1640625
+        ],
+        [
+          324.263427734375,
+          128.1640625
+        ],
+        [
+          324.263427734375,
+          154.719970703125
+        ],
+        [
+          141.44373321533203,
+          154.719970703125
+        ]
+      ]
+    },
+    {
+      "title": "Important comments",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          140.63215255737305,
+          457.0820617675781
+        ],
+        [
+          355.71240234375,
+          457.0820617675781
+        ],
+        [
+          355.71240234375,
+          483.6380310058594
+        ],
+        [
+          140.63215255737305,
+          483.6380310058594
+        ]
+      ]
+    },
+    {
+      "title": "Time constant of RC circuit (E9)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          140.92876052856445,
+          127.68118286132812
+        ],
+        [
+          461.4745178222656,
+          127.68118286132812
+        ],
+        [
+          461.4745178222656,
+          154.716064453125
+        ],
+        [
+          140.92876052856445,
+          154.716064453125
+        ]
+      ]
+    },
+    {
+      "title": "Verify time constant (E8)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          140.9125213623047,
+          457.08001708984375
+        ],
+        [
+          394.0653076171875,
+          457.08001708984375
+        ],
+        [
+          394.0653076171875,
+          483.6361389160156
+        ],
+        [
+          140.9125213623047,
+          483.6361389160156
+        ]
+      ]
+    },
+    {
+      "title": "Verify time constant (E8)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          140.42518615722656,
+          128.0585174560547
+        ],
+        [
+          394.0653076171875,
+          128.0585174560547
+        ],
+        [
+          394.0653076171875,
+          154.716064453125
+        ],
+        [
+          140.42518615722656,
+          154.716064453125
+        ]
+      ]
+    },
+    {
+      "title": "\u03c4\nAssuming =RC\u2026",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          143.62663650512695,
+          252.88055419921875
+        ],
+        [
+          229.2208709716797,
+          252.88055419921875
+        ],
+        [
+          229.2208709716797,
+          266.61431884765625
+        ],
+        [
+          143.62663650512695,
+          266.61431884765625
+        ]
+      ]
+    },
+    {
+      "title": "More complicated RC circuits",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          140.93365859985352,
+          457.08001708984375
+        ],
+        [
+          430.6067810058594,
+          457.08001708984375
+        ],
+        [
+          430.6067810058594,
+          483.6361389160156
+        ],
+        [
+          140.93365859985352,
+          483.6361389160156
+        ]
+      ]
+    },
+    {
+      "title": "Thevenin equivalence",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          141.35608291625977,
+          128.1627197265625
+        ],
+        [
+          361.1916198730469,
+          128.1627197265625
+        ],
+        [
+          361.1916198730469,
+          154.71868896484375
+        ],
+        [
+          141.35608291625977,
+          154.71868896484375
+        ]
+      ]
+    },
+    {
+      "title": "Thevenin's theorem:",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          142.95533752441406,
+          174.1684455871582
+        ],
+        [
+          229.72994995117188,
+          174.1684455871582
+        ],
+        [
+          229.72994995117188,
+          186.716552734375
+        ],
+        [
+          142.95533752441406,
+          186.716552734375
+        ]
+      ]
+    },
+    {
+      "title": "Thevenin's demonstration",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          140.85251998901367,
+          457.0814208984375
+        ],
+        [
+          401.1531066894531,
+          457.0814208984375
+        ],
+        [
+          401.1531066894531,
+          483.6374206542969
+        ],
+        [
+          140.85251998901367,
+          483.6374206542969
+        ]
+      ]
+    },
+    {
+      "title": "OC \nProve that V is the open circuit voltage",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          139.3440399169922,
+          498.48284912109375
+        ],
+        [
+          323.0563049316406,
+          498.48284912109375
+        ],
+        [
+          323.0563049316406,
+          513.9371337890625
+        ],
+        [
+          139.3440399169922,
+          513.9371337890625
+        ]
+      ]
+    },
+    {
+      "title": "Solve the actual problem",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          141.27052688598633,
+          127.87890243530273
+        ],
+        [
+          392.19921875,
+          127.87890243530273
+        ],
+        [
+          392.19921875,
+          154.716552734375
+        ],
+        [
+          141.27052688598633,
+          154.716552734375
+        ]
+      ]
+    },
+    {
+      "title": "Careful:",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          143.35087966918945,
+          632.1470031738281
+        ],
+        [
+          183.56332397460938,
+          632.1470031738281
+        ],
+        [
+          183.56332397460938,
+          646.6443481445312
+        ],
+        [
+          143.35087966918945,
+          646.6443481445312
+        ]
+      ]
+    },
+    {
+      "title": "Thoughts on Thevenin",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          140.52600860595703,
+          457.08056640625
+        ],
+        [
+          369.076171875,
+          457.08056640625
+        ],
+        [
+          369.076171875,
+          483.6366271972656
+        ],
+        [
+          140.52600860595703,
+          483.6366271972656
+        ]
+      ]
+    },
+    {
+      "title": "The importance of Thevenin:",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          140.7996826171875,
+          494.6210632324219
+        ],
+        [
+          276.6209411621094,
+          494.6210632324219
+        ],
+        [
+          276.6209411621094,
+          509.6045227050781
+        ],
+        [
+          140.7996826171875,
+          509.6045227050781
+        ]
+      ]
+    },
+    {
+      "title": "Oscillating circuit (E13)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          140.93417358398438,
+          127.7497787475586
+        ],
+        [
+          375.2353210449219,
+          127.7497787475586
+        ],
+        [
+          375.2353210449219,
+          154.716064453125
+        ],
+        [
+          140.93417358398438,
+          154.716064453125
+        ]
+      ]
+    },
+    {
+      "title": "Oscillating circuit (E13)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          141.4137840270996,
+          457.08001708984375
+        ],
+        [
+          375.2353210449219,
+          457.08001708984375
+        ],
+        [
+          375.2353210449219,
+          483.6361389160156
+        ],
+        [
+          141.4137840270996,
+          483.6361389160156
+        ]
+      ]
+    },
+    {
+      "title": "Norton's theorem",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          141.76454544067383,
+          128.159912109375
+        ],
+        [
+          320.03118896484375,
+          128.159912109375
+        ],
+        [
+          320.03118896484375,
+          154.716064453125
+        ],
+        [
+          141.76454544067383,
+          154.716064453125
+        ]
+      ]
+    },
+    {
+      "title": "Summary and Outlook",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          140.61355590820312,
+          457.08001708984375
+        ],
+        [
+          368.22198486328125,
+          457.08001708984375
+        ],
+        [
+          368.22198486328125,
+          484.44749450683594
+        ],
+        [
+          140.61355590820312,
+          484.44749450683594
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          47
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListGroup",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Diagram",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          150
+        ],
+        [
+          "Line",
+          61
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          146
+        ],
+        [
+          "Line",
+          54
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Diagram",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          237
+        ],
+        [
+          "Line",
+          78
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Diagram",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          216
+        ],
+        [
+          "Line",
+          62
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          160
+        ],
+        [
+          "Line",
+          64
+        ],
+        [
+          "Text",
+          22
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Diagram",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          118
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListGroup",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Diagram",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          256
+        ],
+        [
+          "Line",
+          73
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Diagram",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "ChemicalBlock",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          224
+        ],
+        [
+          "Line",
+          86
+        ],
+        [
+          "Text",
+          40
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ChemicalBlock",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          127
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          19
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Diagram",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          133
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          25
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\MIT-8.022-L09-RC"
+}

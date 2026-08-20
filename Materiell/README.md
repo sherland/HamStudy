@@ -9,7 +9,7 @@ kapitlene forklarer *hvordan det virker*, viser kretser og regner eksempler.
 1. [Grunnleggende elektronikk og kretsregning](01-grunnleggende-elektronikk.md)
 2. [Signaler, filtre, halvledere og forsterkere](02-signaler-filtre-halvledere.md)
 3. [Modulasjon, sendere og mottakere](03-modulasjon-sendere-mottakere.md)
-4. Digital signalbehandling
+4. [Digital signalbehandling](04-digital-signalbehandling.md)
 5. Transmisjonslinjer og antenner
 6. Bølgeutbredelse og linkbudsjett
 7. Måleteknikk, interferens og EMC

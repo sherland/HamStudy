@@ -95,6 +95,7 @@ DOCUMENTS = {
     "Materiell/01-grunnleggende-elektronikk.md",
     "Materiell/02-signaler-filtre-halvledere.md",
     "Materiell/03-modulasjon-sendere-mottakere.md",
+    "Materiell/04-digital-signalbehandling.md",
 }
 
 

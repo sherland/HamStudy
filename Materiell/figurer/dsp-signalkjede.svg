@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" role="img" aria-labelledby="title desc">
+  <title id="title">Digital signalkjede</title><desc id="desc">Analog inngang går gjennom antialiasfilter, sample og hold, ADC og DSP, deretter DAC og rekonstruksjonsfilter til analog utgang.</desc>
+  <defs><marker id="a" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0,0 L9,3.5 L0,7 Z" fill="#263238"/></marker></defs>
+  <style>text{font:16px sans-serif;fill:#17202a}.analog{fill:#e8f2f8;stroke:#1665a7;stroke-width:2}.digital{fill:#e9f4ea;stroke:#28723b;stroke-width:2}.conv{fill:#fff1dc;stroke:#a45a16;stroke-width:2}.l{stroke:#263238;stroke-width:2;marker-end:url(#a)}</style>
+  <text x="18" y="135">Analog inn</text><line class="l" x1="92" y1="130" x2="125" y2="130"/>
+  <rect class="analog" x="130" y="85" width="140" height="90"/><text x="155" y="120">Anti-alias-</text><text x="174" y="143">filter</text><line class="l" x1="270" y1="130" x2="300" y2="130"/>
+  <rect class="conv" x="305" y="85" width="120" height="90"/><text x="324" y="120">Sample/</text><text x="336" y="143">hold</text><line class="l" x1="425" y1="130" x2="455" y2="130"/>
+  <rect class="conv" x="460" y="85" width="90" height="90"/><text x="486" y="136">ADC</text><line class="l" x1="550" y1="130" x2="580" y2="130"/>
+  <rect class="digital" x="585" y="85" width="110" height="90"/><text x="623" y="136">DSP</text><line class="l" x1="695" y1="130" x2="725" y2="130"/>
+  <rect class="conv" x="730" y="85" width="90" height="90"/><text x="755" y="136">DAC</text><line class="l" x1="820" y1="130" x2="850" y2="130"/>
+  <rect class="analog" x="855" y="85" width="145" height="90"/><text x="872" y="120">Rekonstruksjons-</text><text x="910" y="143">filter</text><line class="l" x1="1000" y1="130" x2="1030" y2="130"/><text x="1038" y="135">Ut</text>
+  <text x="168" y="210">analogt</text><text x="598" y="210">samples/koder</text><text x="883" y="210">analogt</text>
+</svg>

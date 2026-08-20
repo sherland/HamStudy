@@ -27,7 +27,7 @@ Et fagavsnitt er ikke ferdig før det har:
 |---|---|---|---|---|---|---|
 | HAREC-2024 | CEPT T/R 61-02, 2024-02-16, vedlegg 6 | CEPT; normgivende pensum | Alle 58 læringsmål | [CEPT](https://docdb.cept.org/document/926) | `primar/CEPT_TR_61-02_2024-02-16.pdf`, `tekst/CEPT_TR_61-02_2024-02-16.txt` | `9250EC6FD7FA302321A80ADC244C15305C77075F99B9BF799223F27422571999` |
 | NIST-SI-811 | *Guide for the Use of the International System of Units (SI)*, SP 811, 2008 | NIST; offentlig måleteknisk veiledning | SI-enheter, prefikser, symboler og tallskriving | [NIST](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication811e2008.pdf) | `primar/NIST-SP811-2008.pdf`, `tekst/NIST-SP811-2008.txt` | `788DD8F0BCB0EC06E40C300690266742532A7E760A93BE57764B77ED0EF3482F` |
-| FAA-ELEC-2023 | FAA-H-8083-30B, kap. 12, *Fundamentals of Electricity & Electronics* | FAA; myndighetsutgitt lærehåndbok | DC/AC, Ohm/Kirchhoff, komponenter, resonans, transformator, halvledere, filtre og måling | [FAA, full PDF](https://www.faa.gov/sites/faa.gov/files/00_amtg_handbook.pdf) | Relevant søketekst, PDF-side 442–615: `tekst/FAA-H-8083-30B-kap12.txt`; full PDF er 92,5 MB og er ikke lagt i Git | `0A39C01BBC454E77A49813CF27E2EF291756FA7111D9308BC290CD0EB71616FD` |
+| FAA-ELEC-2023 | FAA-H-8083-30B, kap. 12, *Fundamentals of Electricity & Electronics* | FAA; myndighetsutgitt lærehåndbok | DC/AC, Ohm/Kirchhoff, komponenter, resonans, transformator, halvledere, filtre og måling | [FAA, full PDF](https://www.faa.gov/sites/faa.gov/files/00_amtg_handbook.pdf) | `primar/FAA-H-8083-30B-kap12-kretser-s442-506.pdf`, `primar/FAA-H-8083-30B-kap12-halvledere-s536-559.pdf`, strukturerte Marker-uttrekk og søketekst for PDF-side 442–615; full PDF er 92,5 MB og er ikke lagt i Git | Full original: `0A39C01BBC454E77A49813CF27E2EF291756FA7111D9308BC290CD0EB71616FD` |
 | ITU-AMATEUR-2026 | *Handbook on Amateur and amateur-satellite services*, 2026 | ITU-R; offisiell internasjonal håndbok | Tjenesten, operasjon, nødsamband, systemer, utstyr, antenne-/propagasjonsforsøk og DSP | [ITU](https://www.itu.int/pub/R-HDB-52-2026) | `primar/ITU-R-HDB-52-2026.pdf`, `tekst/ITU-R-HDB-52-2026.txt` | `24A4B1443A39C157D8EBC0C2DCD59FF01E3D44DBCFC2E08406F25085216CC9BC` |
 | MIT-CIRCUITS | Chaniotakis og Cory, *Linear Circuits Analysis*, MIT 6.071J, 2006 | MIT OpenCourseWare; universitetskursnotat | Node-/sløyfeanalyse, superposisjon, Thévenin/Norton og maksimal effektoverføring | [MIT OCW](https://ocw.mit.edu/courses/6-071j-introduction-to-electronics-signals-and-measurement-spring-2006/resources/linear_crct_ana/) | `primar/MIT-6.071J-linear-circuits.pdf`, `tekst/MIT-6.071J-linear-circuits.txt` | `FEACCE5665083650B0171784D07C15EB465B6CA1EB0B4F92DABE46085FF9FDD9` |
 | MIT-THEVENIN-L03 | Agarwal og Lang, MIT 6.002 Lecture 3, 2007 | MIT OpenCourseWare; universitetsforelesning | Nodeanalyse og Thévenin-metoden | [MIT OCW](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l3/) | `primar/MIT-6.002-L03-Thevenin.pdf`, `tekst/MIT-6.002-L03-Thevenin.txt` | `96C22AEDE85777D7B2ED7DE15ED8BDE2CFCD05F0005B97F3843AE1E7FBA851D7` |
@@ -37,6 +37,17 @@ Et fagavsnitt er ikke ferdig før det har:
 | MIT-POWER | Roscoe, regulert DC-forsyning og rippel, MIT 6.101 | MIT OpenCourseWare | Likeretter, glatting, regulering og rippelberegning | [MIT regulated supply](https://ocw.mit.edu/courses/6-101-introductory-analog-electronics-laboratory-spring-2007/resources/regulated_ps/), [MIT ripple](https://ocw.mit.edu/courses/6-101-introductory-analog-electronics-laboratory-spring-2007/resources/ripple_volts/) | `primar/MIT-6.101-regulated-power.pdf`, `primar/MIT-6.101-ripple.pdf` og tekstfiler | `D9ECD0FC7C2286ABFD34F20EEF9741D32889EB6D1C9314592931C25C0EDBE199`; `6082ECA885493652264B7523B0138D84B14B823DEB01AEE2C12BFD1EBCD6DD48` |
 | MIT-TRANSISTOR | Roscoe, *Transistor Amplifier Configurations*, MIT 6.101 | MIT OpenCourseWare | Felles emitter/base/kollektor og impedans-/forsterkningsegenskaper | [MIT OCW](https://ocw.mit.edu/courses/6-101-introductory-analog-electronics-laboratory-spring-2007/resources/trans_amp_config/) | `primar/MIT-6.101-transistor-config.pdf`, `tekst/MIT-6.101-transistor-config.txt` | `B92E5265EF2B3A5DBE17109A5083DD2E905D5ED758F4B2C5229EC72BF0BD1117` |
 | ADI-SWREG | Zhang, *AN-140: Basic Concepts of Linear Regulator and Switching Mode Power Supplies* | Analog Devices; produsentens applikasjonsnotat | Lineær kontra svitsjet regulering og buck-prinsippet | [Analog Devices](https://www.analog.com/en/resources/app-notes/an-140.html) | Ikke lokalt arkivert: serveren avbrøt begge innhentingsforsøk 2026-08-20 | Ikke beregnet |
+
+## Avledede PDF-utdrag
+
+FAA-utdragene er laget med `scripts/extract_pdf_pages.py` fra den kontrollerte
+fullfilen. Sidetallene i filnavnet er PDF-sidetall (1-basert), ikke håndbokas
+trykte kapittelsidetall.
+
+| Fil | Sider fra full original | SHA-256 |
+|---|---:|---|
+| `FAA-H-8083-30B-kap12-kretser-s442-506.pdf` | 442–506 | `789BA3E16E05D0F59246BDB37F16D1BE5D0BB9E0B317F5A3CD470F774741CCD4` |
+| `FAA-H-8083-30B-kap12-halvledere-s536-559.pdf` | 536–559 | `8F7D7FE280DA64619BC31400B6A22F53166098FBCA0F6B146A51AE1215B0D7A4` |
 
 ## Kildebruk i regneeksempler og figurer
 

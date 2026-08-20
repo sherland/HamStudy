@@ -10,8 +10,9 @@ Metadata, originaladresser og kontrollsummer føres i
 Tekniske lærekilder føres i
 [`../TEKNISK-KILDEREGISTER.md`](../TEKNISK-KILDEREGISTER.md). Den store
 FAA-H-8083-30B-originalen er ikke lagret i Git; registeret inneholder URL og
-hash av den kontrollerte fullfilen, mens relevante PDF-sider 442–615 er bevart
-som sidenummerert søketekst i `../tekst/`.
+hash av den kontrollerte fullfilen. To mindre, avledede PDF-utdrag bevarer
+sidene 442–506 og 536–559 med original layout og figurer, mens PDF-side
+442–615 også er bevart som sidenummerert søketekst i `../tekst/`.
 
 Strukturerte arbeidsuttrekk med tabeller og bilder ligger i `../markdown/`.
 Disse erstatter ikke original-PDF-ene, men gjør at figurer og tabellstruktur

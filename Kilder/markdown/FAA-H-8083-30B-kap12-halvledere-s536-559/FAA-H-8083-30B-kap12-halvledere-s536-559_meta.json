@@ -1,0 +1,2375 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Semiconductors",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          299.6788330078125,
+          328.3348617553711
+        ],
+        [
+          388.75604248046875,
+          328.3348617553711
+        ],
+        [
+          388.75604248046875,
+          345.069580078125
+        ],
+        [
+          299.6788330078125,
+          345.069580078125
+        ]
+      ]
+    },
+    {
+      "title": "Doping",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          50.74346923828125,
+          537.069580078125
+        ],
+        [
+          89.40468406677246,
+          537.069580078125
+        ],
+        [
+          89.40468406677246,
+          553.3125762939453
+        ],
+        [
+          50.74346923828125,
+          553.3125762939453
+        ]
+      ]
+    },
+    {
+      "title": "PN Junctions & the Basic Diode",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          50.634681701660156,
+          409.1734313964844
+        ],
+        [
+          206.26879119873047,
+          409.1734313964844
+        ],
+        [
+          206.26879119873047,
+          425.64361572265625
+        ],
+        [
+          50.634681701660156,
+          425.64361572265625
+        ]
+      ]
+    },
+    {
+      "title": "Forward Biased Diode",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          299.6144256591797,
+          363.82850646972656
+        ],
+        [
+          409.1589660644531,
+          363.82850646972656
+        ],
+        [
+          409.1589660644531,
+          380.00360107421875
+        ],
+        [
+          299.6144256591797,
+          380.00360107421875
+        ]
+      ]
+    },
+    {
+      "title": "In summary:",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          51.054954528808594,
+          564.3331146240234
+        ],
+        [
+          104.83000183105469,
+          564.3331146240234
+        ],
+        [
+          104.83000183105469,
+          578.8836059570312
+        ],
+        [
+          51.054954528808594,
+          578.8836059570312
+        ]
+      ]
+    },
+    {
+      "title": "Reverse Biased Diode",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          299.7257308959961,
+          450.3811798095703
+        ],
+        [
+          408.59751892089844,
+          450.3811798095703
+        ],
+        [
+          408.59751892089844,
+          466.38360595703125
+        ],
+        [
+          299.7257308959961,
+          466.38360595703125
+        ]
+      ]
+    },
+    {
+      "title": "Rectifiers",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          50.845916748046875,
+          655.8959197998047
+        ],
+        [
+          104.13615417480469,
+          655.8959197998047
+        ],
+        [
+          104.13615417480469,
+          673.2896041870117
+        ],
+        [
+          50.845916748046875,
+          673.2896041870117
+        ]
+      ]
+    },
+    {
+      "title": "Half-Wave Rectifier",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          50.59796333312988,
+          617.2135620117188
+        ],
+        [
+          145.88845825195312,
+          617.2135620117188
+        ],
+        [
+          145.88845825195312,
+          633.8836059570312
+        ],
+        [
+          50.59796333312988,
+          633.8836059570312
+        ]
+      ]
+    },
+    {
+      "title": "Full-Wave Rectifier",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          299.7483215332031,
+          291.53759765625
+        ],
+        [
+          393.3349914550781,
+          291.53759765625
+        ],
+        [
+          393.3349914550781,
+          308.4103088378906
+        ],
+        [
+          299.7483215332031,
+          308.4103088378906
+        ]
+      ]
+    },
+    {
+      "title": "Dry Disk",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          299.8351364135742,
+          604.9564819335938
+        ],
+        [
+          344.3056411743164,
+          604.9564819335938
+        ],
+        [
+          344.3056411743164,
+          621.4103088378906
+        ],
+        [
+          299.8351364135742,
+          621.4103088378906
+        ]
+      ]
+    },
+    {
+      "title": "Types of Diodes",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          51.064979553222656,
+          478.4290008544922
+        ],
+        [
+          131.5001106262207,
+          478.4290008544922
+        ],
+        [
+          131.5001106262207,
+          494.9326171875
+        ],
+        [
+          51.064979553222656,
+          494.9326171875
+        ]
+      ]
+    },
+    {
+      "title": "Power Rectifier Diodes",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          50.82634735107422,
+          530.0502319335938
+        ],
+        [
+          159.07194900512695,
+          530.0502319335938
+        ],
+        [
+          159.07194900512695,
+          546.2395935058594
+        ],
+        [
+          50.82634735107422,
+          546.2395935058594
+        ]
+      ]
+    },
+    {
+      "title": "Zener Diodes",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          299.3213424682617,
+          217.97598266601562
+        ],
+        [
+          364.2191390991211,
+          217.97598266601562
+        ],
+        [
+          364.2191390991211,
+          234.18939208984375
+        ],
+        [
+          299.3213424682617,
+          234.18939208984375
+        ]
+      ]
+    },
+    {
+      "title": "Special Purpose Diodes",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          299.6945343017578,
+          458.02565002441406
+        ],
+        [
+          409.9420166015625,
+          458.02565002441406
+        ],
+        [
+          409.9420166015625,
+          474.18939208984375
+        ],
+        [
+          299.6945343017578,
+          474.18939208984375
+        ]
+      ]
+    },
+    {
+      "title": "Light-Emitting Diode (LED)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          299.5066223144531,
+          535.3677520751953
+        ],
+        [
+          432.6991882324219,
+          535.3677520751953
+        ],
+        [
+          432.6991882324219,
+          551.6893920898438
+        ],
+        [
+          299.5066223144531,
+          551.6893920898438
+        ]
+      ]
+    },
+    {
+      "title": "Liquid Crystal Displays (LCD)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          51.45003890991211,
+          325.2743682861328
+        ],
+        [
+          193.05809783935547,
+          325.2743682861328
+        ],
+        [
+          193.05809783935547,
+          341.9105529785156
+        ],
+        [
+          51.45003890991211,
+          341.9105529785156
+        ]
+      ]
+    },
+    {
+      "title": "Photodiode",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          299.7542266845703,
+          139.19907760620117
+        ],
+        [
+          354.36090087890625,
+          139.19907760620117
+        ],
+        [
+          354.36090087890625,
+          155.81060791015625
+        ],
+        [
+          299.7542266845703,
+          155.81060791015625
+        ]
+      ]
+    },
+    {
+      "title": "Varactors",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          299.89542388916016,
+          304.5120162963867
+        ],
+        [
+          347.00559997558594,
+          304.5120162963867
+        ],
+        [
+          347.00559997558594,
+          320.81060791015625
+        ],
+        [
+          299.89542388916016,
+          320.81060791015625
+        ]
+      ]
+    },
+    {
+      "title": "Schottky Diodes",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          50.77286338806152,
+          115.26064682006836
+        ],
+        [
+          127.19989013671875,
+          115.26064682006836
+        ],
+        [
+          127.19989013671875,
+          130.810546875
+        ],
+        [
+          50.77286338806152,
+          130.810546875
+        ]
+      ]
+    },
+    {
+      "title": "Diode Identification",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          50.88827705383301,
+          241.4703826904297
+        ],
+        [
+          147.1267433166504,
+          241.4703826904297
+        ],
+        [
+          147.1267433166504,
+          257.50360107421875
+        ],
+        [
+          50.88827705383301,
+          257.50360107421875
+        ]
+      ]
+    },
+    {
+      "title": "Introduction to Transistors",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          299.33953857421875,
+          40.56061363220215
+        ],
+        [
+          442.1048889160156,
+          40.56061363220215
+        ],
+        [
+          442.1048889160156,
+          57.144287109375
+        ],
+        [
+          299.33953857421875,
+          57.144287109375
+        ]
+      ]
+    },
+    {
+      "title": "Classification",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          299.84523010253906,
+          256.8479232788086
+        ],
+        [
+          368.6316375732422,
+          256.8479232788086
+        ],
+        [
+          368.6316375732422,
+          272.6282958984375
+        ],
+        [
+          299.84523010253906,
+          272.6282958984375
+        ]
+      ]
+    },
+    {
+      "title": "Transistor Theory",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          300.0743637084961,
+          76.60392379760742
+        ],
+        [
+          388.3576354980469,
+          76.60392379760742
+        ],
+        [
+          388.3576354980469,
+          92.5035400390625
+        ],
+        [
+          300.0743637084961,
+          92.5035400390625
+        ]
+      ]
+    },
+    {
+      "title": "PNP Transistor Operation",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          299.49888610839844,
+          301.0976257324219
+        ],
+        [
+          425.6305389404297,
+          301.0976257324219
+        ],
+        [
+          425.6305389404297,
+          317.50360107421875
+        ],
+        [
+          299.49888610839844,
+          317.50360107421875
+        ]
+      ]
+    },
+    {
+      "title": "Identification of Transistors",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          299.3290328979492,
+          426.5416717529297
+        ],
+        [
+          435.4911804199219,
+          426.5416717529297
+        ],
+        [
+          435.4911804199219,
+          443.00360107421875
+        ],
+        [
+          299.3290328979492,
+          443.00360107421875
+        ]
+      ]
+    },
+    {
+      "title": "Field Effect Transistors",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          299.3963928222656,
+          639.2300720214844
+        ],
+        [
+          414.43492126464844,
+          639.2300720214844
+        ],
+        [
+          414.43492126464844,
+          656.0035934448242
+        ],
+        [
+          299.3963928222656,
+          656.0035934448242
+        ]
+      ]
+    },
+    {
+      "title": "Metal-Oxide-Semiconductor FET (MOSFET)",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          50.61779022216797,
+          616.0416870117188
+        ],
+        [
+          262.3599853515625,
+          616.0416870117188
+        ],
+        [
+          262.3599853515625,
+          632.5835876464844
+        ],
+        [
+          50.61779022216797,
+          632.5835876464844
+        ]
+      ]
+    },
+    {
+      "title": "Common Transistor Configurations",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          299.6109924316406,
+          474.19102478027344
+        ],
+        [
+          472.7559356689453,
+          474.19102478027344
+        ],
+        [
+          472.7559356689453,
+          490.50360107421875
+        ],
+        [
+          299.6109924316406,
+          490.50360107421875
+        ]
+      ]
+    },
+    {
+      "title": "Common-Emitter (CE) Configuration",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          299.85552978515625,
+          662.9758758544922
+        ],
+        [
+          474.9411163330078,
+          662.9758758544922
+        ],
+        [
+          474.9411163330078,
+          679.3105926513672
+        ],
+        [
+          299.85552978515625,
+          679.3105926513672
+        ]
+      ]
+    },
+    {
+      "title": "Common-Collector (CC) Configuration",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          299.61055755615234,
+          202.90370178222656
+        ],
+        [
+          482.69586181640625,
+          202.90370178222656
+        ],
+        [
+          482.69586181640625,
+          218.31060791015625
+        ],
+        [
+          299.61055755615234,
+          218.31060791015625
+        ]
+      ]
+    },
+    {
+      "title": "Common-Base (CB) Configuration",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          299.66297149658203,
+          429.7540283203125
+        ],
+        [
+          462.92926025390625,
+          429.7540283203125
+        ],
+        [
+          462.92926025390625,
+          445.81060791015625
+        ],
+        [
+          299.66297149658203,
+          445.81060791015625
+        ]
+      ]
+    },
+    {
+      "title": "Vacuum Tubes",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          51.232126235961914,
+          323.29042053222656
+        ],
+        [
+          130.4599151611328,
+          323.29042053222656
+        ],
+        [
+          130.4599151611328,
+          339.7895812988281
+        ],
+        [
+          51.232126235961914,
+          339.7895812988281
+        ]
+      ]
+    },
+    {
+      "title": "Filtering",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          50.65484619140625,
+          327.0357971191406
+        ],
+        [
+          97.46597671508789,
+          327.0357971191406
+        ],
+        [
+          97.46597671508789,
+          344.144287109375
+        ],
+        [
+          50.65484619140625,
+          344.144287109375
+        ]
+      ]
+    },
+    {
+      "title": "Filtering Characteristics of Capacitors",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          50.403831481933594,
+          380.7458038330078
+        ],
+        [
+          235.1599884033203,
+          380.7458038330078
+        ],
+        [
+          235.1599884033203,
+          397.1282958984375
+        ],
+        [
+          50.403831481933594,
+          397.1282958984375
+        ]
+      ]
+    },
+    {
+      "title": "Filtering Characteristics of Inductors",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          299.6100311279297,
+          39.89296245574951
+        ],
+        [
+          478.39306640625,
+          39.89296245574951
+        ],
+        [
+          478.39306640625,
+          55.85028076171875
+        ],
+        [
+          299.6100311279297,
+          55.85028076171875
+        ]
+      ]
+    },
+    {
+      "title": "Common Filter Configurations",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          299.2154846191406,
+          290.40433502197266
+        ],
+        [
+          447.8763427734375,
+          290.40433502197266
+        ],
+        [
+          447.8763427734375,
+          306.35028076171875
+        ],
+        [
+          299.2154846191406,
+          306.35028076171875
+        ]
+      ]
+    },
+    {
+      "title": "Basic LC Filters",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          50.80638313293457,
+          451.1298522949219
+        ],
+        [
+          129.86148834228516,
+          451.1298522949219
+        ],
+        [
+          129.86148834228516,
+          467.50360107421875
+        ],
+        [
+          50.80638313293457,
+          467.50360107421875
+        ]
+      ]
+    },
+    {
+      "title": "Low-Pass Filter",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          299.5059127807617,
+          114.86347961425781
+        ],
+        [
+          375.5669860839844,
+          114.86347961425781
+        ],
+        [
+          375.5669860839844,
+          130.810546875
+        ],
+        [
+          299.5059127807617,
+          130.810546875
+        ]
+      ]
+    },
+    {
+      "title": "High-Pass Filter (HPF)",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          299.3162155151367,
+          316.70706939697266
+        ],
+        [
+          411.7998046875,
+          316.70706939697266
+        ],
+        [
+          411.7998046875,
+          333.31060791015625
+        ],
+        [
+          299.3162155151367,
+          333.31060791015625
+        ]
+      ]
+    },
+    {
+      "title": "Band-Pass Filter",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          299.56883239746094,
+          481.8072052001953
+        ],
+        [
+          380.73983001708984,
+          481.8072052001953
+        ],
+        [
+          380.73983001708984,
+          498.3105773925781
+        ],
+        [
+          299.56883239746094,
+          498.3105773925781
+        ]
+      ]
+    },
+    {
+      "title": "Band-Stop Filter",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          299.3685607910156,
+          608.7508850097656
+        ],
+        [
+          379.85699462890625,
+          608.7508850097656
+        ],
+        [
+          379.85699462890625,
+          625.8105773925781
+        ],
+        [
+          299.3685607910156,
+          625.8105773925781
+        ]
+      ]
+    },
+    {
+      "title": "Amplifier Circuits",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          300.18218994140625,
+          63.993621826171875
+        ],
+        [
+          394.29908752441406,
+          63.993621826171875
+        ],
+        [
+          394.29908752441406,
+          80.569580078125
+        ],
+        [
+          300.18218994140625,
+          80.569580078125
+        ]
+      ]
+    },
+    {
+      "title": "Classification",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          299.65367889404297,
+          454.777587890625
+        ],
+        [
+          368.6063003540039,
+          454.777587890625
+        ],
+        [
+          368.6063003540039,
+          471.0535888671875
+        ],
+        [
+          299.65367889404297,
+          471.0535888671875
+        ]
+      ]
+    },
+    {
+      "title": "Class A",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          50.759010314941406,
+          499.0926818847656
+        ],
+        [
+          88.67578125,
+          499.0926818847656
+        ],
+        [
+          88.67578125,
+          514.9423217773438
+        ],
+        [
+          50.759010314941406,
+          514.9423217773438
+        ]
+      ]
+    },
+    {
+      "title": "Class AB",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          299.7048110961914,
+          313.73966217041016
+        ],
+        [
+          344.97377014160156,
+          313.73966217041016
+        ],
+        [
+          344.97377014160156,
+          329.3506164550781
+        ],
+        [
+          299.7048110961914,
+          329.3506164550781
+        ]
+      ]
+    },
+    {
+      "title": "Class B",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          299.97347259521484,
+          528.0971832275391
+        ],
+        [
+          337.9496154785156,
+          528.0971832275391
+        ],
+        [
+          337.9496154785156,
+          544.3505859375
+        ],
+        [
+          299.97347259521484,
+          544.3505859375
+        ]
+      ]
+    },
+    {
+      "title": "Class C",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          299.5287780761719,
+          668.6682586669922
+        ],
+        [
+          338.3714904785156,
+          668.6682586669922
+        ],
+        [
+          338.3714904785156,
+          684.3506011962891
+        ],
+        [
+          299.5287780761719,
+          684.3506011962891
+        ]
+      ]
+    },
+    {
+      "title": "Methods of Coupling",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          299.8670654296875,
+          40.11334991455078
+        ],
+        [
+          403.4799041748047,
+          40.11334991455078
+        ],
+        [
+          403.4799041748047,
+          55.85028076171875
+        ],
+        [
+          299.8670654296875,
+          55.85028076171875
+        ]
+      ]
+    },
+    {
+      "title": "Direct Coupling",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          300.05504608154297,
+          178.93790817260742
+        ],
+        [
+          377.05615997314453,
+          178.93790817260742
+        ],
+        [
+          377.05615997314453,
+          194.65728759765625
+        ],
+        [
+          300.05504608154297,
+          194.65728759765625
+        ]
+      ]
+    },
+    {
+      "title": "RC Coupling",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          299.81629943847656,
+          281.91371154785156
+        ],
+        [
+          363.25279998779297,
+          281.91371154785156
+        ],
+        [
+          363.25279998779297,
+          297.1572570800781
+        ],
+        [
+          299.81629943847656,
+          297.1572570800781
+        ]
+      ]
+    },
+    {
+      "title": "Impedance Coupling",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          51.07609176635742,
+          152.5129280090332
+        ],
+        [
+          149.8967742919922,
+          152.5129280090332
+        ],
+        [
+          149.8967742919922,
+          168.31060791015625
+        ],
+        [
+          51.07609176635742,
+          168.31060791015625
+        ]
+      ]
+    },
+    {
+      "title": "Transformer Coupling",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          51.26217842102051,
+          304.92494201660156
+        ],
+        [
+          157.1363983154297,
+          304.92494201660156
+        ],
+        [
+          157.1363983154297,
+          320.81060791015625
+        ],
+        [
+          51.26217842102051,
+          320.81060791015625
+        ]
+      ]
+    },
+    {
+      "title": "Feedback",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          300.1219940185547,
+          126.40754699707031
+        ],
+        [
+          349.46573638916016,
+          126.40754699707031
+        ],
+        [
+          349.46573638916016,
+          142.50360107421875
+        ],
+        [
+          300.1219940185547,
+          142.50360107421875
+        ]
+      ]
+    },
+    {
+      "title": "Operational Amplifiers (OP AMP)",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          299.7033233642578,
+          473.18426513671875
+        ],
+        [
+          459.1400146484375,
+          473.18426513671875
+        ],
+        [
+          459.1400146484375,
+          489.50360107421875
+        ],
+        [
+          299.7033233642578,
+          489.50360107421875
+        ]
+      ]
+    },
+    {
+      "title": "Applications",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          51.544904708862305,
+          556.4749603271484
+        ],
+        [
+          111.53186416625977,
+          556.4749603271484
+        ],
+        [
+          111.53186416625977,
+          572.2106018066406
+        ],
+        [
+          51.544904708862305,
+          572.2106018066406
+        ]
+      ]
+    },
+    {
+      "title": "Magnetic Amplifiers",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          50.994083404541016,
+          343.03543853759766
+        ],
+        [
+          157.52099609375,
+          343.03543853759766
+        ],
+        [
+          157.52099609375,
+          360.1642761230469
+        ],
+        [
+          50.994083404541016,
+          360.1642761230469
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          184
+        ],
+        [
+          "Line",
+          82
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Diagram",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          156
+        ],
+        [
+          "Line",
+          74
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Diagram",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          185
+        ],
+        [
+          "Line",
+          87
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Diagram",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Diagram",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          155
+        ],
+        [
+          "Line",
+          71
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Diagram",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          127
+        ],
+        [
+          "Line",
+          58
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Diagram",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          139
+        ],
+        [
+          "Line",
+          58
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Diagram",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          184
+        ],
+        [
+          "Line",
+          85
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Diagram",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          159
+        ],
+        [
+          "Line",
+          76
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          201
+        ],
+        [
+          "Line",
+          90
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Diagram",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          123
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Diagram",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          190
+        ],
+        [
+          "Line",
+          91
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Diagram",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          179
+        ],
+        [
+          "Line",
+          72
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Diagram",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          186
+        ],
+        [
+          "Line",
+          90
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Diagram",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          193
+        ],
+        [
+          "Line",
+          84
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Diagram",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ChemicalBlock",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          207
+        ],
+        [
+          "Line",
+          88
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Diagram",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "ChemicalBlock",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          197
+        ],
+        [
+          "Line",
+          96
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          170
+        ],
+        [
+          "Line",
+          76
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Caption",
+          4
+        ],
+        [
+          "Diagram",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          165
+        ],
+        [
+          "Line",
+          72
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Diagram",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 20,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Figure",
+          3
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 21,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          165
+        ],
+        [
+          "Line",
+          76
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 22,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          131
+        ],
+        [
+          "Line",
+          54
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Diagram",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 23,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          179
+        ],
+        [
+          "Line",
+          73
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ChemicalBlock",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Diagram",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\FAA-H-8083-30B-kap12-halvledere-s536-559"
+}

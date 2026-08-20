@@ -27,6 +27,8 @@ ARCHIVES = {
     "Kilder/primar/MIT-6.101-regulated-power.pdf": "D9ECD0FC7C2286ABFD34F20EEF9741D32889EB6D1C9314592931C25C0EDBE199",
     "Kilder/primar/MIT-6.101-ripple.pdf": "6082ECA885493652264B7523B0138D84B14B823DEB01AEE2C12BFD1EBCD6DD48",
     "Kilder/primar/MIT-6.101-transistor-config.pdf": "B92E5265EF2B3A5DBE17109A5083DD2E905D5ED758F4B2C5229EC72BF0BD1117",
+    "Kilder/primar/FAA-H-8083-30B-kap12-kretser-s442-506.pdf": "789BA3E16E05D0F59246BDB37F16D1BE5D0BB9E0B317F5A3CD470F774741CCD4",
+    "Kilder/primar/FAA-H-8083-30B-kap12-halvledere-s536-559.pdf": "8F7D7FE280DA64619BC31400B6A22F53166098FBCA0F6B146A51AE1215B0D7A4",
 }
 
 TEXT_EXTRACTS = {
@@ -53,6 +55,24 @@ TEXT_EXTRACTS = {
     "Kilder/tekst/MIT-6.101-transistor-config.txt",
 }
 
+MARKER_EXTRACTS = {
+    "CEPT_TR_61-02_2024-02-16",
+    "IARU-R1_HF-bandplan_effective-2016",
+    "ITU-R-HDB-52-2026",
+    "NIST-SP811-2008",
+    "MIT-6.002-L03-Thevenin",
+    "MIT-6.071J-linear-circuits",
+    "MIT-8.022-L09-RC",
+    "MIT-6.101-decibels",
+    "MIT-6.101-highpass",
+    "MIT-6.101-lowpass",
+    "MIT-6.101-regulated-power",
+    "MIT-6.101-ripple",
+    "MIT-6.101-transistor-config",
+    "FAA-H-8083-30B-kap12-kretser-s442-506",
+    "FAA-H-8083-30B-kap12-halvledere-s536-559",
+}
+
 DOCUMENTS = {
     "PLAN-PENSUM.md", "REGELVERK-2026.md", "HAREC-2024.md",
     "BOKKARTLEGGING.md", "OPERASJON-OG-SIKKERHET.md",
@@ -74,6 +94,14 @@ def main() -> None:
         path = Path(filename)
         assert path.stat().st_size > 500, f"Tomt eller for lite tekstuttrekk: {filename}"
 
+    for stem in MARKER_EXTRACTS:
+        directory = Path("Kilder/markdown") / stem
+        markdown = directory / f"{stem}.md"
+        metadata = directory / f"{stem}_meta.json"
+        # Enkeltsiders diagramkilder kan bestå av én kort bildelenke i Markdown.
+        assert markdown.stat().st_size > 50, f"Tomt Marker-uttrekk: {markdown}"
+        assert metadata.stat().st_size > 100, f"Manglende Marker-metadata: {metadata}"
+
     for filename in DOCUMENTS:
         path = Path(filename)
         assert path.stat().st_size > 300, f"Manglende eller for lite dokument: {filename}"
@@ -83,7 +111,8 @@ def main() -> None:
 
     print(
         f"Forskningspakken er konsistent: {len(ARCHIVES)} originaler, "
-        f"{len(TEXT_EXTRACTS)} tekstuttrekk og {len(DOCUMENTS)} hoveddokumenter"
+        f"{len(TEXT_EXTRACTS)} tekstuttrekk, {len(MARKER_EXTRACTS)} Marker-uttrekk "
+        f"og {len(DOCUMENTS)} hoveddokumenter"
     )
 
 

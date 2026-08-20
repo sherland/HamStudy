@@ -1,0 +1,570 @@
+
+<!DOCTYPE html
+>
+<html lang="no" class="no-js">
+
+<head>
+	
+	<!-- Le styles -->
+	<link href="/resources/css/bootstrap.css?26-06-01-1605" rel="stylesheet">
+	<link href="/resources/fonts/ss-symbolicons-block/ss-symbolicons-block.css?26-06-01-1605" rel="stylesheet">
+	<link href="/resources/fonts/ss-symbolicons-line/ss-symbolicons-line.css?26-06-01-1605" rel="stylesheet">
+	<link href="/resources/fonts/feed/ss-feed-icons.css?26-06-01-1605" rel="stylesheet">
+	<link href="/resources/fonts/ss-standard/ss-standard.css?26-06-01-1605" rel="stylesheet">
+	<link href="/resources/fonts/ss-social-regular/ss-social.css?26-06-01-1605" rel="stylesheet">
+	<link href="/resources/select2/select2.css?26-06-01-1605" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
+	<!-- Modaal -->
+	<link rel="stylesheet" href="/resources/css/modaal.min.css">
+
+		<link href="/resources/css/app.css?26-06-01-1605" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<link href="/resources/css/ld-ie.css?26-06-01-1605" rel="stylesheet">
+	<![endif]-->
+		<link href="/resources/css/document/lovdata.document.gratis.css?26-06-01-1605" rel="stylesheet">
+	<link href="/resources/css/lovdata.document.tables.css?26-06-01-1605" rel="stylesheet">
+	<link href="/resources/css/lovdata.document.web.css?26-06-01-1605" rel="stylesheet">
+	<link href="/resources/css/lovdata.document.css?26-06-01-1605" rel="stylesheet">
+
+
+	<!-- Le scripts -->
+	<script src="/resources/js/jquery-3.7.1.min.js?26-06-01-1605"></script>
+	<script src="/resources/js/mathjax/tex-mml-chtml.js?26-06-01-1605"></script>
+		<script>
+			var dev = false;
+		</script>
+		<!-- Plausible -->
+		<script defer data-domain="lovdata.no" src="https://plausible.io/js/plausible.js"></script>
+		<!-- End Plausible -->
+
+	<script src="/resources/js/modernizr.min.js?26-06-01-1605"></script>
+	<script src="/resources/js/bootstrap.min.js?26-06-01-1605"></script>
+	<script src="/resources/js/jquery.throttle.js?26-06-01-1605"></script>
+	<script src="/resources/js/jquery.form.min.js?26-06-01-1605"></script>
+	<script src="/resources/js/json2.js?26-06-01-1605"></script>
+	<script src="/resources/js/jstorage.js?26-06-01-1605"></script>
+	<script src="/resources/select2/select2.min.js?26-06-01-1605"></script>
+	<script src="/resources/js/app.js?26-06-01-1605"></script>
+		<script src="/resources/js/app-lovdata.js?26-06-01-1605"></script>
+	<script src="/resources/js/highlighter.js?26-06-01-1605"></script>
+	<!-- Modaal -->
+	<script src="/resources/js/modaal.min.js"></script>
+
+	<link rel="icon" href="/resources/img/logo/new/lovdata-logosymbol-stortingsrod.svg" type="image/svg+xml" sizes="16x16 32x32 48x48 64x64">
+	<link rel="apple-touch-icon-precomposed" href="/resources/img/logo/new/lovdata-logosymbol-stortingsrod.svg" type="image/svg+xml" sizes="152x152">
+
+	<meta charset="utf-8">
+	<title>Forskrift om radioamatørvirksomhet - Lovdata</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+	<meta name="google-site-verification" content="ENJVlOsNC5zBiaC_PChgiRbBrUBjN6P-Owo6nwS9--Q"/>
+	<meta name="application-name" content="Lovdata"/>
+	<meta property="fb:admins" content="711945576, 714678011"/>
+		<meta name="robots" content="noodp">
+		<meta name="description" content="Forskrift om radioamatørvirksomhet">
+		<meta name="twitter:card" content="summary"/>
+		<meta name="twitter:description" content="Forskrift om radioamatørvirksomhet">
+		<meta name="twitter:site" content="@lovdata"/>
+		<meta name="twitter:title" content="Forskrift om radioamatørvirksomhet"/>
+</head>
+
+	<body class="template-document">
+
+	<div aria-hidden="true" class="print-logo">
+		<img src="/resources/img/logo/new/lovdata-logo-primaer.svg" alt="Lovdata-logo"/>
+	</div>
+
+	<div id="skiplinks">
+		<a href="#main-content">Til hovedinnhold</a>
+	</div>
+
+<header>
+	<div class="ld-navbar" id="ld-navbar">
+
+		<a class="logo" href="/" aria-label="Til forsiden"></a>
+
+				<button class="open-search" aria-label="Åpne søk">
+			<i class="ss-icon ss-symbolicons-block" aria-hidden="true">&#x1F50D;</i>
+		</button>
+
+		<div class="middleContainer">
+			<a tabindex="0" role="button" aria-label="Åpne/lukk meny" class="menu_toggler" aria-expanded="false">
+				<span></span>
+			</a>
+
+			<form class="mainSearch" role="search" id="sok" action="/sok" METHOD="get">
+
+
+				<script>
+					document.addEventListener("DOMContentLoaded", function () {
+						const searchInput = document.getElementById("globSearch");
+						const form = document.querySelector("form");
+
+						form.addEventListener("submit", function () {
+							searchInput.classList.add("loading");
+						});
+
+						searchInput.addEventListener('keydown', event => { //Turn textarea into input.
+							if (event.code === 'Enter') {
+								event.preventDefault();
+								form.submit();
+								searchInput.classList.add("loading");
+							}
+						});
+					});
+
+					var searchInDocumentPlaceholder = '';
+					var searchInDocument = '';
+
+					// JavaScript function to monitor input and apply changes
+					document.addEventListener("DOMContentLoaded", function () {
+						const searchInput = document.getElementById("globSearch");
+						const form = document.getElementById("sok");
+						const wordCounter = document.getElementById("word-counter");
+						const freeSearchHelpText = document.getElementById("freesearch-help-text");
+						const bottomInfo = document.getElementById("search-bottom-info");
+
+						searchInput.placeholder = 'Søk med opp til fem søkeord eller skriv lengre for å gjøre et frisøk'
+
+						// Handle changes to the form class and action
+						searchInput.addEventListener("input", function () {
+							var startsWithQuote = (searchInput.value.startsWith("\"") || searchInput.value.startsWith("\'") || searchInput.value.startsWith("«"));
+							var blankSpaceCount = (searchInput.value.match(/ ./g) || []).length;
+							if (blankSpaceCount !== 0) {
+								blankSpaceCount += 1;
+							}
+
+							if (blankSpaceCount > 5 && !startsWithQuote) {
+								wordCounter.style.visibility = "visible"
+								searchInput.classList.add("expanded");
+
+								// Change the form action to "/frisok"
+								form.setAttribute("action", "/frisok");
+								form.setAttribute("method", "POST");
+								wordCounter.innerHTML = searchInput.value.length + "/500";
+								freeSearchHelpText.innerHTML = 'Nå gjør du et frisøk. Du kan stille et spørsmål, forklare en situasjon eller beskrive hva du leter etter.'
+								searchInput.classList.add("frisok-icon")
+							} else {
+								if (blankSpaceCount === 0) {
+									bottomInfo.style.display = "none"
+								} else {
+									bottomInfo.style.display = "flex"
+									wordCounter.innerHTML = blankSpaceCount + "/5";
+									freeSearchHelpText.innerHTML = 'Bruk mer enn fem søkeord for å gjøre et frisøk.'
+								}
+
+								searchInput.classList.remove("expanded");
+								searchInput.classList.remove("frisok-icon")
+
+								form.setAttribute("action", "/sok"); // Set the form action back to "/sok"
+								form.setAttribute("method", "GET");
+							}
+						});
+
+						const updateHeightOfSearchBox = () => {
+							var expandedSearchField = 0
+							searchInput.style.height = 'auto';
+							const newHeightOfInput = expandedSearchField + searchInput.scrollHeight;
+							searchInput.style.height = newHeightOfInput + 'px';
+						};
+						searchInput.addEventListener('input', updateHeightOfSearchBox);
+					});
+				</script>
+
+				<div class="search">
+					<label class="sr-only" for="globSearch">Søketekst</label>
+					<span class="search-box-container">
+						<div class="search-box-container-absolute">
+							<textarea class="search-input" type="text" id="globSearch" name="q"
+							
+							placeholder="Søk med opp til fem søkeord eller skriv lengre for å gjøre et frisøk"></textarea>
+							<div class="search-bottom-info" id="search-bottom-info">
+								<div class="freesearch-help-text" id="freesearch-help-text"></div>
+								<div class="word-counter" id="word-counter" title="Dersom du bruker mer enn fem søkeord vil du utføre et frisøk"></div>
+							</div>
+						</div>
+					</span>
+					<input type="submit" class="submit" value="Søk">
+					<div class="close-mobile-search">Avbryt</div>
+				</div>
+			</form>
+		</div>
+		<a class="pro-login" href="/pro&#x2f;SF&#x2f;forskrift&#x2f;2026-03-23-465" title="Logg inn"><span>Logg inn</span><i class="ss-icon ss-symbolicons-block">&#x1F512;</i></a>
+	</div>
+</header>
+	<nav aria-labelledby="menuHeader">
+		<h1 class="sr-only" id="menuHeader">Hovedmeny</h1>
+		<!-- Menu content -->
+		<div class="leftPanel">
+		<div class="left-menu" aria-hidden="true">
+			<div class="menu-item-container hidden">
+				<ul class="top-level-menu">
+					<li class="resIcon top-level">
+						<div class="gmi-container leftIcon">
+							<button class="gliding-menu-item menuTgl" aria-expanded="false">Rettskilder</button>
+						</div>
+						<ul class="second-level-menu hiddenSubMenu" aria-hidden="true">
+							<li class="lovIcon second-level-icon resources">
+								<div class="gmi-container leftIcon">
+									<a class="gliding-menu-item" href="/register/lover">Lover</a>
+								</div>
+							</li>
+							<li class="sntForIcon second-level-icon resources">
+								<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="/register/forskrifter">Sentrale forskrifter mv.</a></div>
+							</li>
+							<li class="lokForIcon second-level-icon resources">
+								<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="/register/lokaleForskrifter">Lokale forskrifter</a></div>
+							</li>
+							<li class="ltIcon second-level-icon resources">
+								<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="/register/lovtidend">Norsk Lovtidend</a></div>
+							</li>
+							<li class="storVedIcon second-level-icon resources">
+								<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="/register/stortingsvedtak">Stortingsvedtak</a></div>
+							</li>
+							<li class="eosIcon second-level-icon resources">
+								<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="/register/eosAvtalen">EØS-avtalen</a></div>
+							</li>
+							<li class="traIcon second-level-icon resources">
+								<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="/register/traktater">Norges traktater</a></div>
+							</li>
+							<li class="decIcon second-level-icon resources">
+								<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="/register/avgjørelser">Rettsavgjørelser</a></div>
+							</li>
+							<li class="trrIcon second-level-icon resources">
+								<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="/register/trygderetten">Trygderettssaker</a></div>
+							</li>
+							<li class="tarIcon second-level-icon resources">
+								<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="/register/tariffavtaler">Tariffavtaler</a></div>
+							</li>
+							<li class="htuIcon second-level-icon resources">
+								<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="/register/husleietvistutvalget">Husleietvistutvalget</a></div>
+							</li>
+							<li class="sphIcon second-level-icon resources">
+								<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="/sph">Statens Personalhåndbok</a></div>
+							</li>
+							<li class="lovIcon second-level-icon resources">
+								<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="/register/loverEngelsk">Translated acts</a></div>
+							</li>
+							<li class="sntForIcon second-level-icon resources">
+								<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="/register/forskrifterEngelsk">Translated regulations</a></div>
+							</li>
+							<li class="decIcon second-level-icon resources">
+								<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="/register/avgjørelserEngelsk">Translated decisions</a></div>
+							</li>
+						</ul>
+					</li>
+					<li class="servIcon top-level">
+						<div class="gmi-container leftIcon">
+							<button class="gliding-menu-item menuTgl">Tjenester</button>
+						</div>
+						<ul class="second-level-menu hiddenSubMenu" aria-hidden="true">
+							<li class="proIcon second-level-icon">
+								<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="https://pro.lovdata.no">Lovdata Pro</a></div>
+							</li>
+							<li class="extLink">
+								<div class="gmi-container">
+									<a class="gliding-menu-item" href="https://www.europalov.no">Europalov.no</a>
+								</div>
+							</li>
+							<li class="extLink">
+								<div class="gmi-container">
+									<a class="gliding-menu-item" href="/info/api">API</a>
+								</div>
+							</li>
+							<li class="extLink">
+								<div class="gmi-container">
+									<a class="gliding-menu-item" href="/info/rss">RSS-feed</a>
+								</div>
+							</li>
+							<li class="extLink">
+								<div class="gmi-container">
+									<a class="gliding-menu-item" href="/eli">ELI (beta)</a>
+								</div>
+							</li>
+							<li class="extLink">
+								<div class="gmi-container">
+									<a class="gliding-menu-item" href="/publikasjoner">E-publikasjoner</a>
+								</div>
+							</li>
+							<li class="extLink">
+								<div class="gmi-container">
+									<a class="gliding-menu-item" href="/tjenester/tidsskrift">Tidsskrifter</a>
+								</div>
+							</li>
+							<li class="extLink">
+								<div class="gmi-container">
+									<a class="gliding-menu-item" href="https://hjelp.lovdata.no/article/170-sokeoppdrag-og-utskrifter">Søkeoppdrag</a>
+								</div>
+							</li>
+							<li class="extLink">
+								<div class="gmi-container">
+									<a class="gliding-menu-item" href="http://hjelp.lovdata.no/article/97-kursinformasjon">Kurs</a>
+								</div>
+							</li>
+							<li class="extLink">
+								<div class="gmi-container">
+									<a class="gliding-menu-item" href="/info/eksamen">Eksamen</a>
+								</div>
+							</li>
+							<li class="extLink">
+								<div class="gmi-container">
+									<a class="gliding-menu-item" href="/info/landslov">Landsloven</a>
+								</div>
+							</li>
+							<li class="extLink">
+								<div class="gmi-container">
+									<a class="gliding-menu-item" href="/info/22juli">22. juli-saken</a>
+								</div>
+							</li>
+							<li class="extLink">
+								<div class="gmi-container">
+									<a class="gliding-menu-item" href="/advokater">Advokatoversikt</a>
+								</div>
+							</li>
+							<li class="extLink">
+								<div class="gmi-container">
+									<a class="gliding-menu-item" href="/info/lenker">Lenker</a>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li class="infIcon top-level">
+						<div class="gmi-container leftIcon">
+							<button class="gliding-menu-item menuTgl">Om Lovdata</button>
+						</div>
+						<ul class="second-level-menu hiddenSubMenu" aria-hidden="true">
+							<li class="extLink">
+								<div class="gmi-container"><a class="gliding-menu-item" href="/info/om_lovdata">Generell informasjon</a></div>
+							</li>
+							<li>
+								<div class="gmi-container"><a class="gliding-menu-item" href="/info/brukeravtale">Brukeravtale</a></div>
+							</li>
+							<li class="extLink">
+								<div class="gmi-container"><a class="gliding-menu-item" href="/info/redaktoransvar">Redaktøransvar</a></div>
+							</li>
+							<li class="extLink">
+								<div class="gmi-container"><a class="gliding-menu-item" href="/info/kontakt">Kontakt oss</a></div>
+							</li>
+							<li class="extLink">
+								<div class="gmi-container"><a class="gliding-menu-item" href="/info/milopolicy">Miljøpolicy</a></div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+
+				<ul class="top-level-menu">
+					<li class="menuItm grlIcon top-level btmIcon">
+						<div class="gmi-container leftIcon"><a class="gliding-menu-item grl" href="https://grunnloven.lovdata.no">Grunnloven</a></div>
+					</li>
+					<li class="menuItm cookIcon top-level btmIcon">
+						<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="/info/personvern">Personvern</a></div>
+					</li>
+					<li class="menuItm linkedinIcon top-level btmIcon">
+						<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="https://www.linkedin.com/company/lovdata/">Linkedin</a></div>
+					</li>
+					<li class="menuItm twitIcon top-level btmIcon">
+						<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="https://www.twitter.com/lovdata">Twitter</a></div>
+					</li>
+					<li class="menuItm faceIcon top-level btmIcon">
+						<div class="gmi-container leftIcon"><a class="gliding-menu-item" href="https://www.facebook.com/lovdata">Facebook</a></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		</div>
+	</nav>
+
+<main id="main-content" class="docMain">
+
+
+	<script type="text/javascript">
+		var documentURL = "/dokument/SF/forskrift/2026-03-23-465";
+	</script>
+
+	<section aria-labelledby="toolHeader">
+		<h1 class="sr-only" id="toolHeader">Verktøylinje</h1>
+		<div class="fixed-header">
+			<div class="dropdown-wrap">
+				<div class="bgcDoc">
+					<p aria-hidden="true">Forskrift om radioamatørvirksomhet</p>
+				</div>
+			</div>
+			<a class="open-meta-list open-meta-list-dropdown"><i class="ss-icon  ss-symbolicons-block">&#xEE00;</i></a>
+			<ul class="meta-list">
+						<li class="innholdsfortegnelse-parent-li">
+							<a role="button" tabindex="0" class="innholdsfortegnelse-parent " data-placement="bottom" title="Innholdsfortegnelse" aria-expanded="false"><i aria-hidden="true" class="ss-icon ss-symbolicons-block">&#xED50;</i><span class="text">Innholdsfortegnelse</span><i aria-hidden="true" class="ss-icon ss-standard navigatedown">&#xF501;</i><i aria-hidden="true" class="ss-icon ss-standard navigateup">&#xF500;</i></a>
+						</li>
+				<li>
+					<a role="button" aria-label="Skriv ut" href="javascript:print()" class="tooltip-parent" data-toggle="tooltip" data-placement="bottom" title="Skriv ut"><i aria-hidden="true" class="ss-icon ss-symbolicons-block">&#x2399;</i></a>
+				</li>
+						<li>
+							<a role="button" tabindex="0" aria-label="Del dokument" class="tooltip-parent share-dokument" data-toggle="tooltip" data-placement="bottom" title="Del dokument" data-id="https://lovdata.no/forskrift/2026-03-23-465"><i aria-hidden="true" class="ss-icon  ss-symbolicons-block">&#xF601;</i></a>
+						</li>
+			</ul>
+			<ul class="meta-list-dropdown">
+				<li class="mobile-only"><a><i class="ss-icon ss-symbolicons-block">&#x2399;</i>Skriv ut</a></li>
+						<li><a tabindex="0" role="button" class="share-dokument" data-id="https://lovdata.no/forskrift/2026-03-23-465"><i aria-hidden="true" class="ss-icon  ss-symbolicons-block">&#xF601;</i>Del dokument</a></li>
+			</ul>
+		</div>
+
+				<div class="innholdsfortegnelse-child " aria-hidden="true">
+					<p class="instruction sr-only" tabindex="-1">Trykk Escape for å lukke innholdsfortegnelse</p>
+					<div class="search-in-innholdsfortegnelse">
+						<label for="innhSearch">Søk i innholdsfortegnelse <span class="sr-only">(listen oppdateres idet du skriver)</span></label>
+						<input type="text" class="form-control" placeholder="Skriv søketekst her ..." id="innhSearch">
+					</div>
+					<div class="scroll">
+						<ul class="document-index" id="innhdocview document-index">
+							<li class="document-index-item"><a href="/dokument/SF/forskrift/2026-03-23-465">Forskrift om radioamatørvirksomhet</a>
+								<ul class="document-index listing" id="innhdocview document-index">
+						</li>
+						<li class="document-index-item">
+							<a href="/dokument/SF/forskrift/2026-03-23-465/%C2%A71#%C2%A71" data-target="%C2%A71">§ 1. Formål </a>
+						</li>
+						<li class="document-index-item">
+							<a href="/dokument/SF/forskrift/2026-03-23-465/%C2%A72#%C2%A72" data-target="%C2%A72">§ 2. Stedlig virkeområde </a>
+						</li>
+						<li class="document-index-item">
+							<a href="/dokument/SF/forskrift/2026-03-23-465/%C2%A73#%C2%A73" data-target="%C2%A73">§ 3. Definisjoner og forkortelser </a>
+						</li>
+						<li class="document-index-item">
+							<a href="/dokument/SF/forskrift/2026-03-23-465/%C2%A74#%C2%A74" data-target="%C2%A74">§ 4. Radioamatørlisens og kallesignal </a>
+						</li>
+						<li class="document-index-item">
+							<a href="/dokument/SF/forskrift/2026-03-23-465/%C2%A75#%C2%A75" data-target="%C2%A75">§ 5. Frekvenser til radioamatørvirksomhet – begrenset lisens </a>
+						</li>
+						<li class="document-index-item">
+							<a href="/dokument/SF/forskrift/2026-03-23-465/%C2%A75a#%C2%A75a" data-target="%C2%A75a">§ 5a. Frekvenser til radioamatørvirksomhet – full lisens </a>
+						</li>
+						<li class="document-index-item">
+							<a href="/dokument/SF/forskrift/2026-03-23-465/%C2%A76#%C2%A76" data-target="%C2%A76">§ 6. Unntak fra krav om radioamatørlisens </a>
+						</li>
+						<li class="document-index-item">
+							<a href="/dokument/SF/forskrift/2026-03-23-465/%C2%A77#%C2%A77" data-target="%C2%A77">§ 7. Krav til sendinger </a>
+						</li>
+						<li class="document-index-item">
+							<a href="/dokument/SF/forskrift/2026-03-23-465/%C2%A78#%C2%A78" data-target="%C2%A78">§ 8. Kryptering </a>
+						</li>
+						<li class="document-index-item">
+							<a href="/dokument/SF/forskrift/2026-03-23-465/%C2%A79#%C2%A79" data-target="%C2%A79">§ 9. Krav til utstyr </a>
+						</li>
+						<li class="document-index-item">
+							<a href="/dokument/SF/forskrift/2026-03-23-465/%C2%A710#%C2%A710" data-target="%C2%A710">§ 10. Reaksjoner </a>
+						</li>
+						<li class="document-index-item">
+							<a href="/dokument/SF/forskrift/2026-03-23-465/%C2%A711#%C2%A711" data-target="%C2%A711">§ 11. Gebyr </a>
+						</li>
+						<li class="document-index-item">
+							<a href="/dokument/SF/forskrift/2026-03-23-465/%C2%A712#%C2%A712" data-target="%C2%A712">§ 12. Ikrafttredelse </a>
+
+						</li>
+						</ul>
+
+						<div class="empty">Ditt søk ga dessverre ingen treff.</div>
+					</div>
+
+				</div>
+	</section>
+
+
+	<div class="outer-main-content ">
+		<div class="lt-inner-main-content main-content" > 
+			<div class="header inner-max-width">
+				<p class="hjemmel small gray"></p>
+			</div>
+
+			<div id="map" class="map"></div>
+
+<div id="maincolOneColumn"><div id="lovdataDocument" class=" commentWidget desktop"><div class="lt-ajour-varsel"><a class="reference btn btn-default" href="/LTI/forskrift/2026-03-23-465">➦ Gå til opprinnelig kunngjort versjon</a></div><div class=" metaWrapper" id="documentMeta"><table style="width:100%" class="metaTitle"><tr><td class="metaTitleEmblem mediumIcons lightgray"></td><td class="metaTitleText"><h1>Forskrift om radioamatørvirksomhet</h1></td></tr></table><table class=" meta" style="width:100%"><tbody><tr class="odd"><th class=" metafieldLabel">Dato</th><td class=" metavalue morTableAlignLeft morTableVerticalAlignTop" id="metaField_dato">FOR-2026-03-23-465</td></tr><tr class="even"><th class=" metafieldLabel">Departement</th><td class=" metavalue morTableAlignLeft morTableVerticalAlignTop" id="metaField_departement">Digitaliserings- og forvaltningsdepartementet</td></tr><tr class="odd"><th class=" metafieldLabel">Ikrafttredelse</th><td class=" metavalue morTableAlignLeft morTableVerticalAlignTop" id="metaField_ikraft">23.03.2026</td></tr><tr class="even"><th class=" metafieldLabel">Endrer</th><td class=" metavalue morTableAlignLeft morTableVerticalAlignTop" id="metaField_endrer"><a data-id="forskrift/2009-11-05-1340" class=" reference" href="/forskrift/2009-11-05-1340">FOR-2009-11-05-1340</a></td></tr><tr class="odd"><th class=" metafieldLabel">Hjemmel</th><td class=" metavalue morTableAlignLeft morTableVerticalAlignTop" id="metaField_hjemmel"><a data-id="lov/2024-12-13-76/§11-2" class=" reference" href="/lov/2024-12-13-76/%C2%A711-2">LOV-2024-12-13-76-§11-2</a>, <a data-id="lov/2024-12-13-76/§13-1" class=" reference" href="/lov/2024-12-13-76/%C2%A713-1">LOV-2024-12-13-76-§13-1</a>, <a data-id="forskrift/2024-12-20-3413" class=" reference" href="/forskrift/2024-12-20-3413">FOR-2024-12-20-3413</a></td></tr><tr class="even"><th class=" metafieldLabel">Kunngjort</th><td class=" metavalue morTableAlignLeft morTableVerticalAlignTop" id="metaField_kunngjort">25.03.2026   kl. 14.25</td></tr></tbody></table></div><div class="metaBottom"></div><hr class="red"/><div id="documentBody"><p data-uid="0" class="morTag_mf small no-text-indent marg"><strong class=" ">Hjemmel:</strong> Fastsatt av Nasjonal kommunikasjonsmyndighet 23. mars 2026 med hjemmel i <a data-id="lov/2024-12-13-76/§11-2" class=" reference" href="/lov/2024-12-13-76/%C2%A711-2">lov 13. desember 2024 nr. 76 om elektronisk kommunikasjon (ekomloven) § 11-2</a>, jf. <a data-id="lov/2024-12-13-76/§13-1" class=" reference" href="/lov/2024-12-13-76/%C2%A713-1">§ 13-1</a>, jf. <a data-id="forskrift/2024-12-20-3413" class=" reference" href="/forskrift/2024-12-20-3413">forskrift 20. desember 2024 nr. 3413 om delegering av myndighet etter lov om elektronisk kommunikasjon (ekomloven)</a>.</p><a class="documentPart_scrollMargin" name="§1"></a><a name="PARAGRAF_1"></a><div data-id="PARAGRAF_1" class="morTag_p paragraf" id="PARAGRAF_1"><h2 class="paragrafHeader"><span class=" paragrafhode "><span class=" paragrafValue ">§ 1.</span><span class=" paragrafTittel "><em class=" ">Formål</em></span></span></h2><p data-uid="0" class="morTag_a avsnitt">Forskriftens formål er å regulere bruk av frekvenser og radioamatørstasjoner til radioamatørvirksomhet.</p><a class="share-paragraf" href="#shareModal" data-toggle="modal" data-target="#shareModal" data-id="https://lovdata.no/forskrift/2026-03-23-465/§1" role="button"><i class="ss-standard ss-icon ss-icon ss-symbolicons-block link">&#x1F517;</i><span class="share-paragraf-title">Del paragraf</span></a></div><a class="documentPart_scrollMargin" name="§2"></a><a name="PARAGRAF_2"></a><div data-id="PARAGRAF_2" class="morTag_p paragraf" id="PARAGRAF_2"><h2 class="paragrafHeader"><span class=" paragrafhode "><span class=" paragrafValue ">§ 2.</span><span class=" paragrafTittel "><em class=" ">Stedlig virkeområde</em></span></span></h2><p data-uid="0" class="morTag_a avsnitt">Forskriften gjelder ikke frekvensområdet 2 GHz–32 GHz i det geografiske området innenfor en radius av 20 km fra Ny-Ålesund sentrum.</p><a class="share-paragraf" href="#shareModal" data-toggle="modal" data-target="#shareModal" data-id="https://lovdata.no/forskrift/2026-03-23-465/§2" role="button"><i class="ss-standard ss-icon ss-icon ss-symbolicons-block link">&#x1F517;</i><span class="share-paragraf-title">Del paragraf</span></a></div><a class="documentPart_scrollMargin" name="§3"></a><a name="PARAGRAF_3"></a><div data-id="PARAGRAF_3" class="morTag_p paragraf" id="PARAGRAF_3"><h2 class="paragrafHeader"><span class=" paragrafhode "><span class=" paragrafValue ">§ 3.</span><span class=" paragrafTittel "><em class=" ">Definisjoner og forkortelser</em></span></span></h2><table data-level="1" class="morTag_n leftMargin_1 listeItem avsnitt no-text-indent" style="width:100%"><tr><td data-level="1" class="morTag_n leftMargin_1 listeitemNummer morTableVerticalAlignTop morTableAlignRight morTableWidthPercent5">a.</td><td class=" morTableVerticalAlignTop morTableAlignLeft"><em class=" ">radioamatør:</em> Fysisk person som er innehaver av gyldig radioamatørlisens.</td></tr></table><table data-level="1" class="morTag_n leftMargin_1 listeItem avsnitt no-text-indent" style="width:100%"><tr><td data-level="1" class="morTag_n leftMargin_1 listeitemNummer morTableVerticalAlignTop morTableAlignRight morTableWidthPercent5">b.</td><td class=" morTableVerticalAlignTop morTableAlignLeft"><em class=" ">radioamatørvirksomhet:</em> Radiokommunikasjon som utøves uten økonomisk vinning av radioamatør ved bruk av radioamatørstasjon og frekvenser som angitt i <a data-id="forskrift/2026-03-23-465/§5" class=" reference" href="/forskrift/2026-03-23-465/%C2%A75">§§ 5</a> og <a data-id="forskrift/2026-03-23-465/§5a" class=" reference" href="/forskrift/2026-03-23-465/%C2%A75a">5a</a> i forbindelse med egentrening, konkurranser, tekniske undersøkelser, krise- og redningssamband eller lignende formål.</td></tr></table><table data-level="1" class="morTag_n leftMargin_1 listeItem avsnitt no-text-indent" style="width:100%"><tr><td data-level="1" class="morTag_n leftMargin_1 listeitemNummer morTableVerticalAlignTop morTableAlignRight morTableWidthPercent5">c.</td><td class=" morTableVerticalAlignTop morTableAlignLeft"><em class=" ">radioamatørstasjon:</em> Radioutstyr til bruk for radioamatørvirksomhet.</td></tr></table><table data-level="1" class="morTag_n leftMargin_1 listeItem avsnitt no-text-indent" style="width:100%"><tr><td data-level="1" class="morTag_n leftMargin_1 listeitemNummer morTableVerticalAlignTop morTableAlignRight morTableWidthPercent5">d.</td><td class=" morTableVerticalAlignTop morTableAlignLeft"><em class=" ">radioamatørlisens:</em> Tillatelse gitt til fysisk person etter bestått prøve som er godkjent av Nkom.</td></tr></table><table data-level="1" class="morTag_n leftMargin_1 listeItem avsnitt no-text-indent" style="width:100%"><tr><td data-level="1" class="morTag_n leftMargin_1 listeitemNummer morTableVerticalAlignTop morTableAlignRight morTableWidthPercent5">e.</td><td class=" morTableVerticalAlignTop morTableAlignLeft"><em class=" ">kallesignal:</em> Nummerressurs til identifikasjon ved radioamatørvirksomhet.</td></tr></table><table data-level="1" class="morTag_n leftMargin_1 listeItem avsnitt no-text-indent" style="width:100%"><tr><td data-level="1" class="morTag_n leftMargin_1 listeitemNummer morTableVerticalAlignTop morTableAlignRight morTableWidthPercent5">f.</td><td class=" morTableVerticalAlignTop morTableAlignLeft"><em class=" ">Earth-Moon-Earth (EME):</em> Bruk av månen som reflektor for radiosignaler.</td></tr></table><table data-level="1" class="morTag_n leftMargin_1 listeItem avsnitt no-text-indent" style="width:100%"><tr><td data-level="1" class="morTag_n leftMargin_1 listeitemNummer morTableVerticalAlignTop morTableAlignRight morTableWidthPercent5">g.</td><td class=" morTableVerticalAlignTop morTableAlignLeft"><em class=" ">Meteor Scatter (MS):</em> Bruk av ionisering fra meteorer som treffer jordens atmosfære som reflektor for radiosignaler.</td></tr></table><table data-level="1" class="morTag_n leftMargin_1 listeItem avsnitt no-text-indent" style="width:100%"><tr><td data-level="1" class="morTag_n leftMargin_1 listeitemNummer morTableVerticalAlignTop morTableAlignRight morTableWidthPercent5">h.</td><td class=" morTableVerticalAlignTop morTableAlignLeft"><em class=" ">ekvivalent isotropisk utstrålt effekt (e.i.r.p.):</em> Produktet av den effekt som sendes til antennen og antenneforsterkningen i en gitt retning relativ til en isotropisk antenne (absolutt eller isotropisk forsterkning).</td></tr></table><table data-level="1" class="morTag_n leftMargin_1 listeItem avsnitt no-text-indent" style="width:100%"><tr><td data-level="1" class="morTag_n leftMargin_1 listeitemNummer morTableVerticalAlignTop morTableAlignRight morTableWidthPercent5">i.</td><td class=" morTableVerticalAlignTop morTableAlignLeft"><em class=" ">utgangseffekt fra sender:</em> Den maksimale gjennomsnittsverdien av omhyllingskurven til det modulerte radiosignalet målt over en periode av radiosignalet (PEP), målt der antennen er tilkoblet senderens siste trinn.</td></tr></table><a class="share-paragraf" href="#shareModal" data-toggle="modal" data-target="#shareModal" data-id="https://lovdata.no/forskrift/2026-03-23-465/§3" role="button"><i class="ss-standard ss-icon ss-icon ss-symbolicons-block link">&#x1F517;</i><span class="share-paragraf-title">Del paragraf</span></a></div><a class="documentPart_scrollMargin" name="§4"></a><a name="PARAGRAF_4"></a><div data-id="PARAGRAF_4" class="morTag_p paragraf" id="PARAGRAF_4"><h2 class="paragrafHeader"><span class=" paragrafhode "><span class=" paragrafValue ">§ 4.</span><span class=" paragrafTittel "><em class=" ">Radioamatørlisens og kallesignal</em></span></span></h2><p data-uid="0" class="morTag_a avsnitt">Radioamatørlisens har to lisensklasser</p><table data-level="1" class="morTag_n leftMargin_1 listeItem avsnitt no-text-indent" style="width:100%"><tr><td data-level="1" class="morTag_n leftMargin_1 listeitemNummer morTableVerticalAlignTop morTableAlignRight morTableWidthPercent5">•</td><td class=" morTableVerticalAlignTop morTableAlignLeft">Full lisens (HAREC klasse A)</td></tr></table><table data-level="1" class="morTag_n leftMargin_1 listeItem avsnitt no-text-indent" style="width:100%"><tr><td data-level="1" class="morTag_n leftMargin_1 listeitemNummer morTableVerticalAlignTop morTableAlignRight morTableWidthPercent5">•</td><td class=" morTableVerticalAlignTop morTableAlignLeft">Begrenset lisens (kun gyldig i Norge).</td></tr></table><p data-uid="0" class="morTag_a avsnitt">Nkom tildeler radioamatørlisens og kallesignal etter bestått prøve. For tildeling av kallesignal gjelder <a data-id="forskrift/2004-02-16-426/§35b" class=" reference" href="/forskrift/2004-02-16-426/%C2%A735b">forskrift av 16. februar 2004 nr. 426 (nummerforskriften) § 35b</a>. Det tildeles kallesignal som identifiserer lisensklasse fastsatt av Nkom.</p><p data-uid="0" class="morTag_a avsnitt">Ved bruk av radioamatørstasjon på norsk hovedland benyttes prefix i serien LA-LN, på Svalbard og Bjørnøya prefiks JW, på Jan Mayen prefiks JX og på Bouvetøya, Peter I’s Øy og norske landområder i Antarktis prefiks 3Y.</p><p data-uid="0" class="morTag_a avsnitt">Radioamatører som har et norsk kallesignal som ikke begynner med LA benytter et av de aktuelle prefiksene (JW, JX eller 3Y) foran sitt norske kallesignal, for eksempel JW/LB1XX.</p><p data-uid="0" class="morTag_a avsnitt">For gjennomføring av prøve for radioamatørlisens gjelder til enhver tid gjeldene retningslinjer, herunder krav til pensum, fastsatt av Nkom.</p><p data-uid="0" class="morTag_a avsnitt">Grupper, klubber, skoler, foreninger, radiofyr og reléstasjoner kan tildeles eget kallesignal etter retningslinjer fastsatt av Nkom.</p><a class="share-paragraf" href="#shareModal" data-toggle="modal" data-target="#shareModal" data-id="https://lovdata.no/forskrift/2026-03-23-465/§4" role="button"><i class="ss-standard ss-icon ss-icon ss-symbolicons-block link">&#x1F517;</i><span class="share-paragraf-title">Del paragraf</span></a></div><a class="documentPart_scrollMargin" name="§5"></a><a name="PARAGRAF_5"></a><div data-id="PARAGRAF_5" class="morTag_p paragraf" id="PARAGRAF_5"><h2 class="paragrafHeader"><span class=" paragrafhode "><span class=" paragrafValue ">§ 5.</span><span class=" paragrafTittel "><em class=" ">Frekvenser til radioamatørvirksomhet – begrenset lisens</em></span></span></h2><p data-uid="0" class="morTag_a avsnitt">Frekvenser med vilkår som angitt i tabell nedenfor tillates brukt til radioamatørvirksomhet for radioamatør med begrenset lisens.</p><div class="lovdataDocumentTable  margin_1 border_1  body_margin_1 body_border_1 font_  tabell"><table class="lovdataDocumentTable  margin_1 border_1  body_margin_1 body_border_1 font_  morTableWidthPercent97"><colgroup><col class="morTableWidthPercent11" span="1"/><col class="morTableWidthPercent5" span="1"/><col class="morTableWidthPercent10" span="1"/><col class="morTableWidthPercent13" span="1"/><col class="morTableWidthPercent11" span="1"/><col class="morTableWidthPercent28" span="1"/></colgroup><thead><tr><th colspan="2" class=" complexTable morTableVerticalAlignTop morTableAlignLeft"><em class=" ">Frekvensbånd</em></th><th class="  morTableVerticalAlignTop morTableAlignLeft"><em class=" ">Status</em></th><th class="  morTableVerticalAlignTop morTableAlignLeft"><em class=" ">Tillatt maksimal utgangseffekt fra sender (watt)</em></th><th class="  morTableVerticalAlignTop morTableAlignLeft"><em class=" ">Tillatt maksimal båndbredde</em></th><th class="  morTableVerticalAlignTop morTableAlignLeft"><em class=" ">Spesielle vilkår</em></th></tr></thead><tbody><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">3500–3800</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">10</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">6 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">7000–7200</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">10</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">6 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">14000–14350</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">10</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">6 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">18068–18168</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">10</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">6 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">21000–21450</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">10</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">6 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">28000–29700</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">10</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">18 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">50–52</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">10</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">18 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">144–146</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">10</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">18 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">432–438</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">10</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">30 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Båndbredde 200 kHz er tillatt i frekvensområdet 433,6–434,0 MHz</td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">2300–2450</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">5</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">20 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">10,25–10,50</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">GHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">50 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr></tbody></table></div><p data-uid="0" class="morTag_a avsnitt">Radiotjenester med primær status har samme rettigheter i samme frekvensbånd. Radiotjenester med sekundær status skal ikke forstyrre radiotjenester med primær status og må akseptere forstyrrelser fra slike.</p><a class="share-paragraf" href="#shareModal" data-toggle="modal" data-target="#shareModal" data-id="https://lovdata.no/forskrift/2026-03-23-465/§5" role="button"><i class="ss-standard ss-icon ss-icon ss-symbolicons-block link">&#x1F517;</i><span class="share-paragraf-title">Del paragraf</span></a></div><a class="documentPart_scrollMargin" name="§5a"></a><a name="PARAGRAF_5a"></a><div data-id="PARAGRAF_5a" class="morTag_p paragraf" id="PARAGRAF_5a"><h2 class="paragrafHeader"><span class=" paragrafhode "><span class=" paragrafValue ">§ 5a.</span><span class=" paragrafTittel "><em class=" ">Frekvenser til radioamatørvirksomhet – full lisens</em></span></span></h2><p data-uid="0" class="morTag_a avsnitt">Frekvenser med vilkår som angitt i tabell nedenfor tillates brukt til radioamatørvirksomhet for radioamatør med full lisens (A).</p><div class="lovdataDocumentTable  margin_1 border_1  body_margin_1 body_border_1 font_  tabell"><table class="lovdataDocumentTable  margin_1 border_1  body_margin_1 body_border_1 font_  morTableWidthPercent96"><colgroup><col class="morTableWidthPercent8" span="1"/><col class="morTableWidthPercent4" span="1"/><col class="morTableWidthPercent9" span="1"/><col class="morTableWidthPercent12" span="1"/><col class="morTableWidthPercent11" span="1"/><col class="morTableWidthPercent33" span="1"/></colgroup><thead><tr><th colspan="2" class=" complexTable morTableVerticalAlignTop morTableAlignLeft"><em class=" ">Frekvensbånd</em></th><th class="  morTableVerticalAlignTop morTableAlignLeft"><em class=" ">Status</em></th><th class="  morTableVerticalAlignTop morTableAlignLeft"><em class=" ">Tillatt maksimal utgangseffekt fra sender (watt)</em></th><th class="  morTableVerticalAlignTop morTableAlignLeft"><em class=" ">Tillatt maksimal båndbredde</em></th><th class="  morTableVerticalAlignTop morTableAlignLeft"><em class=" ">Spesielle vilkår</em></th></tr></thead><tbody><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">135,7–137,8</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">200</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Maksimal tillatt utstrålt effekt er 1 W e.i.r.p.</td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">472–479</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">100</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Maksimal tillatt utstrålt effekt er 1 W e.i.r.p.</td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1810–1850</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1000</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">6 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1850–2000</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">10</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">6 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Gjennomsnittlig sendeeffekt skal ikke overstige 10 W, uavhengig av modulasjonstype.</td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">3500–3800</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1000</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">6 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">5260–5410</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">100</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">6 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">7000–7200</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1000</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">6 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">10100–10150</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1000</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">14000–14350</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1000</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">6 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">18068–18168</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1000</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">6 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">21000–21450</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1000</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">6 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">24740–24890</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1000</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">6 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">24890–24990</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1000</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">6 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">28000–29700</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1000</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">18 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">50–52</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1000</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">18 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">69,9–70,5</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">100</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">18 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1000 W tillates brukt til EME og MS forutsatt bruk av retningsantenne og logging av tid, asimut og elevasjon ved sending.</td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">144–146</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">300</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">18 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1000 W tillates brukt til EME og MS forutsatt bruk av retningsantenne og logging av tid, asimut og elevasjon ved sending.</td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">432–438</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">300</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">30 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1000 W tillates brukt til EME og MS forutsatt bruk av retningsantenne og logging av tid, asimut og elevasjon ved sending.<br/>Båndbredde 200 kHz er tillatt i frekvensområdet 433,6–434,0 MHz</td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1240–1300</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">300</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">20 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Allokeringen gjelder til og med 31. desember 2027. Fra 1. januar 2028 kan kun allokeringene nedenfor benyttes.<br/>1000 W tillates brukt til EME og MS forutsatt bruk av retningsantenne og logging av tid, asimut og elevasjon ved sending.</td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1240–1258</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">300</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">18 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1258–1296</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">0,02</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">150 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Målt som utstrålt effekt e.i.r.p.<br/>Kommunikasjon mot satellitt er tillatt i frekvensområdet 1260-1270 MHz.<br/>For kommunikasjon mot satellitt i frekvensområdet 1260 til 1262 MHz er tillatt utstrålt effekt avhengig av elevasjonsvinkel (Ɵ) over horisonten:<br/>0° &lt; Ɵ &lt; 15°: 0,5 W e.i.r.p.<br/>15° ≤ Ɵ &lt; 55°: 50 W e.i.r.p.<br/>55° ≤ Ɵ &lt; 90°: 478 W e.i.r.p.<br/>I frekvensområdet 1258–1300 MHz og med en båndbredde større enn 150 kHz, inkludert amatør TV (ATV), er maksimal tillatt utstrålt effekt 0,02 W/1 MHz e.i.r.p.</td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1296–1298</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">50</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">150 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">I frekvensområdet 1258–1300 MHz og med en båndbredde større enn150 kHz, inkludert amatør-TV (ATV), er maksimal tillatt utstrålt effekt 0,02 W/1 MHz e.i.r.p.</td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">1298–1300</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">158</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">150 kHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">For EME tillates sendereffekt på 500 W forutsatt bruk av retningsbestemt antenne med minimum 30 dBi forsterkning og minimum elevasjonsvinkel 15° over horisonten.<br/>I frekvensområdet 1258–1300 MHz og med en båndbredde større enn 150 kHz, inkludert amatør TV (ATV), er maksimal tillatt utstrålt effekt 0,02 W/1 MHz e.i.r.p.</td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">2300–2450</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">100</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">20 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">3400–3410</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">100</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">7 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">5650–5850</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">100</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">20 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">10,25–10,50</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">GHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">100</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">50 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">24,0–24,05</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">GHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">100</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">50 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">24,05–24,25</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">GHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">100</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">50 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">47,0–47,2</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">GHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">100</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">50 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">76,0–77,5</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">GHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">100</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">50 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">77,5–78</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">GHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">100</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">50 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">78–81</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">GHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">100</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">50 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">122,25–123</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">GHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">100</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">50 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">134–136</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">GHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">100</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">50 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">136–141</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">GHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">100</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">50 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">241–248</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">GHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Sekundær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">100</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">50 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr><tr><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">248–250</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">GHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">Primær</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">100</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft">50 MHz</td><td class=" complexTable morTableVerticalAlignTop morTableAlignLeft"></td></tr></tbody></table></div><p data-uid="0" class="morTag_a avsnitt">Radiotjenester med primær status har samme rettigheter i samme frekvensbånd. Radiotjenester med sekundær status skal ikke forstyrre radiotjenester med primær status og må akseptere forstyrrelser fra slike.</p><a class="share-paragraf" href="#shareModal" data-toggle="modal" data-target="#shareModal" data-id="https://lovdata.no/forskrift/2026-03-23-465/§5a" role="button"><i class="ss-standard ss-icon ss-icon ss-symbolicons-block link">&#x1F517;</i><span class="share-paragraf-title">Del paragraf</span></a></div><a class="documentPart_scrollMargin" name="§6"></a><a name="PARAGRAF_6"></a><div data-id="PARAGRAF_6" class="morTag_p paragraf" id="PARAGRAF_6"><h2 class="paragrafHeader"><span class=" paragrafhode "><span class=" paragrafValue ">§ 6.</span><span class=" paragrafTittel "><em class=" ">Unntak fra krav om radioamatørlisens</em></span></span></h2><p data-uid="0" class="morTag_a avsnitt">Personer som ikke innehar radioamatørlisens kan bruke radioamatørstasjon gjennom en gruppe, klubb, skole eller forening som ledd i rekruttering eller opplæring til radioamatørvirksomhet. Betjening av utstyret skal skje under fysisk tilstedeværelse og veiledning av en representant for gruppen, klubben, skolen eller foreningen, som innehar radioamatørlisens som er i henhold til lisensklassen som benyttes. Kallesignalet tildelt gruppen, klubben, skolen, foreningen eller kallesignalet til den som veileder skal benyttes. Veileder er ansvarlig for bruken.</p><p data-uid="0" class="morTag_a avsnitt">For opplæring til full lisens (A) kan en radioamatør med begrenset lisens bruke radioamatørstasjon tilhørende grupper, klubber, skoler og foreninger eller privat radioamatørstasjon og sende i henhold til krav for full lisens (A). Betjeningen av utstyret skal skje under fysisk tilstedeværelse og veiledning av radioamatør med full lisens (A) Stasjonens tildelte kallesignal eller kallesignalet til den som veileder skal brukes</p><p data-uid="0" class="morTag_a avsnitt">Unntaket gjelder også for bruk av radioamatørstasjon ved organisert krise- og redningssamband når betjeningen av utstyret er under fysisk tilstedeværelse og veiledning av radioamatør med full lisens (A).</p><a class="share-paragraf" href="#shareModal" data-toggle="modal" data-target="#shareModal" data-id="https://lovdata.no/forskrift/2026-03-23-465/§6" role="button"><i class="ss-standard ss-icon ss-icon ss-symbolicons-block link">&#x1F517;</i><span class="share-paragraf-title">Del paragraf</span></a></div><a class="documentPart_scrollMargin" name="§7"></a><a name="PARAGRAF_7"></a><div data-id="PARAGRAF_7" class="morTag_p paragraf" id="PARAGRAF_7"><h2 class="paragrafHeader"><span class=" paragrafhode "><span class=" paragrafValue ">§ 7.</span><span class=" paragrafTittel "><em class=" ">Krav til sendinger </em></span></span></h2><p data-uid="0" class="morTag_a avsnitt">Ved bruk av radioamatørstasjon skal fullstendig kallesignal tildelt etter <a data-id="forskrift/2004-02-16-426/§35b" class=" reference" href="/forskrift/2004-02-16-426/%C2%A735b">forskrift 16. februar 2004 nr. 426 (nummerforskriften) § 35b</a> oppgis ved begynnelse og slutt av sendingen og med korte intervaller under sendingen.</p><p data-uid="0" class="morTag_a avsnitt">Det er ikke tillatt å sende annet enn kommunikasjon som er i samsvar med radioamatørvirksomhetens formål, jf. <a data-id="forskrift/2026-03-23-465/§3" class=" reference" href="/forskrift/2026-03-23-465/%C2%A73">§ 3</a> b, samt bemerkninger av personlig karakter. Utilsiktet sending ved feil eller lignende skal kunne stoppes innen rimelig tid.</p><p data-uid="0" class="morTag_a avsnitt">Kallesignal tildelt radioamatør med begrenset lisens kan kun benyttes for sending i henhold til kravene til begrenset lisens.</p><p data-uid="0" class="morTag_a avsnitt">Bruk av frekvenser angitt i <a data-id="forskrift/2026-03-23-465/§5" class=" reference" href="/forskrift/2026-03-23-465/%C2%A75">§§ 5</a> og <a data-id="forskrift/2026-03-23-465/§5a" class=" reference" href="/forskrift/2026-03-23-465/%C2%A75a">5a</a>, er ikke tillatt fra luftfartøy uten fører om bord, herunder droner og modellfly. Sending er likevel tillatt ved organisert krise- og redningssamband, herunder organisert opplæring og trening til dette. Sending av telemetridata (herunder trykk, temperatur og posisjon) er også tillatt for eksperimentering og forsøk, forutsatt at maksimal utstrålt effekt ikke overstiger 100 mW e.i.r.p.</p><p data-uid="0" class="morTag_a avsnitt">Dersom bruk av frekvenser avsatt til radioamatørvirksomhet, forårsaker forstyrrelser skal utgangseffekten reduseres til maksimalt 100 watt.</p><p data-uid="0" class="morTag_a avsnitt">Sendinger på frekvenser for radioamatørvirksomhet bør være i samsvar med nasjonale og internasjonale retningslinjer og båndplaner utarbeidet av radioamatørenes interesseorganisasjoner.</p><a class="share-paragraf" href="#shareModal" data-toggle="modal" data-target="#shareModal" data-id="https://lovdata.no/forskrift/2026-03-23-465/§7" role="button"><i class="ss-standard ss-icon ss-icon ss-symbolicons-block link">&#x1F517;</i><span class="share-paragraf-title">Del paragraf</span></a></div><a class="documentPart_scrollMargin" name="§8"></a><a name="PARAGRAF_8"></a><div data-id="PARAGRAF_8" class="morTag_p paragraf" id="PARAGRAF_8"><h2 class="paragrafHeader"><span class=" paragrafhode "><span class=" paragrafValue ">§ 8.</span><span class=" paragrafTittel "><em class=" ">Kryptering</em></span></span></h2><p data-uid="0" class="morTag_a avsnitt">Bruk av kryptert samband er ikke tillatt. Ved digital kommunikasjon skal det brukes allment tilgjengelige protokoller. Innholdet i meldinger skal kunne leses av allment tilgjengelige programmer.</p><p data-uid="0" class="morTag_a avsnitt">Kryptering av sensitive opplysninger ved innenlands samband tillates likevel ved organisert krise- og redningssamband samt ved organisert trening til dette.</p><a class="share-paragraf" href="#shareModal" data-toggle="modal" data-target="#shareModal" data-id="https://lovdata.no/forskrift/2026-03-23-465/§8" role="button"><i class="ss-standard ss-icon ss-icon ss-symbolicons-block link">&#x1F517;</i><span class="share-paragraf-title">Del paragraf</span></a></div><a class="documentPart_scrollMargin" name="§9"></a><a name="PARAGRAF_9"></a><div data-id="PARAGRAF_9" class="morTag_p paragraf" id="PARAGRAF_9"><h2 class="paragrafHeader"><span class=" paragrafhode "><span class=" paragrafValue ">§ 9.</span><span class=" paragrafTittel "><em class=" ">Krav til utstyr</em></span></span></h2><p data-uid="0" class="morTag_a avsnitt">Innehaver av radioamatørlisens tillates til eget bruk å innføre og ta i bruk radioamatørstasjon som ikke omfattes av <a data-id="lov/2024-12-13-76/§13-1" class=" reference" href="/lov/2024-12-13-76/%C2%A713-1">lov 13. desember 2024 nr. 76 om elektronisk kommunikasjon § 13-1 første ledd</a>, jf. <a data-id="lov/2024-12-13-76/§13-1" class=" reference" href="/lov/2024-12-13-76/%C2%A713-1">femte ledd</a>, jf. <a data-id="forskrift/2016-04-15-377" class=" reference" href="/forskrift/2016-04-15-377">forskrift 15. april 2016 nr. 377 om EØS-krav til radioutstyr</a> og <a data-id="forskrift/2016-04-15-378" class=" reference" href="/forskrift/2016-04-15-378">forskrift 15. april 2016 nr. 378 om EØS-krav til elektromagnetisk kompatibilitet (EMC) for utstyr til elektronisk kommunikasjon</a>.</p><p data-uid="0" class="morTag_a avsnitt">Radioamatørstasjon, inkludert byggesett, skal være innrettet og brukes slik at uønsket utstrålt effekt utenfor frekvensbånd angitt i <a data-id="forskrift/2026-03-23-465/§5" class=" reference" href="/forskrift/2026-03-23-465/%C2%A75">§§ 5</a> og <a data-id="forskrift/2026-03-23-465/§5a" class=" reference" href="/forskrift/2026-03-23-465/%C2%A75a">5a</a> er i samsvar med ITU-R SM.329 målt der antennen er tilkoblet senderens siste trinn.</p><p data-uid="0" class="morTag_a avsnitt">Radioamatørstasjon inkludert byggesett som brukes av radioamatør med begrenset lisens skal kunne benyttes i henhold til lisenskravene for begrenset lisens.</p><a class="share-paragraf" href="#shareModal" data-toggle="modal" data-target="#shareModal" data-id="https://lovdata.no/forskrift/2026-03-23-465/§9" role="button"><i class="ss-standard ss-icon ss-icon ss-symbolicons-block link">&#x1F517;</i><span class="share-paragraf-title">Del paragraf</span></a></div><a class="documentPart_scrollMargin" name="§10"></a><a name="PARAGRAF_10"></a><div data-id="PARAGRAF_10" class="morTag_p paragraf" id="PARAGRAF_10"><h2 class="paragrafHeader"><span class=" paragrafhode "><span class=" paragrafValue ">§ 10.</span><span class=" paragrafTittel "><em class=" ">Reaksjoner</em></span></span></h2><p data-uid="0" class="morTag_a avsnitt">Ved brudd på plikter etter forskriften kan Nasjonal kommunikasjonsmyndighet fastsette reaksjoner i samsvar med <a data-id="lov/2024-12-13-76/kap15" class=" reference" href="/lov/2024-12-13-76/kap15">lov 13. desember 2024 nr. 76 om elektronisk kommunikasjon kap. 15</a>. Dette omfatter også overtredelsesgebyr etter <a data-id="lov/2024-12-13-76/§15-12" class=" reference" href="/lov/2024-12-13-76/%C2%A715-12">§ 15-12 første ledd bokstav b</a> for brudd på pliktene etter forskriften <a data-id="forskrift/2026-03-23-465/§4" class=" reference" href="/forskrift/2026-03-23-465/%C2%A74">§ 4</a> til <a data-id="forskrift/2026-03-23-465/§9" class=" reference" href="/forskrift/2026-03-23-465/%C2%A79">§ 9</a>. En radioamatørlisens kan også tilbakekalles dersom innehaver av radioamatørlisens har opptrådt i strid med forskriften jf. <a data-id="lov/2024-12-13-76/§15-6" class=" reference" href="/lov/2024-12-13-76/%C2%A715-6">§ 15-6 tredje ledd</a>.</p><a class="share-paragraf" href="#shareModal" data-toggle="modal" data-target="#shareModal" data-id="https://lovdata.no/forskrift/2026-03-23-465/§10" role="button"><i class="ss-standard ss-icon ss-icon ss-symbolicons-block link">&#x1F517;</i><span class="share-paragraf-title">Del paragraf</span></a></div><a class="documentPart_scrollMargin" name="§11"></a><a name="PARAGRAF_11"></a><div data-id="PARAGRAF_11" class="morTag_p paragraf" id="PARAGRAF_11"><h2 class="paragrafHeader"><span class=" paragrafhode "><span class=" paragrafValue ">§ 11.</span><span class=" paragrafTittel "><em class=" ">Gebyr</em></span></span></h2><p data-uid="0" class="morTag_a avsnitt">Innehaver av radioamatørlisens skal betale gebyr til Nasjonal kommunikasjonsmyndighet etter <a data-id="forskrift/2024-01-17-79" class=" reference" href="/forskrift/2024-01-17-79">forskrift 17. januar 2024 nr. 79 om sektoravgift og gebyr til Nasjonal kommunikasjonsmyndighet</a> ved tildeling av lisens og ved tildeling/endring av kallesignal.</p><a class="share-paragraf" href="#shareModal" data-toggle="modal" data-target="#shareModal" data-id="https://lovdata.no/forskrift/2026-03-23-465/§11" role="button"><i class="ss-standard ss-icon ss-icon ss-symbolicons-block link">&#x1F517;</i><span class="share-paragraf-title">Del paragraf</span></a></div><a class="documentPart_scrollMargin" name="§12"></a><a name="PARAGRAF_12"></a><div data-id="PARAGRAF_12" class="morTag_p paragraf" id="PARAGRAF_12"><h2 class="paragrafHeader"><span class=" paragrafhode "><span class=" paragrafValue ">§ 12.</span><span class=" paragrafTittel "><em class=" ">Ikrafttredelse</em></span></span></h2><p data-uid="0" class="morTag_a avsnitt">Forskriften trer i kraft straks. Fra samme tid oppheves <a data-id="forskrift/2009-11-05-1340" class=" reference" href="/forskrift/2009-11-05-1340">forskrift 5. november 2009 nr. 1340 om radioamatørlisens</a>.</p><a class="share-paragraf" href="#shareModal" data-toggle="modal" data-target="#shareModal" data-id="https://lovdata.no/forskrift/2026-03-23-465/§12" role="button"><i class="ss-standard ss-icon ss-icon ss-symbolicons-block link">&#x1F517;</i><span class="share-paragraf-title">Del paragraf</span></a></div></div></div></div>
+		</div>
+	</div>
+	<ul class="pager">
+
+		<li class="previous">
+        
+		</li>
+				<li class="complete">
+
+				</li>
+		<li class="next ">
+
+		</li>
+	</ul>
+
+
+	</div> <!-- / Wrapper-->
+
+	<div class="modal fade" id="deleModal" tabindex="-1" role="dialog" aria-labelledby="del" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<p id="del" class="modal-title">Del dokument</p>
+				</div>
+						<div class="modal-body">
+							<input id="urlTextInput" aria-label="Lenken som fører til denne siden" class="form-control dele-url" value="https://lovdata.no/forskrift/2026-03-23-465" autoselect/>
+							<a class="btn btn-primary btn-block URL" tabindex="0" role="button">Kopier URL</a>
+							<a class="btn btn-primary btn-block twitter" href="" target="_blank" role="button">Del på Twitter</a>
+							<a class="btn btn-primary btn-block facebook" href="" target="_blank" role="button">Del på Facebook</a>
+							<a class="btn btn-primary btn-block linkedin" href="" target="_blank" role="button">Del på LinkedIn</a>
+							<a class="btn btn-primary btn-block email" href="" role="button">Del på e-post</a>
+						</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+</main>
+
+	<script type="text/javascript">
+		$('.btn.btn-primary.btn-block.URL').click(function () {
+			$(".btn.btn-primary.btn-block.URL").select();
+			// Copy text to clipboard
+			document.execCommand('copy');
+		});
+		$(document).ready(function () {
+			var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
+			if (navigator.userAgent.match(/(iPhone|iPod|iPad)/i) || isSafari) { // iOS + Safari does not like to have this decoded
+			} else if (location.hash != '' && decodeURIComponent(location.hash) != location.hash) {
+				location.hash = decodeURIComponent(location.hash);
+			} else if (window.location.hash == '') {
+			}
+		});
+	</script>
+
+
+
+<aside role="region" aria-labelledby="faq" class="help closed hidden-xs">
+	<h1 class="sr-only" id="faq">Brukerveiledning</h1>
+	<div class="open-help">
+		<button aria-label="Åpne informasjon om brukerveiledning" aria-expanded="false">
+			<span aria-hidden="true" class="toggle-open ss-icon ss-symbolicons-block">&#x2753;</span>
+			<span aria-hidden="true" class="toggle-close ss-icon ss-symbolicons-block">&#x2421;</span>
+		</button>
+		<noscript>
+			<a aria-label="Gå til hjelpeside" class="open-help-noscript" href="/info/faq"></a>
+		</noscript>
+	</div>
+	<div class="help-container hiddenSidePanel" aria-hidden="true">
+		<h2>Trenger du brukerveiledning?</h2>
+		<p><a class="infolink" href="/info/faq">Få svar på ofte stilte spørsmål her (FAQ)</a></p>
+		<p>Lovdata kan dessverre ikke svare på spørsmål angående juridiske problemer. Lovdata kan heller ikke bidra med å tolke regelverket eller finne frem til rettsregler som passer i et bestemt tilfelle. Kontakt den offentlige etaten spørsmålet gjelder, eventuelt advokat eller rettshjelper hvis du har behov for slik bistand.</p>
+
+		<h2>Fant du ikke det du lette etter?</h2>
+		<p>Send en e-post til <a class="infolink" href="mailto:support@lovdata.no">support@lovdata.no</a></p>
+	</div>
+</aside>
+<footer class="footer">
+	<a href="/info/personvern#cookies" class="cookieInfo" aria-hidden="true"><i class="ss-icon ss-symbolicons-line">&#x1F36A;</i><span class="cookie-label">Om informasjonskapsler</span></a>
+	<ul class="footer-nav">
+		<li><a lang="en" href="/info/information_in_english">Information in English</a></li>
+		<li class="ld-hidden-xs"><p tabindex="0" class="popover-parent" data-placement="top" data-toggle="popover" data-trigger="focus hover" title="" data-content="Hold inne Ctrl-tasten (Cmd-tasten på Mac). Trykk samtidig på + for å forstørre eller - for å forminske.">Juster tekststørrelse<span class="sr-only">Hold inne Ctrl-tasten (Cmd-tasten på Mac). Trykk samtidig på + for å forstørre eller - for å forminske.</span></p></li>
+		<li class="visible-xs"><a href="/info/faq">Hjelp</a></li>
+		<li><a href="/info/kontakt">Kontakt</a></li>
+		<li><a href="/info/brukeravtale">Brukeravtale</a></li>
+	</ul>
+</footer>
+
+	</body>
+</html>
+

@@ -14,14 +14,14 @@ Loggen skiller mellom en faktisk konflikt, en tidsrisiko og manglende offentlig 
 | G-06 | Effektbegreper | PEP/senderens utgangseffekt, gjennomsnittseffekt og e.i.r.p. er ikke synonymer. Forskriften definerer utgangseffekt som PEP og bruker e.i.r.p. i enkelte særvilkår. | `BEGREPSRISIKO` | Hvert spørsmål må angi målepunkt og effektbegrep; antennegevinst og linjetap inngår ved e.i.r.p. |
 | G-07 | Full mot begrenset lisens | Full lisens er HAREC klasse A og har egne bånd/vilkår. Begrenset lisens gjelder bare i Norge og har egen frekvenstabell og utstyrsvilkår. | `BEKREFTET_FORSKJELL` | Hold kortstokker og tabeller tydelig merket; dette prosjektet retter seg mot full lisens. |
 | G-08 | Gammel og ny norsk terminologi | Den bindende tittelen er «forskrift om radioamatørvirksomhet». Begrepene full lisens (HAREC klasse A) og begrenset lisens er sentrale fra 2026. | `TERMINOLOGI` | Normaliser nye kort til forskriftens ordlyd og behold eldre ord bare som søkealias. |
-| G-09 | HAREC mot bokas innholdsfortegnelse | 45 av 58 mål er fullt indikert, 12 delvis og 1 ikke eksplisitt. Dette er ikke fulltekstkontroll. | `SIDEKONTROLL_NØDVENDIG` | Prioriter punktene i `BOKKARTLEGGING.md` før kortproduksjon. |
+| G-09 | HAREC mot bokas innholdsfortegnelse | 45 av 58 mål er fullt indikert, 12 delvis og 1 ikke eksplisitt. Dette er ikke fulltekstkontroll. Det selvstendige materialet dekker nå alle 58 mot andre registrerte kilder. | `BOKKONTROLL_ÅPEN_MATERIALDEKNING_LUKKET` | Sidekontroll er nyttig for pedagogikk og rettelser, men er ikke lenger en forutsetning for kildebelagte kort. |
 | G-10 | Offisiell eksamensinformasjon | Nkom bekrefter at NRRL arrangerer og Nkom lager spørsmål. Format, varighet, beståttgrense, hjelpemidler, utdelt formelsamling og overgangsdato for 2026-regler ble ikke funnet offentlig. | `UAVKLART` | Ikke bygg studietaktikk eller kortfasit på lokale eller eldre opplysninger uten skriftlig bekreftelse. |
 | G-11 | Øvingsoppgaver/oppgavebank | Ingen offentlig, versjonsmerket oppgavebank eller gammelt eksamenssett ble funnet i de kontrollerte offisielle kildene. | `UAVKLART` | Matrisen er ikke stikkprøvekontrollert mot faktiske oppgavetyper. |
-| G-12 | Sikkerhetsomfang | HAREC a.10 nevner kropp, strømnett, høyspenning og lyn. Bokas innholdsfortegnelse viser mer sikkerhetsstoff, blant annet EMF. | `TILLEGG_ELLER_NASJONALT` | Skill eksplisitt HAREC-minimum fra nyttig sikkerhetsopplæring og eventuelle nasjonale krav. |
+| G-12 | Sikkerhetsomfang | HAREC a.10 nevner kropp, strømnett, høyspenning og lyn. Bokas innholdsfortegnelse viser mer sikkerhetsstoff, blant annet EMF. | `HÅNDTERT` | Kapittel 8 skiller eksplisitt HAREC-minimum fra RF-eksponering og annet praktisk tilleggsstoff. |
 
-## Prioritet før flashkort
+## Oppfølging under flashkortarbeidet
 
-1. Få skriftlig svar på G-10 og om hele vedlegg 6 er norsk eksamenspensum.
-2. Sidekontroller G-01 og G-09 i brukerens trykte bok.
-3. Kontroller en aktuell enkeltbåndplan før operative frekvensanbefalinger lages.
+1. Bruk G-10 bare for studietaktikk/prøvegjennomføring; ikke gjett format eller hjelpemidler.
+2. Sidekontroller G-01/G-09 når konkrete boksider brukes som pedagogisk tillegg.
+3. Kontroller en aktuell enkeltbåndplan før tidsfølsomme operative frekvenskort lages.
 4. Bruk en eventuell offentlig, datert oppgavebank til stikkprøver uten å la eldre spørsmål overstyre nyere regelverk.

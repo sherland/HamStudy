@@ -20,9 +20,6 @@ Den maskinkontrollerte koblingen fra alle 58 HAREC-mål til konkrete
 kapittelseksjoner og kilde-ID-er ligger i
 [`data/materialdekning.csv`](../data/materialdekning.csv).
 
-Kapitler uten lenke er ennå ikke skrevet. En kapitteloverskrift skal først få
-lenke når kapittelet inneholder forklaring, eksempler og HAREC-kontroll.
-
 ## Lesemåte
 
 Hvert kapittel bruker denne strukturen:

@@ -146,6 +146,7 @@ def main() -> None:
         "scripts/verify_frequency_tables.py",
         "scripts/verify_harec_matrix.py",
         "scripts/verify_material_coverage.py",
+        "scripts/verify_material_assets.py",
     ):
         subprocess.run([sys.executable, verifier], check=True)
 

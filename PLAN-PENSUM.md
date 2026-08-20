@@ -294,24 +294,24 @@ Foreslåtte kilde- og statuskoder:
 
 Før materialet godkjennes som grunnlag for Anki, skal følgende være oppfylt:
 
-- [ ] Hvert læringsmål kan spores til minst én autoritativ kilde.
-- [ ] Alle norske regler er kontrollert mot forskriften fra 2026.
-- [ ] Hele HAREC-pensumet er representert i matrisen.
-- [ ] Bokens dekning og eventuelle mangler er dokumentert.
-- [ ] Bindende regler er tydelig skilt fra anbefalt praksis.
-- [ ] Uavklarte spørsmål presenteres ikke som fakta.
-- [ ] Frekvens-, effekt- og båndbreddetabeller er kontrollert mot gjeldende
+- [x] Hvert læringsmål kan spores til minst én autoritativ kilde.
+- [x] Alle norske regler er kontrollert mot forskriften fra 2026.
+- [x] Hele HAREC-pensumet er representert i matrisen.
+- [x] Bokens dekning og eventuelle mangler er dokumentert.
+- [x] Bindende regler er tydelig skilt fra anbefalt praksis.
+- [x] Uavklarte spørsmål presenteres ikke som fakta.
+- [x] Frekvens-, effekt- og båndbreddetabeller er kontrollert mot gjeldende
       Lovdata-tekst og gjennom en separat avlesnings- eller
       transkripsjonskontroll. Eventuelle avvik mot andre oversikter er
       dokumentert.
-- [ ] Alle kilder har versjon og kontrollert dato.
-- [ ] Primærkilder og versjonssensitive dokumenter er, når praktisk og
+- [x] Alle kilder har versjon og kontrollert dato.
+- [x] Primærkilder og versjonssensitive dokumenter er, når praktisk og
       tillatt, arkivert lokalt i søkbart format med innhentingsdato.
-- [ ] Pensummatrisen er stikkprøvekontrollert mot tilgjengelige øvingsoppgaver
-      eller gamle eksamenssett, der slike finnes. Oppgavenes dato og relevante
-      regelverks-/pensumversjon er registrert, og historiske oppgaver er ikke
-      brukt som autoritet for gjeldende pensum.
-- [ ] Engelske HAREC-termer og norske betegnelser er registrert side om side
+- [x] Tilgjengeligheten av offisielle øvingsoppgaver og gamle eksamenssett er
+      kontrollert. Ingen offentlig, versjonsmerket oppgavebank ble funnet;
+      dette er registrert som G-11 og er ikke fremstilt som utført
+      oppgavestikkprøve.
+- [x] Engelske HAREC-termer og norske betegnelser er registrert side om side
       for hvert læringsmål, og eventuelle begrepsavvik er notert.
 
 ## Avgrensning før flashcards

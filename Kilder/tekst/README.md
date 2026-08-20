@@ -15,3 +15,6 @@ Regler:
 
 `REG-2026.txt` og `NUMMERFORSKRIFTEN.txt` genereres med
 [`../../scripts/extract_lovdata.py`](../../scripts/extract_lovdata.py).
+
+`CEPT_TR_61-02_2024-02-16.txt` og `CEPT_TR_61-01_2024-10-18.txt` genereres
+med [`../../scripts/extract_pdf_text.py`](../../scripts/extract_pdf_text.py).

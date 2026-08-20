@@ -1,0 +1,683 @@
+===== PDF-side 1 =====
+
+Edition of 18 October 2024 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CEPT Radio Amateur Licence  
+approved Nice 1985; amended May 2016 
+Annex 2: latest updated February 2024 
+Annex 3: amended May 2016 
+Annex 4: latest updated October 2024 
+Annex 5: new in May 2016 
+ 
+ 
+Recommendation T/R 
+61-01
+
+===== PDF-side 2 =====
+
+RECOMMENDATION T/R 61-01 – Page 2 
+Edition of 27 May 2016 
+INTRODUCTION 
+This Recommendation as approved in 1985 made  it possible for radio amateurs from CEPT countries to 
+operate during short visits in other CEPT countries without obtaining an individual temporary licence from the 
+visited CEPT country. A positive experience with that system has resulted. 
+The Recommendation as revised in 1992 made it possible for non- CEPT countries to participate in this 
+licencing system. The appropriate provisions for this can be found mainly in the current (but modified)  Annex 
+3 and Annex 4. The original Recommendation had to be adapted slightly, but it retains the same applicability 
+within CEPT as before. 
+This Recommendation as revised in 2016 allows any non- CEPT administration wishing to join the framework 
+of the Recommendation T/R 61-01 to declare in a 'Statement of Conformity' (SOC) as provided in Annex 5 
+which classes of national amateur licences fulfil the requirements detailed in Annex 6 of CEPT 
+Recommendation T/R 61-02 (HAREC). The final approval for applications by non-CEPT administrations would 
+still be subject to the agreement of CEPT administrations.
+
+===== PDF-side 3 =====
+
+RECOMMENDATION T/R 61-01 – Page 3 
+Edition of 27 May 2016 
+RECOMMENDATION OF 1985 ON CEPT RADIO AMATEUR LICENCE (T/R 61-01), AMENDED MAY 
+2016, LATEST EDITORIAL UPDATE OF ANNEX 2 AND ANNEX 4 ON 16 FEBRUARY 2024  
+“The European Conference of Postal and Telecommunications Administrations,  
+considering 
+a) that the Amateur Service and Amateur Satellite Service are Radiocommunications Services according to 
+Article 1 of the ITU Radio Regulations and governed by other provisions of the ITU Radio Regulations as 
+well as national regulations; 
+b) that it is necessary to harmonise licencing procedures for temporary use of radio amateur stations in CEPT 
+countries and non-CEPT countries; 
+c) that the harmonisation of licence procedures for the temporary use of stations in the Amateur Service and 
+Amateur Satellite Service has been or may be implemented by Regional Telecommunications 
+Organisations (RTOs) in other ITU Regions or sub- regions and agreements between CEPT and these 
+organisations may be beneficial; 
+d) that administrations are responsible, in accordance with Article 25 of the ITU Radio Regulations to verify 
+the operational and technical qualifications of any person wishing to operate an amateur station;  
+e) that in accordance with Article 25 of the ITU Radio Regulations (rev WRC -03), administrations shall 
+determine whether or not a person seeking a licence to operate an amateur station shall demonstrate the 
+ability to send and receive texts in Morse code signals; 
+f) that the ability to send and receive texts in Morse code signals is not required for the purpose of this 
+Recommendation; 
+g) that the issue and administration of temporary licences to foreign visitors based on bilateral agreements 
+involves a considerable increase in work for administrations; 
+h) that international organisations representing amateur service licensees support the simplification of 
+procedures to obtain temporary operational privileges for foreign visitors in CEPT countries and in other 
+countries; 
+i) that this Recommendation bears no relation to the import and export of amateur radio equipment, which 
+is subject only to relevant customs regulations; 
+j) that despite the procedures of this Recommendation, administrations always have the right to require 
+separate bilateral agreements when recognising the radio amateur service licences issued by foreign 
+administrations; 
+ 
+recommends  
+1. that CEPT member administrations recognise the principle of the CEPT radio amateur licence issued 
+under the conditions specified in Annex 1 and Annex 2, on which the administrations of the countries 
+visited will not levy administrative charges or spectrum fees; 
+2. that administrations, not being members of CEPT, accepting the provisions of this Recommendation, may 
+apply for participation in accordance with the conditions laid down in Annex 3 and Annex 4.” 
+Note:  
+Please check the Office documentation database https://docdb.cept.org/
+ for the up to date position on the 
+implementation of this and other ECC Recommendations.
+
+===== PDF-side 4 =====
+
+RECOMMENDATION T/R 61-01 – Page 4 
+Edition of 27 May 2016 
+ANNEX 1: GENERAL CONDITIONS FOR THE ISSUE OF THE "CEPT RADIO AMATEUR LICENCE"  
+1. GENERAL PROVISIONS RELATING TO "CEPT RADIO AMATEUR LICENCE" 
+The ''CEPT radio amateur licence" can be included in the national licence or be a special document issued by 
+the same authority, and will be drafted in the national language and in German, English and French; it will be 
+valid for non- residents only, for the duration of their temporary stays in countries having adopted the 
+Recommendation, and within the limit of validity of the national licence. Radio amateurs holding a temporary 
+licence issued in a foreign country may not benefit from the provisions of the Recommendation.  
+The minimum requirements for a "CEPT radio amateur licence'' will be: 
+ indication that the document is a CEPT amateur licence; 
+ a declaration according to which the holder is authorised to utilise an amateur radio station in accordance 
+with this Recommendation in countries where the latter applies; 
+ the name and address of the holder; 
+ the call sign; 
+ the validity; 
+ the issuing authority. 
+A list may be added or provided indicating the administrations applying the Recommendation. 
+The CEPT Licence permits utilisation of all frequency bands allocated to the Amateur Service and Amateur 
+Satellite Service and authorised in the country where the amateur station is to be operated.  
+2. CONDITIONS OF UTILISATION 
+2.1 On request the licence holder shall present his CEPT radio amateur licence to the appropriate authorities 
+in the country visited. 
+2.2 The licence holder shall observe the provisions of the ITU Radio Regulations, this Recommendation 
+and the regulations in force in the country visited. Furthermore, any restrictions concerning national and 
+local conditions of a technical nature or regarding the public authorities must be respected. Special 
+attention should be paid to the difference in frequency allocations to the radio amateur services in the 
+three ITU Regions 
+2.3 When transmitting in the visited country the licence holder must use his national call sign preceded by 
+the call sign prefix of the visited country as indicated in A nnex 2 and Annex 4. The call sign prefix and 
+the national call sign must be separated by the character “/” (telegraphy) or the word “stroke” (telephony). 
+2.4 The licence holder cannot request protection against harmful interference. 
+3. EQUIVALENCE BETWEEN THE CEPT LICENCE AND NATIONAL LICENCES  
+3.1 The equivalence between the CEPT licence and national licences in CEPT countries is given in Annex 
+2. 
+3.2 The equivalence between the CEPT licence and national licences in non- CEPT countries is given in 
+Annex 4.
+
+===== PDF-side 5 =====
+
+RECOMMENDATION T/R 61-01 – Page 5 
+Edition of 16 February 2024 
+ANNEX 2: TABLE OF EQUIVALENCE BETWEEN THE CEPT LICENCE AND NATIONAL LICENCES IN 
+CEPT COUNTRIES 
+Countries wishing to modify their entries should send a letter to that effect to the Chairman of the ECC with a 
+copy to the Office. 
+Table 1: CEPT countries 
+CEPT countries Call sign prefix(es) to be 
+used in visited countries 
+National licences equivalent 
+to the CEPT licence 
+1 2 3 
+Albania ZA CEPT1 
+Austria OE 1 (old also 2)2 
+Belgium ON A 
+Bosnia and Herzegovina E7 CEPT 13 
+Bulgaria LZ Class 1 
+Croatia4 9A CEPT 
+Cyprus 5B Radioamateur Authorisation 
+Czech Republic OK A 
+Denmark OZ A 
+    Faroe Islands OY A 
+    Greenland OX A 
+Estonia ES5  A and B6 
+Finland OH L, P, T, Y 
+     Aland Islands OH0 L, P, T, Y 
+France F HAREC, class1 and class 27 
+    Corsica TK HAREC, class1 and class 27 
+    Guadeloupe FG HAREC, class1 and class 27 
+    Guyana FY  HAREC, class1 and class 27 
+    Martinique FM HAREC, class1 and class 27 
+    St-Bartholomew FJ  HAREC, class1 and class 27 
+    St-Pierre/Miquelon FP HAREC, class1 and class 27 
+    St-Martin FS HAREC, class1 and class 27 
+    Réunion  
+   (Glorieuse, Jean de Nova, Tromelin) 
+FR HAREC, class1 and class 27 
+ 
+1 The existing (old) licence classes “A” and “B” have become the new licence class “CEPT”. For the licence holders with Morse 
+proficiency (old licence class A), which is from now on (as of 03 December 2010) an additional option, the information regarding 
+Morse proficiency is added as remark.  
+2 The existing (old) licence classes “1” and “2” have become the new licence class “1”. For the licence holders with Morse code 
+proficiency (old licence class 1), which is from 15 September 2003 no longer a requirement of T/R 61-01,  information regarding 
+Morse code proficiency is added as remark (for countries still retaining Morse). 
+3 National radio amateur regulation is under review. Morse proficiency is not required. 
+4 For the time being the national licence and CEPT licence are separate. The national licence includes more data. 
+5 This call sign prefix has to be supplemented with the digit designating the region where the amateur station is operating. 
+6 The national A and B licences correspond to CEPT licence and allow the access to HF bands. Foreign CEPT licence holders can 
+operate in Estonia for up to three months with rights granted by Estonian national B class without any additional verification. For A 
+licence the confirmation of Morse code proficiency (min 5 words per minute) is required. 
+7 In France from 23 April 2012 there is only one licence class “HAREC”. Old licence class 1 and 2 holder keep the benefit of their class 
+and their personal call sign.
+
+===== PDF-side 6 =====
+
+RECOMMENDATION T/R 61-01 – Page 6 
+Edition of 16 February 2024 
+CEPT countries Call sign prefix(es) to be 
+used in visited countries 
+National licences equivalent 
+to the CEPT licence 
+1 2 3 
+    Mayotte FH HAREC, class1 and class 27 
+    French Antarctica (Crozet, Kerguelen,  
+    St. Paul & Amsterdam, Terre Adélie) 
+FT HAREC, class1 and class 27 
+    French Polynesia & Clipperton FO  HAREC, class1 and class 27 
+    New Caledonia FK HAREC, class1 and class 27 
+    Wallis & Futuna FW HAREC, class1 and class 27 
+Georgia 4L A, Extra 
+Germany DL 1, 2 and A  
+Greece SV 1 
+Hungary HA, HG CEPT; old RB, RC, UB, UC 
+Iceland TF G 
+Ireland EI, EJ8 1 and 2 
+Italy I A9 
+Latvia YL A10  
+Liechtenstein HB0 CEPT 
+Lithuania LY A 
+Luxembourg LX CEPT 
+North Macedonia  Z3 A and P 
+Moldova ER A and B 
+Malta 9H All 
+Monaco 3A General11 12 
+Montenegro 4O (<<four>>Oscar>>) A and N 
+Netherlands PA F13 
+Norway LA A 
+    Svalbard JW A 
+Poland HF, SN, SO, SQ, SP, 3Z 1 
+Portugal CT7 1, A and B 
+    Azores CT8 1, A and B 
+    Madeira CT9 1, A and B 
+Romania YO I and II 
+Serbia YU 1 
+Slovak Republic OM E (old A, B, C) 
+ 
+8 EJ is a special prefix for offshore islands and may also be assigned, at ComReg’s discretion, to Special National Events. 
+9 Equivalence between CEPT licence and both existing (old) national licence classes (become the new licence class “A” by secondary   
+legislation as of September 2005) consistent with removal of Morse code proficiency requirement from T/R 61-01. 
+10 Foreign CEPT licence holders can operate in Latvia for up to three months. 
+11 Equivalence between CEPT licence and highest national licence level as of September 2003, i.e. before Morse code proficiency 
+requirement was removed from T/R 61-01. 
+12 Morse code proficiency is required for use of HF bands. 
+13 New licences will be granted as Full licence in line with CEPT (with or without the remark Morse code included).
+
+===== PDF-side 7 =====
+
+RECOMMENDATION T/R 61-01 – Page 7 
+Edition of 16 February 2024 
+CEPT countries Call sign prefix(es) to be 
+used in visited countries 
+National licences equivalent 
+to the CEPT licence 
+1 2 3 
+Slovenia S5 A (old 1, 2, 3)14 
+Spain EA  A 
+Sweden15 SM, SA All16 
+Switzerland HB9 1, 2, CEPT 
+Türkiye TA A 11 12 
+Ukraine UT A (old 1 and 2)  
+United Kingdom   
+    England M FULL 
+    Isle of Man MD FULL 
+    N. Ireland MI FULL 
+    Jersey MJ FULL 
+    Scotland MM FULL 
+    Guernsey MU FULL 
+    Wales MW FULL 
+0
+ 
+14 The existing (old) licences: 1, 2 and 3 have become the new “A” licence. For the licence holders with Morse code proficiency (old 1 
+and 2), which is from 15 September 2003 no longer a requirement of T/R 61-01 information regarding Morse code proficiency is 
+added as remarks (for countries still retaining Morse). 
+15 After 1 October 2004 amateur radio is exempted from licencing. Exemption is only applicable for anyone who has a valid amateur 
+radio certificate. As a result of this no separate licence document will be issued to new amateurs after 1 October 2004. The call sign 
+will after 1 October 2004 be included in the certificate.  
+16 Amateur radio is licence exempted according to secondary legislation which entered into force 1 October 2004. Exemption is 
+applicable for anyone with an amateur radio certificate. No separate document will be issued to new amateurs.
+
+===== PDF-side 8 =====
+
+RECOMMENDATION T/R 61-01 – Page 8 
+Edition of 27 May 2016 
+ANNEX 3: PARTICIPATION OF NON-CEPT ADMINISTRATIONS IN THE "CEPT RADIO AMATEUR 
+LICENCE'' ACCORDING TO THIS RECOMMENDATION 
+1. APPLICATION 
+1.1 Administrations, not being members of CEPT, may apply to the CEPT for participation in the CEPT radio 
+amateur licencing systems regulated by this Recommendation. Applications should be addressed to 
+CEPT Electronic Communications Committee (ECC), through the Office European Communications 
+Office (ECO), Nyropsgade 37,4, DK-1602 Copenhagen V, Denmark). 
+A non-CEPT Administration in joining this Recommendation enters into an agreement with all CEPT 
+countries having implemented this Recommendation or will do so in the future. It should be noted that 
+non-CEPT countries wishing to implement this Recommendation between them should do so by 
+separate agreement. 
+1.2  An application from a non- CEPT administration shall include a Statement of Conformity (SOC) which 
+confirms that following a comparative assessment of their national amateur radio examination 
+syllabuses and licence classes with Annex 6 of CEPT Recommendati on T/R 61 -02 (HAREC), which 
+particular national licence classes are considered to be equivalent to the CEPT licence. A list of these 
+licence classes and their privileges (if such privileges are substantially different to the CEPT licence) 
+shall be included in the SOC, see paragraphs 8 and 11 of ANNEX  5. All the details mentioned above 
+must be submitted in one of the official languages of the CEPT (English, French or German).  
+ 
+1.3 The applying Administration shall also provide the call sign prefix  (see paragraph 10 of Annex 5) to be 
+used by visiting radio amateurs in the SOC and details of any special conditions relating to the 
+implementation of this Recommendation in the country concerned. Special conditions or restrictions 
+should be confined to a minimum, and should not be imposed unless absolutely necessary, and shall 
+be included in a footnote in Annex 4. 
+ 
+ 
+2. PROCEDURES OF APPLICATIONS 
+ 
+2.1 The CEPT ECC shall notify the applying non- CEPT administration that it has received the application 
+and SOC as well as any additional information of deviations from the process, which have been 
+requested by the applying Administration. 
+2.2 When the ECC has agreed to accept the participation of a non- CEPT country it notifies the applying 
+Administration and arranges for the Office to include the relevant details in Annex 4. 
+2.3 A CEPT Administration requiring a separate bilateral agreement to apply this Recommendation with a 
+non-CEPT Administration, shall indicate this in a footnote in Annex 4.
+
+===== PDF-side 9 =====
+
+RECOMMENDATION T/R 61-01 – Page 9 
+Edition of 18 October 2024 
+ANNEX 4: TABLE OF EQUIVALENCE BETWEEN NATIONAL LICENCES OF NON- CEPT COUNTRIES 
+AND THE CEPT LICENCE AND OPERATING PRIVILEGES IN NON- CEPT COUNTRIES VALID FOR 
+HOLDERS OF LICENCES ISSUED BY CEPT ADMINISTRATIONS IN CONFORMITY WITH THIS 
+RECOMMENDATION 
+Table 2: Non-CEPT countries 
+Non-CEPT countries Call sign 
+prefix(es) to 
+be used in 
+visited 
+countries 
+National licences of non-
+CEPT countries 
+equivalent to the CEPT 
+licence 
+The operating privileges 
+issued by non-CEPT 
+administrations to holders 
+of the CEPT licence 
+1 2 3 4 
+Australia VK Amateur Licence (Amateur 
+Advanced station) or 
+Advanced qualification
+17 
+for operation under the 
+Radiocommunications 
+(Amateur Stations) Class 
+Licence 2023 
+Radiocommunications 
+(Amateur Stations) Class 
+Licence 202318 
+Canada 
+ 
+Nova Scotia 
+Québec 
+Ontario 
+Manitoba 
+Saskatchewan 
+Alberta  
+British Columbia  
+Northwest Territories 
+New Brunswick 
+Newfoundland 
+Labrador 
+Nunavut 
+Yukon 
+Prince Edward Island 
+Sable Island 
+St Paul Island 
+ 
+ 
+VE1 
+VE2  
+VE3 
+VE4 
+VE5 
+VE6 
+VE7 
+VE8 
+VE9 
+VO1 
+VO2 
+VY0 
+VY1 
+VY2 
+CY0 
+CY9 
+Amateur Radio Operator 
+Certificate with Basic and 
+Advanced Qualifications 
+and call sign 
+Amateur Radio Operator 
+Certificate with Advanced 
+qualifications 
+Cayman Islands ZF A A 
+Israel 4X, 4Z A, B, C B (General) 
+Overseas countries within 
+the Kingdom of the 
+Netherlands and overseas 
+territories of the 
+Netherlands in the ITU 
+Region 2  
+Aruba 
+Curacao 
+ 
+ 
+ 
+ 
+ 
+ 
+P4 
+PJ2 
+A, B, C A 
+ 
+17 An ACMA recognition certificate (Advanced), amateur operator’s certificate of proficiency (advanced), amateur operator's certificate of 
+proficiency or amateur operator’s limited certificate of proficiency. The ACMA also issued a ‘ACMA letter of confirmation—Advanced’ 
+to advanced licensees before the commencement of the Radiocommunications (Amateur Stations) Class Licence 2023, which 
+confirms the licensee’s call sign(s) and advanced level qualification. An amateur’s call sign may also be outlined on a 'Call sign 
+certificate’ issued by the ACMA. 
+18 The class licence allows holders of a CEPT amateur radio licence to operate in Australia for up to 365 days on all allocated amateur 
+bands without the requirement to obtain any additional approvals from, or register with, the regulator.
+
+===== PDF-side 10 =====
+
+RECOMMENDATION T/R 61-01 – Page 10 
+Edition of 27 May 2016 
+Non-CEPT countries Call sign 
+prefix(es) to 
+be used in 
+visited 
+countries 
+National licences of non-
+CEPT countries 
+equivalent to the CEPT 
+licence 
+The operating privileges 
+issued by non-CEPT 
+administrations to holders 
+of the CEPT licence 
+1 2 3 4 
+Bonaire 
+St. Eustatius 
+Saba 
+St. Maarten 
+PJ4 
+PJ5 
+PJ6 
+PJ7 
+New Zealand ZL General19 General19 
+Peru20 OA21   
+South Africa22 ZS Restricted and Unrestricted Unrestricted 
+ 
+19 The “General User Radio Licence” allow holders of a CEPT amateur radio licence to operate in New Zealand for up to 90 days on all 
+allocated amateur bands without the requirement to obtain any permits or approvals, or register with the regulator. 
+20 The requirement for Morse code proficiency was removed from T/R 61-01 on 15 September 2003. Since then, the equivalence 
+between the CEPT Licence and the national licence of this country is in the process of being re-established. 
+21 The letters OA, to be followed with a number indicating the zone in Peru from which the station is operated, form a suffix to the 
+national call sign of the operator. 
+22 The requirement for Morse code proficiency was substituted with a number of assessments in 2004. The administration is in the 
+process of amending the requirements that will reflect during 2010.
+
+===== PDF-side 11 =====
+
+RECOMMENDATION T/R 61-01 – Page 11 
+Edition of 10 June 2022  
+Table 3: USA 
+Non-CEPT countries Call sign 
+prefix(es) to 
+be used in 
+visited 
+countries 
+National licences of non-
+CEPT countries 
+equivalent to the CEPT 
+licence 
+The operating privileges 
+issued by non-CEPT 
+administrations to holders 
+of the CEPT licence 
+1 2 3 4 
+USA 
+ 
+Alabama 
+Alaska 
+American Samoa 
+Arizona 
+Arkansas 
+Baker Isl. 
+California 
+Colorado 
+Com. of North. Mariana Isl. 
+Com. of Puerto Rico 
+Connecticut 
+Delaware 
+Desecheo Island 
+District of Columbia 
+Florida 
+Georgia 
+Guam 
+Hawaii 
+Howland Island 
+Idaho 
+Illinois 
+Indiana 
+Iowa 
+Jarvis Isl. 
+Johnston Isl 
+Kansas 
+Kentucky 
+Kingman Reef 
+Kure Island 
+Louisiana 
+Maine 
+Maryland 
+Massachusetts 
+Michigan 
+Midway Isl. 
+Minnesota 
+ 
+ 
+W4 
+KL7 
+KH8 
+W7 
+W5 
+KH1 
+W6 
+W0 
+KH0 
+KP4 
+W1 
+W3 
+KP5 
+W3 
+W4 
+W4 
+KH2 
+KH6 
+KH1 
+W7 
+W9 
+W9 
+W0 
+KH5 
+KH3 
+W0 
+W4 
+KH5K 
+KH7 
+W5 
+W1 
+W3 
+W1 
+W8 
+KH4 
+W0 
+Amateur Extra and 
+Advanced
+23  
+Amateur Extra23 
+ 
+ 
+23  For all States listed in column 1
+
+===== PDF-side 12 =====
+
+RECOMMENDATION T/R 61-01 – Page 12 
+Edition of 10 June 2022  
+Non-CEPT countries Call sign 
+prefix(es) to 
+be used in 
+visited 
+countries 
+National licences of non-
+CEPT countries 
+equivalent to the CEPT 
+licence 
+The operating privileges 
+issued by non-CEPT 
+administrations to holders 
+of the CEPT licence 
+1 2 3 4 
+Mississippi 
+Missouri 
+Montana 
+Navassa Isl. 
+Nebraska 
+Nevada 
+New Hampshire 
+New Jersey 
+New Mexico 
+New York 
+North Carolina 
+North Dakota 
+Ohio 
+Oklahoma 
+Oregon 
+Palmyra Isl. 
+Peale Isl. 
+Pennsylvania  
+Rhode Island 
+South Carolina 
+South Dakota 
+Tennessee 
+Texas 
+Utah 
+Vermont 
+Virgin Isl. 
+Virginia 
+Wake Isl. 
+Washington 
+West Virginia 
+Wilkes Isl. 
+Wisconsin 
+Wyoming 
+W5 
+W0 
+W7 
+KP1 
+W0 
+W7 
+W1 
+W2 
+W5 
+W2 
+W4 
+W0 
+W8 
+W5 
+W7 
+KH5 
+KH9 
+W3  
+W1 
+W4 
+W0 
+W4 
+W5 
+W7 
+W1 
+KP2 
+W4 
+KH9 
+W7 
+W8 
+KH9 
+W9 
+W7 
+ 
+Note:  
+Please check the Office documentation database https://docdb.cept.org/ for the up to date position 
+concerning non-CEPT countries which have implemented this Recommendation.
+
+===== PDF-side 13 =====
+
+RECOMMENDATION T/R 61-01 – Page 13 
+Edition of 27 May 2016 
+ANNEX 5: PARTICIPATION OF NON- CEPT ADMINISTRATIONS IN THE "CEPT RADIO AMATEUR 
+LICENCE'' – STATEMENT OF CONFORMITY 
+1. Administration/ Country 
+2. Name of Authority mandated to licence Amateur Radio Operators or Stations 
+3. Address of Authority mentioned in 2 above 
+4. Contact Information of Person(s) Responsible (name, email and telephone) 
+5. This Statement of Conformity (SOC) is issued under the Sole Responsibility of the Authority named in 
+2 above 
+6. This Statement confirms that the Authority named in 2 above has conducted a Comparative 
+Assessment between the Requirements of Annex 6 of CEPT Recommendation T/R 61- 02 (HAREC) 
+and the requirements for an Amateur Licence in the Country mentioned in 1 above 
+7. This Statement therefore Confirms that Amateur Licensees of the Licence Classes listed in 8 below 
+have been Examined and have Demonstrated their Competence to an Equivalent Standard to that 
+required in Annex 6 of CEPT Recommendation T/R 61-02 (HAREC)  
+8. The National Licences in the Country mentioned in 1 above which are of an Equivalent Standard to 
+Annex 6 of CEPT Recommendation T/R 61-02 (HAREC) are: ............................................................. 
+9. Licensees holding licences of a Class described in 8 above are therefore Qualified (subject to an entry 
+in Annex 4 of this Recommendation) to operate  Amateur Radio Stations in accordance with CEPT 
+Recommendation T/R 61-01 in CEPT Countries which have applied this Recommendation. 
+10. The Call-Sign Prefix to be used (with their home call -sign) by visiting Amateur Radio Licensees from 
+CEPT countries which have applied this Recommendation shall be: ...........................  
+11. Additional Information concerning Operating Privileges, if applicable: ................................  
+ 
+Signed for and on behalf of:  ................................................................................................ (the Authority)  
+Place and Date of Signing: ..............................................................................................................................  
+Name, Function, Signature: .............................................................................................................................

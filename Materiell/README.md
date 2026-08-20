@@ -10,8 +10,8 @@ kapitlene forklarer *hvordan det virker*, viser kretser og regner eksempler.
 2. [Signaler, filtre, halvledere og forsterkere](02-signaler-filtre-halvledere.md)
 3. [Modulasjon, sendere og mottakere](03-modulasjon-sendere-mottakere.md)
 4. [Digital signalbehandling](04-digital-signalbehandling.md)
-5. Transmisjonslinjer og antenner
-6. Bølgeutbredelse og linkbudsjett
+5. [Antenner og transmisjonslinjer](05-antenner-og-transmisjonslinjer.md)
+6. [Radiobølgeutbredelse og linkbudsjett](06-utbredelse-og-linkbudsjett.md)
 7. Måleteknikk, interferens og EMC
 8. Sikkerhet, operasjon og regelverk
 

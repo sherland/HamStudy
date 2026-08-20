@@ -102,6 +102,8 @@ DOCUMENTS = {
     "Materiell/02-signaler-filtre-halvledere.md",
     "Materiell/03-modulasjon-sendere-mottakere.md",
     "Materiell/04-digital-signalbehandling.md",
+    "Materiell/05-antenner-og-transmisjonslinjer.md",
+    "Materiell/06-utbredelse-og-linkbudsjett.md",
 }
 
 

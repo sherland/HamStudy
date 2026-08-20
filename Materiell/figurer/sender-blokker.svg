@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420" role="img" aria-labelledby="title desc">
+  <title id="title">SSB- og FM-sender</title><desc id="desc">Forenklede blokker fra mikrofon til antenne for en SSB-sender og en PLL-basert FM-sender.</desc>
+  <defs><marker id="a" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0,0 L9,3.5 L0,7 Z" fill="#263238"/></marker></defs>
+  <style>text{font:16px sans-serif;fill:#17202a}.b{fill:#e9f4ea;stroke:#28723b;stroke-width:2}.m{fill:#fff1dc;stroke:#a45a16;stroke-width:2}.l{stroke:#263238;stroke-width:2;marker-end:url(#a)}</style>
+  <text x="20" y="35">SSB</text><text x="20" y="105">Mik.</text><line class="l" x1="60" y1="100" x2="105" y2="100"/>
+  <rect class="b" x="110" y="65" width="125" height="70"/><text x="135" y="95">Audiofor-</text><text x="138" y="117">sterker</text><line class="l" x1="235" y1="100" x2="275" y2="100"/>
+  <rect class="m" x="280" y="65" width="145" height="70"/><text x="302" y="95">Balansert</text><text x="304" y="117">modulator</text><line class="l" x1="425" y1="100" x2="465" y2="100"/>
+  <rect class="b" x="470" y="65" width="125" height="70"/><text x="493" y="95">SSB-filter</text><text x="487" y="117">eller DSP</text><line class="l" x1="595" y1="100" x2="635" y2="100"/>
+  <rect class="m" x="640" y="65" width="100" height="70"/><text x="663" y="106">Mikser</text><line class="l" x1="740" y1="100" x2="780" y2="100"/>
+  <rect class="b" x="785" y="65" width="125" height="70"/><text x="815" y="95">Lineær</text><text x="802" y="117">driver/PA</text><line class="l" x1="910" y1="100" x2="950" y2="100"/>
+  <rect class="b" x="955" y="65" width="120" height="70"/><text x="978" y="95">Utgangs-</text><text x="989" y="117">filter</text>
+  <text x="20" y="245">FM</text><text x="20" y="315">Mik.</text><line class="l" x1="60" y1="310" x2="125" y2="310"/>
+  <rect class="b" x="130" y="275" width="150" height="70"/><text x="150" y="305">Audiofilter/</text><text x="162" y="327">nivåkontroll</text><line class="l" x1="280" y1="310" x2="340" y2="310"/>
+  <rect class="m" x="345" y="275" width="150" height="70"/><text x="376" y="305">VCO i PLL</text><text x="365" y="327">FM-modulator</text><line class="l" x1="495" y1="310" x2="570" y2="310"/>
+  <rect class="b" x="575" y="275" width="150" height="70"/><text x="601" y="305">Buffer/driver</text><text x="624" y="327">/ PA</text><line class="l" x1="725" y1="310" x2="800" y2="310"/>
+  <rect class="b" x="805" y="275" width="150" height="70"/><text x="833" y="305">Tilpasning</text><text x="847" y="327">og filter</text><line class="l" x1="955" y1="310" x2="1030" y2="310"/><text x="1035" y="315">Antenne</text>
+</svg>

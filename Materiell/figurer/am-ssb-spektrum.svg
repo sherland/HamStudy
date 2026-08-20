@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Spektrum for AM og øvre sidebånd</title>
+  <desc id="desc">AM har nedre sidebånd, bærebærer og øvre sidebånd. SSB har bare det øvre sidebåndet.</desc>
+  <style>text{font:18px sans-serif;fill:#17202a}.axis{stroke:#17202a;stroke-width:2}.am{stroke:#1665a7;stroke-width:8}.ssb{stroke:#b33b24;stroke-width:8}.dash{stroke:#777;stroke-dasharray:7 7}</style>
+  <text x="25" y="35">AM: bærebærer og to sidebånd</text>
+  <line class="axis" x1="70" y1="150" x2="840" y2="150"/><line class="am" x1="260" y1="150" x2="260" y2="95"/><line class="am" x1="450" y1="150" x2="450" y2="55"/><line class="am" x1="640" y1="150" x2="640" y2="95"/>
+  <text x="215" y="180">fc−fm</text><text x="430" y="180">fc</text><text x="610" y="180">fc+fm</text>
+  <text x="25" y="225">USB/SSB: bærebærer og nedre sidebånd undertrykt</text>
+  <line class="axis" x1="70" y1="320" x2="840" y2="320"/><line class="dash" x1="450" y1="320" x2="450" y2="275"/><line class="ssb" x1="640" y1="320" x2="640" y2="265"/>
+  <text x="430" y="348">fc</text><text x="610" y="348">fc+fm</text>
+</svg>

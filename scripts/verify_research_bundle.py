@@ -81,6 +81,7 @@ DOCUMENTS = {
     "Kilder/TEKNISK-KILDEREGISTER.md", "Materiell/README.md",
     "Materiell/01-grunnleggende-elektronikk.md",
     "Materiell/02-signaler-filtre-halvledere.md",
+    "Materiell/03-modulasjon-sendere-mottakere.md",
 }
 
 

@@ -8,14 +8,12 @@ kapitlene forklarer *hvordan det virker*, viser kretser og regner eksempler.
 
 1. [Grunnleggende elektronikk og kretsregning](01-grunnleggende-elektronikk.md)
 2. [Signaler, filtre, halvledere og forsterkere](02-signaler-filtre-halvledere.md)
-3. Komponenter, forsterkere og strømforsyninger (videreføring av kapittel 2)
-4. Modulasjon og sendere
-5. Mottakere
-6. Digital signalbehandling
-7. Transmisjonslinjer og antenner
-8. Bølgeutbredelse og linkbudsjett
-9. Måleteknikk, interferens og EMC
-10. Sikkerhet, operasjon og regelverk
+3. [Modulasjon, sendere og mottakere](03-modulasjon-sendere-mottakere.md)
+4. Digital signalbehandling
+5. Transmisjonslinjer og antenner
+6. Bølgeutbredelse og linkbudsjett
+7. Måleteknikk, interferens og EMC
+8. Sikkerhet, operasjon og regelverk
 
 Kapitler uten lenke er ennå ikke skrevet. En kapitteloverskrift skal først få
 lenke når kapittelet inneholder forklaring, eksempler og HAREC-kontroll.

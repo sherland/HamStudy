@@ -14,7 +14,7 @@ kapitlene forklarer *hvordan det virker*, viser kretser og regner eksempler.
 6. [Radiobølgeutbredelse og linkbudsjett](06-utbredelse-og-linkbudsjett.md)
 7. [Måleteknikk, interferens og EMC](07-maleteknikk-emc.md)
 8. [Sikkerhet ved radioamatørstasjonen](08-sikkerhet.md)
-9. Operasjon og regelverk
+9. [Operasjon, internasjonale regler og norsk regelverk](09-operasjon-regelverk.md)
 
 Kapitler uten lenke er ennå ikke skrevet. En kapitteloverskrift skal først få
 lenke når kapittelet inneholder forklaring, eksempler og HAREC-kontroll.

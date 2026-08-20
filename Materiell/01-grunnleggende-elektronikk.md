@@ -1,6 +1,6 @@
 # 1. Grunnleggende elektronikk og kretsregning
 
-HAREC: `H-INTRO-A`–`H-INTRO-D`, `H-T1.1`, `H-T1.2`, `H-T1.6`,
+HAREC: `H-INTRO-A`–`H-INTRO-D`, `H-T1.1`–`H-T1.6`,
 `H-T1.9`, `H-T2.1`–`H-T2.4` og deler av `H-T3.1`.
 
 ## Kildegrunnlag
@@ -16,7 +16,7 @@ HAREC: `H-INTRO-A`–`H-INTRO-D`, `H-T1.1`, `H-T1.2`, `H-T1.6`,
 - `MIT-RC-L09`, PDF-side 2–7, støtter RC-kretsenes eksponentialforløp og
   tidskonstant.
 
-Alle fire kilde-ID-er er registrert med original-URL, lokalt uttrekk og hash i
+Alle kilde-ID-er er registrert med original-URL, lokalt uttrekk og hash i
 `Kilder/TEKNISK-KILDEREGISTER.md`. Regnetallene og SVG-figurene nedenfor er
 egne pedagogiske utledninger fra de kildebelagte lovene; de er ikke kopierte
 oppgaver eller figurer.
@@ -378,7 +378,83 @@ Med 10 V RMS blir strømmen `10/118,1=84,7 mA RMS`, og strømmen ligger 32,1°
 etter spenningen. Bare motstanden bruker middel-effekt:
 `P=I²R=(0,0847)²·100=0,718 W`.
 
-## 1.12 Fallgruver
+## 1.12 Matematiske verktøy, symboler og formelomforming
+
+Kilder: `HAREC-2024` PDF-side 12; `NIST-SI-811` PDF-side 16–25.
+
+HAREC forutsetter addisjon, subtraksjon, multiplikasjon, divisjon, brøker,
+tierpotenser, eksponentialer, logaritmer, kvadrat, kvadratrot, inverser,
+grafer og binært tallsystem. Eksempler:
+
+- `4,7·10³ Ω = 4,7 kΩ`; `220·10⁻¹² F = 220 pF`.
+- `1/(2π·1000·100 nF)=1592 Ω`; inversen av `x` er `1/x`.
+- `√(200/50)=2`; kvadratet av viklingsforholdet 2 er 4.
+- `10 log10(100)=20 dB`; `10^(20/10)=100` er motsatt operasjon.
+- `e^(−t/RC)` gir en ikke-lineær eksponentialkurve, mens `U=RI` er en rett
+  linje gjennom origo for konstant R.
+- binært `101101₂ = 1·32+0·16+1·8+1·4+0·2+1=45₁₀`.
+
+En formel omformes ved å gjøre samme lovlige operasjon på begge sider. Fra
+`U=IR` fås `I=U/R` og `R=U/I`. Fra `P=U²/R` fås `U=√(PR)` og `R=U²/P`.
+Fra `f0=1/(2π√(LC))` fås `C=1/[(2πf0)²L]`. Sett inn grunnenheter og
+kontroller at svarets dimensjon er den forventede.
+
+| Symbol | Betydning | SI-enhet |
+|---|---|---|
+| `U`, `I`, `R`, `P`, `W` | spenning, strøm, motstand, effekt, energi | V, A, Ω, W, J |
+| `C`, `L`, `f`, `T` | kapasitans, induktans, frekvens, periodetid | F, H, Hz, s |
+| `λ`, `v`, `φ` | bølgelengde, hastighet, fase | m, m/s, grad eller rad |
+| `Z`, `X`, `j` | impedans, reaktans, imaginærenheten | Ω, Ω, dimensjonsløs |
+
+I et skjema viser sikksakk/rektangel motstand, to plater kondensator, løkker
+spole og trekant/streker jord/referanse. Diode- og transistorsymbolenes
+streker/piler viser terminaler, polaritet eller type. Symbolformen kan variere
+mellom IEC- og amerikansk praksis; funksjon og terminalnavn avgjør tolkningen.
+
+## 1.13 Ledningsevne, kilder og felter
+
+Kilder: `FAA-ELEC-2023` PDF-side 442–459; `USN-NEETS-10` kapittel 1;
+`HAREC-2024` PDF-side 14.
+
+En **leder** har mange mobile ladningsbærere og lav resistivitet. En
+**isolator** binder ladningene sterkere og har høy resistivitet. En
+**halvleder** ligger mellom og kan styres med doping, elektrisk felt, lys og
+temperatur. Resistansen til en homogen leder er kvalitativt større når den er
+lang og tynn og når materialets resistivitet er høy.
+
+Elektriske kilder kan omforme kjemisk, mekanisk, lys- eller varmeenergi til
+elektrisk energi. Et batteri er en kjemisk spenningskilde; en generator bruker
+elektromagnetisk induksjon; en solcelle bruker lys. Kildens EMF er dens ideelle
+tomgangsspenning. Indre motstand gir spenningsfall og begrenser strøm som
+forklart i 1.7.
+
+Like spenningskilder i serie summerer spenningen når polariteten er riktig;
+kapasiteten i Ah begrenses av den svakeste enheten. Like kilder i parallell
+beholder spenningen og kan dele strøm/kapasitet, men bare kilder konstruert for
+slik kobling skal parallellkobles. Ulik EMF kan gi stor utjevningsstrøm.
+`2,0 Ah` betyr ideelt for eksempel 2 A i én time eller 0,2 A i ti timer, men
+reell kapasitet avhenger av strøm, temperatur, alder og sluttspenning.
+
+Et **elektrisk felt** virker på ladning. Feltstyrken `E` måles i V/m; mellom
+store parallelle plater er grovt `E=U/d`. En ledende kapsling omfordeler
+ladninger og kan skjerme det indre mot ytre elektriske felt når skjøter og
+gjennomføringer er gode.
+
+Strøm i en leder lager et sirkulært **magnetfelt** rundt lederen. Retningen
+finnes med høyrehåndsregelen for konvensjonell strøm. Feltet øker med strøm;
+i en spole summeres feltene fra vindingene og en egnet kjerne kan konsentrere
+fluksen. Lavfrekvent magnetfelt er vanskeligere å skjerme enn E-felt: kort
+avstand, liten sløyfe, tvinnede fram-/returledere og materialer med høy
+magnetisk permeabilitet er aktuelle tiltak. En tynn kobberfolie stopper ikke
+automatisk et langsomt magnetfelt.
+
+Et tidsvarierende elektrisk felt og magnetfelt henger sammen og kan forplante
+seg som en **elektromagnetisk bølge**. I vakuum går den med
+`c≈3,00·10⁸ m/s`; `v=fλ`. Polarisasjonen angis av E-feltets retning. I
+fjernfeltet står E-felt, H-felt og utbredelsesretning innbyrdes vinkelrett.
+Nær en antenne kan forholdet være mer komplisert.
+
+## 1.14 Fallgruver
 
 Egen pedagogisk oppsummering av feil som kan oppdages med kontrollreglene og
 formlene i dette kapitlets kilder.
@@ -394,7 +470,7 @@ formlene i dette kapitlets kilder.
 - Å slå av en spenningskilde i Thévenin-analyse ved å åpne den; en ideell
   spenningskilde erstattes med kortslutning.
 
-## 1.13 Kontrolloppgaver
+## 1.15 Kontrolloppgaver
 
 Egenproduserte oppgaver og fasit, avledet fra de kildebelagte lovene over.
 
@@ -408,6 +484,9 @@ Egenproduserte oppgaver og fasit, avledet fra de kildebelagte lovene over.
 5. Finn `XC` for 220 pF ved 14 MHz.
 6. En transformator har 500 vindinger på primæren og 50 på sekundæren. Primæren
    får 230 V RMS. Finn ideell sekundærspenning og strømforholdet `I2/I1`.
+7. Skriv `101101₂` som desimaltall og omform `P=U²/R` med U som ukjent.
+8. Forklar hvorfor en ledende skjerm ofte er mer effektiv mot E-felt enn mot
+   lavfrekvent H-felt.
 
 ### Fasit
 
@@ -417,3 +496,7 @@ Egenproduserte oppgaver og fasit, avledet fra de kildebelagte lovene over.
 4. `τ=1 ms`, over 99 % etter omtrent `5 ms`.
 5. `XC≈51,7 Ω`.
 6. `U2=23 V RMS`, `I2/I1=10`.
+7. `45₁₀`; `U=√(PR)`.
+8. Frie ladninger omfordeles og kansellerer E-feltet. Et langsomt magnetfelt
+   går lettere gjennom ikke-magnetisk metall; liten sløyfe, avstand/tvinning
+   og høypermeabel skjerm er mer relevante.

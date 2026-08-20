@@ -27,6 +27,9 @@ gir samme varmeeffekt i en motstand. Topp-til-topp er `Upp=2Û`. Et signal på
 10 V topp har 7,07 V RMS og 20 V topp-til-topp. RMS-formelen `Û/√2` gjelder
 ikke vilkårlige bølgeformer.
 
+Middelverdien over en hel periode er null for en symmetrisk sinus. Den
+likerettede middelverdien er ikke null og må ikke blandes med RMS.
+
 ## 2.2 Ikke-sinusformede signaler og harmoniske
 
 Kilder: `HAREC-2024` PDF-side 15; `FAA-ELEC-2023` PDF-side 485–490.
@@ -40,6 +43,14 @@ skape bredt spektrum selv om repetisjonsfrekvensen er lav.
 Tidsdomene viser hvordan signalet varierer med tiden; frekvensdomene viser
 amplitude/effekt som funksjon av frekvens. De er to beskrivelser av samme
 signal, ikke to forskjellige signaler.
+
+Et signal kan dessuten ha en DC-komponent (middelverdi) som summeres med
+grunntone og overharmoniske. Termisk mottakerstøy har tilgjengelig effekt
+`PN=kTB`, der `k≈1,38·10⁻²³ J/K`, T er absolutt temperatur og B er
+støybåndbredde. Ved 290 K og 2,4 kHz blir
+`PN≈1,38·10⁻²³·290·2400=9,6·10⁻¹⁸ W`, omtrent −140 dBm. Dobbel båndbredde
+dobler støyeffekten (+3 dB). Støytetthet er effekt per hertz; båndstøy er den
+integrerte effekten innen mottakerens filter.
 
 ## 2.3 Desibel
 
@@ -56,15 +67,25 @@ For spennings- eller strømforhold når impedansene er like:
 20-faktoren kommer av at effekt er proporsjonal med spenning i andre potens.
 Den kan ikke brukes til å påstå et effektforhold når impedansene er ulike.
 
-| Forhold | dB |
-|---:|---:|
-| effekt ×2 / ÷2 | +3 / −3 dB |
-| spenning ×2 / ÷2, lik impedans | +6 / −6 dB |
-| effekt ×10 / ÷10 | +10 / −10 dB |
-| spenning ×10 / ÷10, lik impedans | +20 / −20 dB |
+| dB | Effektforhold | Spenningsforhold ved lik impedans |
+|---:|---:|---:|
+| −20 | 0,01 | 0,1 |
+| −10 | 0,1 | 0,316 |
+| −6 | 0,251 (omtrent 1/4) | 0,501 (omtrent 1/2) |
+| −3 | 0,501 (omtrent 1/2) | 0,708 |
+| 0 | 1 | 1 |
+| +3 | 1,995 (omtrent 2) | 1,413 |
+| +6 | 3,981 (omtrent 4) | 1,995 (omtrent 2) |
+| +10 | 10 | 3,162 |
+| +20 | 100 | 10 |
 
 I en kaskade summeres dB. En forsterker på 12 dB, et filtertap på 3 dB og en
 effektforsterker på 20 dB gir `12−3+20=29 dB` total forsterkning.
+
+Virkningsgrad er `η=Pout/Pin·100 %`. Maksimal resistiv effektoverføring skjer
+ved `RL=RTh`; da er virkningsgraden i den enkle Thévenin-modellen 50 %.
+Peak Envelope Power (PEP) er RF-middeleffekten under toppen av
+modulasjonsinnhyllingen, ikke momentan toppspenning ganger toppstrøm.
 
 ## 2.4 Resonans og Q
 
@@ -77,7 +98,8 @@ Ved resonans er `XL=XC`, slik at
 I en serie-RLC er impedansen minst ved resonans og strømmen størst. I en ideell
 parallellresonans er inngangsimpedansen størst. Reelle tap bestemmer hvor skarp
 resonansen er. Kvalitetsfaktoren kan uttrykkes som `Q=f0/B`, der `B` er
-båndbredden mellom −3 dB-punktene.
+båndbredden mellom −3 dB-punktene. Ved relevant ekvivalentmodell brukes også
+`Q=2πfL/Rs` for serietap og `Q=Rp/(2πfL)` for parallelltap.
 
 Eksempel: `L=10 µH`, `C=100 pF` gir
 `f0=1/(2π√(10·10⁻6·100·10⁻12))≈5,03 MHz`. Med `Q=50` blir
@@ -106,6 +128,13 @@ basselementet og høye til diskantelementet. Prinsippet er det samme som andre
 frekvensselektive nettverk, men lastimpedansen til høyttalerne må inngå i
 beregningen.
 
+Et pi-filter har to shuntreaktanser med én seriereaktans mellom; et T-filter
+har to seriereaktanser med én shuntreaktans mellom. Verdiene velges for
+lav-/høy-/båndpass eller impedanstransformasjon. Et kvartskrystall virker som
+en svært høy-Q resonator med en nær serie- og parallellresonans og brukes i
+smale filtre og stabile oscillatorer. Virkelige L og C har ESR, lekkasje og
+parasitter og kan bli selvresonante. Digitale FIR/IIR-filtre dekkes i 4.5.
+
 ## 2.6 Dioder
 
 Kilder: `FAA-ELEC-2023` PDF-side 536–546; `HAREC-2024` PDF-side 16.
@@ -121,6 +150,14 @@ og endelig svitsjetid.
 - **LED:** avgir lys ved rekombinasjon; må strømbegrenses.
 - **Varicap:** sperresjiktets kapasitans styres av reversspenningen og kan
   avstemme oscillatorer og filtre.
+
+Seriekoblede dioder kan øke samlet foroverspenningsfall eller
+sperrespenning, men reelle lekkasjeforskjeller kan kreve utjevning.
+Parallellkobling for mer strøm er risikabel uten strømdeling fordi den varmeste
+dioden kan ta mer strøm. Ved RF blir overgangskapasitans og revers
+gjenopprettingstid viktige. Tilsvarende får motstander parasittisk L/C,
+kondensatorer parasittisk L og spoler parasittisk C; komponentverdien alene
+beskriver derfor ikke høyfrekvensoppførselen.
 
 ## 2.7 Likeretting, glatting og regulering
 
@@ -181,7 +218,44 @@ mellom `f1` og `f2` gir blant annet `f1±f2`, `2f1−f2` og `2f2−f1`; produkte
 nær ønsket signal er vanskelige å filtrere bort. Overstyring av et SSB-trinn
 kan derfor gi splatter utenfor nødvendig båndbredde.
 
-## 2.10 Kontrolloppgaver
+## 2.10 Elektronrør, integrerte kretser og operasjonsforsterker
+
+Kilder: `FAA-ELEC-2023` PDF-side 551–552 og 558–559; `HAREC-2024`
+PDF-side 17.
+
+I et vakuumrør varmes katoden og emitterer elektroner. En positiv anode
+trekker dem gjennom vakuumet. I trioden ligger et styregitter mellom katode og
+anode; en liten gitterspenningsendring styrer en stor anodestrøm.
+Tetrode/pentode har flere gitter for bedre forsterkning og mindre indre
+tilbakekobling. Rørtrinn kan ha flere hundre eller tusen volt og høy
+utgangsimpedans. En utgangstransformator eller avstemt nettverk omformer til
+lavere lastimpedans; lagret høyspenning behandles i kapittel 8.
+
+En integrert krets samler mange komponenter på én brikke. En enkel
+operasjonsforsterker har inverterende (−) og ikke-inverterende (+) inngang og
+én utgang. Den åpne sløyfeforsterkningen er svært høy; negativ tilbakekobling
+bestemmer en stabil, lavere lukket forsterkning. I idealmodellen går ingen
+inngangsstrøm og tilbakekoblingen holder `V+≈V−` så lenge utgangen ikke
+metter. Inverterende kobling gir `Av=−Rf/Rin`; ikke-inverterende gir
+`Av=1+Rf/Rg`. Reelle op-amper begrenses av forsyningsskinner, båndbredde,
+slew rate, offset, inn-/utgangsområde og maksimal utgangsstrøm.
+
+Eksempel: `Rin=10 kΩ`, `Rf=100 kΩ` gir inverterende forsterkning −10. En
+inngang på +0,20 V forsøker å gi −2,0 V, forutsatt at forsyning og op-amp
+tillater dette.
+
+## 2.11 LF-/HF-forsterker, båndbredde og avstemming
+
+En LF-forsterker dekker audio/basebånd; en HF/RF-forsterker arbeider ved
+radiofrekvens og må ta hensyn til parasitter, transmisjonslinjer og stabilitet.
+Et bredbåndstrinn gir omtrent definert forsterkning over et stort område. Et
+avstemt trinn bruker resonans for høy forsterkning/selektivitet i et smalere
+bånd. Amplitudekarakteristikken viser gain mot frekvens; båndbredden oppgis
+vanligvis mellom definerte grensepunkter. Fasekarakteristikk og
+gruppeforsinkelse kan forvrenge modulerte signaler selv om amplituden ser flat
+ut.
+
+## 2.12 Kontrolloppgaver
 
 Egenproduserte oppgaver fra de kildebelagte formlene.
 
@@ -191,8 +265,12 @@ Egenproduserte oppgaver fra de kildebelagte formlene.
 4. En 12 V-forsyning gir 5 V/0,4 A med lineær regulator. Finn omtrent
    regulatortapet.
 5. Hvorfor egner klasse C seg dårlig til SSB?
+6. Hva gjør styregitteret i en triode?
+7. En inverterende op-amp har `Rin=5 kΩ` og `Rf=50 kΩ`. Finn forsterkningen.
 
 Fasit: 1) `14,0 dB`. 2) `15,4 kHz`. 3) `71 kHz`. 4) `2,8 W`.
 5) Ledningsvinkelen gir kraftig ikke-linearitet som endrer SSB-konvolutten og
 lager intermodulasjon; et avstemt trinn kan gjenopprette en konstantbærer, men
 ikke et vilkårlig lineært amplitudesignal.
+6) En liten gitterspenning styrer elektronstrømmen mellom katode og anode.
+7) `Av=−Rf/Rin=−10`.

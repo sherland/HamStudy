@@ -1,0 +1,22 @@
+===== PDF-side 1 =====
+
+--
+TRANSISTOR AMPLIFIER CONFIGURATIONS 
++15V +15V +15V 
+RL RLR2 R2 R2 
++ 
++ 
++ 
++ + 
++ + 
++ ++ 
++ 
++ 
++R1 VOUT VOUTREVin R 1 VOUT Vin 
+- ---
+Vin R1RE RE 
+[a] Common Emitter Amplifier [b] Common Collector [Emitter Follower] Amplifier [c] Common Base Amplifier 
+Transistor Amplifier Configurations                              1                                                                      9/15/06 
+Cite as: Ron Roscoe, course materials for 6.101 Introductory Analog Electronics Laboratory, Spring 2007.
+MIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology.
+Downloaded on [DD Month YYYY].

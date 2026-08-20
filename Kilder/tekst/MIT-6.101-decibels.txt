@@ -1,0 +1,138 @@
+===== PDF-side 1 =====
+
+The Decibel Unit of Measurement 
+ 
+©1999 by Ron Roscoe, MIT Department of Electrical Engineering & Computer Science 
+Course 6.101: Introductory Analog Electronics Laboratory 
+ 
+Voltage, power,  [or current] gain can be expressed as a pure ratio or as a decibel value. 
+The original unit was the Bel, named after Alexander Graham Bell, and was used in telephone work.  
+One-tenth [deci-] of the original unit is more appropriate for modern use. 
+The original intent was to compare power gains or losses in communications circuits, at a time when 
+power was a much more valuable commodity than it is today.  Thus the power gain of a system is 
+expressed as: 
+dB P
+P
+OUT
+IN
+= 10 10log  
+The power gain of the following system is calculated as  follows [remember that pin 2 of the op-amp is 
+at ac ground potential]:  
+-
++
++15
+LM741
+2
+3
+4
+7
+6
+vin=0.2V rms
+vout= -2.0V rms
++
+_ -15
+1kΩ
+10kΩ
+1kΩ
+ 
+dB P
+P
+k
+k
+dB
+OUT
+IN
+== = = = =10
+20
+1
+02
+1
+20
+02 20 20
+02 20 10 20
+10
+2
+2
+2
+2 10 10log
+.
+.
+.
+. log .
+. log
+ 
+Since the input and output load resistances are equal, they cancel, and the equation reduces to: 
+dB V
+V
+OUT
+IN
+= 20 10log  
+If the input and output impedances were not equal, it would be appropriate to calculate the voltage 
+gain using the equation directly above, but it would not give the correct power gain.  It is perfectly 
+Ron Roscoe 1 10/03/00 
+Cite as: Ron Roscoe, course materials for 6.101 Introductory Analog Electronics Laboratory, Spring 2007. 
+MIT OpenCourseWare (http://ocw.mit.edu/), Massachuse tts Institute of Technology. Downloaded on [DD 
+Month YYYY].
+
+===== PDF-side 2 =====
+
+Ron Roscoe 2 10/03/00 
+Cite as: Ron Roscoe, course materials for 6.101 Introductory Analog Electronics Laboratory, Spring 2007. 
+MIT OpenCourseWare (http://ocw.mit.edu/), Massachuse tts Institute of Technology. Downloaded on [DD 
+Month YYYY]. 
+acceptable to use the dB to express voltage [or current] ratios without consideration of power and 
+resistance [impedance] levels, as long as it is understood that it will not be possible to calculate power 
+gain from the voltage gain value. 
+Modern usage of the decibel concept has evolved to include several types of decibel “unit” that have 
+built-in reference values. These values take the place of the V
+IN or PIN values in the denominators of 
+the equations above.  Some of the most often used referenced decibel units are: 
+dB UNIT reference application 
+dbV 1 Volt rms routine voltage measurements [comparisons!] 
+dBm 1 mW into 50Ω [0.224V] or 
+600Ω [0.775V] 
+radio-frequency [50 Ω] or audio [600 Ω] power 
+measurements [in England, the dBu is used to 
+mean 0.775V reference without regard to 
+impedance or power] 
+dB mV     1 millivolt rms signal levels in cable systems 
+dbW 1 Watt audio power amplifier output [usually into 8, 4, or 
+2Ω impedances] 
+dBf 1 femtowatt [10-15 watt] communications and stereo receiver sensitivity 
+[usually 50Ω, 75Ω unbalanced, or 300Ω balanced 
+antenna input impedances] 
+dBSPL 0.0002μbar, = 20μPa [=Pascals] [1 
+bar = 106 dynes/cm2  ~1AT] 
+Sound Pressure Level measurements: the 
+reference is the “threshold of hearing”. 
+ 
+To find the total gain of a string of amplifier stages, we MULTIPLY the raw gain ratios together to get 
+the total gain, but we ADD the dB values together to get the total gain. [Adding logs equals 
+multiplication.] 
+When a voltage is doubled in a circuit [impedance levels held constant], the gain changes by +6dB.  
+When the voltage is halved, the gain changes by -6dB.  When the power is doubled in a circuit 
+[impedance levels held constant], the gain changes by +3dB.  When the power is halved, the gain 
+changes by -3dB.  So, if I sell my 100-watt per channel power amplifier and buy one that puts out 200 
+watts per channel, each channel can only play 3 dB louder than the old amplifier could.  [Actually, 
++6dB louder in the room, if the outputs from both speakers add directly, which isn’t always the case.  
+However, it would be true on average for music waveforms.] Average power on music waveforms is 
+way below the peak capabilities of a power amplifier.   One buys more power per channel to be able to 
+increase the average power level in the room a little, while still having enough headroom in the 
+amplifier to avoid clipping the amp on the loud pea ks.]  To increase the power level by 10 dB, your 
+new power amplifier would need to put out 1000 watts per channel!!! 
+Power bandwidth in an audio amplifier is defined as the band of frequencies lying between the low 
+frequency and the high frequency at which the power just drops to -3dB relative to the mid-frequency 
+power output, usually referenced to 1kHz, and 
+at a constant distortion .  [3dB is the amount of power
+
+===== PDF-side 3 =====
+
+Ron Roscoe 3 10/03/00 
+Cite as: Ron Roscoe, course materials for 6.101 Introductory Analog Electronics Laboratory, Spring 2007. 
+MIT OpenCourseWare (http://ocw.mit.edu/), Massachuse tts Institute of Technology. Downloaded on [DD 
+Month YYYY]. 
+level change that the untrained ear can just perceive.  Trained listeners can perceive level changes of 
+about 1 dB.]  If you are changing or observing just voltage, then the -3dB points occur at 0.707 of the 
+reference or midband voltage, which again, for audio work, is usually 1 kHz.   
+Frequency response is usually plotted on a semi-log graph, with the horizontal axis being log 10 
+frequency and the vertical axis being linear, usually in dB [which gives a log scale anyway!].

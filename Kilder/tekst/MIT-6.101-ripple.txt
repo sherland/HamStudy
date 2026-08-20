@@ -1,0 +1,45 @@
+===== PDF-side 1 =====
+
+POWER SUPPLY RIPPLE VOLTAGE 
+CALCULATION 
+ 
+ 
+Load Current IL = 100 mA; RL ~ 160 Ω;   
+C = 1000 μF; Vrms = 12 v 
+ 
+τ ==× × = > > −RC 160 1000 10 160 8 36 ms ms .  
+ 
+60 Hz = 16.6 ms  120 Hz = 8.3 ms 
+ 
+iC dV
+dtC =  or, for this approximation:  iC V
+tC = Δ
+Δ .    
+ 
+Solve for Δ ΔV it
+C= , where Δ V = ripple voltage, vr. 
+ 
+v Am s
+F vvrr= × = ×× = o l t
+−
+−
+01 83
+1000
+01 83 10
+10
+08 3
+3
+3
+.. . . ;.μ  
+ 
+VDCMAX = 1.4 x 12v = 16.8v 
+ 
+VDCMIN = 16.8v - 0.83v = 16.0v 
+ 
+VDCAVE = [16.8 - 16.0]/2 = 16.4v 
+ 
+ 
+  02/12/1999
+Cite as: Ron Roscoe, course materials for 6.101 Introductory Analog Electronics Laboratory, Spring 
+2007. MIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. 
+Downloaded on [DD Month YYYY].

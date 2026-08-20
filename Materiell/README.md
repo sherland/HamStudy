@@ -7,8 +7,8 @@ kapitlene forklarer *hvordan det virker*, viser kretser og regner eksempler.
 ## Kapitler
 
 1. [Grunnleggende elektronikk og kretsregning](01-grunnleggende-elektronikk.md)
-2. Signaler, desibel, resonans og filtre
-3. Komponenter, halvledere, forsterkere og strømforsyninger
+2. [Signaler, filtre, halvledere og forsterkere](02-signaler-filtre-halvledere.md)
+3. Komponenter, forsterkere og strømforsyninger (videreføring av kapittel 2)
 4. Modulasjon og sendere
 5. Mottakere
 6. Digital signalbehandling

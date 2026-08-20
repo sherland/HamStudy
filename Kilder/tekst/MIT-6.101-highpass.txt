@@ -1,0 +1,55 @@
+===== PDF-side 1 =====
+
+DEPARTMENT OF ELECTRICAL ENGINEERING AND COMPUTER SCIENCE 
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY 
+CAMBRIDGE, MASSACHUSETTS 02139 
+ 
+High-Pass Filter Basics [Differentiator] 
+ 
+ 
+     RV1 V2
+C 1 CR s
+CR s
+1 CR j
+CR j
+C j
+1R
+R
+V
+VA
+1
+2
+v
++=+ ω
+ω=
+ω+
+= =  
+High-Pass Filter Basics 1 of 1 08/07/07 
+ 
+Cite as: Ron Roscoe, course materials for 6.101 Introductory Analog Electronics Laboratory, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month 
+YYYY].
+
+===== PDF-side 2 =====
+
+log f
+AV (dB)
+-3dB
+fLO or f-3dB
+slope = 6 dB / octave
+slope = 20 dB / decade
+0
+log f
+Degrees
+45o
+fLO or f-3dB
+90o
+0o
+-45o
+PHASE LEAD
+ 
+High-Pass Filter Basics 2 of 1 08/07/07 
+ 
+Cite as: Ron Roscoe, course materials for 6.101 Introductory Analog Electronics Laboratory, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month 
+YYYY].

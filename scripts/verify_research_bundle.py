@@ -21,6 +21,12 @@ ARCHIVES = {
     "Kilder/primar/MIT-6.002-L03-Thevenin.pdf": "96C22AEDE85777D7B2ED7DE15ED8BDE2CFCD05F0005B97F3843AE1E7FBA851D7",
     "Kilder/primar/MIT-6.071J-linear-circuits.pdf": "FEACCE5665083650B0171784D07C15EB465B6CA1EB0B4F92DABE46085FF9FDD9",
     "Kilder/primar/MIT-8.022-L09-RC.pdf": "072BC2998B5448A93DBE75A8E0833EB069763B75F26ED40C7B674E88B1959E56",
+    "Kilder/primar/MIT-6.101-decibels.pdf": "53B372A905390827264363C052240AF3BB053E9B09F48BFB105C2D548D821DE7",
+    "Kilder/primar/MIT-6.101-highpass.pdf": "17F5B350FA10026FD8497F225015790B45722D01FD6FC0E5A183D31A380296B2",
+    "Kilder/primar/MIT-6.101-lowpass.pdf": "D53BC20ABC30CA8A3EFE6BAC418944C6EC9D72C7039854B2E03D77F54CF9F058",
+    "Kilder/primar/MIT-6.101-regulated-power.pdf": "D9ECD0FC7C2286ABFD34F20EEF9741D32889EB6D1C9314592931C25C0EDBE199",
+    "Kilder/primar/MIT-6.101-ripple.pdf": "6082ECA885493652264B7523B0138D84B14B823DEB01AEE2C12BFD1EBCD6DD48",
+    "Kilder/primar/MIT-6.101-transistor-config.pdf": "B92E5265EF2B3A5DBE17109A5083DD2E905D5ED758F4B2C5229EC72BF0BD1117",
 }
 
 TEXT_EXTRACTS = {
@@ -39,6 +45,12 @@ TEXT_EXTRACTS = {
     "Kilder/tekst/MIT-6.071J-linear-circuits.txt",
     "Kilder/tekst/MIT-8.022-L09-RC.txt",
     "Kilder/tekst/FAA-H-8083-30B-kap12.txt",
+    "Kilder/tekst/MIT-6.101-decibels.txt",
+    "Kilder/tekst/MIT-6.101-highpass.txt",
+    "Kilder/tekst/MIT-6.101-lowpass.txt",
+    "Kilder/tekst/MIT-6.101-regulated-power.txt",
+    "Kilder/tekst/MIT-6.101-ripple.txt",
+    "Kilder/tekst/MIT-6.101-transistor-config.txt",
 }
 
 DOCUMENTS = {
@@ -48,6 +60,7 @@ DOCUMENTS = {
     "GJENNOMFORINGSSTATUS.md", "Kilder/KILDEREGISTER.md",
     "Kilder/TEKNISK-KILDEREGISTER.md", "Materiell/README.md",
     "Materiell/01-grunnleggende-elektronikk.md",
+    "Materiell/02-signaler-filtre-halvledere.md",
 }
 
 

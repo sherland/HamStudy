@@ -1,0 +1,53 @@
+===== PDF-side 1 =====
+
+DEPARTMENT OF ELECTRICAL ENGINEERING AND COMPUTER SCIENCE 
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY 
+CAMBRIDGE, MASSACHUSETTS 02139 
+ 
+Low-Pass Filter Basics [Integrator] 
+ 
+ 
+R
+V1 V2C
+1 sCR
+1A
+1 CR j
+1
+C j
+1R
+C j
+1
+X j R
+X j
+V
+VA
+v
+C
+C
+1
+2
+v
++=
++ ω=
+ω+
+ω=− +
+−= =
+log f
+AV (dB)
+-3dB
+fHI or  f-3dB
+slope = -6 dB / octave
+slope = -20 dB / decade
+0
+log f
+Degrees
+-45o
+fHI or f-3dB
+0o
+-90o
+PHASE LAG
+ 
+Low-Pass Filter Basics 1 of 1 08/07/07 
+Cite as: Ron Roscoe, course materials for 6.101 Introductory Analog Electronics Laboratory, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month 
+YYYY].

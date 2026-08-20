@@ -1,0 +1,94 @@
+===== PDF-side 1 =====
+
+10.2.3 A Regulated dc Power Supply 
+ 
+Figure 10.11a shows a variation of the emitter-follower theme, this time combined with a Zener 
+diode operating in reverse breakdown to produce a regulated dc output voltage across a load 
+resistor R
+L.  Once again, the V CC supply is playing a dual role, both as collector supply and as 
+bias supply for both the base input to the transistor and the Zener diode.  If we assume that the 
+Zener is operating in reverse breakdown, and if we assume that the Zener impedance R
+Z is 
+much less than R 1 (see Section 8.3.4 and Fig. 8.23), we can redraw this circuit as in Fig. 
+10.11b. 
+ 
+Drawing on our analysis of the emitter follower, we have immediately from Eq. 10.23 that  
+   
+( )
+( ) ( )v R
+RR VL
+FL
+ZF L
+Z= +
+++
+⎡
+⎣
+⎢
+⎤
+⎦
+⎥ −β
+β
+1
+1 06.    (10.40) 
+ 
+which for (βF + 1)RL >> RZ  is effectively independent of R L.  Thus the emitter follower is acting 
+like a dc voltage source of magnitude Vz - 0.6. The output voltage in our approximate analysis is 
+also independent of V CC.  Thus any ripple that might be present on the V CC supply is strongly 
+attenuated by this regulator.  Emitter followers can be used in this way to obtain well-filtered dc 
+supply voltages at relatively modest cost. 
+The equivalent circuit of Fig. 10.11c shows the Thevenin resistance of the regulated supply is  
+RZ/(βF + 1).  Derivation of this resistance from Eq. 10.40 is left as an exercise.  Also left as an 
+exercise is the derivation that the regulator works only for RL > RL min where  
+ 
+  R RV
+VVL
+Z
+FC C
+min
+(. )
+() (=
+Z )
+−
++−
+1 06
+1β
+    (10.41) 
+ 
+Cite as: Ron Roscoe, course materials for 6.101 Introductory Analog Electronics Laboratory, Spring 
+2007. MIT OpenCourseWare (http://ocw.mit.edu/),  Massachusetts Institute of Technology. 
+Downloaded on [DD Month YYYY]. 
+~+
++
++
+++
++ +
+_
+__
+__
+_ _
+VCC
+VCC
+R1
+RL RLVz
+Vz - 0.6 RL
+Rz
+Vz
+Rz
+uL
+uL
+bF + 1
+uL
+(a) Circuit (b) Redrawn assuming reverse breakdown 
+      operation with R1 >> RZ
+(c) Equivalent for RL > RL,min
+A regulated dc power supply.
+Figure by MIT OpenCourseWare.
+
+===== PDF-side 2 =====
+
+Cite as: Ron Roscoe, course materials for 6.101 Introductory Analog Electronics Laboratory, Spring 
+2007. MIT OpenCourseWare (http://ocw.mit.edu/),  Massachusetts Institute of Technology. 
+Downloaded on [DD Month YYYY]. 
+As a practical case, assume V CC = 12 V, VZ= 6.2 V, R Z = 10 Ω, R1 = 1 kΩ and βF = 50.  In that 
+case the regulated output voltage is v L = 5.6 V for R L min  = 20 Ω.  Equivalently, this supply can 
+deliver regulated load current up to a maximum of vL/RL min = 280 mA.

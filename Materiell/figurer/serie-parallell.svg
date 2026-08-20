@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250" role="img" aria-labelledby="t d">
+  <title id="t">Blandet serie- og parallellkobling</title>
+  <desc id="d">En 12 volts kilde driver R1 i serie med en parallellkobling av R2 og R3.</desc>
+  <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M90 45h90m140 0h80v160H90"/>
+    <path d="M400 45h75m140 0h55v160H400"/>
+    <path d="M400 205h75m140 0h55"/>
+    <path d="M180 45l12-12 16 24 16-24 16 24 16-24 16 24 16-24 12 12"/>
+    <path d="M475 45l12-12 16 24 16-24 16 24 16-24 16 24 16-24 12 12"/>
+    <path d="M475 205l12-12 16 24 16-24 16 24 16-24 16 24 16-24 12 12"/>
+    <path d="M90 80v35m0 30v60"/><path d="M68 115h44M78 145h24"/>
+  </g>
+  <g fill="currentColor" font-family="sans-serif" font-size="17">
+    <text x="210" y="24">R1 = 100 Ω</text><text x="505" y="24">R2 = 330 Ω</text>
+    <text x="505" y="185">R3 = 220 Ω</text><text x="20" y="137">12 V</text>
+    <text x="335" y="37">I</text><text x="690" y="50">I2</text><text x="690" y="210">I3</text>
+  </g>
+</svg>

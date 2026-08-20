@@ -24,3 +24,9 @@ De arkiverte Nkom- og NRRL-nettsidene genereres med
 IARU-PDF-ene genereres med det samme PDF-skriptet. Navigasjonstekst kan følge
 med fra nettsidene; original HTML/PDF er fortsatt autoritativ for layout og
 struktur.
+
+Tekniske PDF-kilder fra NIST, ITU og MIT er ekstrahert med PDF-skriptet. For
+FAA-H-8083-30B er bare det relevante kapittelintervallet, PDF-side 442–615,
+bevart i `FAA-H-8083-30B-kap12.txt`; kommandoen bruker skriptets valgfrie
+parametere `FRA_SIDE TIL_SIDE`. Original-URL og fullfilens kontrollhash står i
+`../TEKNISK-KILDEREGISTER.md`.

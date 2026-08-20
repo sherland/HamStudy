@@ -1,0 +1,543 @@
+===== PDF-side 1 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+6.002 CIRCUITS AND
+ELECTRONICS
+Superposition, Thévenin and Norton
+
+===== PDF-side 2 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+0=∑
+loop
+iV
+Review
+Circuit Analysis Methods
+z Circuit composition rules
+z Node method –the workhorse of 6.002
+KCL at nodes using V ’s referenced 
+from ground
+(KVL implicit in “ ”)                     ( )j ie e− G
+z KVL:                    KCL:
+0=∑
+node
+iI
+VI
+
+===== PDF-side 3 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+Consider
+Linearity
+Write node equations –
+V
+I
+1R
+2R+–
+J
+0
+2 1
+= − +− IR
+e
+R
+Ve
+Notice:
+linear in IVe , ,
+VI,eVNo 
+terms
+e
+
+===== PDF-side 4 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+Consider
+Linearity
+Write node equations --
+Rearrange --
+V
+I
+1R
+2R+–
+J
+0
+2 1
+= − +− IR
+e
+R
+Ve
+IR
+VeR R + =⎥⎦
+⎤
+⎢⎣
+⎡ +
+121
+1 1
+G e S=
+conductance
+matrix
+node
+voltages
+linear sum
+of sources
+linear in IVe , ,
+
+===== PDF-side 5 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+Linearity
+or IR R
+RRVR R
+Re
+2 1
+2 1
+2 1
+2
++++=
+…… +++++ = 2 2 1 12 2 1 1 IbIbVaVa e
+Write node equations --
+Rearrange --
+0
+2 1
+= − +− IR
+e
+R
+Ve
+IR
+VeR R + =⎥⎦
+⎤
+⎢⎣
+⎡ +
+121
+1 1
+G e S=
+conductance
+matrix
+node
+voltages
+linear sum
+of sources
+linear in IVe , ,
+Linear!
+
+===== PDF-side 6 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+Linearity Homogeneity
+Superposition⇒
+
+===== PDF-side 7 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+Linearity Homogeneity
+Superposition
+Homogeneity
+1x
+2x ..
+.
+y
+1xα
+2xα yα.
+.
+.
+⇓
+⇒
+
+===== PDF-side 8 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+Linearity Homogeneity
+Superposition
+Superposition
+ax1
+ax2 ay..
+.
+.
+.
+.
+bx1
+bx2 by
+⇒
+b axx 1 1+
+b axx 2 2+ b ay y+
+⇓
+.
+.
+.
+
+===== PDF-side 9 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+Linearity Homogeneity
+Superposition
+Specific superposition example:
+1V
+0 1y 0
+2V 2y
+01 +V
+20 V+ 21 yy +
+⇓
+⇒
+
+===== PDF-side 10 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+Method 4: Superposition method
+The output of a circuit is
+determined by summing the
+responses to each source
+acting alone.
+independent sources
+only
+
+===== PDF-side 11 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+i
++–0=V
++
+-
+v
+i
+short
++
+-
+v
+i
+0=I
+J
++
+-
+v
+i
+open
++
+-
+v
+
+===== PDF-side 12 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+Back to the example
+Use superposition method
+V
+I
+1R
+2R+–
+J
+e
+
+===== PDF-side 13 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+Back to the example
+Use superposition method
+V acting alone
+V
+0=I2R+–
+e
+1R
+I acting alone
+0=V
+I
+1R
+2R
+J
+e
+VR R
+ReV
+2 1
+2
++=
+IR R
+RReI
+2 1
+2 1
++=
+IR R
+RRVR R
+Re e eI V
+2 1
+2 1
+2 1
+2
++++= + =
+sum        superposition
+Voilà !
+
+===== PDF-side 14 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+salt
+water
+output shows
+superposition
+Demo
+constant
++–
+sinusoid
++–
+?
+
+===== PDF-side 15 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+Consider
+Yet another method…
+resistors
+no
+units
+By setting
+0
+, 0
+=
+= ∀
+i
+In n
+0
+, 0
+=
+=∀
+i
+Vm m
+All
+0
+, 0
+= ∀
+=
+∀
+m m
+n n
+V
+I
+J
++–
+mV
+nI
+Arbitrary network N
+By superposition
+RiIVv n
+n
+nm
+m
+m ++= ∑ ∑βα
++
+-
+v
+J
+i
+i
+resistance
+units
+independent of external 
+excitation and behaves like a 
+voltage  “ ”THv
+also
+independent
+of external
+excitement &
+behaves like
+a resistor
+
+===== PDF-side 16 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+Or
+iRv v THTH +=
+As far as the external world is concerned 
+(for the purpose of I-V relation), 
+“Arbitrary network N” is indistinguishable 
+from:
+i+–
+THR
+THv
+J
++
+-
+v
+Thévenin
+equivalent
+network
+THR
+THv open circuit voltage
+at terminal pair (a.k.a. port)
+resistance of network seen
+from port
+( ’s, ’s  set to 0)
+mV nI
+N
+
+===== PDF-side 17 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+Method 4:
+The Thévenin Method
+Replace network N with its Thévenin
+equivalent, then solve external network E.
+E
+Thévenin equivalent
++–
+THR
+THv
++
+-
+v
+i
+E
+J
++–
++–
+i
++
+-
+v
+N
+
+===== PDF-side 18 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+Example:
+1R
+V+
+–
+1i
+1R
+V+
+–
+1i
+TH
+TH
+R R
+VVi +
+−=
+1
+1
+I2R
+J
+I
+THR
+THV +–
+
+===== PDF-side 19 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+Example:
+:THR
+:THV
+2IR VTH =
+2RRTH =
++
+-
+THV 2R
+JI
++
+-
+THR 2R
+
+===== PDF-side 20 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+Graphically, iRv v THTH +=
+i
+Open circuit
+() 0≡i
+THv v= OCV
+Short circuit
+() 0≡v TH
+TH
+R
+vi −=
+SCI−
+v
+THR
+1
+THv
+SCI−
+OCV“”
+
+===== PDF-side 21 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+Method 5:
+The Norton Method
+in recitation,
+see text
+J
++–
++–
+i
++
+-
+v
+Norton
+equivalent
+TH
+TH
+N
+R
+VI =
+NTH RR =NI
+J
+
+===== PDF-side 22 =====
+
+Cite as: Anant Agarwal and Jeffrey Lang, course materials for 6.002 Circuits and Electronics, Spring 2007. MIT 
+OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].
+6.002   Fall 2000      Lecture 3
+Summary
+… 101100 …
+Discretize matter
+LMD             LCA
+Physics            EE
+ R, I, V    Linear   networks
+ Analysis methods (linear)
+KVL, KCL, I — V
+Combination rules
+Node method
+Superposition
+Thévenin
+Norton
+ Next
+Nonlinear analysis
+Discretize voltage

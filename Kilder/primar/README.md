@@ -6,3 +6,9 @@ alltid kontrolleres før juridiske eller operative opplysninger brukes.
 
 Metadata, originaladresser og kontrollsummer føres i
 [`../KILDEREGISTER.md`](../KILDEREGISTER.md).
+
+Tekniske lærekilder føres i
+[`../TEKNISK-KILDEREGISTER.md`](../TEKNISK-KILDEREGISTER.md). Den store
+FAA-H-8083-30B-originalen er ikke lagret i Git; registeret inneholder URL og
+hash av den kontrollerte fullfilen, mens relevante PDF-sider 442–615 er bevart
+som sidenummerert søketekst i `../tekst/`.

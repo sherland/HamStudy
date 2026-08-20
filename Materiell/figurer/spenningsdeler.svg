@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="280" viewBox="0 0 760 280" role="img" aria-labelledby="t d">
+  <title id="t">Belastet spenningsdeler</title><desc id="d">R1 fra inngang til utgang. R2 og lastmotstanden RL går parallelt fra utgangen til jord.</desc>
+  <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M70 55h110m140 0h120"/><path d="M180 55l12-12 16 24 16-24 16 24 16-24 16 24 16-24 12 12"/>
+    <path d="M440 55v40l-12 12 24 16-24 16 24 16-24 16 12 12v42"/>
+    <path d="M440 55h180v40l-12 12 24 16-24 16 24 16-24 16 12 12v42H440"/>
+    <path d="M390 225h100m-75 15h50m-35 15h20"/>
+  </g>
+  <g fill="currentColor" font-family="sans-serif" font-size="18">
+    <text x="50" y="42">Uinn</text><text x="215" y="32">R1</text><text x="455" y="130">R2</text>
+    <text x="640" y="130">RL</text><text x="455" y="42">Uut</text>
+  </g><circle cx="440" cy="55" r="6" fill="currentColor"/>
+</svg>

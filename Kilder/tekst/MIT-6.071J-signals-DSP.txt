@@ -1,0 +1,2594 @@
+===== PDF-side 1 =====
+
+Signals and Systems: 
+ 
+ 
+Material for the classes on: 
+2/10/06 
+2/14/06 
+2/16/06 
+ 
+ 
+ 
+ The goals of the following three classes are: 
+ 
+Define and explore various types of signals 
+Explore the concept of a system and define LTI systems 
+Explore time and frequency domain representation of signals 
+Review Fourier series/transform. Focus on their physical/practical significance   
+Sampling and Nyquist rates. The phenomenon of aliasing. 
+Numbering systems 
+Conversion between types of signals 
+ 
+ 
+ 
+ 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  1
+
+===== PDF-side 2 =====
+
+A signal represents a set of one or more variables and is used to convey the characteristic 
+information (or the attributes) of a physical phenomenon. 
+ 
+The world around us is full of signals. Indeed our connection with the world is through 
+the various signals that our senses can interpret for their corresponding physical 
+phenomena: the human voice, the sounds of nature, the light we see, the heat we feel, are 
+all signals.  
+The classification of a signal is based on: (1) how is it represented in time and (2) how is 
+its amplitude allowed to vary. 
+ 
+There are four basic types of signals based on the above classification. They are: 
+ 
+Continuous time, continuous value. 
+• Defined for each instant of time and 
+its amplitude may vary 
+continuously with time and assume 
+any value. 
+o Signals from transducers 
+o Analog signals 
+ 
+Discrete time, continuous value. 
+• Defined at discrete instants of time 
+and its amplitude may vary 
+continuously with time and assume 
+any value 
+ 
+Continuous time, discrete value. 
+• Defined for each instant of time and 
+its amplitude may assume discrete 
+values. 
+o Signal is sampled at discrete 
+times and the output 
+assumes discrete values 
+ 
+Discrete time, discrete value. 
+• Defined at discrete instants of time 
+and its output may assume discrete 
+values 
+o Digital signals 
+ 
+ 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  2
+
+===== PDF-side 3 =====
+
+In general we will use time as the independent variable when we represent a signal. This 
+is appropriate in the study of electrical and electronic systems but there are many other 
+cases in which signals depend on some other variable. For example, in some engineering 
+applications the signal may be the pressure along a pipe or it might be the pressure profile 
+on an airplane wing or it might be the temperature profile across the cross section of a 
+fuel rod of a nuclear reactor. 
+ 
+In this class we will focus on electrical signals (voltage, current, energy) that vary in 
+time. An important class of time-varying signals is the periodic signal. Mathematically, a 
+periodic signal ( )x t  is one that satisfies the equation 
+ 
+  (1.1) () ( ), for 1, 2,3,xt xt nT n=+ = …
+ 
+Where T  is the period of the signal ( )x t . In our study of electronic systems we will 
+encounter periodic signals of various types. Some of the most common are shown 
+schematically on Figure 1. 
+1.5
+-1.5
+-1
+0
+1
+t
+10 0.2 0.4 0.6 0.8
+ 
+(a) 
+1.5
+-0.5
+0
+0.5
+1
+t
+10 0.2 0.4 0.6 0.8
+ 
+(b) 
+1.5
+-0.5
+0
+0.5
+1
+t
+10 0.2 0.4 0.6 0.8
+ 
+(c) 
+1.5
+-1.5
+-1
+0
+1
+t
+10 0.2 0.4 0.6 0.8
+ 
+(d) 
+1.5
+-1.5
+-1
+0
+1
+t
+10 0.2 0.4 0.6 0.8
+ 
+(e) 
+1.5
+-1.5
+-1
+0
+1
+t
+10 0.2 0.4 0.6 0.8
+ 
+(f) 
+ 
+Figure 1. (a) sine wave signal, (b) square wave signal, (c) pulse train signal, (d) triangular 
+wave signal, (e) sawtooth signal, (f) arbitrary periodic signal with noise – one period 
+shown 
+6.071 Spring 2006, Chaniotakis and Cory  3
+
+===== PDF-side 4 =====
+
+Before proceeding let’s define and calculate some of the most relevant parameters 
+describing a signal.. The most frequently encountered signal, the generic sinusoidal 
+signal, is given by the function, 
+ 
+ () sin( )xt tω φ=Α +  (1.2) 
+ 
+In the study of electronics we encounter this signal very frequently where x(t) may 
+represent a voltage, a current or energy. 
+ 
+The parameters describing the signal of Eq. (1.2) are: A  - the amplitude, ω  - the radian 
+frequency, and φ - the phase. 
+The radian frequency ω  is given in units of radians/sec and is related to the frequency  
+ given in cycles/sec. or Hz by f
+ 
+ 2 fω π=  (1.3) 
+The period T of the signal is 
+ 
+ 1 2T f
+π
+ω==  (1.4) 
+The phase φ  represents a “shift” of the signal relative to origin (0 )t = . 
+Figure 2 illustrates the various parameters just described in a graphical fashion. 
+ 
+2
+-2
+-1
+0
+1
+t (sec)
+0.010 0.005
+φ=0
+φ=π/3
+ 
+ 
+Figure 2. Sinusoidal signal with a phase of 0 degrees and 60 degrees. 
+ 
+In many applications involving time-varying signals, the relevant measurement 
+parameters might be an average values of the signal. The electrical signal delivering the 
+standard 120 Volt household electricity is a good example. The household electrical 
+signal is a sinusoid with a frequency of either 60 or 50 Hz depending on location. The 
+120 Volts correspond to an average value of the signal and not to its amplitude. Figure 3 
+shows the typical 120 Volt signal measured at a wall outlet. Note that the amplitude of 
+the signal is 170 Volts, not 120 Volts. So where does this number 120 Volts come form? 
+It is certainly not a simple average since that would be zero for a signal symmetric about 
+zero. 120 Volts is a number which gives an indication of the fluctuations of the signal 
+about the average value. It is called the root-mean square value of the signal and as we 
+6.071 Spring 2006, Chaniotakis and Cory  4
+
+===== PDF-side 5 =====
+
+will see later when we study electrical signals in detail, it is important since it is related to 
+energy content of the signal. The root-mean square value of a signal  is defines as ( )Vt
+ 
+ 2
+0
+1 ()
+T
+rmsV VT= ∫ t dt  (1.5) 
+ 
+For () cos( )Vt tω= ,  is calculated as follows. rmsV
+ 
+ 
+2
+2
+2
+22
+0
+22
+0
+2
+0
+2
+2
+0
+1 cos ( )
+cos ( )2
+1 cos(2 )22
+1 cos(2 )22 2
+2
+T
+rms
+zero
+Vt dtT
+td t
+td t
+td t
+πω
+πω
+πω
+ω
+ω ωπ
+ω ωπ
+ω ωπ
+=Α
+=Α
+⎡ ⎤=Α +⎢ ⎥⎣⎦
+⎡ ⎤Α=Α + ⎢ ⎥⎣ ⎦
+Α=
+⌠⎮⌡
+⌠
+⎮⌡
+∫
+∫
+	
+ (1.6) 
+ 
+For our electricity example, 120 VoltsrmsV =  and thus the amplitude of the 
+corresponding sinusoidal signal is 170 Volts as indicated on Figure 3. 
+ 
+200
+-200
+-100
+0
+100
+t (sec)
+0.050 0.01 0.02 0.03 0.04
+RMS
+average
+ 
+ 
+Figure 3. 120 Volt electrical signal 
+ 
+In some situations certain signals may prevent others from been received and understood. 
+For example, our ability to listen to a conversation may be compromised by the engine 
+noise of a low flying airplane or a by a passing train. In these situations the signals are 
+still transmitted and received by our auditory system but we are unable to extract the 
+6.071 Spring 2006, Chaniotakis and Cory  5
+
+===== PDF-side 6 =====
+
+useful information contained in them. The signal of interest to us is corrupted by the 
+“noise” of the airplane engine. 
+ 
+The signal to noise ratio (SNR)describes the relative amounts of information and noise in 
+a signal.  
+ 
+Information in signal
+Information in noiseSNR =  
+ 
+Since signals usually have a very wide dynamic range (can vary over many order of 
+magnitude) the SNR is given in decibels (dB) defined as follows.  
+ 
+ 10() 20 log s
+n
+ASNR dB A
+⎛⎞= ⎜
+⎝⎠
+⎟  (1.7) 
+where sA  is the amplitude of the signal and  is the amplitude of the noise. Figure 4 
+shows a sinusoidal with various values of SNR 
+nA
+ 
+ 
+SNR=26dB 
+ 
+ 
+SNR=14dB 
+ 
+ 
+SNR = -6dB 
+ 
+ 
+SNR=-10dB 
+ 
+ 
+ 
+Figure 4. Signals with noise of various SNR. 
+6.071 Spring 2006, Chaniotakis and Cory  6
+
+===== PDF-side 7 =====
+
+Systems. 
+ 
+Signals are always associated with one or more systems. For example, a certain system 
+may generate the signal while another may operate on it in order to process it or to extract 
+relevant information from it. The representation of a system with its associated input and 
+output signals is shown on Figure 5. The input signal is also called the excitation signal 
+and the output is also called the response signal. The system may thus be represented by 
+an operator F which may be designed to perform any desirable operation on the input 
+signal ( )x t  resulting in the output signal ( )yt . In electronics, for example, the system 
+may be an amplifier where the excitation input voltage  is operated on by the 
+operator F to produce the output  with an amplification 
+( )inv t
+( )outv t A  such that 
+ () () ()in out invt v t Av t⎯⎯→=F
+ 
+ 
+System y(t)x(t)
+Input Output   F
+y(t)x(t)
+ 
+ 
+Figure 5. Block diagram of a system 
+ 
+Some common forms of the operator F are shown on the following table. 
+ 
+Integral 
+() ()xt y t⎯⎯→ ⎯⎯⎯→∫
+0
+() ( )
+t
+yt x dτ τ=∫  
+Amplifier () ()xt y tA⎯⎯→ ⎯⎯⎯→  () ( )yt Ax t=  
+Multiplier () ( )xt y t⎯⎯→ ⊗ ⎯⎯⎯→  1 2() () ( )yt x t x t=  
+Adder () ( )xt y t⎯⎯→ ⊕ ⎯⎯⎯→  12() () ( )yt x t x t= +  
+ 
+ 
+The characteristics of the System operator F are fundamental in system analysis. We are 
+particularly interested in linear, time invariant (LTI) systems. 
+ 
+A linear system is one which is both homogeneous and additive. 
+ 
+A homogeneous system is one for which a scaled input voltage produces an equally 
+scaled output voltage. Figure 6 illustrates the principle of homogeneity where  can be 
+any constant. 
+m
+ 
+F
+my(t)mx(t)
+ 
+ 
+Figure 6. Homogeneous system 
+6.071 Spring 2006, Chaniotakis and Cory  7
+
+===== PDF-side 8 =====
+
+An additive system is one for which, 
+ 
+F
+y( t)1x( t)1
+ 
+F
+y( t)2x( t)2
+ 
+F
+x (t)+1 x (t)2 y( t)+y12 (t)
+ 
+ 
+Figure 7. Demonstration of system additivity. 
+ 
+ 
+The general definition of a linear system is one that can be homogeneous and additive. 
+If  is the response of a system to an input ( )1y t ( )1x t  and ( )2y t  is the response of a 
+system to an input ( )2x t  then if the system is linear the response to the signal 
+, where  and b are any constants is 1 2() ( )ax t bx t+ a 1 2() ( )ay t by t+ . This very important 
+property of linear systems is called the principle of superposition which we may 
+represent mathematically as 
+ 
+  (1.8) 12 1 2() () () ( )ax t bx t ay t by t+⎯ ⎯→+F
+ 
+In out study of electronic systems we will make extensive use of this property in order to 
+obtain solutions of what seemingly appear difficult problems. 
+  
+ 
+A time invariant system is one for which a delay 0τ  in the application of the excitation 
+signal (input) results in the same delay in the response signal (output). 
+For example if an input signal, ( )x t , to a system described by the operator F results in 
+the output  like, ( )yt
+ ( ) ( )x t y⎯⎯→F t
+0 )
+ (1.9) 
+ 
+Then the system is time-invariant if 
+ 
+ 0() (xt y tτ τ−⎯ ⎯→−F  (1.10) 
+ 
+ 
+The interconnections between systems is also a very important consideration for their 
+overall behavior. In electronic systems special attention is paid to their input and output 
+characteristics. When systems are connected together the output characteristics of a 
+system must “match” the input characteristics of the system that it connects to. As an 
+6.071 Spring 2006, Chaniotakis and Cory  8
+
+===== PDF-side 9 =====
+
+example consider two systems representing water storage tanks. The input of the system 
+is characterized by its ability to receive a certain flow rate of water. The output represents 
+a pump with the capability to supply a certain flow rate of water. The block diagram of 
+these interconnected systems is shown on Figure 8. For optimal system operation, the rate 
+at which the pump at the output of the system -tank1- supplies the water must be 
+compatible with the rate at which the system -tank2- can accept the water.  
+In electronics we have an analogy where the input and output characteristics of the 
+system refer to the resistance seen by the signals at the input and output of the system. In 
+the case of electronics we must “match” the two resistances for optimal operation of the 
+electronic system. We will explore these principles in detail as we design and investigate 
+electronic devices and systems. 
+tank1 y(t) tank2
+Output
+of tank1
+Input
+of tank2
+ 
+ 
+Figure 8. Block diagram of an interconnected system 
+ 
+In practical systems, the System block indicated on Figure 5 is usually made up of 
+various subsystems, components or devices each performing a specific task. In general, 
+the components and devices incorporated in a System may themselves be considered as 
+subsystems. For example, the block diagram of a digital sound recording system, 
+comprised of a microphone, electronics for amplification and filtering, an analog to 
+digital converter (ADC), a computer, a digital to analog converter (DAC), an amplifier, 
+and a speaker is shown on Figure 9. The dotted rectangle represents the complete system 
+which is comprised of various other subsystems. 
+ 
+Input
+Sound
+Microphone Eletronics ADC
+Computer DA C Amplifier
+Output
+Sound
+Analog signal
+Digital signal
+Speaker
+X(t)
+Y(t)
+V2(t)V1(t) V3(t)
+V4(t) V5(t) V6(t)
+ 
+ 
+Figure 9. Block diagram of sound recording system 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  9
+
+===== PDF-side 10 =====
+
+The microphone is a transducer which may be considered as a system that converts the 
+pressure variations in the input signal X(t) to the voltage signal V1(t). In turn V1(t) is 
+processed by the electronics module resulting in the signal V2(t). The electronics module 
+may perform such operations as amplification, filtering and offsetting. Both signals V1(t) 
+and V2(t) are time continuous analog signals. Signal V2(t) is in turn operated by module 
+ADC resulting in signal V3(t) which is now a digital signal (discrete time) that may be 
+further processed by the computer. 
+ 
+The conversion of the analog signal V2(t) to the digital signal V3(t) involves three very 
+important operations: (1) sampling, (2) quantization and (3) encoding. 
+Sampling is the process by which the signal values are acquired at discrete points in time. 
+This is a non-linear process since information is irrevocably lost. 
+Quantization is the process by which the continuum of amplitude values is converted to a 
+finite number of values (quantized values). This is a non-linear process since information 
+is irrevocably lost. 
+Encoding is the process of converting each quantized value to a binary number 
+represented by a binary bit pattern. No information is lost in this translation. 
+ 
+ 
+We will explore these operations in later sections. For now let’s establish the framework 
+for signal representation and analysis.
+6.071 Spring 2006, Chaniotakis and Cory  10
+
+===== PDF-side 11 =====
+
+Time and frequency domain 
+ 
+Physical signals, such as the voltage output of a microphone or the electrical signal 
+output of a strain or a pressure gage, are usually represented as function of time. These 
+signals may be manipulated (amplified, filtered, offset etc.) in the time domain and many 
+applications deal with signals solely in the time domain. 
+ 
+However, it is often convenient and frequently necessary, when signal analysis and 
+processing is required, to represent the signal in the frequency domain. A signal in the 
+frequency domain shows “how much” of the signal is associated with a certain frequency. 
+Figure 10 shows the time domain and the frequency domain representation of a 
+sinusoidal signal with a frequency of 1kHz. Since this is a signal with a single frequency 
+of 1 kHz, the frequency domain representation of the signal is a single line at a frequency 
+of 1kHz. The height of the line at the frequency of 1 kHz corresponds to the magnitude or 
+strength of the signal at that frequency. 
+  
+As another example consider the signal given by the function 
+ 
+ π π=+ +x( t ) 1 cos(1000 t ) 2 sin( 600 t )  (1.11) 
+ 
+This signal is plotted on Figure 11. The two frequencies present in the resulting signal are 
+500Hz and 300Hz.Therefore, in the frequency domain representation only these two 
+frequencies contain signal information as shown on Figure 11. Note the strength of the 
+signal as represented in the frequency domain. 
+ 
+2
+-2
+-1
+0
+1
+t (sec)
+0.0040 0.001 0.002 0.003
+ 
+2
+0
+0.5
+1
+1.5
+Frequency (Hz)
+20000 500 1000 1500
+ 
+ 
+Figure 10. Time and frequency domain representation of a sinusoidal signal. 
+ 
+4
+-2
+0
+2
+t (sec)
+0.020 0.01
+2
+0
+0.5
+1
+1.5
+Frequency (Hz)
+10000 250 500 750
+ 
+Figure 11. Time and frequency domain representation of the signal 
+6.071 Spring 2006, Chaniotakis and Cory  11
+
+===== PDF-side 12 =====
+
+π π= ++x ( t ) 1 cos( 1000 t ) 2 sin( 600 t )  
+ 
+Signals may in general contain a large number of frequencies and in this case the 
+frequency domain representation of the signal becomes very useful. A signal with large 
+variations in its rate of change in the time domain contains proportionally larger number 
+of frequencies. Compare the two signals shown on Figure 12. The signal on Figure 12 (a) 
+appears to be “smoother” than the signal on Figure 12(b). Indeed the frequency content of 
+the signal in 12(b) is higher than that of the signal in 12(a).  
+ 
+In the frequency domain representation of the signals, information exists only at the 
+frequencies of the sinusoids comprising the signals. Furthermore the frequency domain 
+representation contain details about the relative strength of the various frequency 
+components as can be seen by comparing the mathematical expression of the signals to 
+their corresponding frequency domain representations. We will explore this concept 
+further in the following sections. 
+ 
+In the case of the square wave signal where the slope at the transitions becomes infinite, 
+the frequency content of the signal is also infinite. Signals with finite frequency content 
+are called band-limited signals. 
+ 
+3
+-3
+-1
+1
+t (sec)
+1E-20E+0 5E-3
+  
+2
+0
+0.5
+1
+1.5
+Frequency
+30000 1000 2000
+ 
+(a) 
+ 
+5
+-5
+-2.5
+0
+2.5
+t (sec)
+1E-20E+0 5E-3
+  
+2
+0
+0.5
+1
+1.5
+Frequency
+30000 1000 2000
+ 
+(b) 
+ 
+ 
+Figure 12. Comparing signals in the frequency and the time domain. 
+(a) 1
+4( ) 2sin(650(2 ) ) cos(1800(2 ) )x tt tπ π=+  
+(b) 11
+24( ) 2sin(600(2 ) ) sin(1800(2 ) ) sin(400(2 ) ) cos(1200(2 ) )x tt t t tπ ππ=+ + + π  
+ 
+6.071 Spring 2006, Chaniotakis and Cory  12
+
+===== PDF-side 13 =====
+
+The graphical representation of signals in the frequency domain just presented will be 
+enhanced by the appropriate mathematical representation of signals in the frequency 
+domain. The theory of complex numbers is essential in understanding frequency domain 
+representation. In the following section the concepts of Fourier analysis will provide us 
+with a very powerful tool for the general transformation of a signal from the time domain 
+to the frequency domain and equivalently from the frequency domain to the time domain. 
+6.071 Spring 2006, Chaniotakis and Cory  13
+
+===== PDF-side 14 =====
+
+Complex number arithmetic: A review 
+A complex number may be represented in rectangular form as follows: 
+ 
+  (1.12)Rectangular format of complex numberca jb=+
+ 
+The number 1j = − . a is the real part of the complex number and b is the imaginary part 
+of the complex number. 
+ 
+The complex conjugate of a complex number is obtained by replacing  with . For 
+the number given by Eq. (1.12) is ca
+j j−
+j∗ b= −  
+ 
+The magnitude of the complex number is 
+ *2magnitude ( )( )cc a jb a jb r a b== + − = = + 2  (1.13)
+And the phase is  
+ 1phase tan b
+aθ − ⎛ ⎞== ⎜ ⎟⎝⎠
+ (1.14)
+ The graphical representation of the complex number in the complex plane is: 
+ 
+Re
+Im
+a
+b
+θ
+r
+ 
+ 
+Euler’s identity is an important relationship in the theory of complex numbers. It states: 
+ 
+ cos sinje jφ φ φ=+  (1.15)
+ 
+From the graphical representation of a complex number and Euler’s identity we may 
+represent the complex number in polar form as 
+ 
+  (1.16)(cos sin ) Polar format of complex numberjcr j reθθθ=+ =
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  14
+
+===== PDF-side 15 =====
+
+Example: Convert the number 5c 6j= −  to polar form jcr e θ= . 
+First let’s calculate the magnitude. 225 6 25 36 7.81r =+ = + =  
+The phase is 1 6tan 50.19 5.41 radians5
+oθ − −⎛⎞== − =⎜⎟⎝⎠
+ 
+And the complex number in polar form is . 5.417.81 jce=
+The graphical representation of this number is  
+ 
+Example: Convert the number 3j
+ce
+π
+=  to rectangular form. 
+ 
+The magnitude of the number is 1 and the phase is π/3. 
+The rectangular form is  and thus we need to evaluate  and b . ca jb=+ a
+From Euler’s identity we know that 3cos cos 1/ 2ar πθ= = =  and 
+3sin sin 3 / 2br πθ== =  
+And the number in rectangular form is 13cj=+  
+ 
+ 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  15
+
+===== PDF-side 16 =====
+
+Impulse Function. A review 
+ 
+In science and engineering there are many examples when an action occurs at an instant 
+in time or at certain point in space. For example the force exerted on a baseball when it is 
+hit by a bat is of very short duration. Also, the point test used in materials testing applies 
+a very localized force on a material. The mathematical representation of this type of 
+action is 
+ 
+2
+2
+2
+0
+1()
+0
+t
+t
+t
+ε
+2
+ε ε
+ε
+ε
+δ ε
+<−⎧
+⎪⎪ τ= −< <⎨
+⎪
+⎪>⎩
+ (1.17) 
+For which we also impose the condition: 
+ 
+ () 1td tεδ
++∞
+−∞
+=∫  (1.18) 
+ 
+The function may be thought of as a rectangular pulse of width ε and height 1/ε as shown 
+on Figure 13(a). In the limit 0ε → , the height 1/ε increases in such a way that the total 
+area is 1. This leads to the definition 
+ 
+ 
+0
+() lim ( )t εε
+tδ δ
+→
+=  (1.19) 
+ 
+The function ( )tδ  is called the unit impulse function which is also known as the Dirac 
+Delta function or simply as the Delta function. The graphical representation of the Delta 
+function is shown on Figure 13(b)  
+ 
+δ(t)
+t-ε/2 ε/2
+1/ε
+ 
+(a) 
+t
+δ(t)
+1
+ 
+(b) 
+ 
+Figure 13. Delta function (a) visualization and (b) symbol 
+ 
+For a more general representation, the function 0(tt )δ −  represents is shifted Delta 
+function and represents an impulse centered at 0t t= . The graphical and mathematical 
+representations of this general Delta function is, 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  16
+
+===== PDF-side 17 =====
+
+t
+δ(t)
+t0  
+0
+00
+() 1
+() 0 for
+td t
+tt
+δτ
+δ ττ
++∞
+−∞
+−=
+− =≠
+∫  (1.20) 
+ 
+The usefulness of the Delta function results not from what it represents but rather from 
+what it can do. The two fundamental properties, and default definitions, of the Delta 
+function are: 
+ 
+ 022
+0()
+jfjfee dfπτπτδτ τ
+∞ −
+−∞
+−≡ ∫  (1.21) 
+ 0() ( ) ( )ft t dt f 0δ τ
+∞
+−∞
+−=∫ τ  (1.22) 
+ 
+Equation (1.22) is referred to as the sampling property of the Delta function and it is a 
+very important property used extensively in signal analysis. 
+ 
+ 
+ 
+ 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  17
+
+===== PDF-side 18 =====
+
+Fourier Transform and the Fourier Series. 
+ 
+ 
+The Fourier transform (FT) is a mathematical function that transforms a signal from the 
+time domain, ( )x t , to the frequency domain, ( )X f . The time to frequency domain 
+transformation is given by: 
+ 
+  (1.23) 2() ( ) jf tXf x t e dtπ+∞ −
+−∞
+=∫
+ 
+Equivalently, the inverse Fourier transform may be used to convert a signal from the 
+frequency domain to the time domain as follows: 
+ 
+ 2() ( ) jf tx tX f e π+∞
+−∞
+=∫ df
+)
+df
+ (1.24) 
+ 
+When the Fourier transform is to be expressed in terms of the angular frequency 
+ rather than the frequency  (Hz) the conversion is achieved by letting (rad/secω f
+2dω π= . Therefore Eqs. (1.23) and (1.24) when written in terms of ω  take the form 
+ 
+  (1.25) () ( ) jtX x t e ωω
++∞ −
+−∞
+=∫ dt
+ 
+ 1() ( )2
+jtx tX e ω dω ωπ
++∞
+−∞
+= ∫  (1.26) 
+ 
+The Fourier transform is the most used mathematical function in signal processing and 
+data analysis. It gives the tools to visualize, by looking into the frequency domain, signal 
+characteristics that are not directly observable in the time domain. 
+ 
+An illustrative example is the signal associated with sound. Figure 14(a) shows the 
+voltage signal as a function of time corresponding to the sound of the middle C note of a 
+piano. The important information of a sound signal is its frequency content. This 
+information is revealed when we transform the signal to the frequency domain as shown 
+on Figure 14(b). The frequency domain representation of the signal clearly shows us that 
+the signal has, besides the fundamental frequency of 261 Hz, additional frequency 
+components. These additional frequencies (the harmonics) tell us about the sound 
+characteristics of the piano and indeed they are the reason for the richness and the 
+uniqueness of each instrument. 
+6.071 Spring 2006, Chaniotakis and Cory  18
+
+===== PDF-side 19 =====
+
+(a) 
+ (b) 
+ 
+Figure 14. (a) the time domain signals of a middle C note  of a piano represented as a 
+voltage from a microphone. (b) Fourier transform of the signal represents the same signal 
+in the frequency domain. 
+ 
+Before proceeding with the physical and thus the practical significance of FT let’s 
+become more familiar with the process by calculating the transform for various practical 
+signals. We will look at periodic as well as non-periodic signals. Let’s start with the 
+calculation of the Fourier transform of the signal 
+ 
+ 0( ) sin( )vt tω=  (1.27) 
+ 
+This is our familiar sine wave characterized by a frequency of 02πω . Since this signal 
+represents - by definition - a single frequency, we anticipate that in the frequency domain, 
+all information will be contained at that frequency. So let’s proceed with the calculation 
+to determine the Fourier transform of  which is given by ( )vt
+ 
+  (1.28) 0() sin( ) jtV t ωω ω
+∞ −
+−∞
+=∫ e dt
+ 
+By using Euler’s identity, Eq. (1.15),  we obtain, 
+ 
+ 
+()
+00
+00() ( )
+() 2
+1
+2
+jt j t
+jt
+jt j t
+eeVe j
+je e d
+ωω
+ω
+ωω ω ω
+ω
+∞ −
+−
+−∞
+∞ −+ −−
+−∞
+−=
+=−
+⌠
+⎮⌡
+∫
+dt
+t
+dt
+ (1.29) 
+ 
+According to Eq. (1.21), 
+ 
+  (1.30) 0( )
+02( ) j te ωωπδ ω ω
+∞ −+
+−∞
++= ∫
+And, 
+6.071 Spring 2006, Chaniotakis and Cory  19
+
+===== PDF-side 20 =====
+
+(1.31) 0( )
+02( ) j te ωωπδ ω ω
+∞ −−
+−∞
+−= ∫ dt
+Therefore, Eq. (1.29) becomes 
+ 
+ [ ]0() ( ) ( )Vjωπ δ ω ω δ ω ω=+ − − 0  (1.32) 
+ 
+The graphical representation of ( )V ω  is shown on Figure 15. 
+ 
+Vj )( ω
+ωω0
+-ω0
+π/j
+π/j
+ 
+Figure 15. Fourier transform of a sine wave. 
+ 
+ 
+Similarly the Fourier transform of the signal 
+ 
+ 0() cos( )vt tω=  (1.33) 
+Is calculated as follows 
+ 
+()
+[]
+00
+00
+0
+() ( )
+00
+() cos( )
+2
+1
+2
+() ( )
+jt
+jt j t
+jt
+jtj t
+Vt e dt
+ee ed t
+ee
+ω
+ωω
+ω
+ωω ω ω
+ωω
+πδ ω ω δ ω ω
+∞ −
+−∞
+∞ −
+−
+−∞
+∞ −− −+
+−∞
+=
++=
+=+
+=− + +
+⌠⎮⌡
+∫
+∫ dt
+ (1.34) 
+ 
+Figure 16 shows the Fourier transform of the cosine signal. 
+ 
+V)(ω
+ωω0-ω0
+ππ
+ 
+Figure 16. Fourier transform of a cosine wave. 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  20
+
+===== PDF-side 21 =====
+
+The rectangular pulse function given by 
+ 
+ 1, 1/ 2() 0, 1/ 2
+xyx x
+⎧<⎪=⎨ >⎪⎩
+ (1.35) 
+represents another very useful signal in electronics and engineering in general. 
+The transform ( )Y ω  of the pulse function is  
+ 
+ 
+[
+[]
+]
+()
+1/ 2
+1/ 2
+1/ 2
+1/ 2
+1/ 2 2
+0
+2
+() ( )
+cos( ) sin( )
+sin2c os( )
+jt
+jt
+Yy t e dt
+ed t
+jt
+dt
+ω
+ω
+ω
+ω
+ω
+ωτ ω
+ωτ
++∞ −
+−∞
+−
+−
+−
+=
+=
+=−
+==
+∫
+∫
+∫
+∫
+dt  (1.36) 
+ 
+Figure 17 shows the plot of the rectangular function and its Fourier transform. 
+ 
+ 
+yx )(
+x- ½ ½
+1
+      
+  
+ 
+Figure 17. rectangular pulse and its Fourier transform 
+ 
+ 
+Similarly, the Fourier transform of the shifted rectangular pulse 
+ 
+ 2, 1 3() 0, 1, 3
+xyx xx
+<<⎧=⎨ < >⎩
+ (1.37) 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  21
+
+===== PDF-side 22 =====
+
+yx )(
+x1 3
+2
+ 
+ 
+  (1.38) 3
+1
+() ( )
+2
+jt
+jt
+Yy t e
+ed t
+ω
+ω
+ω
++∞ −
+−∞
+−
+=
+=
+∫
+∫
+dt
+ 
+Let’s simplify the above integral by changing variables as 2tξ = − . 
+ 
+ 
+1 (2 )
+1
+12
+1
+2
+() 2
+2
+sin4
+j
+j j
+j
+Ye d
+ee
+e
+ωξ
+ω ωξ
+ω
+d
+ωξ
+ξ
+ω
+ω
+−+
+−
+− −
+−
+−
+=
+=
+=
+∫
+∫  (1.39) 
+ 
+ 
+Unit impulse function 
+ 
+The Fourier transform of the Delta function, given by Eq. (1.20), is  
+ 
+  (1.40) 
+0
+0() ( ) jt
+jt
+tt e dt
+e
+ω
+ω
+ωδ
++∞ −
+−∞
+−
+∆= −
+=
+∫
+ 
+For  the graphical representation of 0 0t = ( )tδ  and ( )ω∆  is shown on Figure 18. 
+ 
+ 
+t
+δ(t)
+1
+t0    
+∆(ω)
+1
+ω  
+ 
+Figure 18. Delta function and its Fourier transform. 
+ 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  22
+
+===== PDF-side 23 =====
+
+So now let’s explore further the physical significance of the Fourier transform by 
+investigating how the energy content of a signal is represented in the time domain and the 
+frequency domain. From fundamental conservation principles we should expect that the 
+estimation of global parameter such as energy should be the same regardless of how the 
+signal is represented. 
+The total energy content of signal ( )x t  is given by 
+ 
+2
+2
+()
+( ) ( ) where ( ) is the complex conjugate of ( )
+1() ( )2
+1 () ( )2
+1 () ()2
+1 ()2
+jt
+jt
+Ex t dt
+x tx t dt x t x t
+xt X e d dt
+X x t e dt d
+XX d
+Xd
+ω
+ω
+ωωπ
+ωωπ
+ωω ωπ
+ωωπ
+∞
+−∞
+∞
+∗∗
+−∞
+∞
+∞
+∗−
+−∞
+−∞
+∞
+∞
+∗−
+−∞
+−∞
+∞
+∗
+−∞
+∞
+−∞
+≡
+⎡⎤= ⎣⎦
+⎡⎤= ⎢⎥
+⎣⎦
+⎡⎤= ⎢⎥
+⎣⎦
+=
+=
+⌠
+⎮
+⌡
+⌠
+⎮
+⌡
+∫
+∫
+∫
+∫
+∫
+∫
+ (1.41) 
+ 
+The expression 
+2
+()
+2
+X ω
+π  represents the energy per unit frequency and thus the expression 
+21 ()2 X dω ωπ
+∞
+−∞
+∫  is the total energy content of the signal ( )X ω  in the frequency 
+domain. Therefore we have shown that the Fourier transformation is an energy 
+conservation transformation.  
+ 
+ 
+2 1() ( )2
+2
+x td t X dω ωπ
+∞∞
+−∞ −∞
+=∫ ∫  (1.42) 
+ 
+ 
+This is a very important result since it enables us to extract global signal parameters such 
+as energy by looking at either the time or the frequency domain. 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  23
+
+===== PDF-side 24 =====
+
+The Fourier transform results may be presented in a variety of ways. It may be 
+represented as: 
+• The amplitude: plot the amplitude of the sinusoidal component at the appropriate 
+frequency. 
+• The RMS amplitude: plot the RMS amplitude of the sinusoidal component at the 
+appropriate frequency. 
+• Power spectrum: plots values that are proportional to the square of RMS 
+amplitude. 
+ 
+The plots of Figure 19 show a sine wave with a frequency of 300 Hz and the 
+corresponding frequency domain representation. 
+ 
+1
+-1
+-0.5
+0
+0.5
+t (sec)
+0.010 0.005
+1
+0
+0.25
+0.5
+0.75
+Frequency (Hz)
+10000 250 500 750
+ 
+ 
+1
+0
+0.25
+0.5
+0.75
+Frequency (Hz)
+10000 250 500 750
+1
+0
+0.25
+0.5
+0.75
+Frequency (Hz)
+10000 250 500 750
+ 
+ 
+Figure 19. Sine wave signal and various forms of its frequency domain representation. 
+ 
+ 
+ 
+As another example let’s consider the signal shown on Figure 20(a) and its calculated 
+Fourier transform on 20(b). From the FT we see that there are three identifiable 
+frequency components in our signal: 60 Hz, 300 Hz and 500 Hz. In the laboratory 
+environment many systems pick up an undesirable 60 Hz “noise” from fluorescent lights 
+and other devices, including wiring, that are powered by a 60 Hz wall power. Our 
+example is a simplified but representative case of such a scenario. In order to deal with 
+these type of undesirable signals we first have to identify their existence and ascertain 
+their relative energy contribution to the signal of interest. The Fourier transform gives the 
+tool to make this determination. 
+ 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  24
+
+===== PDF-side 25 =====
+
+6
+-4
+-2
+0
+2
+4
+t (sec)
+0.020 0.01
+ 
+(a) 
+2
+0
+0.5
+1
+1.5
+Frequency (Hz)
+6000 100 200 300 400 500
+60 H z
+ 
+(b) 
+ 
+Figure 20. Signal containing a 60 Hz “noise” and its amplitude spectrum. The composite 
+signal is given by 
+Hz noise
+π ππ=+ + + 	
+60
+x ( t ) 1 cos( 1000 t ) 2 sin( 600 t ) sin( 120 t )  
+ 
+ 
+Summary: 
+Some of the fundamental properties of Fourier transform are: 
+ 
+Check all these. 
+ Time domain Frequency domain 
+Linearity 12() ( )ax t bx t+  12() ()aX bXω ω+  
+Product 1 2() ( )x tx t  12() ()XXω ω∗  
+Differentiation ( )dx t
+dt  ()jXω ω  
+Integration ()
+t
+x dτ τ
+−∞∫  () (0) ( )
+2
+X
+j
+ω δω
+ω
+Χ+  
+Time delay ()xt τ−  ()jeXωτ ω−  
+Frequency shift ( )ojte x tω−  ()X οω ω−  
+Energy conservation 
+(Parseval’s theorem) 
+2
+()x td t
++∞
+−∞∫  
+21 ()2 X dω ωπ
++∞
+−∞∫  
+Frequency shift ( )ojte x tω−  ()X οω ω−  
+Time scaling ()x at  1
+2 Xaa
+ω
+π
+⎛⎞
+⎜⎟⎝⎠
+ 
+Duality ( )X t  ()x ω−  
+Convolution 12() ( )x tx t∗  12() ()XXω ω  
+ 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  25
+
+===== PDF-side 26 =====
+
+Fourier series and its relation to Fourier transform. 
+ 
+Fourier series is just a special case of Fourier transform. In fact the Fourier series is 
+associated with periodic signals, while the Fourier transform is a more general 
+representation of non-periodic signals in the frequency domain. 
+ 
+Periodic signal may be represented by a linear combination of sinusoids whose 
+frequencies vary by a constant integer value. Since we may also represent a sinusoid with 
+complex exponentials, by using Euler’s formula, the functional form of this linear 
+combination of complex exponentials is known as the Fourier series of the periodic signal 
+and it is given by 
+ () jk t
+k
+k
+x t c e ω
++∞
+=−∞
+= ∑  (1.43) 
+ 
+The coefficients are in general a complex numbers, kc kkca jbk= + , and are given by 
+ 
+ 
+2
+0
+1 ()
+T
+jk t
+kcx t eT
+π
+Τ−
+= ∫ dt  (1.44) 
+ 
+whereT  is the period of ( )x t  and the integration is performed over one period. The 
+coefficients  are called the Fourier series coefficients or the spectral coefficients of 
+the function 
+kc
+( )x t  and they represent a measure of how much signal (the strength of the 
+signal) there is at each frequency kω . Therefore, the task in determining the Fourier 
+series representation of a certain signal is that of determining the complex coefficients 
+. kc
+If the signal ( )x t  is real then its Fourier series representation is reduced to 
+ (0
+1
+() cos( ) sin( )k k
+k
+)x ta a k t b k tω ω
+∞
+=
+=+ −∑  (1.45) 
+where,  
+ ()
+()
+0
+0
+2
+0
+2
+0
+1 ()
+2 () cos 1,2,3,
+2 () sin 1,2,3,
+T
+T
+k T
+T
+k T
+ax t dtT
+ax t k t dt kT
+bx t k t dt kT
+π
+π
+=
+=
+==
+∫
+∫
+∫
+…
+…
+=  (1.46) 
+The coefficient  is just the average value of the signal 0a ( )x t . In calculating the integrals 
+of Eqs. (1.46) it is useful to keep in mind the orthogonality properties of functions. For 
+example 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  26
+
+===== PDF-side 27 =====
+
+0
+0
+0
+0
+1 sin 2 sin 2 1/ 2 0
+00
+0
+1 cos 2 cos 2 1/ 2 0
+10
+1 sin 2 cos 2 0
+T
+T
+T
+mn
+ttmn dt mTT T mn
+mn
+ttmn dt mTT T mn
+ttmm dtTT T
+ππ
+ππ
+ππ
+≠⎧
+⎪⎛⎞ ⎛ ⎞ n
+n
+= =≠⎨⎜⎟ ⎜ ⎟⎝⎠ ⎝ ⎠ ⎪ = =⎩
+≠⎧
+⎪⎛⎞ ⎛ ⎞ = =≠⎨⎜⎟ ⎜ ⎟⎝⎠ ⎝ ⎠ ⎪ = =⎩
+⎛⎞ ⎛⎞ =⎜⎟ ⎜⎟⎝⎠ ⎝⎠
+⌠⎮⌡
+⌠⎮⌡
+⌠⎮⌡
+ (1.47) 
+ 
+ 
+ 
+ 
+As an example let’s calculate the Fourier series of the periodic square wave shown on 
+Figure 21. 
+ 
+1.5
+-1.5
+-1
+-0.5
+0
+0.5
+1
+t(sec)
+10 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+ 
+A
+  τ0 T-τ0 Τ+τ0 
+ 
+Figure 21. Square wave signal 
+ 
+The period of the square wave is T and its frequency, the fundamental frequency, is 
+0 2/ Tω π= . Furthermore, the duty factor of the signal is defined as, 
+02
+df T
+τ
+≡
+=
+ and it is 
+arbitrary. Since the signal is an even function of t, the Fourier coefficients b  and a  
+are given by 
+0k k
+ 
+6.071 Spring 2006, Chaniotakis and Cory  27
+
+===== PDF-side 28 =====
+
+0
+0
+0
+0
+0
+00 00
+0
+0
+00
+0
+0 0
+2
+2
+2 sin( )
+jk t
+k
+jk jk
+Aae dtT
+jk tjA kkT
+Ae e
+kT j
+A kkT
+e
+τ
+ω
+τ
+τ
+τ
+ωτ ωτ
+ω
+ω
+ω
+ωτω
+−
+−
+−
+−
+=
+−=≠
+⎡⎤ −= ⎢⎥⎣⎦
+=
+∫
+ (1.48) 
+ 
+For  we have 0k =
+ 
+0
+0
+0
+0 2Aad t ATT
+τ
+τ
+τ
+−
+= =∫  (1.49) 
+where  is the average value of the signal.  0a
+The Fourier series of the square wave is  
+ 
+ 
+0
+1
+0
+00
+1 0
+() cos( )
+22s in( )co
+k
+k
+k
+xt a a k t
+A s( )A kkTk T
+ω
+τ tωτωω
+∞
+=
+∞
+=
+=+
+=+
+∑
+∑
+ (1.50) 
+ 
+ 
+Let’s consider the case of a 50% duty factor square wave signal, shown on Figure 22(a) 
+for which 0 /4Tτ = . The first 5 non-zero coefficients are:  
+ 
+01 3 5 7
+44 40, , , ,35aa a a a 4
+7π ππ== =− = =− π  
+ 
+Plots (b), - (f) of Figure 22 show the Fourier series representation for a number of 
+harmonics, starting with the first and ending with the fifth. As the number of harmonics 
+used in the approximation increases the approximation becomes closer and closer to the 
+square wave signal. 
+ 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  28
+
+===== PDF-side 29 =====
+
+1.5
+-1.5
+-1
+-0.5
+0
+0.5
+1
+t (sec)
+0.10 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09
+ 
+(a) 
+1.5
+-1.5
+-1
+-0.5
+0
+0.5
+1
+t (sec)
+0.10 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09
+ 
+(b) 
+1.5
+-1.5
+-1
+-0.5
+0
+0.5
+1
+t (sec)
+0.10 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09
+ 
+(c)  
+1.5
+-1.5
+-1
+-0.5
+0
+0.5
+1
+t (sec)
+0.10 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09
+ 
+(d) 
+1.5
+-1.5
+-1
+-0.5
+0
+0.5
+1
+t (sec)
+0.10 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09
+ 
+(e) 
+1.5
+-1.5
+-1
+-0.5
+0
+0.5
+1
+t (sec)
+0.10 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09
+ 
+(f) 
+ 
+Figure 22. 50% duty factor square wave (a) and its 1st five Fourier harmonics (b) – (f) 
+ 
+For a deeper understanding let’s explore the significance of the coefficients . A plot of 
+the magnitude of the coefficients  as a function of  is shown on Figure 23. Each 
+value of k  corresponds to a frequency called a harmonic which are integer multiples of 
+the frequency of the square wave also called the fundamental frequency. The magnitude 
+of the coefficients  is related to the relative strength of the signal at the corresponding 
+frequencies. The 
+ka
+ka k
+ka
+1
+k  dependence of the magnitude is an indication of the relatively “slow” 
+rate of  convergence of the series. This implies that a large number of harmonics is 
+required in order to reproduce a square wave; a direct consequence of the discontinuities 
+associated with the square wave signal. The magnitude plot of the Fourier coefficients is 
+directly related to the Fourier transform of the square pulse given by Eq. (1.36). 
+ 
+ 
+ 
+ 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  29
+
+===== PDF-side 30 =====
+
+Figure 23. Plot the values 02 sin 22
+k
+Aa kkT
+τππ
+⎛= ⎜⎝⎠
+⎞
+⎟ 4 as a function of  for k 0 /1 /τ Τ=  
+ 
+It is also instructive to plot the frequency spectrum of the Fourier coefficients  for various 
+values of the duty factor 0 /τ Τ . 
+Figure 24 shows a plot of  for  ka
+00 0 0 0 0( ) / 1/ 4,( ) / 1/12,( ) / 1/1 6,( ) / 1/ 32,( ) / 1/ 64,( ) / 1/128ab c d e fτ ττ τ τ τΤ= Τ= Τ= Τ= Τ= Τ=  
+The plot shows the amplitude of   as a function of , the mode number. Our first 
+observation is that the frequency spectrum of   has an oscillatory behavior with a 
+slowly decreasing envelope. The decrease is proportional to 1/ . 
+ka k
+ka
+k
+We also notice that the spacing between these harmonics is a function of the so called 
+duty factor. As 0 0τ →  the square wave signal approaches a series of Delta functions. We 
+notice that as the pulses become narrower in the time domain the Fourier series 
+coefficients is distributed over a wider range in the frequency domain.  
+ 
+Therefore we see that narrow time signals require many harmonics in order to reproduce 
+the original signal. Broader time signals require fewer harmonics for the reproduction 
+since the amplitude of the higher harmonics tend to decrease more rapidly. In fact as 
+0 / 0τ Τ→ , the first crossing of the coefficient goes to ∞  and there is a very broad 
+spectrum containing many harmonics which all essentially have the same amplitude. 
+6.071 Spring 2006, Chaniotakis and Cory  30
+
+===== PDF-side 31 =====
+
+(a) 
+ 
+(b) 
+ 
+(c) 
+ 
+(d) 
+ 
+(e) 
+ 
+(f) 
+ 
+Figure 24. Fourier series coefficients for square waves of various duty factors. 
+00 0 0 0 0( ) / 1/ 4,( ) / 1/12,( ) / 1/16,( ) / 1/ 32,( ) / 1/ 64,( ) / 1/128ab c d e fτ ττ τ τ τΤ= Τ= Τ= Τ= Τ= Τ=
+ 
+ 
+At the discontinuities of the signal there are certain important observations to be made. 
+First, note that the approximation passes through the average value of the signal. This is 
+given by the coefficient  which for the signal used on Figures 25 is zero.  0a
+We also observe from the results shown on Figure 25 that the error of the approximation, 
+(real signal) - (approximated signal)ε = , shown by the rippled thick solid line in the 
+curves of Figure 25, decreases as the number of terms used in the approximation 
+increases.  
+ 
+As the number of terms increases the ripple concentrates in the vicinity of the 
+discontinuities. Closer observation indicates that, as the number of terms increases, the 
+maximum amplitude of the error remains unchanged and its location moves closer and 
+closer to the discontinuities. The maximum ripple can be shown to be about 10% of the 
+signal value for all finite values of . k
+ 
+The ripple at the discontinuities and its properties just described is called Gibbs 
+phenomenon. 
+6.071 Spring 2006, Chaniotakis and Cory  31
+
+===== PDF-side 32 =====
+
+1.5
+-1.5
+-1
+-0.5
+0
+0.5
+1
+t(sec)
+10 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+ 
+(a) 
+1.5
+-1.5
+-1
+-0.5
+0
+0.5
+1
+t(sec)
+10 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+ 
+(b) 
+1.5
+-1.5
+-1
+-0.5
+0
+0.5
+1
+t(sec)
+10 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+ 
+(c) 
+1.5
+-1.5
+-1
+-0.5
+0
+0.5
+1
+t(sec)
+10 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+ 
+(d) 
+1.5
+-1.5
+-1
+-0.5
+0
+0.5
+1
+t(sec)
+10 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+ 
+(e) 
+1.5
+-1.5
+-1
+-0.5
+0
+0.5
+1
+t(sec)
+10 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+ 
+(f) 
+ 
+Figure 25: Gibbs phenomenon 
+ 
+ 
+ 
+The FT of any periodic signal is always composed of just impulses. The area of these 
+impulses are the FS coefficients for the exponential form.  
+ 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  32
+
+===== PDF-side 33 =====
+
+Fourier series expansion of: 
+ 
+Triangular wave. Figure 26. 
+ 
+1
+-1
+-0.8
+-0.6
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+t ( sec)
+10 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+1
+-1
+-0.8
+-0.6
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+t ( sec)
+10 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+1
+-1
+-0.8
+-0.6
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+t ( sec)
+10 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+1
+-1
+-0.8
+-0.6
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+t ( sec)
+10 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+ 
+ 
+Figure 26.  
+ 
+()2
+22
+1,3,5,
+sin( )8() sin
+k
+k
+Ayt k f tk
+π
+π
+∞
+=
+= ∑
+…
+ 
+ 
+ 
+Sawtooth wave Figure 27 
+ 
+1
+-1
+-0.8
+-0.6
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+t (sec)
+10 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+1
+-1
+-0.8
+-0.6
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+t (sec)
+10 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+1
+-1
+-0.8
+-0.6
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+t (sec)
+10 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+1
+-1
+-0.8
+-0.6
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+t (sec)
+10 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+ 
+Figure 27 
+6.071 Spring 2006, Chaniotakis and Cory  33
+
+===== PDF-side 34 =====
+
+()
+1
+11() sin 2
+k
+y t Average k f tk ππ
+∞
+=
+=− ∑  
+ 
+Half wave rectified signal 
+ 
+2
+2,4, 6,
+21( ) sin( ) cos( )21 k
+AAyt f t k f tkππ
+∞
+=
+Α=+ − −∑
+…
+ 
+ 
+Full wave rectified signal 
+ 
+2
+1
+24 1() cos( )41k
+AAyt k f tkππ
+∞
+=
+=− −∑  
+ 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  34
+
+===== PDF-side 35 =====
+
+Sampling 
+Transducers generate continuous time signals but computers and microprocessors, that 
+are used to process these signals, operate at discrete times. These discrete time signals are 
+generated by sampling the continuous time signal at regular intervals. 
+ 
+Sampling is thus the process which generates a discrete time signal from a continuous 
+time signal.  
+ 
+The fundamental question therefore is how to sample a continuous time signal so that the 
+resulting sampled signal retains the information of the original signal. The sampling 
+process is depicted graphically on Figure 28. 28(a) shows a signal x(t) and Figure 28(c) 
+the corresponding sampled signal sampled at intervals τs. 
+2
+-2
+-1
+0
+1
+Time (s)
+0.10 0.02 0.04 0.06 0.08
+ 
+(a) 
+2
+-2
+-1
+0
+1
+Time (s)
+0.10 0.02 0.04 0.06 0.08
+ 
+τs 
+(b) 
+2
+-2
+-1
+0
+1
+Time (s)
+0.10 0.02 0.04 0.06 0.08
+ 
+(c) 
+Figure 28. (a) original signal, (b) sampling waveform, (c) resulting discrete time signal 
+ 
+Figure 28(b) depicts the sampling wave form which may be thought of as a series of 
+narrow periodic pulses with period sτ . From the analytical perspective these pulses may 
+be thought of as delta functions. In practice these are narrow pulses produced by some 
+type of clocking device in the circuit of interest. 
+6.071 Spring 2006, Chaniotakis and Cory  35
+
+===== PDF-side 36 =====
+
+Intuitively we know that in order to reconstruct a certain signal the number of samples 
+per period of the sampled signal must be above a certain minimum value. The signals 
+shown on Figure 29 are sampled with the same rate. The sampled points are indicated 
+with the solid dot. It is intuitively apparent that the plot in 29 (b) is sampled frequently 
+enough for reconstruction, while the plot on 29(a) can not be reconstructed with the 
+sampled signal. 
+ 
+1
+-1
+-0.5
+0
+0.5
+Time (s)
+0.10 0.02 0.04 0.06 0.08
+ 
+(a) 
+1
+-1
+-0.5
+0
+0.5
+Time (s)
+0.10 0.02 0.04 0.06 0.08
+ 
+(b) 
+ 
+Figure 29. Sampling of a “fast” varying (a) and a “slow” varying (b) signal. 
+ 
+In order to be able to reconstruct the original signal from the sampled signal the 
+following two related constraints must be satisfied. 
+ 
+1. The original signal must be band-limited (i.e. must have a finite frequency 
+content) 
+2. The samples must be taken with a sampling frequency ( 1/ )s sf τ=  which is higher 
+than twice the highest frequency ( )Hf  present in the original signal. 
+ 
+These statements form the famous Sampling Theorem or the Nyquist-Shannon 
+Sampling Theorem . The critical frequency  (2 )Hf which must be exceeded by the 
+sampling frequency is called the Nyquist rate. The frequency ( )Hf that corresponds to 
+one-half the Nyquist rate is also called the Nyquist Frequency Nyquist Hf f= . 
+ 
+In terms of the Fourier transform, the original continuous time signal can be recovered 
+from the sampled signal if the frequency spectrum of the original signal can be extracted 
+from the frequency spectrum of the sampled signal. For a mathematical proof of this 
+theorem see Alan Oppenheim, Signals and Systems, Prentice hall or go to the original 
+articles.1 
+                                                 
+1 H. Nyquist, “Certain Topics in  Telegraph Transmission theory,” AIEE Transactions, 1928, p. 617 
+C. E. Shannon, “Communication in the presence of noise” Proceedings of IRE, January 1949, pp. 10-21  
+6.071 Spring 2006, Chaniotakis and Cory  36
+
+===== PDF-side 37 =====
+
+Aliasing 
+ 
+When the sampling frequency is less than twice the bandwidth of a signal the time 
+continues signal can not reconstructed from the samples. As we saw in our Fourier series 
+analysis when the pulses are spaced further apart in time the Fourier harmonics get closer 
+together. At some point there is an overlap of the impulse spectra and reconstruction of 
+the original signal becomes impossible. This is called aliasing. 
+ 
+ The mathematics of this is given in the accompanying notes. Here we present an intuitive 
+graphical representation of the phenomenon on Figure 30. On Figure 30(a) we see the 
+generic Fourier transform of a cosine signal of frequency 0ω . 
+On Figure 30(b) we present a scenario where the sampling frequency 04sω ω= . Note 
+now that the frequency of interest 0ω  remains within the rectangle defined by the / 2sω  
+regions. 
+Figure 30(c) shows another case for which 05/ 2sω ω= . Here again the frequency of 
+interest remains within the rectangle defined by the / 2sω  regions. 
+Finally on Figure 30(d) 03/ 2sω ω=  the frequency 0ω  has moved outside the / 2sω  
+regions. In the / 2sω  regions now appears the lower frequency 0sω ω− . 
+ 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  37
+
+===== PDF-side 38 =====
+
+Χ( ωj)
+ωω0-ω0
+ππ
+ 
+ 
+(a) 
+ 
+Χ( ωj)
+ωω0-ω0 ωs-ωs
+ωs/2-/ωs 2
+ωs0-ω-+ωs0 ω  
+(b) 
+ 
+Χ( ωj)
+ωω0-ω0 ωs-ωs
+ωs/2-/ωs 2
+ωs0-ω-+ωs0 ω  
+(c) 
+ 
+Χ( ωj)
+ωω0-ω0 ωs-ωs
+ωs/2-/ωs 2
+ωs0-ω-+ωs0 ω  
+ 
+(d) 
+ 
+Figure 30. Oversampling and undersampling showing aliasing. (a) transform of the 
+cosine wave. (b) sampling the cosine signal with 04sω ω=  (No aliasing). (c) sampling the 
+cosine signal with 05/ 2sω ω=  (No aliasing). (d) sampling with 03/ 2sω ω=  (Aliasing) 
+6.071 Spring 2006, Chaniotakis and Cory  38
+
+===== PDF-side 39 =====
+
+Numbering systems: A review 
+ 
+Before proceeding with the last two steps – quantization and encoding – in the process of 
+converting an analog signal to a digital signal let’s review the fundamental rules  that 
+govern the representation of numbers in the various numbering systems. We primarily 
+interested in the conversion of analog signals to digital signals.  
+ 
+Binary  Code. 
+In digital electronics the signals are formed with only two voltage values, HI and LOW, 
+or level 1 and level 0 and it is called binary digital signal.2 Therefore, the information 
+contained in the digital signal is represented by the numbers 1 and 0. In most digital 
+systems the state 1 corresponds to a voltage range from 2V to 5V while the state 0 
+corresponds to a voltage range from a fraction of a volt to 1 volts.  
+ 
+Digital operations are performed by creating and operating on binary numbers. Binary 
+numbers are comprised of the digits 0 and 1 and are based on powers of 2. 
+ 
+Each digit of a binary number, 0 or 1, is called a bit. Four bits together is a nibble, 8 bits 
+is called a byte. (8, 16, 32, 64 bit arrangements are also called words) The left most bit is 
+called the Least Significant Bit (LSB) while the rightmost bit is called the Most 
+Significant Bit (MSB). The schematic below illustrates the general structure of a binary 
+number and the associated labels. 
+ 
+ 
+N1010  1101 0110 1010
+nibble
+byte
+word
+	
+	
+ 
+MSB LSB 
+ 
+ 
+                                                 
+2 In addition to binary digital systems and its associated binary logic, multivalued logic also exists but we 
+will not consider it in our discussion. 
+6.071 Spring 2006, Chaniotakis and Cory  39
+
+===== PDF-side 40 =====
+
+Binary to Decimal Conversion. 
+ 
+The conversion of a binary number to a decimal number may be accomplished by taking 
+the successive powers of 2 and summing for the result. 
+ 
+For example let’s consider the four bit binary number 0101. The conversion to a decimal 
+number (base 10) is illustrated below. 
+N N N N
+32 1 0
+10
+01 0 1
+0x2 1x2 0x2 1x2
+04 0 1 =
+⇓⇓⇓⇓
+↓↓ ↓ ↓
+++ +
+++ + 5
+ 
+ 
+ 
+For this four bit binary number the range of powers of 2 goes from 0, corresponding to 
+the LSB, to 3, corresponding to the MSB. The number 5 is shown as  to indicate that it 
+is a decimal number (power of 10).  
+105
+ 
+The signal represented on Figure 31(a) has a value of 5 V at time=6τ. The binary 
+representation of that value is 0101 and it is shown on Figure 31(b) replacing Level 4. 
+We will see more of this later when we consider the fundamentals of the device which 
+converts the analog signal to a digital signal. 
+ 
+2
+4
+6
+8
+Signal ( V)
+Timeτ 2τ   3τ  4τ  5τ  6τ  7τ0  
+(a) 
+Signal (V)
+ Timeτ 2τ  3τ  4τ  5τ  6τ  7τ0
+Level 1
+Level 2
+Level 3
+0101
+Level 5
+Level 6
+Level 7
+ 
+(b) 
+ 
+Figure 31. Digitization process. 
+ 
+In the next few examples we will use the subscript 2 to indicate a binary number but the 
+subscripts will be omitted after that. 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  40
+
+===== PDF-side 41 =====
+
+Examples: 
+ 
+Verify the Binary to Decimal conversion 
+ 
+21 0
+21 0
+21 0
+21 0
+21
+21
+1111  = 15
+1111 0000  = 240
+1111 1111  = 255
+1101 1011  = 219
+0001 0101 1011  = 347
+1001 0101 1011  = 2395
+0
+0
+ 
+ 
+Decimal to Binary Conversion. 
+ 
+The conversion of a decimal number to a binary number is accomplished by successively 
+dividing the decimal number by 2 and recording the remainder as 0 or 1. Here is an 
+example of the conversion of decimal number 125 to binary. 
+ 
+125 62 12
+62 31 02
+31 15 12
+15 71           0111 11012
+7 312
+3 112
+1 0 12
+⎫= + ⎪
+⎪
+⎪=+ ⎪
+⎪
+⎪=+
+⎪
+⎪
+=+ ⎪⎪ ⇒⎬
+⎪
+=+ ⎪
+⎪
+⎪=+ ⎪
+⎪
+⎪=+ ⎪
+⎪⎪⎭
+ 
+LSB 
+MSB 
+ 
+Practice number conversion by verifying the conversions from decimal to binary: 
+ 
+Decimal Binary 
+69  0100 0101 
+299  0001 0010 1011 
+756  0010 1111 0100 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  41
+
+===== PDF-side 42 =====
+
+Representation of fractions and signed numbers. 
+ 
+A fractional number may be represented as a binary fraction by simply extending the 
+procedure used in representing integer numbers. For example, 
+ 
+13.7510 = 1101.11002 
+ 
+The procedure is clearly visualized by considering the following mapping 
+ 
+ 
+ 
+32 1 0 1 2 3 422 2 2 2 2 2 2
+8 4 2 1 0.5 0.25 0.125 0.0625
+11 0 1 . 1 1 0 0
+13 . 75
+−− − −
+ 
+Signed binary numbers may be represented by assigning the MSB to indicate the sign. A 
+0 is used to indicate a positive number and a 1 is used to indicate a negative number. 
+ 
+For example, an 8 bit signed binary number represents the decimal numbers from -128  to 
++127. 
+ 
+Two’s complement is used to represent negative numbers. The use of 2’s complement 
+simplifies the operation of subtraction since the circuit is only required to perform the 
+operation of addition. 
+ 
+The 2’s complement of a binary number is obtained by subtracting each digit of the 
+binary number from digit 1. This is equivalent to replacing all 1’s by 0’s and all 0’s by 
+1’s. 
+Negative numbers of 2’s compliment can then be found by adding 1 to the complement 
+of a positive number. 
+ 
+For example, the 2’s complement of the 8 bit binary number 0000 1110 is 
+1111 0001 = 1010 
+ 
+The negative number of this 2’s complement representation is 
+1111 0110 = -1010 
+ 
+The procedure is outlined in the following 
+ 
+10
+10
+0000 1010 binary number (10 )
+1111 0101 2's complement
++1
+1111 0110 10−
+ 
+6.071 Spring 2006, Chaniotakis and Cory  42
+
+===== PDF-side 43 =====
+
+The table below shows the 2’s complement representation of a few numbers. Fill in the 
+empty spaces. 
+ 
+ 
+Decimal 2’s complement 
+0 0000 0000 
+-1 1111 1111 
+-2 1111 1110 
+-3 1111 1101 
+-4 1111 1100 
+-10 1111 0110 
+-15  
+-27  
+-80  
+-110  
+ 
+6.071 Spring 2006, Chaniotakis and Cory  43
+
+===== PDF-side 44 =====
+
+Quantization and Encoding 
+ 
+Analog to Digital Conversion 
+ 
+The electrical signals (voltage or current) generated by a transducer is an analog signal. 
+The amplitude of the signal corresponds to the value of the physical phenomenon that the 
+transducer detects. The signal values are continuous in time. 
+ 
+The processing of the signal by a digital system requires the conversion of the analog 
+signal to a digital signal. The analog to digital conversion is not a continuous process but 
+it happens at discrete time intervals. Furthermore the magnitude of the digital signal at 
+the time of conversion corresponds to the magnitude of the analog signal. 
+ 
+The analog to digital converter (ADC) is a device that receives as its input the analog 
+signal along with instructions regarding the sampling rate (how often is a conversion 
+going to be performed3) and scaling parameters corresponding to the desired resolution of 
+the system. The output of the ADC is a binary number at each sampling time. 
+ 
+In the preceding section on Sampling we explored the conditions on the sampling rate.  
+ 
+The following schematic shows the basic structure of an 8 bit ADC. 
+ 
+2
+4
+6
+8
+Signal (V)
+0011 0011
+0101 1111
+0111 1000
+1010 0001
+1100 1010
+1100 1000
+1000 0010
+0101 1010
+0100 1000LSB
+MSB
+D0D1D2D3D4D5D6D7
+8 Bit ADC
+Analog Signal
+Reference Voltage
+Pulses 1234 67859
+Sampling signal
+ 
+ 
+The selection of an 8 bit ADC sets the resolution of our conversion and the selection of 
+the scale for the analog signal determines the measurement resolution for our ADC. In 
+out example the 8 bit ADC implies 28 = 256 different levels within the maximum signal 
+range. 
+                                                 
+3 The sampling frequency must be larger than the highest frequency of the analog signal 
+to be converted. In fact as stated by the “Sampling Theorem” The sampling frequency 
+must be at greater than 2 times the bandwidth of the input signal. 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  44
+
+===== PDF-side 45 =====
+
+Since we are measuring a voltage with possible values between 0V and 10V, our 8 bit 
+ADC is not able to resolve voltages smaller than 8
+10
+2 mV = 39mV. 
+If our ADC has a resolution of 16 bits, like the one that you have in your laboratory, the 
+resolution, for the same measurement range, would be 16
+10
+2 mV=0.15mV. 
+ 
+The table below summarizes the conversion process 
+ 
+Pulse Signal 
+Value Level Binary number 
+1 2 2 256 5110 =  0011 0011 
+2 3.7 3.7 256 9510 =  0101 1111 
+3 4.7 4.7 256 12010 = 0111 1000 
+4 6.3 6.3 256 16110 =  1010 0001 
+5 7.9 7.9 256 20210 = 1100 1010 
+6 7.8 7.8 256 20010 = 1100 1000 
+7 5.1 5.1256 13010 =  1000 0010 
+8 3.5 3.5 256 9010 =  0101 1010 
+ 
+ 
+ 
+ 
+ 
+ 
+6.071 Spring 2006, Chaniotakis and Cory  45

@@ -1,0 +1,722 @@
+{
+  "table_of_contents": [
+    {
+      "title": "2.161 Signal Processing: Continuous and Discrete \nFall 2008",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          74.55477294153171,
+          125.73811086245338
+        ],
+        [
+          348.5318298339844,
+          125.73811086245338
+        ],
+        [
+          348.5318298339844,
+          153.33191148956652
+        ],
+        [
+          74.55477294153171,
+          153.33191148956652
+        ]
+      ]
+    },
+    {
+      "title": "1\nFFT Convolution for FIR Filters",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          83.85675343818569,
+          251.9139862060547
+        ],
+        [
+          330.75719376955584,
+          251.9139862060547
+        ],
+        [
+          330.75719376955584,
+          269.81689453125
+        ],
+        [
+          83.85675343818569,
+          269.81689453125
+        ]
+      ]
+    },
+    {
+      "title": "Massachusetts Institute of Technology\nDepartment of Mechanical Engineering\n2.161 Signal Processing - Continuous and Discrete\nFall Term 2008",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          156.74471607736737,
+          65.78509712219238
+        ],
+        [
+          451.0443872408543,
+          65.78509712219238
+        ],
+        [
+          451.0443872408543,
+          136.78981018066406
+        ],
+        [
+          156.74471607736737,
+          136.78981018066406
+        ]
+      ]
+    },
+    {
+      "title": "Lecture 181",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          264.5846515338427,
+          147.80022811889648
+        ],
+        [
+          342.3247375488281,
+          147.80022811889648
+        ],
+        [
+          342.3247375488281,
+          163.84686279296875
+        ],
+        [
+          264.5846515338427,
+          163.84686279296875
+        ]
+      ]
+    },
+    {
+      "title": "Reading:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          82.60917130285307,
+          174.8232421875
+        ],
+        [
+          134.0425677743907,
+          174.8232421875
+        ],
+        [
+          134.0425677743907,
+          189.21917724609375
+        ],
+        [
+          82.60917130285307,
+          189.21917724609375
+        ]
+      ]
+    },
+    {
+      "title": "2\nThe Design of IIR Filters",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          82.63661406202341,
+          491.4097137451172
+        ],
+        [
+          281.8428310519202,
+          491.4097137451172
+        ],
+        [
+          281.8428310519202,
+          508.5932312011719
+        ],
+        [
+          82.63661406202341,
+          508.5932312011719
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Design By Approximation of Derivatives:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          82.52896983917775,
+          139.20827865600586
+        ],
+        [
+          394.01708984375,
+          139.20827865600586
+        ],
+        [
+          394.01708984375,
+          155.79010009765625
+        ],
+        [
+          82.52896983917775,
+          155.79010009765625
+        ]
+      ]
+    },
+    {
+      "title": "Example 1",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          110.00721592746994,
+          217.74325561523438
+        ],
+        [
+          194.37965393066406,
+          217.74325561523438
+        ],
+        [
+          194.37965393066406,
+          233.77593994140625
+        ],
+        [
+          110.00721592746994,
+          233.77593994140625
+        ]
+      ]
+    },
+    {
+      "title": "Example 2",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          108.96402517554142,
+          93.07573699951172
+        ],
+        [
+          194.6067819667403,
+          93.07573699951172
+        ],
+        [
+          194.6067819667403,
+          108.23828125
+        ],
+        [
+          108.96402517554142,
+          108.23828125
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Design by Impulse-Invariance:",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          82.41744360935779,
+          433.5337371826172
+        ],
+        [
+          320.1129455566406,
+          433.5337371826172
+        ],
+        [
+          320.1129455566406,
+          448.9904479980469
+        ],
+        [
+          82.41744360935779,
+          448.9904479980469
+        ]
+      ]
+    },
+    {
+      "title": "Example 3",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          98.20921929116814,
+          173.13661244121494
+        ],
+        [
+          188.36105010371367,
+          173.13661244121494
+        ],
+        [
+          188.36105010371367,
+          188.95074462890625
+        ],
+        [
+          98.20921929116814,
+          188.95074462890625
+        ]
+      ]
+    },
+    {
+      "title": "Example 4",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          98.2107400774055,
+          281.8568955486838
+        ],
+        [
+          188.3035430908203,
+          281.8568955486838
+        ],
+        [
+          188.3035430908203,
+          298.1011962890625
+        ],
+        [
+          98.2107400774055,
+          298.1011962890625
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          69.73211394149051,
+          353.68448416760003
+        ],
+        [
+          195.2100424202023,
+          353.68448416760003
+        ],
+        [
+          195.2100424202023,
+          368.41204497013786
+        ],
+        [
+          69.73211394149051,
+          368.41204497013786
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          13
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          387
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          766
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Diagram",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          361
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          464
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          482
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "Equation",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          423
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          600
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "Equation",
+          9
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          418
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          177
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\MIT-2.161-L18-FIR-IIR"
+}

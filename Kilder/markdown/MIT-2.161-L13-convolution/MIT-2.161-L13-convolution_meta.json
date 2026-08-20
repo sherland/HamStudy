@@ -1,0 +1,845 @@
+{
+  "table_of_contents": [
+    {
+      "title": "2.161 Signal Processing: Continuous and Discrete \nFall 2008",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          74.55477294153171,
+          125.73811086245338
+        ],
+        [
+          348.5318298339844,
+          125.73811086245338
+        ],
+        [
+          348.5318298339844,
+          153.33191148956652
+        ],
+        [
+          74.55477294153171,
+          153.33191148956652
+        ]
+      ]
+    },
+    {
+      "title": "1\nIntroduction to Time-Domain Digital Signal Processing",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.8030962043205,
+          265.09563681788455
+        ],
+        [
+          494.4736056003523,
+          265.09563681788455
+        ],
+        [
+          494.4736056003523,
+          284.26263427734375
+        ],
+        [
+          70.8030962043205,
+          284.26263427734375
+        ]
+      ]
+    },
+    {
+      "title": "Massachusetts Institute of Technology\nDepartment of Mechanical Engineering\n2.161 Signal Processing - Continuous and Discrete\nFall Term 2008",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          147.68750784078833,
+          70.92492351039435
+        ],
+        [
+          461.11812101503466,
+          70.92492351039435
+        ],
+        [
+          461.11812101503466,
+          145.9341522243972
+        ],
+        [
+          147.68750784078833,
+          145.9341522243972
+        ]
+      ]
+    },
+    {
+      "title": "Lecture 131",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          262.61922399102895,
+          157.78861131268957
+        ],
+        [
+          345.0950927734375,
+          157.78861131268957
+        ],
+        [
+          345.0950927734375,
+          175.0
+        ],
+        [
+          262.61922399102895,
+          175.0
+        ]
+      ]
+    },
+    {
+      "title": "Reading:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          68.77232059123234,
+          185.40516748199053
+        ],
+        [
+          124.14014542433117,
+          185.40516748199053
+        ],
+        [
+          124.14014542433117,
+          200.60394287109375
+        ],
+        [
+          68.77232059123234,
+          200.60394287109375
+        ]
+      ]
+    },
+    {
+      "title": "2\nThe Discrete-time Convolution Sum",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          69.75344496950395,
+          181.52971216407292
+        ],
+        [
+          356.50275549900624,
+          181.52971216407292
+        ],
+        [
+          356.50275549900624,
+          198.9742431640625
+        ],
+        [
+          69.75344496950395,
+          198.9742431640625
+        ]
+      ]
+    },
+    {
+      "title": "The z-Transform\n3",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          69.39540272095341,
+          648.5491523776644
+        ],
+        [
+          219.7196280145525,
+          648.5491523776644
+        ],
+        [
+          219.7196280145525,
+          666.5936279296875
+        ],
+        [
+          69.39540272095341,
+          666.5936279296875
+        ]
+      ]
+    },
+    {
+      "title": "The Laplace Transform",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          76.19549547094543,
+          73.06786291406075
+        ],
+        [
+          214.72086082477713,
+          73.06786291406075
+        ],
+        [
+          214.72086082477713,
+          86.80642140389338
+        ],
+        [
+          76.19549547094543,
+          86.80642140389338
+        ]
+      ]
+    },
+    {
+      "title": "The Z transform",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          320.20414933749953,
+          72.84581618678432
+        ],
+        [
+          421.372910122427,
+          72.84581618678432
+        ],
+        [
+          421.372910122427,
+          86.69873046875
+        ],
+        [
+          320.20414933749953,
+          86.69873046875
+        ]
+      ]
+    },
+    {
+      "title": "The Laplace Transform (contd.)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          76.02317781232166,
+          72.46762685529482
+        ],
+        [
+          259.49180141804504,
+          72.46762685529482
+        ],
+        [
+          259.49180141804504,
+          87.485595703125
+        ],
+        [
+          76.02317781232166,
+          87.485595703125
+        ]
+      ]
+    },
+    {
+      "title": "The Z transform (contd.)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          320.41360619686714,
+          72.1277924535111
+        ],
+        [
+          465.8469200614718,
+          72.1277924535111
+        ],
+        [
+          465.8469200614718,
+          87.485595703125
+        ],
+        [
+          320.41360619686714,
+          87.485595703125
+        ]
+      ]
+    },
+    {
+      "title": "(a) Linearity:",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          69.77490749407175,
+          527.4130152823769
+        ],
+        [
+          150.37414252908164,
+          527.4130152823769
+        ],
+        [
+          150.37414252908164,
+          542.59912109375
+        ],
+        [
+          69.77490749407175,
+          542.59912109375
+        ]
+      ]
+    },
+    {
+      "title": "(b) Time Shift:",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          69.83372647456018,
+          582.0053571801258
+        ],
+        [
+          164.04049682617188,
+          582.0053571801258
+        ],
+        [
+          164.04049682617188,
+          597.5845336914062
+        ],
+        [
+          69.83372647456018,
+          597.5845336914062
+        ]
+      ]
+    },
+    {
+      "title": "(c) Convolution:",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          69.16829673709438,
+          133.136510806538
+        ],
+        [
+          170.96151733398438,
+          133.136510806538
+        ],
+        [
+          170.96151733398438,
+          147.90875244140625
+        ],
+        [
+          69.16829673709438,
+          147.90875244140625
+        ]
+      ]
+    },
+    {
+      "title": "(d) Conjugation of a complex sequence:",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          70.05005545820337,
+          365.01466197067356
+        ],
+        [
+          305.5923436931159,
+          365.01466197067356
+        ],
+        [
+          305.5923436931159,
+          380.6061554090953
+        ],
+        [
+          70.05005545820337,
+          380.6061554090953
+        ]
+      ]
+    },
+    {
+      "title": "(e) Time reversal:",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          69.72186292749208,
+          432.52489843054315
+        ],
+        [
+          180.23716735839844,
+          432.52489843054315
+        ],
+        [
+          180.23716735839844,
+          447.7926025390625
+        ],
+        [
+          69.72186292749208,
+          447.7926025390625
+        ]
+      ]
+    },
+    {
+      "title": "(e) Scaling in the z-domain:",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          69.57925205567021,
+          527.0352435362519
+        ],
+        [
+          235.5331573486328,
+          527.0352435362519
+        ],
+        [
+          235.5331573486328,
+          542.6191101074219
+        ],
+        [
+          69.57925205567021,
+          542.6191101074219
+        ]
+      ]
+    },
+    {
+      "title": "(e) Differentiation in the z-domain:",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          69.82775195719914,
+          612.6605619191062
+        ],
+        [
+          279.5269823434671,
+          612.6605619191062
+        ],
+        [
+          279.5269823434671,
+          628.0631256103516
+        ],
+        [
+          69.82775195719914,
+          628.0631256103516
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          13
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          295
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "Diagram",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          720
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Equation",
+          6
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          564
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Equation",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          812
+        ],
+        [
+          "Line",
+          80
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "Equation",
+          10
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          628
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "Equation",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Diagram",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          493
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          641
+        ],
+        [
+          "Line",
+          58
+        ],
+        [
+          "Equation",
+          11
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          613
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Equation",
+          6
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          497
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Equation",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\MIT-2.161-L13-convolution"
+}

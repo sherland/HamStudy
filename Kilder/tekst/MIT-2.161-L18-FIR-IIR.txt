@@ -1,0 +1,369 @@
+===== PDF-side 1 =====
+
+MIT OpenCourseWare 
+http://ocw.mit.edu 
+2.161 Signal Processing: Continuous and Discrete 
+Fall 2008 
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms.
+
+===== PDF-side 2 =====
+
+� 
+/G6B 
+/G6E /G2D /G6B 
+/G30 
+/G30
+/G2D /G33 
+/G66 /G6B 
+/G6E /G2D /G6B 
+/G30 
+/G68 /G6E /G2D /G6B /G6E /G3D /G38
+/G38 
+1 
+Massachusetts Institute of Technology
+Department of Mechanical Engineering
+2.161 Signal Processing - Continuous and Discrete 
+Fall Term 2008 
+Lecture 181 
+Reading: 
+• Proakis and Manolakis: 7.3.1, 7.3.2, 10.3 
+• Oppenheim, Schafer, and Buck: 8.7.3, 7.1 
+FFT Convolution for FIR Filters 
+The response of an FIR ﬁlter with impulse response {hk} to an input {fk} is given by the 
+linear convolution ∞ 
+yn = fkhn−k. 
+k=−∞ 
+The length of the convolution of two ﬁnite sequences of lengths P and Q is N = P + Q − 1. 
+The following ﬁgure shows a sequence {fn} of length P = 6, and a sequence {hn} of length 
+Q = 4 reversed and shifted so as to compute the extremes of the convolved sequence y0 and 
+y8. 
+/G50 /G20/G3D /G20/G36 
+/G6E /G20/G3D /G20/G30 /G68 /G6E/G2D/G6B 
+/G35 
+/G51 /G20/G3D /G20/G34 
+/G51 /G20/G3D /G20/G34 
+The convolution property of the DFT suggests that the FFT might be used to convolve two 
+equal length sequences 
+yn = IDFT {DFT {fn} .DFT {hn}} . 
+1copyright ©c D.Rowell 2008 
+18–1
+
+===== PDF-side 3 =====
+
+However, DFT convolution is a circular convolution, involving periodic extensions of the two 
+sequences. The following ﬁgure shows the circular convolution of length 6, on two sequences 
+{fn} of length P = 6 and {hn} of length Q = 4. The periodic extensions cause overlap in 
+the ﬁrst Q − 1 samples, generating “wrap-around” errors in the DFT convolution. 
+/G50 /G20 /G3D /G20 /G36 
+/G51 /G20 /G3D /G20 /G34 
+/G6B 
+/G6E /G2D /G6B 
+/G30 /G35 
+/G30/G2D /G33 
+/G66 /G6B 
+/G68 /G6E /G2D /G6B/G6E /G20 /G3D /G20 /G30 
+/G6F /G76 /G65 /G72 /G6C /G61 /G70 /G20 /G6F /G66 /G20 /G51 /G2D /G31 /G20 /G73 /G61 /G6D /G70 /G6C /G65 /G73 
+DFT convolution of two sequences of length P and Q (P ≥ Q) in DFTs of length P 
+1. Produces an output sequence of length P , whereas linear convolution produces 
+an output sequence of length P + Q − 1. 
+2. Introduces wrap-around error in the ﬁrst Q−1 samples of the output sequence. 
+The solution is to zero-pad both input sequences to a length N ≥ P +Q−1 
+and then to use DFT convolution with the length N sequences. 
+For example, if {fn} is of length P = 237, and {hn} is of length Q = 125, for error-free 
+convolution we must perform the DFTs in length N ≥ 237 + 125 − 1 = 461. If the available 
+FFT routine is radix-2, we should choose N=512. 
+The use of the FFT for Filtering Long Data Sequences: The DFT convolution 
+method provides an attractive alternative to direct convolution when the length of the data 
+record is very large. The general method is to break the data into manageable sections, then 
+use the FFT to to perform the convolution and then recombine the output sections. Care 
+must be taken, however, to avoid wrap-around errors. There are two basic methods used for 
+convolving long data records. Let the impulse response {hn} have length Q. 
+Overlap-Save Method: (Also known as the overlap-discard,o r select-savings method.) 
+In this method the data is divided into blocks of length P samples, but with successive 
+blocks overlapping by Q − 1. The DFT convolution is done on each block with length 
+P , and wrap-around errors are allowed to contaminate the ﬁrst Q − 1 samples of the 
+output. These initial samples are then discarded, and only the error-free P − (Q − 1) 
+samples are saved in the output record. 
+18–2
+
+===== PDF-side 4 =====
+
+� 
+� 
+/G6E 
+With the overlap of the data blocks, in the mth block the samples are 
+fm(n)= f(n + m(P − (Q − 1))), n =0 ,...,P − 1, 
+and after DFT convolution in length P, giving ymP (n), the output is taken as 
+ymP (n +( Q − 1)),n =0 ,...,P − (Q − 1) ym(n)= 0, otherwise. 
+and the output is formed by concatenating all such records: 
+∞ 
+y(n)= ym(n − m(P − Q + 1)). 
+m=0 
+/G50 
+/G50 
+/G50 
+/G50 /G20 
+/G79 /G20 /G20 /G20 /G20 /G28 /G6E /G29/G30 /G50 
+/G6E 
+/G66 /G28 /G6E /G29 
+/G68 /G28 /G6E /G29 
+/G51 
+/G6E 
+/G51 /G2D /G31 
+/G50 /G20 
+/G6E 
+/G51 /G2D /G31 
+/G50 /G20 
+/G6E 
+/G51 /G2D /G31 
+/G6F /G76 /G65 /G72 /G6C /G61 /G70 /G70 /G69 /G6E /G67 /G20 /G69 /G6E /G70 /G75 /G74 /G20 /G73 /G65 /G63 /G74 /G69 /G6F /G6E /G73 
+/G79 /G20 /G20 /G20 /G20 /G28 /G6E /G29/G31 /G50 
+/G79 /G20 /G20 /G20 /G20 /G28 /G6E /G29/G32 /G50 
+/G64 /G69 /G73 /G63 /G61 /G72 /G64 /G20 /G6F /G75 /G74 /G70 /G75 /G74 /G20 /G73 /G61 /G6D /G70 /G6C /G65 /G73 /G20 /G69 /G6E /G20 /G74 /G68 /G69 /G73 /G20 /G72 /G65 /G67 /G69 /G6F /G6E 
+/G64 /G69 /G73 /G63 /G61 /G72 /G64 /G20 /G6F /G75 /G74 /G70 /G75 /G74 /G20 /G73 /G61 /G6D /G70 /G6C /G65 /G73 /G20 /G69 /G6E /G20 /G74 /G68 /G69 /G73 /G20 /G72 /G65 /G67 /G69 /G6F /G6E 
+/G64 /G69 /G73 /G63 /G61 /G72 /G64 /G20 /G6F /G75 /G74 /G70 /G75 /G74 /G20 /G73 /G61 /G6D /G70 /G6C /G65 /G73 /G20 /G69 /G6E /G20 /G74 /G68 /G69 /G73 /G20 /G72 /G65 /G67 /G69 /G6F /G6E 
+Overlap-Add Method: In this method the data is divided into blocks of length P, but 
+the DFT convolution is done in zero-padded blocks of length N = P + Q − 1 so that 
+18–3
+
+===== PDF-side 5 =====
+
+/G6E 
+� � 
+2 
+wrap-around errors do not occur. In this case the output is identical to the linear 
+convolution of the two blocks, with an initial rise of length Q − 1 samples, and a 
+trailing section also of length Q − 1 samples. It is easy to show that if the trailing 
+section of the mth output block is overlapped with the initial section of the (m + 1)th 
+block, the samples add together to generate the correct output values. 
+/G50 /G50 /G50 
+/G6E 
+/G6E 
+/G66 /G28 /G6E /G29 
+/G68 /G28 /G6E /G29 
+/G51 
+/G61 /G64 /G64 /G20 /G6F /G75 /G74 /G70 /G75 /G74 /G20 /G73 /G61 /G6D /G70 /G6C /G65 /G73 /G20 /G69 /G6E /G20 /G74 /G68 /G69 /G73 /G20 /G72 /G65 /G67 /G69 /G6F /G6E 
+/G61 /G64 /G64 /G20 /G6F /G75 /G74 /G70 /G75 /G74 /G20 /G73 /G61 /G6D /G70 /G6C /G65 /G73 /G20 /G69 /G6E /G20 /G74 /G68 /G69 /G73 /G20 /G72 /G65 /G67 /G69 /G6F /G6E 
+/G50 /G20 /G2B /G20 /G51 /G20 /G2D /G20 /G31 
+/G50 /G20 /G2B /G20 /G51 /G20 /G2D /G20 /G31 
+/G50 /G20 /G2B /G20 /G51 /G20 /G2D /G20 /G31 
+/G79 /G20 /G20 /G28 /G6E /G29/G31
+/G79 /G20 /G20 /G28 /G6E /G29/G32
+/G79 /G20 /G20 /G28 /G6E /G29/G33
+/G6E 
+/G6E 
+MATLAB’s fftfilt() function performs DFT convolution using the overlap-add method. 
+The Design of IIR Filters 
+An IIR ﬁlter is characterized by a recursive diﬀerence equation 
+N M 
+yn = akyn−k + bkfn−k 
+k=1 k=0 
+and a rational transfer function of the form 
+b0z0 + b1z−1 + ... + bM z−M 
+H(z)= z0 + a1z−1 + ... + aN z−N 
+IIR ﬁlters have the advantage that they can give a better cut-oﬀ characteristic than a FIR 
+ﬁlter of the same order, but have the disadvantage that the phase response cannot be well 
+controlled. 
+18–4
+
+===== PDF-side 6 =====
+
+� �
+The most common design procedure for digital IIR ﬁlters is to design a continuous ﬁlter in 
+the s-plane, and then to transform that ﬁlter to the z-plane. Because the mapping between 
+the continuous and discrete domains cannot be done exactly, the various design methods are 
+at best approximations. 
+2.1 Design By Approximation of Derivatives: 
+Perhaps the simplest method for low-order systems is to use backward-diﬀerence approxi­
+mation to continuous domain derivatives. 
+Example 1 
+Suppose we wish to make a discrete-time ﬁlter based on a prototype ﬁrst-order 
+high-pass ﬁlter s Hp(s)= . s + a 
+The diﬀerential equation describing this ﬁlter is 
+dy df + ay = dt dt 
+The backward-diﬀerence approximation to a derivative based on samples taken 
+at intervals T apart is 
+dx xn − xn−1≈ dt T 
+and substitution into the diﬀerential equation gives 
+yn − yn−1 fn − fn−1 + ayn = T T 
+or 1 1 yn = yn−1 + (fn − fn−1)1+ aT 1+ aT 
+The transfer function is 
+1 − z−1 z − 1 H(z)= = (1 + aT )1 + z−1 (1 + aT )z +1 
+This example indicates that the method uses the transformation 
+1 − z−1 
+s → T 
+in Hp(s). For higher order terms 
+1 − z−1 n 
+n s → . T 
+18–5
+
+===== PDF-side 7 =====
+
+/G68 /G28 /G74 /G29 
+/G68 /G28 /G74 /G29 
+/G74 
+/G54 
+/G6E 
+/G74 
+/G64 /G28 /G74 /G29 
+Example 2 
+Convert the continuous low-pass Butterworth ﬁlter with Ωc = 1 rad/s to a digital 
+ﬁlter with a sampling time T =0 .5 s. The transfer function is 
+1 Hp(s)= √ . s2 + 2s +1 
+The discrete-time transfer function is 
+1
+H(z)= � −1 �2 √ � −1 �
+1−z 1−z+ 2 +1T T 
+T 2 
+= √ √ 
+(1 + 2T + T 2) − (2 + 2T )z−1 + z−2 
+and with T =0 .5s , 
+0.25 H(z)= 1.9571 − 2.7071z−1 + z−2 
+The frequency response of this ﬁlter is plotted in Example 4. 
+In general, the backward-diﬀerence does not lead to satisfactory digital ﬁlters that mimic 
+the prototype ﬁlter characteristics. (See Proakis and Manolakis, Sec. 10.3.1). 
+2.2 Design by Impulse-Invariance: 
+In the impulse-invariant design method the impulse response {hn} of the digital ﬁlter is 
+taken to be proportional to the samples of the impulse response hp(t) of the continuous ﬁlter 
+Hp(s) with a sampling interval of T seconds. The most common form is 
+hn = Th p(nT ). 
+/G64 /G28 /G74 /G29 /G50
+/G20/G20/G20
+/G72
+/G20
+/G6F
+/G20/G48
+/G74/G6F
+/G28
+/G74
+/G73
+/G79
+/G29
+/G70 /G65 
+/G68 /G28 /G6E/G54 /G29/G73/G61/G6D /G70/G6C/G65/G72 
+18–6
+
+===== PDF-side 8 =====
+
+Then
+ 
+(nT )} = T ZTH(z) = T Z {hp 
+�
+L−1 {Hp(s)}
+� 
+since hp(t) = L−1 {Hp(s)}, and where ZT {} indicates the z-transform of a continuous func­
+tion with sampling interval T . 
+Example 3 
+Find the impulse-invariant IIR ﬁlter from the prototype continuous ﬁlter 
+a Hp(s) = . s + a 
+Solution: Using Laplace transform tables 
+hp(t) = L−1 
+� a � 
+= a e−at . s + a 
+and from z-transform tables 
+a�
+a e−at� 
+= .ZT 
+1 − e−aT z−1 
+The IIR ﬁlter is �
+a e−at� 
+= aT H(z) = T ZT 
+1 − e−aT z−1 
+and the diﬀerence equation is 
+yn = e−aT yn−1 + aT fn 
+For the digital ﬁlter 
+∞ 
+H( ej ΩT ) = H(z)| j ΩT = 
+� 
+hk e−j kΩT 
+z= e 
+k=0 
+and the DTFT of the samples of the continuous prototype’s impulse response is
+ 
+∞ 
+1 
+∞ � � 2πk ��
+DTFT {hp(nT )} = 
+� 
+hp(kT ) e−j kΩT = 
+� 
+Hp j .Ω −T T k=0
+ k=−∞
+Then if hn = T hp(nT ), 
+∞ � � 2πk ��
+H( ej ΩT ) = 
+� 
+Hp j Ω − . T k=−∞ 
+The discrete-time frequency response is therefore a superposition of shifted replicas of the 
+frequency response of the prototype. As a result, aliasing will be present in H( ej ω) if the 
+prototype’s frequency response |Hp(j Ω)| = 0 for� |Ω| ≥ π/T . 
+18–7
+
+===== PDF-side 9 =====
+
+/G77
+/G32 /G70/G70/G2D /G70/G2D /G32 /G70 /G30
+/G48 /G28 /G65 /G20 /G20 /G20 /G29/G6A /G77
+/G61 /G6C /G69 /G61 /G73 /G69 /G6E /G67 /G20 /G64 /G69 /G73 /G74 /G6F /G72 /G74 /G69 /G6F /G6E
+/G69 /G6E /G20 /G74 /G68 /G65 /G20 /G70 /G61 /G73 /G73 /G2D /G62 /G61 /G6E /G64 /G2E
+/G6F /G76 /G65 /G72 /G6C /G61 /G70 /G70 /G69 /G6E /G67 /G20 /G72 /G65 /G70 /G6C /G69 /G63 /G61 /G73
+For this reason the impulse-invariance method is not suitable for the design of high-pass or 
+band-stop ﬁlters, which by deﬁnition require a prototype Hp(s) with a non-zero frequency 
+response at Ω = π/T. 
+Example 4 
+Design an impulse-invariant ﬁlter based on the second-order low-pass Butter-
+worth prototype used in Example 2, with T = 0.5 s. 
+1 Hp(s) = s2 + 
+√
+2s + 1 
+Solution: From z-transform tables 
+� � β �� e−aT sin(βT )z ZT L−1 
+(s + a)2 + β2 = z2 + 2z e−aT cos(βT )z + e−2aT 
+and Hp(s) may be written in this form 
+1 Hp(s) = (s + 1/
+√
+2)2 + (1/
+√
+2)2 
+so that a = 1/
+√
+2, and β = 1/
+√
+2. Substituting these values, 
+0.1719z−1 
+H(z) = T ZT 
+�
+L−1 {Hp(s)}
+� 
+= 1 − 1.3175z−1 + 0.4935z−2 
+The frequency response of the impulse-invariant, and backward-diﬀerence (from 
+Example 2) ﬁlters are compared with the prototype below: 
+18–8
+
+===== PDF-side 10 =====
+
+/G30 /G31 /G32 /G33 /G34 /G35 /G36/G30
+/G30 /G2E /G31
+/G30 /G2E /G32
+/G30 /G2E /G33
+/G30 /G2E /G34
+/G30 /G2E /G35
+/G30 /G2E /G36
+/G30 /G2E /G37
+/G30 /G2E /G38
+/G30 /G2E /G39
+/G31
+/G46 /G72 /G65 /G71 /G75 /G65 /G6E /G63 /G79 /G20 /G28 /G72 /G61 /G64 /G2F /G73 /G29
+/G46 /G72 /G65 /G71 /G75 /G65 /G6E /G63 /G79 /G20 /G72 /G65 /G73 /G70 /G6F /G6E /G73 /G65 /G20 /G6D /G61 /G67 /G6E /G69 /G74 /G75 /G64 /G65
+/G78 /G20 /G20 /G20 /G20 /G20 /G20 /G2D /G20 /G50 /G72 /G6F /G74 /G6F /G74 /G79 /G70 /G65 /G20 /G42 /G75 /G74 /G74 /G65 /G72 /G77 /G6F /G72 /G74 /G68 /G20 /G46 /G69 /G6C /G74 /G65 /G72
+/G49 /G6D /G70 /G75 /G6C /G73 /G65 /G2D /G69 /G6E /G76 /G61 /G72 /G69 /G61 /G6E /G74 /G20 /G28 /G54 /G20 /G3D /G20 /G30 /G2E /G35 /G29
+/G42 /G61 /G63 /G6B /G77 /G61 /G72 /G64 /G20 /G64 /G69 /G66 /G66 /G65 /G72 /G65 /G6E /G63 /G65 /G20 /G28 /G54 /G20 /G3D /G20 /G30 /G2E /G35 /G29
+The MATLAB function 
+[bz, az] = impinvar(bs, as, Fs) 
+will compute the numerator az, and denominator bz coeﬃcients for an impulse-invariant 
+ﬁlter from the continuous prototype coeﬃcients bs and as, with a sampling frequency Fs. 
+The ﬁlter in Example 4 can be designed in a single line:
+ 
+[bz, az] = impinvar(1, [1 sqrt(2) 1], 2).
+ 
+18–9

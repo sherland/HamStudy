@@ -29,6 +29,10 @@ ARCHIVES = {
     "Kilder/primar/MIT-6.101-transistor-config.pdf": "B92E5265EF2B3A5DBE17109A5083DD2E905D5ED758F4B2C5229EC72BF0BD1117",
     "Kilder/primar/FAA-H-8083-30B-kap12-kretser-s442-506.pdf": "789BA3E16E05D0F59246BDB37F16D1BE5D0BB9E0B317F5A3CD470F774741CCD4",
     "Kilder/primar/FAA-H-8083-30B-kap12-halvledere-s536-559.pdf": "8F7D7FE280DA64619BC31400B6A22F53166098FBCA0F6B146A51AE1215B0D7A4",
+    "Kilder/primar/MIT-6.071J-signals-DSP.pdf": "65CB92522EC44176009FD39F27C10B4FB4CECE749F921B23E4F7332FDF79C9B5",
+    "Kilder/primar/MIT-2.161-L10-sampling-DFT.pdf": "B349F3370D7BE33592E2084ADC3E1981883F378C53ED05565869153A7AE5DDAA",
+    "Kilder/primar/MIT-2.161-L13-convolution.pdf": "6BEE1B0F85E0354EE08EFE8247ECD70D6DF4F709F2FFD18FFCC8BF619B64ABFF",
+    "Kilder/primar/MIT-2.161-L18-FIR-IIR.pdf": "B41A566C20CBAE95D96A3CA17ED2EE4A6C81FC6AA70331E44BE44332FB16E869",
 }
 
 TEXT_EXTRACTS = {
@@ -53,6 +57,10 @@ TEXT_EXTRACTS = {
     "Kilder/tekst/MIT-6.101-regulated-power.txt",
     "Kilder/tekst/MIT-6.101-ripple.txt",
     "Kilder/tekst/MIT-6.101-transistor-config.txt",
+    "Kilder/tekst/MIT-6.071J-signals-DSP.txt",
+    "Kilder/tekst/MIT-2.161-L10-sampling-DFT.txt",
+    "Kilder/tekst/MIT-2.161-L13-convolution.txt",
+    "Kilder/tekst/MIT-2.161-L18-FIR-IIR.txt",
 }
 
 MARKER_EXTRACTS = {
@@ -71,6 +79,11 @@ MARKER_EXTRACTS = {
     "MIT-6.101-transistor-config",
     "FAA-H-8083-30B-kap12-kretser-s442-506",
     "FAA-H-8083-30B-kap12-halvledere-s536-559",
+    "IARU-R1_VHF-Handbook_v10.02",
+    "MIT-6.071J-signals-DSP",
+    "MIT-2.161-L10-sampling-DFT",
+    "MIT-2.161-L13-convolution",
+    "MIT-2.161-L18-FIR-IIR",
 }
 
 DOCUMENTS = {

@@ -1,0 +1,497 @@
+===== PDF-side 1 =====
+
+MIT OpenCourseWare 
+http://ocw.mit.edu 
+2.161 Signal Processing: Continuous and Discrete 
+Fall 2008 
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms.
+
+===== PDF-side 2 =====
+
+/G56 
+/G2B 
+/G43 
+1 
+Massachusetts Institute of Technology 
+Department of Mechanical Engineering 
+2.161 Signal Processing - Continuous and Discrete 
+Fall Term 2008 
+Lecture 131 
+Reading: 
+• Proakis & Manolakis, Chapter 3 (The z-transform) 
+• Oppenheim, Schafer & Buck, Chapter 3 (The z-transform) 
+Introduction to Time-Domain Digital Signal Processing 
+Consider a continuous-time ﬁlter 
+/G20/G20/G20/G43 /G6F/G6E/G74/G69/G6E/G75/G6F/G75/G73
+/G66 /G28 /G74 /G29 /G20/G20/G20/G20/G20/G73/G79/G73/G74/G65/G6D /G79/G28 /G74 /G29
+/G28 /G68 /G28 /G74 /G29 /G2C/G20/G48 /G28 /G73 /G29/G29
+such as simple ﬁrst-order RC high-pass ﬁlter: 
+/G2D 
+/G52 /G76 /G6F 
+described by a transfer function 
+H(s)= RCs 
+RCs +1 . 
+The ODE describing the system is 
+τ dy 
+dt + y = τ df 
+dt 
+where τ = RC is the time constant. 
+Our task is to derive a simple discrete-time equivalent of this prototype ﬁlter based on 
+samples of the input f(t) taken at intervals ΔT . 
+/G66/G6E /G61
+/G20/G20
+/G6C/G67
+/G20/G44
+/G6F
+/G53
+/G72/G69/G74
+/G50
+/G68 /G6D /G79/G6E 
+1copyright ©c D.Rowell 2008 
+13–1
+
+===== PDF-side 3 =====
+
+� � 
+� 
+If we use a backwards-diﬀerence numerical approximation to the derivatives, that is 
+dx (x(nΔT) − x((n − 1)ΔT)≈ dt ΔT 
+and adopt the notation y = y(nΔT), and let a = τ/ΔT,n 
+a(yn − yn−1)+ yn = a(fn − fn−1) 
+and solving for yn 
+a a a yn = yn−1 + fn − fn−1
+1+ a 1+ a 1+ a 
+which is a ﬁrst-order diﬀerence equation, and is the computational formula for a sample-
+by-sample implementation of digital high-pass ﬁlter derived from the continuous prototype 
+above. Note that 
+•	 The “ﬁdelity” of the approximation depends on ΔT, and becomes more accurate when 
+ΔT ≪ τ. 
+•	 At each step the output is a linear combination of the present and/or past samples 
+of the output and input. This is a recursive system because the computation of the 
+current output depends on prior values of the output. 
+In general, regardless of the design method used, a LTI digital ﬁlter implementation will be 
+of a similar form, that is 
+N M 
+yn = aiyn−i + bifn−i 
+i=1 i=0 
+where the ai and bi are constant coeﬃcients. Then as in the simple example above, the 
+current output is a weighted combination of past values of the output, and current and past 
+values of the input. 
+• If ai ≡ 0 for i =1 ...N , so that 
+M � 
+yn = bifn−i 
+i=0 
+The output is simply a weighted sum of the current and prior inputs. Such a ﬁlter is 
+a non-recursive ﬁlter with a ﬁnite-impulse-response (FIR), and is known as a moving 
+average (MA) ﬁlter, or an all-zero ﬁlter. 
+•	 If bi ≡ 0 for i =1 ...M , so that 
+N 
+yn = aiyn−i + b0fn 
+i=0 
+only the current input value is used. This ﬁlter is a recursive ﬁlter with an inﬁnite-
+impulse-response (IIR), and is known as an auto-regressive (AR) ﬁlter, or an all-pole 
+ﬁlter. 
+13–2
+
+===== PDF-side 4 =====
+
+� � 
+� 
+� 
+� 
+2 
+• With the full diﬀerence equation 
+N M 
+yn = aiyn−i + bifn−i 
+i=1 i=0 
+the ﬁlter is a recursive ﬁlter with an inﬁnite-impulse response (IIR), and is known as 
+an auto-regressive moving-average (ARMA) ﬁlter. 
+The Discrete-time Convolution Sum 
+For a continuous system 
+/G20/G20/G20/G43 /G6F/G6E/G74/G69/G6E/G75/G6F/G75/G73
+/G66 /G28 /G74 /G29 /G20/G20/G20/G20/G20/G73/G79/G73/G74/G65/G6D /G79/G28 /G74 /G29
+/G28 /G68 /G28 /G74 /G29 /G2C/G20/G48 /G28 /G73 /G29/G29 
+the output y(t), in response to an input f(t), is given by the convolution integral: � ∞ 
+y(t)= f(τ)h(t − τ)dτ 
+0 
+where h(t) is the system impulse response. 
+For a LTI discrete-time system, such as deﬁned by a diﬀerence equation, we deﬁne the 
+pulse response sequence {h(n)} as the response to a unit-pulse input sequence {δn}, where 
+1 n =0 δn = 0 otherwise. 
+/G7B /G64 /G20/G6E /G20/G7D /G7B /G68/G6E/G20/G20/G7D 
+/G66/G6E /G61
+/G20/G20
+/G6C/G67
+/G20/G44
+/G6F 
+/G53
+/G72/G69/G74
+/G50
+/G68 /G6D /G79/G6E
+/G2E/G2E/G2E/G2E /G2D/G32 /G2D/G31 /G30 /G31 /G32/G2E/G2E/G2E/G2E /G6E/G2E/G2E/G2E/G2E/G2D/G32/G2D/G31/G30 /G31 /G32/G2E/G2E/G2E/G2E /G6E 
+If the input sequence {fn} is written as a sum of weighted and shifted pulses, that is 
+∞ 
+fn = fkδn−k 
+k=−∞ 
+then by superposition the output will be a sequence of similarly weighted and shifted pulse 
+responses 
+∞ 
+yn = fkhn−k 
+k=−∞ 
+which deﬁnes the convolution sum, which is analogous to the convolution integral of the 
+continuous system. 
+The z-Transform 
+The z-transform in discrete-time system analysis and design serves the same role as the 
+Laplace transform in continuous systems. We begin here with a parallel development of 
+both the z and Laplace transforms from the Fourier transforms. 
+13–3 
+3
+
+===== PDF-side 5 =====
+
+� 
+� � 
+� 
+� 
+The Laplace Transform 
+(1) We begin with causal f(t) and ﬁnd its 
+Fourier transform (Note that because f(t)i s 
+causal, the integral has limits of 0 and ∞): 
+� ∞ 
+F (jΩ) = f(t)e −jΩtdt 
+0 
+(2) We note that for some functions f(t) (for 
+example the unit step function), the Fourier 
+integral does not converge. 
+(3) We introduce a weighted function 
+w(t)= f(t)e −σt 
+and note 
+lim w(t)= f(t)
+σ→0 
+The eﬀect of the exponential weighting by e−σt 
+is to allow convergence of the integral for a 
+much broader range of functions f(t). 
+(4) We take the Fourier transform of w(t) 
+� ∞ 
+W (jΩ) = F˜(jΩ|σ)= 
+� 
+f(t)e −σt � 
+e −jΩtdt 
+0 � ∞ 
+= f(t)e −(σ+jΩ)dt 
+0 
+and deﬁne the complex variable s = σ + jΩs o 
+that we can write 
+� ∞ 
+F (s)= F˜(jω|σ)= f(t)e −stdt 
+0 
+F (s) is the one-sided Laplace Transform. Note 
+that the Laplace variable s = σ + jΩ is ex­
+pressed in Cartesian form. 
+The Z transform 
+(1) We sample f(t) at intervals ΔT to produce 
+f ∗(t). We take its Fourier transform (and use 
+the sifting property of δ(t)) to produce 
+∞ 
+F ∗ (jΩ) = fne −jnΩΔT 
+n=0 
+(2) We note that for some sequences fn (for 
+example the unit step sequence), the summa­
+tion does not converge. 
+(3) We introduce a weighted sequence 
+{wn} = fnr −n 
+and note 
+lim {wn} = {fn}
+r→1 
+The eﬀect of the exponential weighting by r−n 
+is to allow convergence of the summation for 
+a much broader range of sequences fn. 
+(4) We take the Fourier transform of wn 
+∞ 
+W ∗ (jΩ) = F˜∗ (jΩ|r)= 
+� 
+fnr −n � 
+e −jnΩΔT 
+n=0 
+∞ 
+= 
+� 
+fn 
+� 
+rejΩΔT �−n 
+n=0 
+and deﬁne the complex variable z = rejΩΔT so 
+that we can write 
+∞ 
+F (z)= F˜∗ (jΩ|r)= fnz −n 
+n=0 
+F (z) is the one-sided Z-transform. Note that 
+z = rejΩΔT is expressed in polar form. 
+13–4
+
+===== PDF-side 6 =====
+
+/G73 
+/G6A /G57 
+/GC2 /G7B /G7A /G7D 
+/GC1 /G7B /G7A /G7D 
+� 
+� 
+The Laplace Transform (contd.) 
+(5) For a causal function f(t), the region of 
+convergence (ROC) includes the s-plane to the 
+right of all poles of F(jΩ). 
+/G58 /G58 
+/G73 /G20 /G2D /G20 /G70 /G6C /G61 /G6E /G65 /G52 /G4F /G43 
+(6) If the ROC includes the imaginary axis, 
+the FT of f(t)i s F(jΩ): 
+F(jΩ) = F(s) |s=jΩ 
+(7) The convolution theorem states 
+� ∞ L
+f(t)⊗g(t)= f(τ)g(t−τ)dτ ⇐⇒F(s)G(s) 
+−∞ 
+(8) For an LTI system with transfer function 
+H(s), the frequency response is 
+H(s) |s=jΩ = H(jΩ) 
+if the ROC includes the imaginary axis. 
+The Z transform (contd.) 
+(5) For a right-sided (causal) sequence {fn}
+the region of convergence (ROC) includes the 
+z-plane at a radius greater than all of the poles 
+of F(z). 
+/G2D /G31 /G2E /G30 
+/G58 
+/G7A /G20 /G2D /G20 /G70 /G6C /G61 /G6E /G65 /G52 /G4F /G43 
+/G58 
+/G31 /G2E /G30 
+/G75 /G6E /G69 /G74 /G20 /G63 /G69 /G72 /G63 /G6C /G65 
+(6) If the ROC includes the unit circle, the 
+DFT of {fn}, n =0 , 1,...,N − 1. is {Fm}
+where 
+jωmFm = F(z) |z=e = F(ejωm ), 
+where ωm =2 πm/N for m =0 , 1,...,N − 1. 
+(7) The convolution theorem states 
+∞ 
+Z
+{fn}⊗{ gn} = fmgn−m ⇐⇒F(z)G(z) 
+m=−∞ 
+(8) For a discrete LSI system with transfer 
+function H(z), the frequency response is 
+jωH(z) |z=e = H(ejω) |ω|≤π 
+if the ROC includes the unit circle. 
+From the above derivation, the Z-transform of a sequence {fn} is 
+∞ 
+F(z)= fnz −n 
+n=−∞ 
+where z = r ej ω is a complex variable. For a causal sequence fn = 0 for n<0, the transform 
+13–5
+
+===== PDF-side 7 =====
+
+� 
+� � � 
+� 
+can be written ∞ 
+F(z)= fnz −n 
+n=0 
+Example: The ﬁnite sequence {f0,...,f 3} = {5, 3, −1, 4} has the z-transform 
+F(z)=5 z 0 +3 z −1 − z −2 +4 z −3 
+The Region of Convergence: For a given sequence, the region of the z-plane in which 
+the sum converges is deﬁned as the region of convergence (ROC). In general, within the ROC 
+∞ 
+�fnr −n � < ∞ 
+n=−∞ 
+and the ROC is in general an annular region of the z-plane: 
+/G72 
+/G72 
+/G31 
+/G32 
+/GC2 /G28 /G7A /G29 
+/GC1 /G28 /G7A /G29 
+/G7A /G2D /G70 /G6C /G61 /G6E /G65 
+/G52 /G4F /G43
+/G46 /G28 /G7A /G29 /G20 /G63 /G6F /G6E /G76 /G65 /G72 /G67 /G65 /G73 /G20 /G66 /G6F /G72
+/G72 /G20 /G20 /G3C /G20 /G72 /G20 /G3C /G20 /G72/G31 /G32 
+(a) The ROC is a ring or disk in the z-plane. 
+(b) The ROC cannot contain any poles of F(z). 
+(c)	 For a ﬁnite sequence, the ROC is the entire z-plane (with the possible exception of z =0 
+and z = ∞. 
+(d) For a causal sequence, the ROC extends outward from the outermost pole. 
+(e) for a left-sided sequence, the ROC is a disk, with radius deﬁned by the innermost pole. 
+(f )	 For a two sided sequence the ROC is a disk bounded by two poles, but not containing 
+any poles. 
+(g) The ROC is a connected region.
+z-Transform Examples: In the following examples {un} is the unit step sequence,
+0 n< 0 un = 1 n ≥ 0 
+and is used to force a causal sequence. 
+13–6
+
+===== PDF-side 8 =====
+
+(1) {fn} = {δn} (the digital pulse sequence) 
+From the deﬁnition of F (z): 
+F (z) = 1z 0 = 1 for all z. 
+(2) {fn} = {anun} 
+n
+� 
+z−n 
+�
+F (z) = 
+∞ 
+a = 
+∞ �
+az−1�n 
+n=0 n=0 
+n Z 
+F (z) = 1 = z	 for z > a. {a } ←→ 1 − az−1 z − a | | 
+since
+ ∞ 
+1
+ n
+� 
+x = for x < 1. 1 − x n=0 
+(3)	 {fn} = {un} (the unit step sequence). 
+∞ 
+1 z F (z) = 
+� 
+z−n = = for z < 1 1 − z−1 z − 1 | |
+n=0 
+from (2) with a = 1. 
+(4) {fn} = 
+� 
+e−bnun
+�
+. 
+∞ ∞ 
+F (z) = 
+� 
+e−bn z−n = 
+� � 
+e−b z−1�n 
+n=0 n=0 
+� 
+e−bn�	 1 zZ 
+F (z) = =	 for z > e−b . z−1	 z − e−bn←→ 1 − e−b | | 
+from (2) with a = e−b .
+ 
+n
+(5) {fn} = 
+� 
+e−b| |�
+. 
+0 ∞ 
+F (z) = 
+� � 
+e−b z
+�−n 
++ 
+� � 
+e−b z−1�n 
+− 1 
+n=−∞ n=0 
+1 1
+ = 1 − e−bz + 1 − e−bz−1 − 1
+ 
+Note that the item f0 = 1 appears in each sum, therefore it is necessary to subtract 1. 
+n	 b� 
+e−b| |� Z 
+F (z) = 1 − e−2b 
+for e−b < z < e . ←→ (1 − e−bz)(1 − e−bz−1)	 | | 
+13–7
+
+===== PDF-side 9 =====
+
+/GC2 /G28 /G7A /G29
+/GC1 /G28 /G7A /G29
+/G7A /G2D /G70 /G6C /G61 /G6E /G65
+/G52 /G4F /G43
+/G58 /G58/G65 /G2D /G62 /G65 /G62
+(6)	 {fn} = { e−jω0nun} = {cos(ω0n)un} − j {sin(ω0n)un} . 
+F (z) = Z {cos(ω0n)un} − jZ {sin(ω0n)un} 
+From (1)
+ 
+1
+ F (z) =	 1 − e−jω0 z−1 for z > 1| | 
+1 − cos(ω0)z−1 − j sin(ω0) = 1 − 2 cos(ω0)z∗−1 + z−2 
+z2 − cos(ω0)z − j sin(ω0)z2 
+= z2 − 2 cos(ω0)z + 1 
+and therefore 
+z2 − cos(ω0)z Z {cos(ω0n)un} =	 for z > 1 2z − 2 cos(ω0)z + 1 | | 
+sin(ω0)z2 
+Z {sin(ω0n)un} =	 for z > 1 2z − 2 cos(ω0)z + 1	 | | 
+Properties of the z-Transform: Refer to the texts for a full description. We simply 
+summarize some of the more important properties here. 
+(a) Linearity: 
+Z 
+aF (z) + bG(z) ROC: Intersection of ROCf and ROCg.a {fn} + b {gn} ←→ 
+(b) Time Shift:
+ 
+Z 
+z−mF (z){fn−m} ←→ ROC: ROCf except for z = 0 if k < 0, or z = ∞ if k > 0. 
+If gn = fn−m, 
+∞	 ∞ 
+fkz−(k+m)G(z) = 
+� 
+fn−mz−n = 
+� 
+= z−mF (z). 
+n=−∞ k=−∞ 
+This is an important property in the analysis and design of discrete-time systems. We 
+will often have recourse to a unit-delay block: 
+13–8
+
+===== PDF-side 10 =====
+
+/G66 /G79 /G20 /G20 /G3D /G20 /G66/G6E /G6E
+/G7A
+/G6E /G2D /G31/G2D /G31
+/G55 /G6E /G69 /G74 /G20 /G44 /G65 /G6C /G61 /G79
+(c) Convolution:
+ 
+Z
+{fn} ⊗ {gn} ←→ F (z)G(z) ROC: Intersection of ROCf and ROCg. 
+∞
+where {fn} ⊗ {gn} = 
+� 
+fkgn−k is the convolution sum. 
+k=−∞
+Let 
+∞ ∞ � ∞ � 
+Y (z) = 
+� 
+ynz−n = 
+� � 
+fkgn−k z−n 
+n=−∞ n=−∞ k=−∞ 
+∞ � ∞ � ∞ ∞ 
+= 
+� 
+fk 
+� 
+gn−kz−(n−k) z−k = 
+� 
+fkz−k 
+� 
+gmz−m 
+k=−∞ n=−∞ k=−∞ m=−∞ 
+= F (z)G(z) 
+(d) Conjugation of a complex sequence: 
+�
+f n
+� Z 
+F (z) ROC: ROCf←→ 
+(e) Time reversal:
+ 
+Z 
+F (1/z) ROC: 1 < z < 1 {f−n} ←→ r1 
+| | r2 
+where the ROC of F (z) lies between r1 and r2. 
+(e) Scaling in the z-domain: 
+Z 
+F (a−1 {a nfn} ←→ z) ROC: |a| r1 < |z| < |a| r2 
+where the ROC of F (z) lies between r1 and r2. 
+(e) Diﬀerentiation in the z-domain: 
+{nfn} 
+Z dF (z) ROC: r2 < z < r1←→ −z dz | | 
+where the ROC of F (z) lies between r1 and r2. 
+13–9

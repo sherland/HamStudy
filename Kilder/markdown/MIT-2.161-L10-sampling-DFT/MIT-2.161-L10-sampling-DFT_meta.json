@@ -1,0 +1,612 @@
+{
+  "table_of_contents": [
+    {
+      "title": "2.161 Signal Processing: Continuous and Discrete \nFall 2008",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          74.55477294153171,
+          125.73811086245338
+        ],
+        [
+          348.5318298339844,
+          125.73811086245338
+        ],
+        [
+          348.5318298339844,
+          153.33191148956652
+        ],
+        [
+          74.55477294153171,
+          153.33191148956652
+        ]
+      ]
+    },
+    {
+      "title": "1\nThe Sampling Theorem",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          69.8758053719547,
+          293.31269218193455
+        ],
+        [
+          267.5761409730695,
+          293.31269218193455
+        ],
+        [
+          267.5761409730695,
+          311.7608642578125
+        ],
+        [
+          69.8758053719547,
+          311.7608642578125
+        ]
+      ]
+    },
+    {
+      "title": "Massachusetts Institute of Technology\nDepartment of Mechanical Engineering\n2.161 Signal Processing - Continuous and Discrete\nFall Term 2008",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          147.3933328969653,
+          71.52855173520285
+        ],
+        [
+          461.43252355926285,
+          71.52855173520285
+        ],
+        [
+          461.43252355926285,
+          146.49413991844875
+        ],
+        [
+          147.3933328969653,
+          146.49413991844875
+        ]
+      ]
+    },
+    {
+      "title": "Lecture 101",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          262.24643697666585,
+          158.51833315651436
+        ],
+        [
+          345.0950927734375,
+          158.51833315651436
+        ],
+        [
+          345.0950927734375,
+          175.0
+        ],
+        [
+          262.24643697666585,
+          175.0
+        ]
+      ]
+    },
+    {
+      "title": "Reading:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          68.7793013430963,
+          187.46241036038896
+        ],
+        [
+          124.21952360523137,
+          187.46241036038896
+        ],
+        [
+          124.21952360523137,
+          202.1139935079899
+        ],
+        [
+          68.7793013430963,
+          202.1139935079899
+        ]
+      ]
+    },
+    {
+      "title": "1.1 Aliasing",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          69.65090052607079,
+          256.5267393769479
+        ],
+        [
+          166.439785512929,
+          256.5267393769479
+        ],
+        [
+          166.439785512929,
+          272.7099609375
+        ],
+        [
+          69.65090052607079,
+          272.7099609375
+        ]
+      ]
+    },
+    {
+      "title": "1.2 Anti-Aliasing Filtering:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          69.30775740885315,
+          641.3659976677287
+        ],
+        [
+          273.0947197594631,
+          641.3659976677287
+        ],
+        [
+          273.0947197594631,
+          658.1938934326172
+        ],
+        [
+          69.30775740885315,
+          658.1938934326172
+        ]
+      ]
+    },
+    {
+      "title": "1.3 Reconstruction of a Function from its Sample Set",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          69.98543919484021,
+          411.75665071237756
+        ],
+        [
+          459.0047083933948,
+          411.75665071237756
+        ],
+        [
+          459.0047083933948,
+          428.57940673828125
+        ],
+        [
+          69.98543919484021,
+          428.57940673828125
+        ]
+      ]
+    },
+    {
+      "title": "2\nThe Discrete Fourier Transform (DFT)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          69.84263965404905,
+          503.81671930654494
+        ],
+        [
+          377.65147211569683,
+          503.81671930654494
+        ],
+        [
+          377.65147211569683,
+          521.857177734375
+        ],
+        [
+          69.84263965404905,
+          521.857177734375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          13
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          624
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Diagram",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          456
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Equation",
+          6
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          521
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Diagram",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          659
+        ],
+        [
+          "Line",
+          65
+        ],
+        [
+          "Text",
+          17
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          502
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "Diagram",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          568
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          606
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          17
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          413
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\MIT-2.161-L10-sampling-DFT"
+}

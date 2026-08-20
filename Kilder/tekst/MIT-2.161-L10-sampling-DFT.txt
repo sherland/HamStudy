@@ -1,0 +1,303 @@
+===== PDF-side 1 =====
+
+MIT OpenCourseWare 
+http://ocw.mit.edu 
+2.161 Signal Processing: Continuous and Discrete 
+Fall 2008 
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms.
+
+===== PDF-side 2 =====
+
+/G74 
+/G66 /G28 /G74 /G29 
+1 
+Massachusetts Institute of Technology
+Department of Mechanical Engineering
+2.161 Signal Processing - Continuous and Discrete 
+Fall Term 2008 
+Lecture 101 
+Reading: 
+• Class Handout: Sampling and the Discrete Fourier Transform 
+• Proakis & Manolakis (4th Ed.) Secs. 6.1 – 6.3, Sec. 7.1 
+• Oppenheim, Schafer & Buck (2nd Ed.) Secs. 4.1 – 4.3, Secs. 8.1 – 8.5 
+The Sampling Theorem 
+Given a set of samples {fn} and its generating function f(t), an important question to ask 
+is whether the sample set uniquely deﬁnes the function that generated it? In other words, 
+given {fn} can we unambiguously reconstruct f(t)? The answer is clearly no, as shown 
+below, where there are obviously many functions that will generate the given set of samples. 
+In fact there are an inﬁnity of candidate functions that will generate the same sample set. 
+The Nyquist sampling theorem places restrictions on the candidate functions and, if 
+satisﬁed, will uniquely deﬁne the function that generated a given set of samples. The theorem 
+may be stated in many equivalent ways, we present three of them here to illustrate diﬀerent 
+aspects of the theorem: 
+•	 A function f(t), sampled at equal intervals ΔT, can not be unambiguously 
+reconstructed from its sample set {fn} unless it is known a-priori that f(t) 
+contains no spectral energy at or above a frequency of π/ΔT radians/s. 
+•	 In order to uniquely represent a function f(t) by a set of samples, the sampling 
+interval ΔT must be suﬃciently small to capture more than two samples per 
+cycle of the highest frequency component present in f(t). 
+•	 There is only one function f(t) that is band-limited to below π/ΔT radians/s 
+that is satisﬁed by a given set of samples {fn}. 
+1copyright © c D.Rowell 2008 
+10–1
+
+===== PDF-side 3 =====
+
+�� � � 
+Note that the sampling rate, Fs =1 /ΔT , must be greater than twice the highest cyclic 
+frequency Fmax in f(t). Thus if the frequency content of f(t) is limited to Ωmax radians/s 
+(or Fmax cycles/s) the sampling interval ΔT must be chosen so that 
+π ΔT< Ωmax 
+or equivalently 
+1 ΔT< 2Fmax 
+The minimum sampling rate to satisfy the sampling theorem FN =Ω max/π samples/s is 
+known as the Nyquist rate. 
+1.1 Aliasing 
+Consider a sinusoid 
+f(t)= A sin(at + φ) 
+sampled at intervals ΔT , so that the sample set is 
+{fn} = {A sin(anΔT + φ)} , 
+and noting that sin(t)= sin(t +2 kπ) for any integer k, 
+2πm fn = A sin(anΔT + φ)= A sin a + nΔT + φ ΔT 
+where m is an integer, giving the following important result: 
+Given a sampling interval of ΔT , sinusoidal components with an angular frequency 
+a and a +2 πm/ΔT , for any integer m, will generate the same sample set. 
+In the ﬁgure below, a sinusoid is undersampled and a lower frequency sinusoid, shown as a 
+dashed line, also satisﬁes the sample set. 
+f(t)
+ t 
+o 
+o 
+o 
+o
+ 0 
+Δ T 
+o 
+o 
+o 
+0 
+10–2
+
+===== PDF-side 4 =====
+
+/G57 
+/G57 
+This phenomenon is known as aliasing. After sampling any spectral component in F(jΩ) 
+above the Nyquist frequency π/ΔT will “masquerade” as a lower frequency component 
+within the reconstruction bandwidth, thus creating an erroneous reconstructed function. 
+The phenomenon is also known as frequency folding since the high frequency components 
+will be “folded” down into the assumed system bandwidth. 
+One-half of the sampling frequency (i.e. 1/(2ΔT) cycles/second, or π/ΔT radians/second) 
+is known as the aliasing frequency,o r folding frequency for these reasons. 
+/G33/G70 /G2F /G44 /G54 /G35/G70 /G2F /G44 /G54 
+/G70 /G2F /G44 /G54 /G33/G70 /G2F /G44 /G54 
+/G30 /G70 /G2F /G44 /G54/G2D/G70 /G2F /G44 /G54 
+/G2D/G33/G70 /G2F /G44 /G54 /G2D/G70 /G2F /G44 /G54 
+/G2D/G35/G70 /G2F /G44 /G54 /G2D/G33/G70 /G2F /G44 /G54 
+The following ﬁgure shows the eﬀect of folding in another way. In (a) a function f(t) with 
+Fourier transform F(j Ω) has two disjoint spectral regions. The sampling interval ΔT is 
+chosen so that the folding frequency π/ΔT falls between the two regions. The spectrum 
+of the sampled system between the limits −π/ΔT< Ω ≤ π/ΔT is shown in (b). The 
+frequency components above the aliasing frequency have been folded down into the region 
+−π/ΔT< Ω ≤ π/ΔT. 
+/G46 /G28 /G6A /G57 /G29 
+/G73 /G61 /G6D /G70 /G6C /G69 /G6E /G67 /G20 /G61 /G74 /G20 /G44 /G54 
+/G57 
+/G46 /G20 /G20 /G28 /G6A /G57 /G29/G2A /G20 
+/G61 /G6C /G69 /G61 /G73 /G65 /G64 /G20 /G73 /G70 /G65 /G63 /G74 /G72 /G61 /G6C 
+/G63 /G6F /G6D /G70 /G6F /G6E /G65 /G6E /G74 /G73 
+/G61 /G6C /G69 /G61 /G73 /G65 /G64 /G20 /G73 /G70 /G65 /G63 /G74 /G72 /G61 /G6C 
+/G63 /G6F /G6D /G70 /G6F /G6E /G65 /G6E /G74 /G73 
+/G2D /G70 /G2F/G44 /G54 /G30 /G70 /G2F/G44 /G54 /G2D /G70 /G2F/G44 /G54 /G30 /G70 /G2F/G44 /G54 
+/G28/G61/G29 /G28/G62/G29 
+1.2 Anti-Aliasing Filtering: 
+Once a sample set {fn} has been taken, there is nothing that can be done to eliminate the 
+eﬀects of aliased frequency components. The only way to guarantee that the sample set 
+unambiguously represents the generating function is to ensure that the sampling theorem 
+criteria have been met, either by 
+10–3
+
+===== PDF-side 5 =====
+
+/G66 /G28 /G74 /G29
+ /G66 /G28 /G74 /G29 /G7E 
+� 
+1. Selecting a sampling interval ΔT suﬃciently small to capture all spectral components, 
+or 
+2. Processing the continuous-time function f(t) to “eliminate” all components at or above 
+the Nyquist rate. 
+The second method involves the use of a continuous-time processor before sampling f(t). A 
+low-pass aanti-aliasing ﬁlter is used to eliminate (or at least attenuate) spectral components 
+at or above the Nyquist frequency. Ideally the anti-aliasing ﬁlter would have a transfer 
+function � 
+1 for |Ω| <π /ΔT H(j Ω) = 0 otherwise,. 
+/G46 /G28/G6A /G57 /G29
+/G41 /G6E /G74 /G69 /G2D /G61 /G6C /G69 /G61 /G73 /G69 /G6E /G67 
+/G6C /G6F /G77 /G2D /G70 /G61 /G73 /G73 /G20 /G66 /G69 /G6C /G74 /G65 /G72 
+/G48 /G28 /G6A /G57 /G29 /G20 /G3D /G20 /G30 /G2C /G20 /G20 /G7C /G57 /G7C /G3E /G70 /G2F /G54 /G20 /G20 
+/G53 /G61 /G6D /G70 /G6C /G65 /G72 
+/G44 /G54 
+/G7B /G66 /G20/G6E /G20/G7D 
+/G20 /G46 /G28 /G6A /G57 /G29 /G48 /G28 /G6A /G57 /G29 
+/G63/G6F/G6E/G74/G69/G6E/G75/G6F/G75/G73/G20/G64/G6F/G6D /G61/G69/G6E /G64/G69/G73/G63/G72/G65/G74/G65/G20/G64/G6F/G6D /G61/G69/G6E 
+In practice it is not possible to design a ﬁlter with such characteristics, and a more realistic 
+goal is to reduce the oﬀending spectral components to insigniﬁcant levels, while maintaining 
+the ﬁdelity of components below the folding frequency. 
+1.3 Reconstruction of a Function from its Sample Set 
+We saw in Lecture 9 that the spectrum F⋆(j Ω) of a sampled function f⋆(t) is inﬁnite in 
+extent and consists of a scaled periodic extension of F(j Ω) with a period of 2π/ΔT, i.e. 
+∞ � � �� 1 2πn F⋆(j Ω) = F j Ω − . ΔT ΔT n=−∞ 
+/G46 /G28 /G6A /G57 /G29 /G46 /G20 /G20 /G28 /G6A /G57 /G29 
+/G31 
+/G2A 
+/G31 /G2F /G44 /G54 
+/G73 /G61 /G6D /G70 /G6C /G69 /G6E /G67 /G20 /G61 /G74 /G20 /G44 /G54 
+/G2D /G70 /G2F/G44 /G54 /G30 /G70 /G2F/G44 /G54 /G57 /G2D/G34/G70/G2F/G44 /G54 /G2D /G32 /G70 /G2F/G44 /G54 /G2D /G70 /G2F/G44 /G54 /G30 /G70 /G2F/G44 /G54 /G32/G70 /G2F/G44 /G54 /G34 /G70 /G2F/G44 /G54 /G57 
+/G28/G61/G29 /G28/G62/G29 
+If it is assumed that the sampling theorem was obeyed during sampling, the repetitions in 
+F⋆(j Ω) will not overlap, and in fact f(t) will be entirely speciﬁed by a single period of F⋆(j Ω). 
+Therefore to reconstruct f(t) we can pass f⋆(t) through an ideal low-pass ﬁlter with transfer 
+function H(j Ω) that will retain spectral components in the range −π/ΔT< Ω <π /ΔT and 
+reject all other frequencies. 
+10–4
+
+===== PDF-side 6 =====
+
+/G66 /G28 /G74 /G29 
+/G57 
+� 
+/G68 /G28 /G74 /G29 
+/G74 
+/G31 
+� 
+/G49/G64 /G65 /G61 /G6C/G20/G72/G65 /G63/G6F /G6E /G73/G74/G72/G75 /G63/G74/G69/G6F /G6E 
+/G20/G20/G20/G20/G6C/G6F/G77 /G2D/G70/G61/G73/G73/G20/G66/G69/G6C/G74/G65/G72/G66/G20/G20/G2A/G20 /G20/G28 /G74 /G29 /G48 /G28 /G6A /G57/G29 
+/G46 /G20/G20/G2A/G20 /G28 /G6A /G57 /G29 /G20/G20/G20 /G46 /G28 /G6A /G57 /G29 
+/G2D /G70 /G2F/G44 /G54 /G70 /G2F/G44 /G54 
+If the transfer function of the reconstruction ﬁlter is 
+ΔT for |Ω| <π /ΔT H(j Ω) = 0 otherwise, 
+in the absence of aliasing in f ∗(t), that is no overlap between replications of F(j Ω) in F ∗(j Ω), 
+the ﬁlter output will be 
+y(t)= F−1 {F⋆(j Ω)H(j Ω)} = F−1 {F(j Ω)} = f(t). 
+The ﬁlter’s impulse response h(t)i s 
+h(t)= F−1 {H(j Ω)} = sin (πt/ΔT) ,πt/ΔT 
+/G30 /G44 /G54 /G32 /G44 /G54/G2D /G34 /G44 /G54 /G2D /G33 /G44 /G54 /G2D /G32 /G44 /G54 /G2D /G44 /G54 /G33 /G44 /G54 /G34 /G44 /G54 
+and note that the impulse response h(t) = 0 at times t = ±nΔT for n =1 , 2, 3,... (the 
+sampling times). The output of the reconstruction ﬁlter is the convolution of the input 
+function f⋆(t) with the impulse response h(t), 
+� ∞ ∞ 
+f(t)= f⋆(t) ⊗ h(t)= h(σ) f(t − σ)δ(t − nΔT − σ)d σ 
+∞ n=−∞ 
+∞ � ∞ � sin (πσ/ΔT) = f(t − σ)δ(t − nΔT − σ)d σ πσ/ΔT n=−∞ ∞
+∞
+� sin (π(t − nΔT)/ΔT) = f(nΔT) ,π(t − nΔT)/ΔT n=−∞ 
+10–5
+
+===== PDF-side 7 =====
+
+� 
+� 
+2 
+or in the case of a ﬁnite data record of length N
+N −1 � sin (π(t − nΔT )/ΔT )f(t)= fn . π(t − nΔT )/ΔT n=0 
+This is known as the cardinal (or Whittaker) reconstruction function. It is a superposition 
+of shifted sinc functions, with the important property that at t = nΔT , the reconstructed 
+function f(t)= fn. This can be seen by letting t = nΔT , in which case only the nth term 
+in the sum is nonzero. Between the sample points the interpolation is formed from the 
+sum of the sinc functions. The reconstruction is demonstrated below, where a sample set 
+(N = 13) with three nonzero samples is reconstructed. The individual sinc functions are 
+shown, together with the sum (dashed line). Notice how the zeros of the sinc functions fall 
+at the sample points. 
+o 
+o 
+o 
+o oo oooooo o 
+−0.3 
+The Discrete Fourier Transform (DFT) 
+We saw in Lecture 8 that the Fourier transform of the sampled waveform f ∗(t) can be written 
+as a scaled periodic extension of F (j Ω) 
+∞ � � �� 1 2nπ F ⋆(j Ω) = F j Ω − ΔT T n=−∞ 
+We now look at a diﬀerent formulation of F ∗(j Ω). The Fourier transform of the sampled 
+function f⋆(t) 
+F ⋆(j Ω) = 
+� ∞ 
+f⋆(t)e −jΩ tdt = 
+� ∞ ∞ � 
+f(t)δ(t − nΔT )e −jΩ t dt 
+−∞ −∞ n=−∞ 
+∞ 
+= f(nΔT )e −jΩ nΔT 
+n=−∞ 
+10–6
+
+===== PDF-side 8 =====
+
+� 
+� 
+� 
+by reversing the order of integration and summation, and using the sifting property of δ(t). 
+We note: 
+•	 F⋆(j Ω) is a continuous function of Ω, but is computed from the sample points f(nΔT) 
+in f(t). 
+•	 We have shown that F⋆(j Ω) is periodic in Ω with period Ω0 =2 π/ΔT. 
+We now restrict ourselves to a ﬁnite, causal waveform f(t) in the interval 0 ≤ t<n ΔT,s o 
+that it has N samples, and let 
+N −1 
+F ∗ (j Ω) = f(nΔT)e −jΩ nΔT 
+n=0 
+which is known as the Discrete-Time Fourier Transform (DTFT). 
+As a further restriction consider computing a ﬁnite set of N samples of F ∗(j Ω) in a single 
+period, from Ω = 0 to 2π/ΔT, that is at frequencies 
+2πm Ωm = for m =0 , 1, 2,...,N − 1 NΔT 
+/G46/G20 /G2A/G20 /G28 /G6A /G57 /G29	 /G4E/G20 /G65/G71/G75/G69/G2D/G73/G70/G61/G63/G65/G64/G20/G73/G61/G6D /G70/G6C/G65/G73 
+/G69/G6E /G20/G6F /G6E /G65 /G20/G70 /G65 /G72/G69/G6F /G64 /G20/G6F /G66/G20 /G46 /G20/G2A/G20 /G28 /G6A /G57 /G29 
+/G30/G2D /G70 /G2F /G44 /G54 /G70 /G2F/G44	/G54 /G32/G70 /G2F/G44 /G54 
+and writing Fm = F⋆(j Ωm)= F⋆(j 2πm/NΔT), the DTFT becomes 
+N −1 
+Fm = fn e −j2 πmn/N for m =0 , 1, 2,...,N − 1 
+n=0 
+where fn = f(nΔT). This equation is known as the Discrete Fourier Transform (DFT) and 
+relates the sample set {fn} to a set of samples of its spectrum {Fm} – both of length N. 
+The DFT can be inverted and the sample set {fn} recovered as follows: 
+N −1
+1 j2 πmn/N fn = Fm e for n =0 , 1, 2,...,N − 1 N m=0 
+which is known as the inverse DFT (IDFT). These two equations together form the DFT 
+pair. 
+10–7
+
+===== PDF-side 9 =====
+
+The DFT operations are a transform pair between two sequences {fn} and {Fm}. • 
+The DFT expressions do not explicitly involve the sampling interval ΔT or the sam­• 
+pled frequency interval Ω = 2π/(nΔT ). 
+• 	 Simple substitution into the formulas will show that both Fm and fn are periodic 
+with period N , that is fn+pN = fn and Fm+pN = Fm for any integer p. 
+The inverse transform is easily demonstrated: 
+1	 
+N −1 
+1 
+N −1 �N −1 �� 
+j 2πmn/N 
+� � 
+fk e−j 2πmk/N j 2πmn/N fn = Fm e =	 e N	 N m=0 m=0 k=0 
+1 
+N −1 N −1 
+j 2πm(n−k)/N = 
+� 
+fk 
+� 
+e N k=0 m=0 
+1 = (N fn) = fn
+N 
+since 
+N −1	 �
+N� 
+e = for n = kj 2πm(n−k)/N 
+0 otherwise. m=0 
+As in the continuous Fourier transform case, we adopt the notations 
+DFT 
+{fn} ⇐⇒ {Fm} 
+{Fm} = DFT {fn} 
+{fn} = IDFT {Fm} 
+to indicate DFT relationships. 
+10–8

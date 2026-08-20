@@ -1,0 +1,3776 @@
+![](_page_0_Picture_0.jpeg)
+
+# *IARU-R1 VHF Handbook*
+
+This manual serves as a reference for all radio amateurs in IARU Region 1 for the common use of the amateur radio spectrum.
+
+Version 10.02 March 2024
+
+# *The content of this Handbook is the property of the International Amateur Radio Union, Region 1.*
+
+Copying and publication of the content, or parts thereof, is allowed for IARU member societies and for noncommercial purposes provided the source of information is quoted.
+
+# *Contact information*
+
+| Website:      | https://www.iaru-r1.org/ |
+|---------------|--------------------------|
+| Newsletters:  | http://www.iaru         |
+| Contest robot | http://iaru.oevsv.at/    |
+
+The Handbook consists of 5 PARTS who are covering all aspects of the VHF community:
+
+- IARU-R1 VHF& up Organisation
+- Bandplanning
+- Contesting
+- Technical and operational references
+
+Based on the version 9.01 we made the following updates:
+
+Version 10.02
+
+- The part "historical data archive" was removed
+- ORGANISATION was removed
+- 430 440 MHz bandplan updated
+- Locator System Chapter 5, revised by Dietmar Zlabinger, OE3DZW
+- Availability of repeater information, revised by Dietmar Zlabinger, OE3DZW
+- Use auf Calling Frequencies added (2.2)
+- ATV Contest Rules
+- Contest log submission deadline
+- No digital and analogue Modes mixed in Contest
+
+# CONTENT
+
+| HOW THE IARU VHF+ COMMITTEE WORKS                                 | 14 |
+|-------------------------------------------------------------------|----|
+| Tasks of IARU R-1 and its VHF/UHF/µWave Committee                 | 14 |
+| Microwave managers Sub-committee                                  | 14 |
+| Coordinators of the VHF/UHF/Microwaves Committee                  | 15 |
+| VHF Contest Coordinator                                           | 15 |
+| Satellite coordinator                                             | 15 |
+| Beacon coordinator                                                | 15 |
+| Propagations coordinators                                         | 15 |
+| Records coordinator                                               | 15 |
+| Repeater coordinator                                              | 15 |
+| IARU R-1 Executive Committee                                      | 15 |
+| Actual IARU-R1 VHF/UHF/SHF Chairman, Co-ordinators and co-workers | 16 |
+| National VHF managers                                             | 16 |
+| Microwave managers                                                | 16 |
+| Note.                                                             | 16 |
+| RECOMMENDATIONS FOR VHF MANAGERS                                  | 17 |
+| The 23cm band - WRC 2023                                          | 17 |
+| Protect our amateur band                                          | 17 |
+| General                                                           | 17 |
+| 24 and 47 GHz band                                                | 17 |
+| Millimetre bands                                                  | 17 |
+| 50 MHz Band                                                       | 17 |
+| Defending the bands from 1 GHz to 10 GHz (Vienna 2019)            | 17 |
+| Introduction                                                      | 17 |
+| Actions                                                           | 18 |
+| Licenced share access (LSA)                                       | 18 |
+| Band activity survey                                              | 18 |
+| Proper use of amateur frequencies (Cavtat 2008)                   | 18 |
+| Satellite frequency coordination (Cavtat 2008)                    | 18 |
+| 145MHz for satellite downlinks (Cavtat 2008)                      | 19 |
+| Multi-Band beacon clusters (Cavtat 2008)                          | 19 |
+| 3400-3410MHz allocation                                           | 19 |
+
+| Contest Log exchange                                                                         | 19 |
+|----------------------------------------------------------------------------------------------|----|
+| DX code of conduct (Varna 2014)                                                              | 19 |
+| TV Repeater Transmissions (Varna 2014)                                                       | 19 |
+| Remote Controlled Operation (Varna 2014)                                                     | 19 |
+| Information about repeaters                                                                  | 20 |
+| IARU R-1 AND IARU SATELLITE COORDINATION                                                     | 21 |
+| ITU Notification Requirements for Amateur Satellites                                         | 21 |
+| Background                                                                                   | 21 |
+| Procedure                                                                                    | 21 |
+| IARU-AC 89-3 concerning amateur satellite usage                                              | 22 |
+| Terms of reference of the IARU satellite adviser                                             | 23 |
+| General:                                                                                     | 23 |
+| Function                                                                                     | 23 |
+| Appointment:                                                                                 | 23 |
+| Tasks:                                                                                       | 23 |
+| Terms of reference of the IARU AMSAT satellite frequency coordinator                         | 23 |
+| General                                                                                      | 23 |
+| Function                                                                                     | 23 |
+| Appointment                                                                                  | 23 |
+| Tasks                                                                                        | 23 |
+| RELEVANT IARU REGION-1 RECOMMENDATIONS                                                       | 25 |
+| originating in their respective countries,                                                   | 25 |
+| frequency.                                                                                   | 25 |
+| band for downlink (satellite to ground) modes only, regardless of modulation type            | 25 |
+| non-interference basis as quickly as possible.                                               | 25 |
+| interference reports from other users                                                        | 25 |
+| have not been able to achieve such allocations.                                              | 25 |
+| allocation tables can be extended or acquired that include the Amateur Satellite Service     | 25 |
+| IARU-R1 to prioritise this band and to take active steps in support of these goals           | 25 |
+| Service bands be studied and considered, perhaps as a package, for a future WRC agenda item: | 25 |
+
+# IARU-R1 REPEATER COORDINATION 26
+
+| Coordination of repeater activities                    | 26 |
+|--------------------------------------------------------|----|
+| Repeater coordination: coverage presentation           | 27 |
+| Introduction                                           | 27 |
+| General rules for operating via repeaters              | 27 |
+| Recommended methods to prepare coverage map            | 27 |
+| IARU-R1 BEACON COORDINATION                            | 28 |
+| IARU R1 beacons: a guide to good practice              | 28 |
+| Coordination procedure                                 | 28 |
+| Local Beacons:                                         | 28 |
+| Transmission mode                                      | 28 |
+| Frequency spacing                                      | 28 |
+| Transatlantic beacon project                           | 29 |
+| Synchronised 50 MHz Beacon Project (Varna 2014)        | 30 |
+| Introduction                                           | 30 |
+| 50 MHz synchronised not transmitting in their timeslot | 30 |
+| IARU-R1 CERTIFICATES AND MEDALS                        | 31 |
+| DB6NT                                                  | 31 |
+| S53MV                                                  | 31 |
+| National VHF/UHF/µWaves awards and certificates        | 32 |
+| Note                                                   | 32 |
+| IARU REGION 1 BANDPLANS                                | 34 |
+| Introduction                                           | 34 |
+| General                                                | 34 |
+| European table of frequency allocations                | 34 |
+| 50 – 54 MHz Band plan                                  | 35 |
+| Notes: bandplan                                        | 36 |
+| Footnotes:                                             | 36 |
+| Usage Notes                                            | 36 |
+| 70.0 – 70.5 MHz Band plan                              | 37 |
+| Notes: BANDPLAN                                        | 37 |
+| Notes: Usage                                           | 37 |
+| 144 – 146 MHz Bandplan                                 | 38 |
+| Notes: BANDPLAN                                        | 39 |
+| Notes: Usage                                           | 40 |
+| National usage notes                                   | 40 |
+| 430 – 440 MHz                                          | 41 |
+| Notes: BANDPLAN                                        | 43 |
+| Notes: Usage                                           | 43 |
+| National usage notes                                   | 44 |
+
+| 1.5.4 DATV AND EXPERIMENTAL DATA USAGE IN THE 436-438 MHZ BAND (VGC 2020) | 44 |
+|---------------------------------------------------------------------------|----|
+| 1200 – 1300 MHz Bandplan                                                  | 45 |
+| Notes: BANDPLAN                                                           | 46 |
+| Notes: Usage                                                              | 47 |
+| 2300 – 2450 MHz Bandplan                                                  | 48 |
+| Notes: BANDPLAN                                                           | 48 |
+| 3400 -3475 MHz                                                            | 49 |
+| Notes: BANDPLAN                                                           | 49 |
+| 5650 – 5850 MHz Bandplan                                                  | 50 |
+| Notes: BANDPLAN                                                           | 50 |
+| 10.000 – 10.500 GHz Bandplan                                              | 51 |
+| Notes: BANDPLAN                                                           | 51 |
+| 24.000 – 24250 GHz Bandplan                                               | 52 |
+| Notes: BANDPLAN                                                           | 52 |
+| 47.000 – 47.200 GHz Bandplan                                              | 53 |
+| 75.500 – 81.500 GHz Bandplan                                              | 54 |
+| Notes: BANDPLAN                                                           | 54 |
+| 122.250 – 123.000 GHz Bandplan                                            | 55 |
+| 134.000 – 141.000 GHz Bandplan                                            | 56 |
+| Notes: BANDPLAN                                                           | 56 |
+| 241.000 – 250.000 GHz Bandplan                                            | 57 |
+| Notes: BANDPLAN                                                           | 57 |
+| Additional Band plans                                                     | 58 |
+| Table 1 Irish 40–44 MHz (8 metre) Band Plan for Amateur Service           | 58 |
+| Table 2 Irish 54.0–69.9 MHz (5 metre) Band Plan for Amateur Service       | 60 |
+| MANAGING FREQUENCY ALLOCATIONS & BAND PLANNING                            | 61 |
+| Introduction to VHF/UHF/µWaves bands and bandplans                        | 61 |
+| Amateur and Amateur Satellite Service frequency allocations above 30 MHz  | 61 |
+| IARU-R1 Bandplanning: principles                                          | 61 |
+| Basis                                                                     | 61 |
+| Remarks on the practical implementation                                   | 62 |
+| Coordination process:                                                     | 63 |
+| Some definitions                                                          | 63 |
+| ITU and WRC Frequency Allocations Process                                 | 64 |
+| List of Regional Telecommunications Organisations (RTOs)                  | 64 |
+| Channel designation system for VHF/UHF FM channels                        | 65 |
+| Principle                                                                 | 65 |
+| Examples                                                                  | 65 |
+
+| Notes:                                                        | 65 |
+|---------------------------------------------------------------|----|
+| RULES IARU R1 50/70 MHZ, 145 MHZ AND UHF/µW CONTESTS          | 67 |
+| Objective                                                     | 67 |
+| Operating modes                                               | 67 |
+| Definitions                                                   | 67 |
+| Conditions for entrants                                       | 67 |
+| Date of contests                                              | 68 |
+| Contest sections                                              | 68 |
+| 50 MHz Contest:                                               | 68 |
+| 70 MHz Contest:                                               | 68 |
+| 145 MHz contest:                                              | 68 |
+| 435 MHz Band:                                                 | 68 |
+| amateur bands above 10 GHz):                                  | 68 |
+| Operating                                                     | 69 |
+| Contacts                                                      | 69 |
+| Acceptable examples when using a secondary method:            | 69 |
+| Unacceptable examples when using a secondary method:          | 69 |
+| Definition for a valid contest QSO:                           | 69 |
+| Type of emission                                              | 69 |
+| Contest exchanges                                             | 70 |
+| CW, SSB or FM/PM modes                                        | 70 |
+| MGM modes                                                     | 70 |
+| Scoring                                                       | 70 |
+| 50 and 70 MHz CW/SSB only, 145 MHz and UHF/Microwave Contests | 70 |
+| 50 and 70 MHz MGM Contests                                    | 70 |
+| Entries                                                       | 71 |
+| 50 and 70 MHz CW/SSB only, 145 MHz and UHF/Microwave Contests | 71 |
+| 50 and 70 MHz MGM Contests                                    | 71 |
+| Stations eligible to win a prize                              | 72 |
+| Judging of entries                                            | 72 |
+| Awards                                                        | 72 |
+| Section winners:                                              | 72 |
+| Overall winners for UHF/Microwave contest:                    | 72 |
+| Millimetre group                                              | 72 |
+| RULES IARU REGION I ATV CONTEST                               | 73 |
+| Goal                                                          | 73 |
+
+| Terms and Definitions                                             | 73 |
+|-------------------------------------------------------------------|----|
+| Responsibilities                                                  | 74 |
+| Contest                                                           | 74 |
+| PROCEDURE FOR ORGANISING IARU-R1 1 VHF/UHF/µWAVE CONTESTS         | 76 |
+| Terms of reference for the contest working group                  | 76 |
+| Objectives                                                        | 76 |
+| Responsibilities                                                  | 76 |
+| Group Membership                                                  | 76 |
+| Actual membership                                                 | 77 |
+| Sub-regional VHF/UHF/µWave contest coordination within IARU-R1    | 77 |
+| MONTHLY DIGITAL ACTIVITY CONTEST                                  | 77 |
+| MGM CONTEST OPERATING PROCEDURES                                  | 78 |
+| Introduction                                                      | 78 |
+| What needs to be logged?                                          | 78 |
+| VHF& UP TROPHY                                                    | 79 |
+| Objective                                                         | 79 |
+| Dates and bands                                                   | 79 |
+| Rules                                                             | 79 |
+| Categories:                                                       | 79 |
+| 145 MHz band:                                                     | 79 |
+| 435 MHz band:                                                     | 79 |
+| amateur bands above 10 GHz):                                      | 79 |
+| Stations eligible to win a prize                                  | 80 |
+| ELECTRONIC CONTEST LOG EXCHANGE                                   | 80 |
+| Introduction                                                      | 80 |
+| Logbook programs supporting EDI                                   | 80 |
+| Standard format for Electronic Contest Log Exchange (Vienna 1998) | 81 |
+| Format                                                            | 81 |
+| Explanation of keywords in header                                 | 82 |
+| QSO record definition                                             | 85 |
+| Characters                                                        | 85 |
+| Line length                                                       | 85 |
+| Separator (;)                                                     | 86 |
+
+| Faulty QSOs                                                           | 86 |
+|-----------------------------------------------------------------------|----|
+| QSO numbers                                                           | 86 |
+| Missing information                                                   | 86 |
+| Example: Region 1 Contest, standard type                              | 86 |
+| Example : AGCW DL VHF Contest (contest manager: DJ2QZ)                | 88 |
+| AUTOMATIC CONTEST ADJUCTION SOFTWARE                                  | 90 |
+| ENCOURAGING INOVATIONS(VGC 2020)                                      | 92 |
+| Wideband experimentations (VGC 2020)                                  | 92 |
+| OPERATING PROCEDURES                                                  | 92 |
+| Minimum Requirement for a valid QSO                                   | 92 |
+| Use auf Calling Frequencies                                           | 92 |
+| Weak-signal QSO procedure                                             | 92 |
+| The Basis of the Procedure                                            | 92 |
+| Procedure                                                             | 92 |
+| Valid Contacts                                                        | 93 |
+| Operating code of practice for 50 MHz operators                       | 93 |
+| 50 MHz as a DX band                                                   | 93 |
+| Band plan                                                             | 93 |
+| Local QSO's                                                           | 93 |
+| Learn to listen                                                       | 93 |
+| 50.100 - 50.130 MHz window for intercontinental contacts              | 93 |
+| 50.110 MHz Intercontinental calling frequency                         | 93 |
+| 50.110 MHz CQ'ing                                                     | 93 |
+| QSO techniques                                                        | 93 |
+| DX pile-up operating                                                  | 93 |
+| Split frequency operation                                             | 94 |
+| Duplicate QSO’s                                                       | 94 |
+| Telegraphy operation                                                  | 94 |
+| FM QSO’s in Europe                                                    | 94 |
+| Mutual interference                                                   | 94 |
+| Operating procedures for Meteor Scatter QSO's                         | 94 |
+| Introduction                                                          | 94 |
+| Scheduled and Random Contacts                                         | 94 |
+| Timing                                                                | 94 |
+| Transmit periods                                                      | 95 |
+| QSO duration                                                          | 95 |
+| Frequencies                                                           | 95 |
+| QSY frequencies for MGM                                               | 95 |
+| QSO procedure                                                         | 96 |
+| Valid contacts                                                        | 97 |
+| Additional information for communication before and during the MS QSO | 97 |
+| QSO Procedure for Airplane Reflections                                | 98 |
+| Calling                                                               | 98 |
+| Reporting system                                                      | 98 |
+| Reporting procedure                                                   | 98 |
+
+| Confirmation procedure                                                                     | 98  |
+|--------------------------------------------------------------------------------------------|-----|
+| Requirements for a complete QSO                                                            | 98  |
+| Rapid Deployment Amateur Radio (RaDAR)                                                     | 99  |
+| Introduction                                                                               | 99  |
+| The concept                                                                                | 99  |
+| Modes of communication                                                                     | 99  |
+| Summary                                                                                    | 99  |
+| Operating practice for digital modes                                                       | 100 |
+| Guidelines for Packet Radio Operators                                                      | 100 |
+| Guidelines for Packet Radio Bulletin Board Operators                                       | 100 |
+| Guidelines for APRS                                                                        | 100 |
+| AMATEUR SATELLITTES                                                                        | 101 |
+| Introduction                                                                               | 101 |
+| IARU Region 1 and IARU Satellite Coordination                                              | 101 |
+| General                                                                                    | 101 |
+| Satellites transmitting on Amateur bands with undocumented protocols or without permission | 101 |
+| Amateur Satellite Names                                                                    | 101 |
+| Amateur-satellite operating practice                                                       | 102 |
+| Amateur Satellite Band Plan Usage                                                          | 103 |
+| Satellite Transponder Designations                                                         | 104 |
+| Amateur Satellite Organisations                                                            | 105 |
+| Current Satellites                                                                         | 105 |
+| SIGNAL REPORTING SYSTEM                                                                    | 106 |
+| Signal reporting ( Recommendation R.1; R.2)                                                | 106 |
+| IARU Region 1 Technical Recommendation S-METER READINGS                                    | 106 |
+| IARU Region 1 Technical Recommendation TONE REPORTS                                        | 107 |
+| The RSQ (Readability Strength Quality) reporting scale for digital modes:                  | 107 |
+| Readability (% of text)                                                                    | 107 |
+| Strength                                                                                   | 107 |
+| Quality                                                                                    | 107 |
+| The MOS (Mean Opinion Score) reporting scale for digitized speech:                         | 108 |
+| THE LOCATOR SYSTEM                                                                         | 109 |
+| Background                                                                                 | 109 |
+| Definition of the IARU locator                                                             | 109 |
+| First and second character                                                                 | 109 |
+| Third and fourth character                                                                 | 109 |
+
+| Fith and sixth character                                 | 110 |
+|----------------------------------------------------------|-----|
+| Further characters                                       | 110 |
+| AVAILABILITY OF REPEATER INFORMATION                     | 112 |
+| Endpoint /api/v1/site                                    | 112 |
+| Endpoint /api/v1/trx                                     | 113 |
+| Examples of endpoints                                    | 116 |
+| ANTENNA POLARISATION ( RECOMMENDATION P.1.)              | 116 |
+| IARU-R1 1 Technical Recommendation (Signal Polarisation) | 116 |
+| Standards for signal polarisation                        | 117 |
+| AMATEUR RADIO METEOR SCATTER                             | 118 |
+| Definitions                                              | 118 |
+| Background:                                              | 118 |
+| Aid for defining underdense and overdense trails         | 119 |
+| Maximum duration of an underdense reflection (ping):     | 119 |
+| References:                                              | 119 |
+| FREQUENCY MODULATED TELEPHONY                            | 120 |
+| The basic FM standard (Recommendation FM.1.)             | 120 |
+| IARU Region 1 Technical Recommendation FM.1              | 120 |
+| FM Repeaters ( Recommendation FM.2.)                     | 121 |
+| IARU Region 1 Technical Recommendation FM.24             | 121 |
+| CTCSS frequencies Hz to be used for repeater access      | 122 |
+| DTMF frequency pairs                                     | 123 |
+| DIGITAL TRANSMISSIONS                                    | 124 |
+| Principles for digital modes                             | 124 |
+| Packet-radio (mailbox) operating practice                | 124 |
+| Concerning the relaying of messages to amateur stations  | 125 |
+| Concerning guidelines for packet radio                   | 126 |
+| IPv6 allocation                                          | 126 |
+| Digital voice                                            | 126 |
+
+| AMATEUR TELEVISION                                            | 126 |
+|---------------------------------------------------------------|-----|
+| FM-ATV (Recommendation V.2. )                                 | 126 |
+| BEACON REQUIREMENTS                                           | 127 |
+| Beacon message                                                | 127 |
+| Operation                                                     | 128 |
+| Beacons spectrum                                              | 129 |
+| Status                                                        | 129 |
+| PROPAGATION RESEARCH BY AMATEURS                              | 130 |
+| Introduction                                                  | 130 |
+| Coordination of amateur participation in propagation research | 131 |
+| Sporadic-E investigations                                     | 131 |
+| Auroral propagation                                           | 132 |
+| Tropospheric propagation studies                              | 132 |
+| Information exchange programme                                | 132 |
+| Co-operation with CCIR study groups and publications          | 132 |
+| Action/support required from IARU Region 1 member societies   | 133 |
+| Cooperation with the DUBUS magazine                           | 133 |
+| Propagation database                                          | 133 |
+| VHF/UHF/µWAVES RECORDS                                        | 134 |
+
+![](_page_13_Picture_0.jpeg)
+
+# IARU-R1 VHF & UP ORGANISATION
+
+# HOW THE IARU VHF+ COMMITTEE WORKS
+
+# Tasks of IARU R-1 and its VHF/UHF/µWave Committee
+
+The IARU and their regional organisations are the officially accredited representative of the Amateur Service and the Amateur Satellite Service at the International Telecommunications Union (ITU) and all their organisations and Conferences, like, for instance, the WARC's.
+
+Apart from the contributions IARU Region 1 and its officers make to the above work, IARU Region 1 specifically represents the amateur interests at, amongst others, the Conference of European Post and Telecommunications Administrations (CEPT) and their European Radiocommunications Office (ERO) in Copenhagen, as well as at the European Union (EU) in Brussels.
+
+The most important tasks of the IARU and their regional organisations are:
+
+to defend, extend and upgrade the status of the frequency segments allocated by the ITU to the Amateur Service and the Amateur Satellite Service;
+
+to coordinate the orderly use of the frequency bands allocated to the Amateur service and the Amateur Satellite Service by the ITU and the national Administrations by careful bandplanning.
+
+The supporting role of the IARU Region 1 VHF/UHF/Microwaves Committee with respect to the above tasks is clearly set out in the Terms of Reference of this Committee, given in PART 1 section 1.7 and 1.8 .
+
+The defence, extension and management of the allocations above 30 MHz has been the subject of the following recommendations adopted by the IARU Region 1 on the basis of proposals brought forward by the IARU Region 1 VHF/UHF/Microwaves Committee. At the IARU Region 1 Conference in Scheveningen (1972) the following recommendation was adopted:-
+
+Member societies are strongly recommended to establish and maintain contact with their national Administrations at a policy level to ensure that the case for amateur radio in the VHF/UHF/Microwaves bands is properly known and can effectively be presented by each Administration at future frequency allocation Conferences. VHF Managers are to see that the Councils of their societies pursue this policy and will ensure that the Secretary of IARU Region 1 is kept informed of developments with national Administrations.
+
+# Microwave managers Sub-committee
+
+At the IARU Region I Conference in Warsaw (1975) the following recommendation was adopted : VHF managers will stimulate national interest in the 1 - 30 GHz microwave bands. In addition, DARC will direct special attention to the 2.3 GHz band and RSGB to the 10 GHz band by publishing information on the design of suitable equipment and on results achieved on these bands.
+
+At the meeting of the VHF Working Group in Amsterdam (October 1976) it was agreed that all societies should nominate a person to act as focal point for the reception and distribution of microwave information and material. The names of the persons to act in this way should be sent to the Secretary of IARU Region I. Furthermore, any changes in focal points should immediately be advised to the Secretary of Region I. All focal points would investigate the possibility of starting microwave columns in the journal of their national society.
+
+Since the above recommendations were adopted, in several societies these focal points have developed into full-fledged Microwave Managers running their own microwave column in their society's journal.
+
+During sessions of the IARU Region 1 VHF/UHF/Microwaves Committee at Region 1 Conferences as well as meetings of the VHF/UHF/Microwaves Committee in the years between Conferences a sub-committee of Microwave Managers pre-advises ( when requested by the meeting ) on matters concerning microwave frequencies. For this purpose the frequency of 1 GHz has been adopted as the lower microwave boundary (Brighton, 1981).
+
+A list of Microwave Managers can be found in PART 1 section 1.8
+
+# Coordinators of the VHF/UHF/Microwaves Committee
+
+# VHF Contest Coordinator
+
+It is proposed to create a team of experienced VHF contesters and contest robot owners/designers to define common checking rules for automatic contest adjudication applications coordinated by the Contest coordinator (Landshut 2017) see also PART 3
+
+### Satellite coordinator
+
+Amateur Satellite activities are predominantly taking place in the VHF, UHF and Microwave bands. The Region 1 VHF/UHF/Microwave Committee therefore, has to take the Amateur Satellite Service into account in all aspects of its work.
+
+In Region 1 (and in other Regions as well) specialist groups in many countries deal with amateur satellite matters and the communication between the (representative of) the member societies and those groups is not always optimum.
+
+Within the IARU there exists a Satellite Advisor function but his tasks are mostly oriented towards worldwide coordination. The VHF/UHF/Microwaves Committee, therefore, decided at its meeting in Lillehammer 1999 to create the function of Region 1 VHF/UHF/Microwaves Satellite Coordinator. The tasks of the coordinator are:
+
+To liaise
+
+- 1. with all groups which specialise in amateur satellite matters in Region 1 countries,
+- 2. with the IARU Satellite Advisor and
+- 3. with all other relevant people/organizations.
+
+To inform the committee about all satellite matters relevant to its work by:-
+
+- 4. Maintaining the Amateur Satellite section of the VHF Managers Handbook,
+- 5. Contributing to the VHF Newsletter
+- 6. Contributing to meetings of the committee.
+
+The coordinator, therefore, should preferably
+
+be an active and recognized operator in the amateur satellite service
+
+have a good knowledge of English ( speaking and writing)
+
+have the support of the IARU member society in his country ( preferably being a member of his societies delegation to meetings of the committee)
+
+### Beacon coordinator
+
+See point 5
+
+### Propagations coordinators
+
+Ionospheric Propagation Coordinator - t.b.f.
+
+Auroral Propagation Coordinator - t.b.f.
+
+Tropospheric Propagation coordinator - t.b.f.
+
+### Records coordinator
+
+The VUSHF DX Records Homepage has been moved to http://dxrecords.vushf.dk (Varna 2014)
+
+### Repeater coordinator
+
+His task is to keep the information up to date about IARU-R1 repeaters on the IARU website. National societies should provide their information to him. (Varna 2014)
+
+# Actual IARU-R1 VHF/UHF/SHF Chairman, Co-ordinators and coworkers
+
+| Chairman             | Rastislav HRNKO, OM3BH      | om3bh@centrum.sk      |
+|----------------------|-----------------------------|-----------------------|
+| Vice Chairman        | Jann Traschewski DG8NGN     | dg8ngn@darc.de        |
+| VHF/UHF/Microwave    | Alessandro Carletti, IV3KKW | iv3kkw@gmail.com      |
+| Contest Coordinator  | Italy                       |                       |
+| VHF/UHF/Microwave    | Matthias Klug DH4FAJ        | dh4faj@darc.de        |
+| Beacons Coordinator  | Germany                     |                       |
+| Region 1 Satellite   | Graham Shirville, G3VZV     | g3vzv@amsat.org       |
+| Coordinator          | England                     |                       |
+| Spectrum expert      | Murray Niman, G6JYB         | g6jyb@microwavers.org |
+| VHF/UHF/Microwave    | Kjeld Bülow Thomsen OZ1FF   | kjeld@oz1ff.dk        |
+| Records Keeper       | Denmark                     |                       |
+| Repeater information | Mats Espling SM6EAN         | sm6ean@ssa.se         |
+| Coordinator          | Sweden                      |                       |
+
+# National VHF managers
+
+### Please visit:
+
+https://www.iaru-r1.org/about-us/committees-and-working-groups/vhf-uhf-shf-committeec5/representatives-vhf-uhf-shf-committee/
+
+# Microwave managers
+
+### Please visit:
+
+https://www.iaru-r1.org/about-us/committees-and-working-groups/vhf-uhf-shf-committeec5/representatives-vhf-uhf-shf-committee/
+
+# Note.
+
+If a member society has not nominated a Microwave Manager, the VHF Manager may be assumed to be also responsible for microwave matters.
+
+# RECOMMENDATIONS FOR VHF MANAGERS
+
+# Collecting national regulations
+
+All Member Societies are requested to send information about their national allocation and restrictions to the IARU R1 Secretary / C5-Chair in order to compile all available information.
+
+# Report on activities
+
+All Member Societies are requested to publish all kind of activities and projects of interest to make them known to other Member Societies. The website hamradio.org may be a suitable platform for publishing the information. This will be in future C5 Meetings a standing agenda item.
+
+# The 23cm band - WRC 2023
+
+- Is to be dealt with at the next meeting.
+
+# Protect our amateur band
+
+### General
+
+All IARU bodies and member societies use every opportunity to exert pressure on national regulators to implement all the recommendations that protect the amateur bands.
+
+# 24 and 47 GHz band
+
+In order to protect the 24 and 47 GHz band it is recommended that:
+
+- IARU member societies fully engage with their national administrations to ensure they are fully aware of the radio amateur interest in their countries in the 24 GHz and 47 GHz bands.
+- IARU member societies ensure their national administrations actively support the protection of the amateur radio services in the 24 GHz and 47 GHz bands in the WRC-19 preparatory studies.
+- IARU member societies encourage their national interest groups to publicise and highlight their achievements in these frequency bands (including by web pages, social media, YouTube, etc.)
+
+### Millimetre bands
+
+In order to protect and develop the use of the millimetre wave bands it is recommended that Member Societies should;
+
+- recognise the importance of the millimetre wave frequency bands as territory for experimentation and innovation.
+- recognise that the ability to exploit these frequencies reflects the true amateur radio spirit of selflearning and training.
+- encourage national interest-group organisations to provide a forum for efficient sharing of experiences and ideas amongst their amateur communities for the use of these bands.
+- facilitate the organisation of events and meetings (including contests) that can allow like-minded enthusiasts to exchange ideas.
+- take steps to highlight and promote activity and experimentation in this area with their national and regional administrations.
+
+### 50 MHz Band
+
+That work start immediately to review the 50 MHz band plan, in the light of emerging new requirements (including digital wideband applications), with the intention to present proposals for a new bandplan to the General Conference in 2020, including the impact of any outcome from WRC19.
+
+# Defending the bands from 1 GHz to 10 GHz (Vienna 2019)
+
+# Introduction
+
+The growth in consumer and commercial wireless applications is putting increasing pressure on all the microwave amateur service bands above 1GHz. Many of the
+
+amateur service allocations have a secondary status in the international regulatory framework which leaves them particularly vulnerable in the face of concerted commercial and political pressure.
+
+For amateurs, the lower microwave bands provide a springboard for developing interest and skills in the use of higher bands. Modern components, sub-systems, surplus equipment and software radio technology have improved their accessibility for experimentation and operation of high-performance amateur systems.
+
+### Actions
+
+Member Societies are encouraged to raise the profile of microwave and millimetre wave band operation in the context of experimentation and innovation in amateur radio activity.
+
+The following recommendations are proposed for ALL Member Societies:
+
+- **Appoint a specific microwave manager** to help raise the profile of the interest in these bands. (The latest VHF Handbook currently lists just 8).
+- **Engage closely with the activities of national administrations** (e.g replying to consultations and attending workshops) relating to national spectrum management of the bands above 1GHz.
+- Member Societies should drive a position with their administration that unrestricted amateur services can successfully **share spectrum with commercial users** as demonstrated already in some bands.
+- Engage closely with national administrations to ensure that **amateur stakeholder interests feed into international spectrum management** developments.
+- Ensure that national administrations are aware of the **interest and opportunity** these bands provide for **experimentation, training and learning**.
+- **Provide incentives** to individuals and clubs to encourage construction and operation in these bands (e.g. awards, publicity).
+- Ensure national administrations understand the importance that the range of amateur allocated frequency bands provides in enabling differing opportunities and challenges for amateur activities.
+- Be ready to question any unreasonable national restrictions on amateur usage that appear disproportionate or unrealistic.
+
+# Licenced share access (LSA)
+
+IARU Region 1 needs to create guidance and prerequisites on how Licence Share Access (LSA) may work in an Amateur Radio context. This can support member societies to prepare for future national discussions where LSA is proposed to be the future way for am-ateur radio to retain access to spectrum.
+
+# Band activity survey
+
+It is recommended that a task group is formed within the C5 Committee to compile a survey of actual band usage and activity above 148 MHz, as requested by the IARU AC, to ensure it is completed by all the Member Societies and send the conclusions to IARU AC by the be-ginning of 2018 to update the IARU database of band usage for use in ITU discussions.
+
+# Proper use of amateur frequencies (Cavtat 2008)
+
+Member Societies are recommended to promote the proper use of amateur frequencies consistent with the international Radio Regulations, with a view toward maintaining the integrity of the amateur service and its frequency allocations as well as promoting the success of amateur satellite activities in their country.
+
+# Satellite frequency coordination (Cavtat 2008)
+
+Member Societies are recommended to work closely with the IARU Satellite Adviser and his Advisory Panel, and with their national administrations, with respect to requests for satellite frequency coordination originating in their respective countries.
+
+# 145MHz for satellite downlinks (Cavtat 2008)
+
+The presence of interfering non-amateur signals in the 145.80-146.00MHz part of this band, in many parts of the world, is well documented. To prevent the retransmission of interfering terrestrial signals, satellites in the Amateur Satellite Service that plan to use the 145MHz Amateur band for transponders, are encouraged to use this band for downlink (satellite to ground) modes only, regardless of modulation type.
+
+# Multi-Band beacon clusters (Cavtat 2008)
+
+National Societies should encourage the deployment of multi-band beacon clusters covering low VHF between about 30 MHz and about 70 MHz.
+
+Deployed beacon clusters should wherever possible provide signals at around 40 MHz and around 60 MHz.
+
+Amateurs should be encouraged to set up and maintain automated monitoring stations and to contribute the measurement results to the community.
+
+A common transmission format should be adopted to aid the reception of multiple clusters
+
+# 3400-3410MHz allocation
+
+National Societies should take all necessary steps in seeking 3400-3410MHz allocations on a Secondary non-interference basis as quickly as possible.
+
+All Societies should explicitly include the Amateur Satellite Service (both SAT-Earth and Earth-SAT) in such requests on the basis that many years of terrestrial and EME operations (notably in the CEPT area) have not resulted in interference reports from other users.
+
+National Societies and IARU–R1 should collaborate more closely to assist those Societies who in the past have not been able to achieve such allocations.
+
+Societies should collectively obtain a critical mass of national allocations so that footnotes in regional allocation tables can be extended or acquired that include the Amateur Satellite Service IARU-R1 to prioritise this band and to take active steps in support of these goals
+
+# Contest Log exchange
+
+National VHF Managers or properly nominated Contest Committees should send the electronic contest log data entries from IARU R1 contests to a special web page to allow an exchange of logs for more accurate national evaluation (http://iaru.oevsv.at/v\_upld/prg\_list.php).
+
+# DX code of conduct (Varna 2014)
+
+It is recommended that member societies endorse and promote the "DX Code of Conduct for DXpeditions" published on http://www.dx-code.org/
+
+# TV Repeater Transmissions (Varna 2014)
+
+In any band where there is serious compatibility issue, TV Repeater Outputs must minimise their overall transmissions to reduce the potential for interference.
+
+In such bands, continuous beacon or testcard transmissions are a particular problem and should be phased out in favour of short regular transmissions or transmit-on-demand.
+
+# Remote Controlled Operation (Varna 2014)
+
+Remote controlled operation is defined to mean operation where a licensed operator controls an amateur radio station from a remote control terminal.
+
+Remote operation must be permitted, or not objected to, by the Regulatory Authority of the country where the station is located.
+
+The call sign to be used should be the call sign issued by the Regulatory Authority of the country in which the station is located. This applies irrespective of the location of the operator.
+
+It should be noted that Recommendation SC11\_C4\_07 states that member societies bring to their members attention that the T/R 61-01 agreement only applies to people using their own call sign, with the appropriate country prefix, when the operator is actually visiting that country, not for remote operation. Any further requirements regarding the participation of remotely controlled stations in contests or award programmes are a matter for the various contest or award programme organisers.
+
+Note: CEPT T/R 61-01 can be found at http://www.erodocdb.dk/docs/doc98/official/pdf/TR6101.pdf
+
+# Information about repeaters
+
+It is recommended that all repeater information should be found on the IARU R1 website, or by a link from the IARU R1 website. Member societies should send their information to SM6EAN (Varna 2014)
+
+# IARU R-1 AND IARU SATELLITE COORDINATION
+
+# ITU Notification Requirements for Amateur Satellites
+
+# Background
+
+In recent years there has been a dramatic increase in the number of satellites being launched which operate on frequencies in the Amateur Satellite Service.
+
+The Amateur Satellite Service has different and less onerous notification and registration requirements than most other Satellite services. However it has been noted that many satellites have not actually been notified to the ITU at all. This has led to their records of frequency usage, which are often examined by other services, providing an incomplete picture to our possible detriment. This section shows the correct procedure which should be followed for all such projects.
+
+It should be noted that this ITU procedure should proceed in parallel with the IARU Frequency Coordination process which is still required. All member societies are requested to familiarise themselves with this procedure and to encourage/ensure that satellite builders in their country follow the process.
+
+# Procedure
+
+## *The Potential Amateur Satellite Builder*
+
+- A potential amateur satellite builder is required to inform their National Telecommunications Regulatory Authority about their planned satellite project.
+
+### *The Regulatory Authority*
+
+- Verifies that the project is in accordance of Article-25 and other provision of the Radio Regulations (RR)
+- Checks if the satellite, telemetry and command ground station(s) will be operating under valid amateur licenses
+- In cooperation with the responsible amateur licence holder, submits the required API (Advanced Publication Information) information to the ITU (Bureau) – see the required data in the wizard at:
+- http://www.itu.int/ITU-R/space/support/ARS/ARS-APIhelp.pdf
+- It is only necessary to send general orbital characteristics, frequency bands (not exact frequencies), emissions, service area, antenna diagrams and some other data – see the wizard.
+- The Bureau will publish, based on the API data from the Regulatory Authority, an API/A special section to inform all administrations about the project
+- At the same time (as submitting the API to the Bureau), or preferably earlier, the responsible amateur license holder should contact the IARU Satellite Adviser and submit all required information for the IARU amateur satellite frequency coordination process. See the information at http://www.iaru.org/satellite/
+- The National Regulatory Authority (with help of the Bureau) has to solve any API potential problems (for example exclusion of country from the service area of the satellite) and the Bureau will publish it in API/B publication.
+- When the IARU amateur satellite frequency coordination is completed the IARU Satellite Frequency Coordinator informs the responsible amateur license holder of the coordinated frequencies and some other (if necessary) conditions/restrictions.
+- If all is in order, the National Regulatory Authority, in cooperation with the Satellite builder, submits the required notification data to the Bureau using SpaceCap software (see CR/303 for details) – more detailed data, including EXACT frequency assignments (notification wizard is under preparation)
+- The Satellite has to be operational within 7 years from the date of the receipt of the API information. Notification shall reach the Bureau not earlier than 3 years before the satellite is operational. The Bureau will publish, based on the notification data, a PART I-S publication – acknowledgment
+
+- The Bureau will publish the result, in its technical and regulatory examinations and findings, in PART II-S publication – resulting in INTERNATIONAL RECOGNITION and RECORDING of the satellite in the Space Master Register following all regulatory requirements of the Radio Regulations
+
+# IARU-AC 89-3 concerning amateur satellite usage
+
+The IARU Administrative Council, Orlando, September 1989, recognised the important contributions made by amateur societies in the following areas:
+
+- demonstration to the professional community that radio amateurs contribute to the development of state-of-the-art technology and techniques
+- provision of new and challenging operational opportunities and training ground for radio amateurs to acquire new skills
+- providing opportunities for training in an exciting technological field by direct participation, in schools, universities and professional organisations, and
+- stimulating the interest of young people in a worthwhile activity, and encouraging the pursuit of a technological career to provide the next generation of industrial and research engineers.
+
+Wishing to stimulate the growth of the Amateur Satellite Service in an orderly manner, the Administrative Council strongly supports the following goals:
+
+- the encouragement of a wide dynamic range of activities stimulating training through increasing intellectual challenge
+- the stimulation of young people in schools and universities to develop an interest in amateur radio through participation in amateur satellite activities
+- where allowed, the provision of emergency services, especially to parts of the world that are less technologically developed, and
+- the adoption of a "code of practice" that ensures the use of amateur frequency allocations by satellites in accordance with the spirit and ethos of amateur radio.
+
+The Administrative Council resolved that:
+
+- Member societies shall make Administrations more aware of the value and achievements of the Amateur Satellite Service.
+- Satellites operating within amateur frequency allocations shall carry payloads and experiments that are relevant to, of interest to and available for participation by radio-amateurs worldwide.
+- Operational frequencies of amateur satellites shall be in accordance with all applicable IARU band plans
+- The use of higher frequency bands by amateur satellites shall be encouraged
+
+Terms of reference of the IARU satellite adviser
+
+### General:
+
+An advisory and representational role, requiring technical knowledge and good interpersonal skills.
+
+### Function
+
+To keep the Administrative Council informed on all technical and operational aspects of the amateursatellite service, and to provide advice and assistance to enable the Council to adopt appropriate policies, and also to better inform the satellite community of the IARU.
+
+# Appointment:
+
+The IARU Satellite Adviser shall be appointed by the Administrative Council and the position, the appointment and these terms of reference shall continue until the next meeting of the Administrative Council, which may or may not reconfirm this position, the appointment and these terms of reference.
+
+## Tasks:
+
+- Report to the Administrative Council, providing information as to all developments in the satellite area, including all planned amateur satellites.
+- At the request of the Administrative Council, provide technical and operational advice to assist the representation of the amateur-satellite service to the ITU.
+- And attend such meetings of the satellite community as are appropriate.
+- Represent generally the IARU to the satellite community and particularly to new or non-AMSAT satellite groups.
+- To consult with and liaise with the satellite community as appropriate.
+- To appoint any assistants that may be required.
+
+# Terms of reference of the IARU AMSAT satellite frequency coordinator
+
+### General
+
+The IARU AMSAT (Amateur Satellite) Frequency Coordinator (IAFC) is an operational role, requiring high technical competence and a detailed knowledge of amateur satellites, frequency management as well as of IARU band plans.
+
+### Function
+
+The IAFC shall assist the IARU Satellite Adviser and provide a service to enable any group to coordinate frequencies and emissions of a planned satellite intended to operate on Amateur Frequencies, under the license from the group's national administration, with existing and other planned amateur satellites.
+
+### Appointment
+
+The IAFC is appointed jointly by the IARU Satellite Adviser (ISA) in consultation with the consensus the recognized AMSAT Groups. The necessary liaison for this purpose with and among AMSAT Groups is to be conducted at the Annual IARU International Satellite Forum and, between Forum meetings, via Internet (amsat-international@amsat.org). The IAFC shall report both to the ISA and to the AMSAT Groups. The appointment is to last until the next Annual IARU International Satellite Forum, at which it may be reconfirmed or a new appointment made. The ISA after obtaining the concurrence of the AMSAT Groups as above, may revoke the appointment at any time, and the appointment shall thereupon cease. Any vacancy in this position, whether by resignation or revocation, shall be filled as soon as possible in the manner set forth above.
+
+## Tasks
+
+- Maintain a data base of all operating and planned satellites on Amateur Frequencies including frequencies, emissions and orbits.
+
+- Upon request of an individual or group proposing to build a satellite to operate on Amateur Frequencies, provide information and advice to assist that prospective builder in the choice of frequencies and modes with the view of minimizing interference.
+- Through publicity and direct communication, seek out prospective satellite builders and to encourage them to make use of this service. This function is jointly shared with the ISA.
+- Promptly provide all information required by the ISA.
+- After taking into account the input from various experts, it is the IAFC's task to make appropriate recommendations to the satellite builder(s). The IAFC is supported in this task by the ISA.
+- Publish quarterly reports for distribution to the ISA, IARU national Societies and AMSAT Groups. Distribution to the AMSAT Groups will be considered fulfilled if said reports are posted on the amsat-international@amsat.org Internet distribution.
+- While this position is a technical position, the IAFC has an important role in assisting in the protection of bands allocated to the amateur satellite service.
+- To this end the IAFC is tasked to work with the AMSAT Groups to develop a protection plan which should be submitted to the IARU Satellite Adviser who's task it is to achieve endorsement from the IARU Regions and incorporation in band plans.
+
+It is also important that the role of the IAFC is not confused with that of the ISA. To this end:-
+
+- The role of the IAFC is restricted to providing advice as set out above, and in particular shall not make any statement(s) that could be understood to be expressing IARU policy, which will be the role of the ISA.
+- The IAFC shall promptly inform the ISA of any matters that may affect bands allocated to the amateur services, particularly the amateur satellite service.
+- The IAFC shall work closely with the AMSAT Groups and national IARU Societies as appropriate while maintaining consistent contact with the ISA and the AMSAT Groups, via Internet.
+- The IAFC will be expected to attend the Annual IARU International Satellite Forum and such other meetings as agreed to, or directed by, the ISA from time to time. However all travel and other expenses associated with such meeting attendance must be budgeted for in advance and is subject to approval of the ISA who is responsible for the budget.
+
+# RELEVANT IARU REGION-1 RECOMMENDATIONS
+
+- Member Societies are recommended to work closely with the IARU Satellite Adviser and his Advisory Panel, and with their national administrations, with respect to requests for satellite frequency coordination originating in their respective countries, Member Societies are recommended to promote the proper use of amateur frequencies consistent with the international Radio Regulations, with a view toward maintaining the integrity of the amateur service and its frequency. The presence of interfering non-amateur signals in the 145.80-146.00MHz part of this band, in many parts of the world, is well documented. To prevent the retransmission of interfering terrestrial signals, satellites in the Amateur Satellite Service that plan to use the 145MHz Amateur band for transponders, are encouraged to use this band for downlink (satellite to ground) modes only, regardless of modulation type National Societies should take all necessary steps in seeking 3400-3410MHz allocations on a Secondary non-interference basis as quickly as possible. All Societies should explicitly include the Amateur Satellite Service (both S-E and E-S) in such requests on the basis that many years of terrestrial and EME operations (notably in the CEPT area) have not resulted in interference reports from other users. National Societies and IARU–R1 should collaborate more closely to assist those Societies who in the past have not been able to achieve such allocations. Societies should collectively obtain a critical mass of national allocations so that footnotes in regional allocation tables can be extended or acquired that include the Amateur Satellite Service IARU-R1 to prioritise this band and to take active steps in support of these goals It is recommended that all IARU Region 1 societies request that the following additional Amateur Satellite Service bands be studied and considered, perhaps as a package, for a future WRC agenda item:
+- 50-51 MHz
+- 1240-1250 MHz
+- 2300-2330 MHz
+- 2390-2400 MHz
+- 3400-3410 MHz
+- 5650-5670 MHz (Currently Earth-To-Space only)
+- 10350-10400 MHz
+
+# IARU-R1 REPEATER COORDINATION
+
+# Coordination of repeater activities
+
+Extensive 145 MHz and 435 MHz repeater networks are operational in Western Europe, and activity on 1.3 GHz is growing.
+
+It is highly important that these developments are internationally guided, so that a coordinated approach is followed for the benefit of all IARU Region 1 amateurs.
+
+The aim of repeater networks has been defined as follows (see chapter 3.1., Principles of bandplanning):
+
+- FM repeaters provide a communication service to mobile amateur-stations (including hand-held equipment). In some cases they may be installed to aid the accessibility of stations in mountainous areas.
+- They are not intended to make DX contacts possible, and hence their coverage under normal propagation conditions should be limited.
+- The number of repeater stations installed should be determined by
+- the required regional coverage
+- the expected number of intended users
+- FM repeaters should not regularly be used as local chat channels for fixed (home) stations. This interferes with their defined use.
+
+Careful bandplanning is required (section 2), as well as timely agreement on the technical specifications of repeaters and equipment used with repeaters (section 7).
+
+The problem of mutual interference (overlapping coverage pattern) makes it mandatory that in neighbouring countries the allocations of locations and especially of frequencies are coordinated.
+
+*Coverage measurements shall be made for repeaters planned to be installed. In cases of international boundary crossing the VHF Managers concerned should co-ordinate repeater coverage.* 
+
+A suitable way of presenting the expected coverage, set out in document M/T 59, submitted by ÖVSV, was recommended for this purpose (see PART 2 section 5.2.3)
+
+# Repeater coordination: coverage presentation
+
+### Introduction
+
+In the event that signals of repeaters or other un-manned stations could cause interference beyond the boundaries of the country in which they are operating, all designers, constructors and other persons responsible for such stations are obliged to contact the VHF-UHF-SHF Managers of the neighbouring countries concerned, in order to avoid such interference by coordinating channel use.
+
+As far as Austria is concerned, the VHF Manager entered all areas from where repeaters might be operated on a map, so that all repeater problems could be easily be discussed and solutions found. A copy of such a map, a description of the methods used to prepare such a map, as well as proposed general rules for the use of repeaters are given below.
+
+### General rules for operating via repeaters
+
+Users of repeaters shall limit their transmissions to the shortest necessary time and the stations in QSO shall not start their transmission before having left some time to give other stations a chance to make "distress calls", if necessary.
+
+### Recommended methods to prepare coverage map
+
+Attached as fig. 1 is an example map showing repeater coverage from some locations in Austria. The entries should be made in accordance with CCIR recommendation 370-1.
+
+A full line designates the area where during at least 50 % of the time contacts via repeaters can be made by a mobile station, running 10 Watts into a 5/8 wavelength vertical antenna.
+
+A dotted line designates the area where during 50 % of the time a fixed station with an effective radiated power of 100 Watts can operate via the repeater.
+
+All locations from where under extraordinary conditions contacts could be made (e.g. mountain tops) should also be entered.
+
+For the above delineations normal propagation conditions should be taken; contact possibilities via rare tropospheric conditions or sporadic-E reflections shall be disregarded.
+
+The person(s) responsible for the planned repeater shall prepare a map according to the method outlined above. This map shall be sent to the national VHF Manager for further (international) co-ordination. (From document M/T 59, submitted by OeVSV at the IARU Region I Conference in Miskolc-Tapolca, 1978)
+
+# IARU-R1 BEACON COORDINATION
+
+# IARU R1 beacons: a guide to good practice
+
+Beacon transmitters have long been used to indicate the presence of VHF openings and have contributed significantly to our knowledge of propagation. As the numbers of beacons is increasing rapidly and the amount of spectrum available for them is under pressure it is important that beacon builders are aware of the technical parameters required, the reasons for them and the procedure to be followed to obtain an agreed frequency.
+
+Beacon - A station in the Amateur Service or Amateur-Satellite Service that autonomously transmits in a defined format, which may include repetitive data or information, for the study of propagation, determination of frequency or bearing or for other experimental purposes including construction."
+
+It is not intended that this document should specify the exact purpose of any individual beacon, its power level or the number of beacons in any country, as this should be agreed within the national society concerned. It is also not intended to be applied rigorously to experimental beacons or beacons with a special purpose. It should however apply to the vast majority of VHF/UHF/Microwave beacons for propagation monitoring purposes, as designated by the beacon sections of the bandplans.
+
+### Coordination procedure
+
+The existing requirement for co-ordination of regional beacons will be retained. For non-coordinated beacons the beacon proposal should be agreed with the national society (with consultation with neighbouring societies where appropriate) and a provisional frequency chosen.
+
+If the beacon has an ERP of greater than 10W then the frequency should be submitted to the IARU Region 1 VHF beacon co-ordinator to check for potential interference problems. Societies should provide regular and frequent updates to the IARU R1 Beacon coordinator. Beacons or changes to beacons which are not notified to the coordinator forfeit their arbitration rights in any coordination dispute.
+
+### Local Beacons:
+
+In the microwave bands, local beacons, which should be 10W ERP max, may preferably be placed in the x.750-x.800MHz range of the relevant narrowband segment, adjacent to, but outside of the exclusive propagation beacon segments. In this range, the lower powers will permit greater frequency reuse. This permits traditional propagation beacon frequencies to be used more efficiently and minimise cases of local/mutual interference. National societies should inform the IARU R1 Beacon coordinator of such local beacons and national bandplan use.
+
+### Transmission mode
+
+Amplitude or Frequency shift keying (A1A or F1A) may be used according to the scheme described in PART 3 Section 11. The beacon radiates on its nominal frequency during the period where no information is transmitted. It then moves to "space", 250/400Hz below and then keys back to nominal ("mark") while transmitting its information. In this way the transmission sounds like A1A in a SSB receiver set to receive USB.
+
+### Frequency spacing
+
+All coordinated and notified beacons should operate within the beacon segment of the band plan and be on a frequency which is in accordance to the table below. In bands above 1.3GHz, half the frequency spacing defined below be used as an offset in frequency coordination disputes (Vienna 2007).
+
+|                 | Band 50 MHz 70 MHz 145 MHz 435 MHz 1.3 GHz 2,4 to 24 to 10GHz 47 GHz Frequency ppm 4 2.8 1.4 1.0 0.8 TBA TBA Tolerance Hz 200 200 200 400 1000 |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| beacons -       | kHz                                                                                                                                            |
+| Spacing between | 1 1 1 1 2-3kHz 5kHz 10kHz                                                                                                                      |
+| shift -         | Hz                                                                                                                                             |
+|                 | 250 250 400 400 400 400 400 F1A Frequency Frequency at nominal nominal nominal nominal nominal nominal nominal                                 |
+| “space” -       | Hz                                                                                                                                             |
+
+TBA = To Be Agreed at a future conference
+
+# Transatlantic beacon project
+
+At the IARU Region 1 Conference in Tel Aviv 1996 a proposal from URE for a coordinated project whereby beacons at the (North-)West-coast of European countries would be installed in order to test the possibilities of 145 MHz propagation over the Atlantic Ocean, resulted in a recommendation, unanimously accepted by the Conference :
+
+*To help investigate VHF transatlantic propagation, Member Societies are encouraged to participate in an IARU Region 1 co-ordinated programme to establish "Conjugate Beacons" in the 145 MHz band. (These would be similar to the conjugate beacons in the HF bands, emitting sequential signals which are repeated.)*
+
+### To help manage this project, a co-ordinator is required.
+
+The tasks of this Beacon Project Co-ordinator will be:
+
+- To make contact with the IARU Region 1 and Region 2 VHF/UHF Beacon Co-ordinators and to make contact with societies/amateurs in Region 1 and Region 2 who are interested in participating in this programme.
+- To consult with technical experts with the aim of establishing the technical specifications of the beacons.
+- To liaise and co-ordinate between groups building beacons and also those build listening equipment.
+- To collect the results of the experiments and to report them to IARU Region 1.
+
+This action of IARU Region 1 should be communicated to IARU Region 2 with the request that they consider similar action.
+
+# Synchronised 50 MHz Beacon Project (Varna 2014)
+
+### Introduction
+
+The 2011 IARU Region-1 General Conference in Sun City agreed to a new Synchronised Beacon Project (SBP) as part of its revisions to the 50MHz band plan. This required the existing beacons to migrate by August 2014 to 50.4-50.5 MHz in order to leave space for the new system at the bottom of the 50MHz band. As agreed at the Vienna Interim meeting in 2013, the basic parameters for beacons in the SBP are 1kHz frequency spacing, 1 minute CW/MGM and a 4 minute repeat period.
+
+At the 2014 IARU Region-1 General Conference in Varna 2014, the migration of Region-1 50 MHz beacons was reviewed and noted as progressing (with good propagation reports), but not yet achieved completely. The deadline for migration of the remainder was extended to 31 December 2015, noting that the default for QSY is usually +400 kHz unless a specific request is sent to the IARU Region 1 beacon coordinator.
+
+Furthermore it was also agreed that:
+
+- The coordination of new beacons below 50,4 MHz shall no longer be possible, except for the members of the Synchronised Beacon Project (SBP)
+- The Synchronised beacons will now use 'once every 5 minute' slots, instead of 'once every 4 minutes'
+
+Member Societies are invited to participate in the pilot programme for the SBP. The paper VA14\_C5\_14 will be used as an implementation guide and an initial pilot scheme demonstration. The societies are invited to consider the best locations for SBP (e.g. an existing site or new strategic site). Region 2 and Region 3 will be informed of progress should they wish to start implementing their own beacon multiplexes.
+
+### 50 MHz synchronised not transmitting in their timeslot
+
+#### Landshut 2017
+
+50 MHz Synchronised beacons may optionally also transmit on 50.4xx when not transmit-ting in their
+
+50.0xx synchronised scheme time slot.
+
+- If they use this dual-frequency option, the beacon callsign on each frequency should be slightly different to assist reception and reporting systems. For example, to append /S and /B onto the callsign to indicate Synchronised and ordinary Beacon frequency respectively
+- Synchronised Beacons should detect loss/failure of GPS and mute transmissions on their synchronised frequency assignment (50.0xx). However, they remain free to transmit on their (optional) 50.4xx assignment (where they may revert to a CW-only to indicate the problem)
+- Consider the advantages of adaptive MGM and remote control for propagation events
+- 50 MHz users and propagation experts are encouraged to propose multiplex sequences, with due consideration for access to remote beacon locations/re-programming
+- Both transmit and receive software should be flexible to support the above including for example the use of more than one-time slot, if a multiplex is sparse during roll out
+
+# IARU-R1 CERTIFICATES AND MEDALS
+
+IARU Region 1 can recognize meritorious performance in the wide field of amateur activities by awarding
+
+- an IARU Region I certificate
+- an IARU Region I medal.
+
+With respect to the amateur activities on the VHF/UHF/SHF bands the following recommendations are relevant.
+
+At the IARU Region 1 Conference in Folkestone (1961) the following resolution was adopted: *It is recommended that the Executive Committee of IARU Region I issue a certificate to those amateurs within Region I who make first QSO's by unusual modes of propagation, such as meteor-scatter, sporadic-E and moonbounce.* 
+
+At the IARU Region 1 Conference in Malmo (1963) the following additional recommendation was adopted(1 ):
+
+*The Chairman of the VHF/UHF/Microwave Committee is authorized to request the IARU Region 1 Executive Committee to issue Region 1 certificates for special VHF/UHF/SHF performances.* 
+
+# DB6NT
+
+At the interim meeting of the IARU Region 1 VHF/UHF/Microwaves committee in Vienna 1995 it was decided to propose to the Executive Committee to issue the Region 1 Medal to Michael Kuhne, DB6NT: *for his outstanding contributions to the promotion of microwave activities. He not only is a keen microwave dx-er on all bands up to 245 GHz but has published his designs, allowing other amateurs to construct microwave equipment.*
+
+The executive Committee supported this proposal and the Medal and Certificate were presented to DB6NT by PA0EZ at the 1995 Friedrichshaven International Meeting
+
+# S53MV
+
+The Executive Committee of IARU Region 1 has at its April 1999 Meeting decided to offer the IARU Region 1 Medal to Matjaz Vidmar, S53MV:
+
+*in recognition of his contributions to amateur radio in the field of satellites, microwaves and digital communications.*
+
+The medal and certificate were presented by PA0EZ to representatives of the Slovenian Society at an official ceremony at the Region 1 Conference in Lillehammer 1999.
+
+<sup>1</sup> Wording brought in accordance with the IARU Region 1 Constitution adopted at the IARU Region 1 Conference in Noordwijkerhout (1987).
+
+# National VHF/UHF/µWaves awards and certificates
+
+A large number of awards and certificates are issued by the member societies in the various countries in Region I, inter alia for achievements on the VHF/UHF/Microwaves bands. The official opinion of IARU Region 1 is that it would be best to have a restricted number of worthwhile awards/certificates, as can be judged from the following adopted recommendations:
+
+The increasing number of awards and contests in Region I is viewed with deep concern and it is recommended that member societies limit the number of such awards and contests in the best interests of amateur radio. (Bad Godesberg, 1958)
+
+The number of awards and certificates, at present in circulation, is not in the best interests of amateur radio. It is recommended to place the matter before the IARU with a view to the preparation of a list of awards in good standing which could bear the official approval of the IARU. (IARU Region 1 Conference in Folkestone, 1961)
+
+In order to enable VHF Managers/VHF Committees to inform the active VHF/UHF/Microwaves amateurs in their countries on the available awards and certificates, the following recommendation(2 ) was adopted at the IARU Region 1 Conference in Malmö (1963):
+
+All VHF/UHF/Microwaves Managers are requested to send a list of the VHF/UHF/Microwaves certificates available in their country, with all relevant data, to the Chairman of the VHF/UHF/Microwaves Committee, in order to enable him to issue a complete list.
+
+### Note
+
+In view of the two first recommendations set out on this page, it should be self-explanatory that some screening has to be applied, and that only worthwhile certificates/awards, as e.g. issued by member societies, should be listed.
+
+In order to make it easier for amateurs to apply for a certificate or award, at the IARU Region 1 Conference in Malmö (1963) the following recommendation was adopted:
+
+*Bearing in mind the difficulty and expense of sending QSL cards with applications for certificates it is recommended that all member societies of IARU Region shall issue certificates on the production of a declaration signed by the Traffic Manager or QSL Manager of the member society in the residence country of the applying amateur.* 
+
+In view of some questions that arose with the counting for "Number of Countries Worked" certificates, at the IARU Region 1 Conference in Brussels (1969) the following recommendation was adopted: *VHF/UHF/Microwaves Certificates: For the issue of certificates concerning countries worked the ARRL DXCC list of countries shall be used.* 
+
+Wording brought in accordance with the IARU Region 1 Constitution adopted at the IARU Region 1 Conference in Noordwijkerhout (1987)
+
+![](_page_33_Picture_1.jpeg)
+
+![](_page_33_Figure_2.jpeg)
+
+# BANDPLANNING
+
+# IARU REGION 1 BANDPLANS
+
+# Introduction
+
+### General
+
+On the following pages are the official IARU Region 1 band plans currently valid for the 50 MHz, 70 MHz, 145 MHz, 435 MHz and the microwave bands are set out.
+
+In accordance with the policy outlined in PART 3 section 1 only carefully considered modifications and/or additions have been made during the tri annual IARU Region 1 Conferences.
+
+VHF Managers should give maximum publicity to the adopted band plans. In view of the many newcomers, regular repetition of the publication of the band plans is advisable. Member Societies, and particularly their VHF Managers or VHF Committees, should strongly promote adherence to the adopted band plans by all VHF/UHF/Microwaves amateurs in their country.
+
+The following notes are referring to the Usage column in the band plan. Operators should take notice of these agreements which are made for operating convenience, but no right to reserved frequencies can be derived from a mention in the Usage column or from the following notes.
+
+The users should be aware that this those band plans are generic for all members states of IARU-R1. They can be more detailed in some Member states due to practical reasons end/or legislation. Therefore we advise to look also to the bandplanning of the country of the operator.
+
+# European table of frequency allocations
+
+In order to develop European common positions and proposals to harmonise within Europe the efficient use of the radio spectrum, CEPT endorsed in 2002 the principle of adopting a harmonised European Table of Frequency Allocations and Applications (also called the ECA table) to establish a strategic framework for the utilisation of the radio spectrum in Europe.
+
+You will find this Table on: https://www.ecodocdb.dk/download/2ca5fcbd-4090/ERCREP025.pdf
+
+This table contains different footnotes, numbered as ECAxx
+
+Some of them are important for us (see the footnotes in the bandplanning).
+
+We give here a summary of the most important ones:........
+
+Some of them are important for us( see the footnotes in the bandplanning).
+
+We give here a summary of the most important ones:
+
+- **ECA9** CEPT administrations may authorise all or parts of the band 69.9-70.5 MHz to the amateur service on a secondary basis
+- **ECA17** In the sub-bands 5755-5765 MHz, 10.36-10.37 GHz, 10.45-10.46 GHz the amateur service operates on a secondary basis. In making assignments to other services, CEPT administrations are requested wherever possible to maintain these subbands in such a way as to facilitate the reception of amateur emissions with minimal power flux densities.
+- **ECA23** In the sub-bands 5660-5670 MHz (earth to space), 5830-5850 MHz (space to earth) and 10.45-10.50 GHz the amateur-satellite additionally operates on a secondary and non interference basis to other services. In making assignments to other services, CEPT administrations are requested wherever possible to maintain these allocations in such a way as to facilitate the reception of amateur emissions with minimal power flux densities.
+- **ECA35** In Europe the band 75.5-76 GHz is also allocated to the Amateur and Amateur Satellite services.
+
+More info can also be found on the website European Communications Office
+
+# 50 – 54 MHz Band plan
+
+| Frequency Maximum                            |                                           |
+|----------------------------------------------|-------------------------------------------|
+| Mode (a)                                     | Usage                                     |
+| 500 Hz Telegraphy exclusive                  |                                           |
+| 50.000 -                                     | 010 Region-1 *                            |
+| 50.010 -                                     | 020 Region-2 *                            |
+| 50.020 -                                     | 030 Region-3 *                            |
+| 2700 Hz SSB                                  |                                           |
+| 50.100 -                                     | 130 Intercontinental section              |
+| 50.130 -                                     | 200 international section                 |
+| 2700 Hz SSB                                  |                                           |
+| 2700 Hz MGM                                  |                                           |
+| 50.310 -                                     | 320 EME centre of activity                |
+| 50.320 -                                     | 380 MS centre of activity                 |
+| 1000 Hz MGM                                  |                                           |
+| 50.540 -                                     | 580 Simplex FM/DV Internet Voice Gateways |
+| 50.900 12kHz FM / Digital voice 50.710 -     | 50.890 FM/DV repeater output channels     |
+| All modes For wideband digital experiments – | See Note (e)                              |
+| 12kHz FM / Digital voice 51.210 -            | 390 FM/DV Repeater Input channels         |
+| 51.410 -                                     | 590 FM/DV Simplex                         |
+| 51.810 –                                     | 990 FM/DV repeaters output channels       |
+| For wideband digital experiments –           | See Note (e)                              |
+| 500 kHz All modes (f)                        |                                           |
+
+### Notes: bandplan
+
+- Legacy usage for MGM below 50.300 is accepted, but effort should be made to move this to 50.300 50.400 MHz. Usage by operators may vary due to restrictions on national allocations
+- DV = Digital Voice
+
+## Footnotes:
+
+- a. The intercontinental DX calling frequency 50.110 MHz should not be used for calling within the European part of Region 1 at any time.
+- b. deleted
+- c. deleted
+- d. Embedded data traffic is allowed along with Digital Voice. DV users should check that the channel is not in use by other modes
+- e. Experiments using wider bandwidth digital modes may take place in the 50 MHz band within the 50.5 - 52 MHz segment where local conditions permit, on a shared basis that does not cause interference to other users (including narrowband/beacon use and repeater inputs)
+  - Options for this include around 50.6, 51.0 or 51.7 MHz
+  - Recommended maximum bandwidths for such usage are:- § 50kHz in the 50.5-50.7 segment § 200kHz in the 50.9-50.2 segment § 500kHz in the 51.4-52.0 MHz segment § See also wideband experimentation usage notes below
+- f. In those Region 1 countries where 52 54 MHz (or parts thereof) is allocated, its use should be planned on the basis of up to 4 x 500 kHz blocks which may be sub-divided to suit digital applications.
+- g. Amateurs using digital transmission methods must also ensure that their transmissions do not spread beyond band/segment edges.
+
+# Usage Notes
+
+- **a) FM:** for technical specifications of FM telephony and channel numbering, refer to the relevant parts of this Handbook.
+
+### **b) Repeaters**
+
+In those Region 1 countries where it is allowed to set up repeaters on 50 MHz, the indicated channels are recommended in order to establish a commonality. Provision is made in the band plan for two options based on a common set of input channels:-
+
+- i) Outputs at 500kHz below the input frequencies (Nov Sad 2020)
+- ii) Outputs at 600kHz above the input frequencies (Tel Aviv 1996)
+
+The more recent recommended use of the lower output (-500kHz) option for voice repeaters, avoids the overlap near 51.9 MHz with experimental and other emerging wideband applications. The lower output frequencies may also be easier for obtaining regulatory permissions. As per IARU-R1 recommendations, CTCSS should be used for FM Repeaters and Gateways.
+
+### **c) Wideband Experimentation**
+
+- Spectral re-growth can be a major issue when operating digital modes. Close attention should be given to amplifier linearity to control the final transmitted bandwidth and avoid such regrowth affecting adjacent users.
+- Member Societies should encourage such 50 MHz digital experiments to support innovation and development of the band; and report results back to IARU Region 1
+
+# 70.0 – 70.5 MHz Band plan
+
+The 70MHz band is increasingly recognised as being appropriate for amateur allocations. In the CEPT area this progress is now recognised in the European Table of Frequency Allocations by Footnote ECA9 which states:
+
+*ECA9:CEPT administrations may authorise all or parts of the band 69.9-70.5 MHz to the amateur service on a secondary basis*
+
+In addition it is worth noting that there is some experimental access on a national basis in the range 69.90 - 70.0MHz in cases where 70MHz is not available.
+
+## References:
+
+[1] European Allocation Table: http://www.erodocdb.dk/Docs/doc98/official/pdf/ercrep025.pdf [2] http://www.70MHz.org has a useful list of current allocations and permits
+
+|        | MODE         |         | Usage                             |
+|--------|--------------|---------|-----------------------------------|
+| 1000Hz | BEACONS      |         |                                   |
+|        |              | 70.185  | Crossband centre of activity      |
+|        |              | 70.200  | Centre of activity Telegraphy/SSB |
+|        |              | 70.250  | Centre of activity MS             |
+| 12kHz  | AM / FM (b)  |         |                                   |
+|        |              | 70.260  | AM/FM calling                     |
+| 12kHz  | FM CHANNELS, |         |                                   |
+|        |              | 70.3125 | Digital communications            |
+|        |              | 70.3250 | Digital communications            |
+|        |              | 70.4500 | FM calling                        |
+|        |              | 70.4875 | Digital communications            |
+
+# Notes: BANDPLAN
+
+### Footnotes:
+
+- a. Refer to Beacons Chapter for coordination of beacons (PART 1 Section 5)
+- b. Usage by operators may vary due to restrictions on national allocations
+
+### Notes: Usage
+
+## Footnotes: none
+
+# 144 – 146 MHz Bandplan
+
+|         | MODE                 |         | USAGE                   |
+|---------|----------------------|---------|-------------------------|
+| 2700 Hz | ALL MODE             |         |                         |
+|         |                      | 144.050 | Centre of activity      |
+|         |                      | 144.100 | Random MS( m )          |
+| 2700 Hz | Telegraphy & SSB     |         |                         |
+|         |                      | 144.300 | SSB Centre of activity  |
+| 500 Hz  | Telegraphy           |         |                         |
+|         |                      |         | Beacons exclusive ( b ) |
+| 500 Hz  | Personal weak signal |         |                         |
+|         | MGM Beacons          |         | Experimental MGM        |
+| 20 kHz  | All mode (f)         |         |                         |
+|         |                      | 144.800 | APRS                    |
+
+| 144.975 |                        |                                                                       |      |     |
+|---------|------------------------|-----------------------------------------------------------------------|------|-----|
+| 12kHz   | FM / Digital voice     | Repeater Input exclusive (                                            |      | c ) |
+| 12kHz   | FM / Digital voice (i) | Space communication ( 145.2375 FM Internet Voice Gateway              | p    | )   |
+| 12kHz   | FM / Digital voice (i) | 145.2875 FM Internet Voice Gateway 145.3375 FM Internet Voice Gateway |      |     |
+|         |                        | 145.375 digital voice calling                                         |      |     |
+|         |                        | 145.500 FM calling                                                    |      |     |
+| 12kHz   | FM / Digital voice     | Repeater Output exclusive (                                           | c, d | )   |
+| 12kHz   | FM / Digital voice (i) | Space communication (                                                 | p    | )   |
+| 12kHz   | ALL MODE (e)           | Satellite exclusive                                                   |      |     |
+
+# Notes: BANDPLAN
+
+The following notes are part of the officially adopted IARU Region 1 bandplan, and all member societies should strongly promote adherence to the recommendations made in these notes.
+
+#### General:
+
+- i. In Europe no input or output channels of telephony repeaters shall be allowed to operate between 144.000 and 144.794 MHz.
+
+- a. Telegraphy is permitted over the whole band, except in the beacon band; Telegraphy exclusive between 144.000 - 144.110 MHz. (except satellite output downlink to earth)
+- b. Refer to Beacons Chapter for coordination of beacons in the beacon sub-band Section-
+- c. For technical standards on FM and repeaters PART 3 section 8.2 If there is a real need for more repeater channels it is recommended that Societies or Repeater Groups consider setting up a repeater system on the higher frequency band(s). Further to this subject the following recommendation was adopted in. De Haan, 1993: For the numbering of FM telephony channels, see annex 2 to this section.
+- d. Established simplex frequencies on repeater output channels may be retained.
+- e. In view of the important public relations aspect of amateur satellite activities, it was decided at the IARU Region 1 Conference in Miskolc Tapolca (1978) that:
+  - i. AMSAT will be allowed to use the band 145.8 146.0 MHz for amateur satellite activity.
+  - ii. This decision was re-confirmed at the IARU Region 1 Conference in Brighton (1981).
+  - iii. see also footnote p
+- f. No unmanned stations shall use the all-mode segment, except for linear transponders and ARDF beacons. (Tel Aviv 1996, San Marino 2002)
+- i. This segment is for simplex use only with no Digital Voice gateways. Embedded data traffic is allowed along with digital voice. Digital Voice users should check that the channel is not in use by FM.
+- j. Amateur Satellite Linear Transponder down-links. Subject to agreement with Region-2 and 3
+
+### Notes: Usage
+
+The following notes are referring to the Usage column in the bandplan. As already set out in the introduction to section IIc, in the right amateur spirit operators should take notice of these agreements which are made for operating convenience, but no right to reserved frequencies can be derived from a mention in the Usage column or from the following notes.
+
+Footnotes:
+
+- k. Not used
+- l. Not used
+- m. Deleted (VGC 2020)
+- n. Deleted (Varna 2014)
+- o. Not used
+- p. For FM voice communications with special stations like manned spacecraft it is recommended to use 145.200 MHz for simplex operation or 145.200/145.800 MHz for split-channel operation (Vienna 1995/Tel Aviv 1996).
+- q. It is recognised that in the IARU Region 1 rules for the Championships in Amateur Radio Direction Finding (ARDF) competitions, the frequencies for the unmanned beacons are in the segment 144.500 – 144.900 MHz. These beacons run low power and are on the air only during ARDF events. (Davos 2005)
+- r. No transmission shall be made below 144,0025 MHz\* (Varna 2014)
+
+\*so that a necessary guard band is provided at the bottom edge
+
+### National usage notes
+
+Some countries have existing use at:
+
+- • 144.660-144.690 Linear Transponder Inputs
+- • 144.630-144.660 Linear Transponder Outputs
+
+# 430 – 440 MHz
+
+|         |        | MODE     | USAGE |                         |
+|---------|--------|----------|-------|-------------------------|
+| ( d )   |        |          |       |                         |
+|         | 2700Hz | All mode |       |                         |
+|         |        | MGM      |       | Beacons exclusive ( b ) |
+| 432.493 | 500 Hz | EMGM     |       | Experimental MGM        |
+
+### Notes: BANDPLAN
+
+The following notes are part of the officially adopted IARU Region 1 bandplan, and all member societies should strongly promote adherence to the recommendations made in these notes.
+
+- a) In Europe no input or output channels of telephony repeaters shall be allowed to operate between 432 and 433 MHz ( From 1-1-2004 those frequencies are between 432.000 and 432.600 MHz )
+- b) FM telephony channels and Repeaters are specified in chapter 24.2.1
+- c) ATV Repeater outputs are not permitted in the 435MHz band (Varna 2014)
+
+### Footnotes
+
+- a. Refer to Beacons Chapter for coordination of beacons in the beacon sub-band See Section 5.1.1
+- As of 1-Jan-2021 Analogue ATV and SATV is no longer permitted in the 430-440 MHz band. ATV operators are encouraged to use the microwave allocations where available, but may use narrower bandwidth DATV modes in the 436-438 MHz band. See 1.5.4 for further guidance for DATV and experimental Data usage. In case of interference between DATV/Data and the Amateur Satellite Service, the Satellite Service shall have priority.(VGC2020) The words "Sub-regional (national) bandplanning" appearing in IARU Region 1 VHF/UHF/Microwave bandplans mean the following:
+
+In bands and sub-bands not available throughout Region 1, band-planning should be coordinated on a sub-regional basis between the countries where those bands and sub-bands are allocated to the Amateur Service. The words "national bandplanning" refer to bands/segments which are available only in a single country (such as the 70 MHz band allocation), or only in a few widely separated countries.(Torremolinos
+
+### 1990)
+
+- b. Not used
+
+Embedded data traffic is allowed along with digital voice. Digital Voice users should check that the channel is not in use by other modes
+
+### Notes: Usage
+
+The following notes are referring to the Usage column in the bandplan. As already set out in the introduction to section IIc, in the right amateur spirit operators should take notice of these agreements which are made for operating convenience, but no right to reserved frequencies can be derived from a mention in the Usage column or from the following notes ( except where 'exclusive' is mentioned).
+
+### Footnotes
+
+- f. The HB/DL/OE wide-shift repeater system, already in use for a long time, is valuable with a view to a better utilisation of the whole band. Hence IARU Region 1 endorses the system. This also applies for the French repeater channel system, also adopted by the Netherlands and Belgium, which IARU Region 1 supports as a useful measure to fill a hitherto unused part of the band.
+- g. In the Usage section of the 435 MHz bandplan the following frequency segments have been designated for digital communications:
+  - i. 430.544 430.931 MHz Extension of the 7.6 MHz repeater system input for digital communication 438.194 - 438.531 MHz Output channels for the above
+  - ii. 433.619 433.781 MHz 438.019 - 438.181 MHz
+  - iii. 430.394 430.581 MHz For digital communication links 439.794 - 439.981 MHz For digital communication links
+
+With due regard to the band allocated to the Amateur Service by the national Administration, the interests of other users, possible interference from e.g. ISM, the specific digital technique or system to be accommodated etc., a sub-regional, or national choice may be made within the above segments.
+
+- h. In those countries where 433.619 433.781 MHz is the only segment of the 435 MHz band available for digital communications, modulation techniques requiring a channel separation exceeding 25 kHz should not be used. If different or incompatible use of this part of the frequency spectrum in
+
+contemplated in neighbouring countries, this use should be coordinated between the countries concerned with the aim of avoiding harmful interference.
+
+- i. On a temporary basis, in those countries where 433.619 433.781 MHz is the only segment of the 435 MHz band available for Digital Communications:
+  - i. Channels with centre frequencies 432.500, 432.525, 432.550, 432.575, 434.450, 434.475, 434.500, 434.525, 434.550 and 434.575 may be used for digital communications.
+  - ii. Use of these channels must not interfere with linear transponders.
+  - iii. Modulation techniques requiring a channel separation exceeding 25 kHz must not be used on these channels. (De Haan, 1993)
+- j. At the IARU Region 1 Conference in Torremolinos (1990) the following recommendation was adopted regarding the segments for repeaters and links, shown in footnote g:
+
+For a repeater/link to be installed within 150 km of a national border, the member society should co-ordinate the frequency allocation and the technical (system) data with the member societies in neighbouring countries. Special attention should be paid to the common good practice of using directional antennas and the minimum power necessary.
+
+As a matter of course this agreement is also valid for any link experiments carried out on the multi-mode channels in the segment 438.544--438.631 MHz.
+
+- k. These multi-mode channels are to be used for experimenting with new transmission technologies
+- l. In the United Kingdom the use of low-power speech repeaters on repeater channels in the segment 438.419--438.581 is allowed. Where necessary, frequencies will be coordinated with neighbouring countries.
+- m. Experiments using wide band digital modes may take place in the 435 MHz band by staying in the segment.
+- n. Common frequencies for Simplex (FM) Internet voice gateways are: 433.950, 433.9625, 433.975, 433.9875, 434.0125, 434.025, 434.0375, 434.050 MHz
+- o. All Voice repeater channels may use FM or Digital Voice modes. (Cavtat 2008)
+- p. 125kHz Max BW Data (such as LoRa etc)' to enable experiments of other modes more easily.
+
+# National usage notes
+
+q. Some countries have existing use at:
+
+| 432.500-432.600 | Linear Transponder | Inputs  |
+|-----------------|--------------------|---------|
+| 432.600-432.800 | Linear Transponder | Outputs |
+| 439.9875        | POCSAG (Paging)    |         |
+
+439.9875 POCSAG (Paging)
+
+- r. In countries without access to the full 70 cm band, the following 12,5 kHz repeater channels with a 1.6 MHz separation between uplink and downlink can be implemented:
+  - a. Input Frequencies (uplink) 431,225 431,600 MHz
+  - b. Output Frequencies (downlink) 432,825 433,200 MHz
+
+This needs international coordination if necessary
+
+# **1.5.4 DATV and Experimental Data usage in the 436-438 MHz Band (VGC 2020)**
+
+If the 436-438MHz amateur satellite section is used for DATV or other experimental Data developments, it shall be on the following basis:
+
+- DATV (like Voice) Repeater outputs are not permitted
+- DATV Internet gateways are not permitted
+- DATV Repeater inputs are permitted (eg for cross band usage)
+- DATV Simplex usage is permitted
+- Transmission times by DATV/Data users should be as short as possible
+
+Any DATV and adhoc simplex Data usage of similar bandwidths to DATV, should be compliant with the Region 1 Technical Recommendations for DATV in Section-9.4 and in particular the maximum bandwidth. No other fixed infrastructure for nodes, gateways, DV hot-spots or repeaters are permitted in 436-438MHz.
+
+# 1200 – 1300 MHz Bandplan
+
+| Frequency Maximum |                                 |                                                      |                                         |
+|-------------------|---------------------------------|------------------------------------------------------|-----------------------------------------|
+| MHz Bandwidth     | MODE                            |                                                      | USAGE                                   |
+| 2700 Hz           | ALL MODE                        | (reserved for future)                                |                                         |
+| 500Hz             | Telegraphy MGM                  | Beacons (reserved for future)                        |                                         |
+| 20kHz             | FM                              |                                                      |                                         |
+|                   | Digital voice                   | (reserved for future)                                |                                         |
+| 20kHz             | ALL MODE                        |                                                      |                                         |
+|                   |                                 | 1240.000-1241.000                                    | Digital communications                  |
+|                   |                                 | 1242.025-1242.250                                    | Repeater output, ch. RS1 - RS10         |
+|                   |                                 | 1242.275-1242.700                                    | Repeater output, ch. RS11 - RS28        |
+|                   |                                 | 1242.725-1243.250                                    | Digital communications, ch. RS29 - RS50 |
+| (d)               | ATV                             |                                                      |                                         |
+|                   | Digital ATV                     | 1258.150-1259.350                                    | Repeater output, ch. R20 - R68          |
+| (d)               | Satellite Service               |                                                      |                                         |
+| 20kHz             | All Mode                        |                                                      |                                         |
+|                   |                                 | 1270.025-1270.700                                    | Repeater input, ch. RS1 -- RS28         |
+|                   |                                 | 1270.725-1271.250                                    | Digital communication,                  |
+|                   |                                 |                                                      | ch. RS29 -- RS50                        |
+| (d)               | ATV Digital ATV                 |                                                      |                                         |
+| 20kHz             | FM Digital voice Repeater INPUT | RM0 (1291.000) -- RM19 25kHz spacing RM19 (1291.475) |                                         |
+| (d)               | ALL MODES                       | 1293.150-1294.350 R20 (1293.150) R68 (1294.350)      | Repeater input,                         |
+| 500Hz             | Telegraphy                      |                                                      |                                         |
+|                   | MGM                             | 1296.00-1296.025                                     | Moonbounce                              |
+
+| 1296.200                                      | Narrow-band centre of activity |
+|-----------------------------------------------|--------------------------------|
+| 1296.400-1296.600                             | Linear transponder input       |
+| 1296.500                                      | Image center (SSTV, Fax etc)   |
+| 1296.600                                      | Narrowband Data center         |
+| 1296.600-1296.700                             | Linear transponder output      |
+| 1296.741- 1296.743                            | experimental MGM (500Hz)       |
+| 1296.750-1296.800                             | Local Beacon (10W ERP max)     |
+| 500Hz Telegraphy                              |                                |
+| (25 KHz spacing -                             | SIMPLEX)                       |
+| (25 KHz spacing -                             | SIMPLEX)                       |
+| 20kHz All modes                               |                                |
+| 150kHz All modes                              |                                |
+| Arranged as 5 x150kHz channels for high speed | Digital Data (DD)              |
+| (+/- 75kHz)                                   |                                |
+| 20kHz All modes                               |                                |
+| 8x25kHz channels (available for FM/DV use)    | :                              |
+
+### Notes: BANDPLAN
+
+The following notes are part of the IARU Region 1 bandplan for this band, originally adopted during the IARU Region 1 Conference at Noordwijkerhout (1987), and all member societies should strongly promote adherence to the recommendations made in these notes.
+
+At the IARU Region-1 Conference at Cavtat (2008), Recommendation CT08\_C5\_27 was adopted which designated the 1240.0-1240.75MHz segment as an alternative narrowband section and makes a series of recommendations for replanning other parts of the band for DATV and Digital Voice & Data
+
+- a. deleted
+- b. Refer to Beacons Chapter for coordination of beacons in the beacon sub-band Section
+- c. In countries where 1298 1300 MHz is not allocated to the Amateur Service (e.g. Italy) the FM simplex segment may also be used for digital communications.
+- d. Bandwidth limits according to national regulations.
+- e. Embedded data traffic is allowed along with digital voice. Digital Voice users should check that the channel is not in use by other modes
+
+### Notes: Usage
+
+The following note refers to the Usage column in the bandplan. As already set out in the introduction to section IIc, in the right amateur spirit operators should take notice of these agreements which are made for operating convenience, but no right to reserved frequencies can be derived from a mention in the Usage column.
+
+During contests and band openings, local traffic using narrow-band modes should operate between 1296.500 - 1296.800 MHz.
+
+# 2300 – 2450 MHz Bandplan
+
+| Frequency Maximum |                                 |
+|-------------------|---------------------------------|
+| Mode              | Usage                           |
+| 20 kHz ALL MODES  |                                 |
+| 2304 - 2306       | Narrow band segment in          |
+| 2308 - 2310       | Narrow band segment             |
+| 2320.000-2320.025 | EME                             |
+| 2320.200          | SSB centre of activity          |
+| 2320.750-2320.800 | Local Beacons                   |
+| 2322.000-2355.000 | ATV                             |
+| 2355.000-2365.000 | Digital                         |
+| 2365.000-2370.000 | Repeaters                       |
+| 2370.000-2392.000 | ATV                             |
+| 2392.000-2400.000 | Digital                         |
+| 2400 - 2402       | Narrow band segment in          |
+| 2400,800 –        | 2401,000 Coordinated NB beacons |
+| 2427.00 -         | 2443.00 ATV if no satellite     |
+
+## Notes: BANDPLAN
+
+## a. The words "Sub-regional (national) bandplanning" appearing in IARU Region 1
+
+VHF/UHF/Microwave bandplans mean the following: In bands and sub-bands not available throughout Region 1, band-planning should be coordinated on a sub-regional basis between the countries where those bands and sub-bands are allocated to the Amateur Service. The words "national bandplanning" refer to bands which are available only in a single country (such as the 70 MHz band allocation), or only in a few widely separated countries. (Torremolinos 1990)
+
+- b. In countries where the ALL MODES segment 2322 2400 MHz is not allocated to the Amateur Service, the FM SIMPLEX & REPEATER segment 2321 - 2322 MHz may be used for digital data transmissions. For the specification of FM see section VIb
+- c. In countries where the narrow-band segment 2320 2322 MHz is not available, the following alternative narrow-band segments can be used:
+  - 2304 2306 MHz
+  - 2308 2310 MHz
+  - 2400 -2402 MHz
+
+# 3400 -3475 MHz
+
+| Mode     | Usage                               |
+|----------|-------------------------------------|
+| 3400.100 | Centre of activity and EME (b)      |
+|          | 3400.750-3400.800 Local Beacons (d) |
+| ALL MODE | SATELLITE DOWNLINKS (a) (c)         |
+
+## Notes: BANDPLAN
+
+- a. CEPT footnote ECA17 no longer includes 3400-3410 MHz. However the CEPT ECA Table (ERC Report 25) still includes amateur service as a secondary allocation in 3400-3410 MHz
+- b. EME Centre of Activity has migrated from 3456 to 3400.1MHz to promote harmonised usage and activity
+- c. Amateur Satellite Service is allocated in 3400-3410MHz in Regions 2&3 and in some countries of Region-1.
+- d. 3400.750-3400.800MHz may be designated for Local Beacon use (10W ERP max) by National Societies.
+- e. Refer to Beacons Chapter for coordination of beacons in the beacon sub-band
+
+# 5650 – 5850 MHz Bandplan
+
+| Frequency | Maximum |           |                                             |
+|-----------|---------|-----------|---------------------------------------------|
+|           |         | Mode      | Usage                                       |
+|           |         | ALL MODES | AMATEUR SATELLITE SERVICE ( up-link )       |
+| 5760.000  |         | ALL MODES |                                             |
+|           | 2700 Hz | ALL MODES |                                             |
+|           |         |           | 5760.200 Narrow band center of activity (a) |
+|           |         |           | 5760.750-5760.800 Local Beacon (d)          |
+|           |         | ALL MODES | (d)                                         |
+|           |         | ALL MODES | AMATEUR SATELLITE SERVICE (down-link)       |
+
+## Notes: BANDPLAN
+
+- a. Societies are urged to inform their members that stations should preferably be able to operate in both narrow-band segments.
+- b. 5760.750-5760.800MHz may be designated for Local Beacon use (10W ERP max) by National Societies.
+- c. Refer to Beacons Chapter for coordination of beacons in the beacon sub-band
+- d. Any wideband system shall protect narrowband applications, which have priority
+
+# 10.000 – 10.500 GHz Bandplan
+
+| Frequency Maximum |                                                                                                                       |
+|-------------------|-----------------------------------------------------------------------------------------------------------------------|
+|                   | Mode Usage                                                                                                            |
+| 10.150            | MGM                                                                                                                   |
+| 10.250            | ALL MODES                                                                                                             |
+| 10.350            | MGM ALL MODES                                                                                                         |
+| 2700 Hz           | ALL MODES 10.3682 Narrow band center of activity                                                                      |
+|                   | 10368.750-10368.800 Local Beacon (d)                                                                                  |
+| 10.368.990        | BEACONS ONLY (c) ALL MODES ALL MODES                                                                                  |
+|                   | 10.450-10.452 Narrow band modes in countries where 10.368-10.370 is not available ALL MODES AMATEUR SATELLITE SERVICE |
+
+# Notes: BANDPLAN
+
+- a. In those countries where the narrow-band segment 10368 10370 MHz is not available, the segment 10450 - 10452 MHz is suggested as an alternative narrow-bandwidth segment.
+- b. 10368.750-10368.800 may be designated for Local Beacon use (10W ERP max) by National Societies.
+- c. Refer to Beacons Chapter for coordination of beacons in the beacon sub-band Section
+
+# 24.000 – 24250 GHz Bandplan
+
+| Frequency GHz | Maximum |           |                                                 |
+|---------------|---------|-----------|-------------------------------------------------|
+|               |         | Mode      | Usage                                           |
+|               |         | ALL MODES | 24.025 Wideband centre of activity (Varna 2014) |
+|               | 2700 Hz | ALL MODES |                                                 |
+|               |         | ALL MODES | BEACONS (c)                                     |
+|               | 2700 Hz | ALL MODES |                                                 |
+
+### Notes: BANDPLAN
+
+- a. Deleted (Varna 2014)
+- b. 24048.750-24049.800MHz may be designated for Local Beacon use (10W ERP max) by National Societies.
+- c. Refer to Beacons Chapter for coordination of beacons in the beacon sub-band
+
+# 47.000 – 47.200 GHz Bandplan
+
+| Frequency | Maximum |           |           |                                |
+|-----------|---------|-----------|-----------|--------------------------------|
+|           |         | Mode      |           | Usage                          |
+|           | 2700 Hz | ALL MODES |           |                                |
+|           |         |           | 47.088200 | Narrow band center of activity |
+
+# 75.500 – 81.500 GHz Bandplan
+
+| Frequency | Maximum |          |                                                          |
+|-----------|---------|----------|----------------------------------------------------------|
+|           |         | Mode     | Usage                                                    |
+|           | 2700 Hz | All Mode |                                                          |
+|           |         |          | 75976.200 MHz : Preferred Narrow band centre of activity |
+|           | 2700 Hz | All Mode |                                                          |
+|           |         | All Mode | ALL MODES                                                |
+
+# Notes: BANDPLAN
+
+- a. Preferred in those CEPT countries having implemented ECA35.
+- b. Between 77.5 and 78 GHz the amateur and amateur satellite service have a primary/exclusive status and between 75,5-76 GHz a primary status through ECA footnote ECA35 in CEPT countries, while the status is secondary in the remainder of the allocation. The all mode section in the secondary segment should only be used in case the preferred segment cannot be used
+- c. Preferred in those countries not having implemented ECA35
+
+# 122.250 – 123.000 GHz Bandplan
+
+| Frequency | Maximum |          |                   |
+|-----------|---------|----------|-------------------|
+|           |         | Mode     | Usage             |
+|           | 2700 Hz | All Mode | NARROW BAND MODES |
+
+# 134.000 – 141.000 GHz Bandplan
+
+| Frequency | Maximum |           |                                            |
+|-----------|---------|-----------|--------------------------------------------|
+|           |         | Mode      | Usage                                      |
+|           |         | ALL MODES | AMATEUR SATELLITE SERVICE                  |
+|           | 2700Hz  | ALL MODES | 134.930 GHz Narrow band center of activity |
+|           |         | ALL MODES | (not preferred) (a)                        |
+
+# Notes: BANDPLAN
+
+- a) Between 134 and 136 GHz the amateur and amateur satellite service have a primary/exclusive status, while the status is secondary in the remainder of the allocation. The all mode section in the secondary segment should only be used in case the preferred segment cannot be used
+
+# 241.000 – 250.000 GHz Bandplan
+
+| Frequency Maximum |                         |
+|-------------------|-------------------------|
+| Mode              | Usage                   |
+| ALL MODES         | (not preferred) (a)     |
+| ALL MODES         | (Preferred segment) (b) |
+
+# Notes: BANDPLAN
+
+- a. The all mode section in the secondary segment should only be used in case the preferred segment cannot be used
+- b. Between 248 and 250 GHz the amateur and amateur satellite service have a primary/exclusive status, while the status is secondary in the remainder of the allocation
+
+# Additional Band plans
+
+These band plans are only in use in some countries who have access to those frequencies. They can serve as an example for future use in other countries of Region 1.
+
+# Table 1 Irish 40–44 MHz (8 metre) Band Plan for Amateur Service
+
+| Frequency Maximum |                                               |
+|-------------------|-----------------------------------------------|
+|                   | Mode (a) Usage                                |
+| 1000 Hz           | Telegraphy MGM                                |
+| 500 Hz            | Telegraphy                                    |
+|                   | 40.190 – 40.200 future intercontinental CW DX |
+| 2700 Hz           | Telegraphy SSB                                |
+|                   | 40.200 – 40.230 future intercontinental SSB   |
+| 20 kHz            | All Modes                                     |
+| 1000 Hz           | Telegraphy MGM                                |
+|                   | 40.661 – 40.674 Slovenia                      |
+|                   | 40.675 – 40.679 South Africa                  |
+|                   | ISM band 40.66 – 40.70 MHz                    |
+| 2700 Hz           | Telegraphy MGM SSB                            |
+
+| 40.700                            | Applicable for countries where Amateur Service is limited to all or parts of the ISM band                                                                                   |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 40.66 –                           | 40.70 MHz 40.710-40.890 FM/DV Repeater Inputs, 20 kHz spacing 1.1 MHz I/P-O/P 41.210 -41.390 FM/DV Repeater Inputs, 20                                                      |
+| 20 kHz All Modes                  |                                                                                                                                                                             |
+| kHz spacing (paired with 56.810 – | 56. 990 15.6 MHz I/P-O/P) 41.410 -41.590 FM/DV Simplex 41.500 FM calling frequency                                                                                          |
+| 41.810 – channel)                 | 41.990 FM Repeater Outputs, 20 kHz spacing (paired with 40.710-40.890 1.1 MHz I/P-O/P spacing) 42.000-43.000 simplex 12.5 kHz spacing 42.500 FM calling frequency (12.5 kHz |
+| 500 KHz All modes                 |                                                                                                                                                                             |
+| Could be paired with 52 –         | 54 MHz and/or 54- 56 MHz (subject to the outcome of WRC-19 and/or the CEPT ECA                                                                                              |
+
+# Table 2 Irish 54.0–69.9 MHz (5 metre) Band Plan for Amateur Service
+
+| Frequency Maximum |                        |                                               |
+|-------------------|------------------------|-----------------------------------------------|
+|                   | Mode (a)               | Usage                                         |
+| 500 kHz           | All modes              | Could be paired with 43-45 MHz                |
+| 20 kHz            | All Modes              |                                               |
+|                   |                        | 56.010 – 56.090 1.8 MHz I/P-O/P FM/DV         |
+|                   |                        | 56.100 – 56.800 Digital communications        |
+|                   |                        | 56.810 – 56.990 15.6 MHz I/P-O/P FM/DV        |
+|                   |                        | 57.810 – 57. 990 1.8 MHz I/P-O/P FM/DV        |
+| 20kHz             | All Modes              |                                               |
+|                   |                        | 58.000 – 58.475 FM/DV Simplex                 |
+|                   |                        | 58.540 – 58.580 Simplex FM Internet Voice     |
+| 2700 Hz           | MGM                    |                                               |
+|                   |                        | 59.510 – 59.520 EME centre of activity        |
+|                   |                        | 59.520 – 59.580 MS centre of activity         |
+| 2700 Hz           | SSB Telegraphy         |                                               |
+| 500 Hz            | Telegraphy exclusive   |                                               |
+|                   |                        | 59.890 CW International calling and centre of |
+| 1000 Hz           | MGM                    |                                               |
+| 8 MHz             | Experimental Broadband | Centre Frequency 65.00                        |
+
+# MANAGING FREQUENCY ALLOCATIONS & BAND PLANNING
+
+# Introduction to VHF/UHF/µWaves bands and bandplans
+
+# Amateur and Amateur Satellite Service frequency allocations above 30 MHz
+
+Current frequency allocations to the Amateur Service and the Amateur Satellite Service from 30 MHz upwards, as established at the WARCs 1979 and maintained at the WARC 1991 (Torremolinos), 2000 (Istanbul) and 2003 (Geneva), are set out in section 2.2., which also gives some other useful information extracted from the ITU Radio Regulations.
+
+ITU Regulations strongly recommend that Radio Services use their frequency allocations rationally and economically. With an eye to the retention of the frequencies allocated to the Amateur Service and the Amateur Satellite Service it follows that full use should be made of all amateur bands, including the shared bands (Recommendation adopted at the IARU Region I Conference in Stresa, 1956).
+
+Particularly the use of the UHF/Microwaves bands should be encouraged by stressing UHF and Microwaves technique in amateur magazines and by organising contests, meetings, conferences etc. especially aimed at stimulating UHF and Microwaves activity (Recommendation adopted at the IARU Conference in Brussels, 1969).
+
+# IARU-R1 Bandplanning: principles
+
+At the meeting of the IARU Region 1 VHF/UHF/Microwaves Committee at Düsseldorf, April 1989, the following principles of bandplanning were adopted. In the same month these principles were accepted as (interim) Region 1 policy by the Executive Committee of IARU Region 1. They were definitely adopted at the IARU Region 1 Conference in Torremolinos, 1 - 6 April 1990.
+
+## Basis
+
+Many of the transmission modes and techniques currently used in the Amateur Service, such as ATV, RTTY, FAX, repeaters, satellites etc. are not or not fully compatible. To make orderly communication on and efficient use of the amateur bands possible, bandplanning is mandatory.
+
+The basic philosophy behind bandplanning should be:
+
+- *to assign frequencies for certain activities in such a way that all current users can practice the various modes of amateur radio with a minimum of mutual interference, provided they are using state-of-the-art equipment and communication techniques*.
+
+Possibilities for shifts and/or extensions in the plan, which undoubtedly will become necessary in view of future developments in techniques and communication modes should be carefully considered before adopting a bandplan.
+
+- *to avoid, through careful planning, the necessity of drastic changes in future, as this type of changes could lead to technical difficulties and/or large expenses for many amateurs (for instance, a complete change in repeater channel frequencies).*
+- *With good anticipation only gradual changes, adaptations and additions should be required in the course of time.*
+
+All bandplanning should be in accordance with the I.T.U definitions of the Amateur Service and the
+
+- Amateur Satellite Service as found in the I.T.U. Radio Regulations:
+- *S1.56 Amateur Service: A radiocommunication service for the purpose of self-training, intercommunication and technical investigations carried out by amateurs, that is, by duly authorized persons interested in radio technique solely with a personal aim and without pecuniary interest.*
+
+- *S1.57 Amateur Satellite Service: A radiocommunication service using space stations on earth satellites for the same purposes as those of the Amateur Service*
+
+In accordance with the IARU principle of using Primary and Primary Exclusive allocations in preference to secondary allocations, it is recommended that Amateur and Amateur Satellite weak-signal operation should, wherever possible, use the 500 MHz segment 75.5 GHz to 76.0 GHz as per CEPT Footnote ECA35 in the European Frequency Tables. Region 1 societies in CEPT countries should encourage their administrations to implement ECA35 as soon as possible. The IARU bandplan should be amended accordingly. (Davos 2005)
+
+In the bands above 76 GHz, for example 241 GHz, users are encouraged to use the Primary Exclusive (Davos 2005)
+
+### Remarks on the practical implementation
+
+- *The definition of the Amateur Service implies that bandplanning should take into account all aspects of amateur radio – self-training, intercommunication and technical investigations.* 
+  - Consequently, for any band the bandplan should aim to accommodate for the maximum number of amateur activities (modes, techniques), both now and in the future.
+  - Clearly there are impossible situations: CCIR ATV cannot be carried out in the 144 MHz allocation etc.
+  - No band should, however, be allocated mainly to one aspect of amateur radio.
+  - When, due to its nature, an activity cannot be incorporated within the bandplan of a specific band, it should not be forgotten that we have many bands available above 30 MHz. The more activity we can generate on the higher bands the better for the defense of these bands against the claims of other services!
+- *Technical investigations by amateurs, be it in the classical field of propagation research or on modern digital communication techniques etc. are a laudable and legitimate aspect of amateur activity.* 
+  - However, when using amateur bands for experimenting with communication techniques, the transmitting techniques, the equipment and the frequencies used should never be taken as the closing entry in the chain of development. Within a bandplan the use of optimum bandwidths, transmitting equipment and techniques should be the normal aim for any amateur.
+  - Any required standardisation should also be aimed at the optimum use of amateur frequencies, and be flexible enough to accommodate future improvements.
+- *In view of the large number of (potential) amateur users who will only practice communication, the allocation of part of an amateur band to channelized work, be it FM repeaters or FM simplex, Packet Radio, etc. can often be considered as practically final. Care should be exercised to ensure that other aspects of amateur radio will find sufficient room and that room is available for future developments in the Amateur Service.* 
+  - Techniques used in channelized amateur work should also be state-of-the art. For instance, accommodating more channels should, where possible, be sought within the existing allocation by using more modern techniques, smaller bandwidths etc. Other Radio Services have done this. In the spirit of the definition of the Amateur Service there should be progress in techniques, not just a claim for more spectrum, sticking to old techniques!
+- *FM repeaters provide a communication service to mobile amateur-stations (including hand-held equipment). In some cases they may be installed to aid the accessibility of stations in mountainous areas.* 
+  - They are not intended to make DX contacts possible, and hence their coverage under normal propagation conditions should be limited.
+  - The number of repeater stations installed should be determined by the required regional coverage the expected number of intended users
+
+- FM repeaters should not regularly be used as local chat channels for fixed (home) stations. This interferes with their defined use.
+
+### Coordination process:
+
+Repeater frequency allocations in neighbouring countries within Region-1 should be coordinated in case their coverage pattern would overlap the border.
+
+Coordination with the national society first. For cross-border disputes to co-ordinate with the neighbouring societies relevant coordinators. In the event of escalating to the national regulator that all the affected societies to be informed. This should only be the last resort if steps one and two fail.
+
+The primary purpose of beacons is the checking of propagation conditions, both for every day amateur use and for special propagation research projects. When allocating exclusive segments of a band to beacons regard should be given to:
+
+Reasonable frequency separation is needed to allow for, for instance, auroral spread; Guard bands at the edges of the segment are desirable to prevent de-sensitization of receivers used for beacon projects due to strong local traffic on adjacent frequencies.
+
+#### Some definitions
+
+At the IARU Region 1 Conference 1996 (Tel Aviv) it appeared useful when amending bandplans to use the following definitions:
+
+**An unmanned station** is a station in the Amateur (Satellite) Service which transmits while the license holder of the station is not present. **A network station** is a station in the Amateur Service which has a permanent link to one or more network stations.
+
+# ITU and WRC Frequency Allocations Process
+
+The top-level allocations for all radio services are determined by the ITU Radio Regulations. This includes the amateur service and amateur satellite service. Following the 2012 World Radio Conference (WRC-12), a copy can be found on the ITU website (www.itu.int ) at:-
+
+http://www.itu.int/pub/R-REG-RR-2012 A WRC is held approximately every four years. Any changes to an allocation must be agreed by the administrations of ~190 countries, many of which are grouped into Regional Telecommunications Organisations (RTOs) as per the list below. IARU has only observer status at ITU. The WRC process involves lengthy studies for each agenda item and numerous meetings at national and regional level in the years leading up to a WRC. Each WRC also agrees the agenda items for the next WRC.
+
+In order to defend existing amateur allocations or acquire new ones, Societies must wherever possible engage with the spectrum managers in their National Regulatory Authority. In addition they need to build working relationships with persons in other concerned organisations, where frequency bands are shared with another primary and/or secondary user(s).
+
+CEPT is an example of a RTO and is an association of 48 countries. This makes CEPT the largest RTO and is an influential block of votes at ITU. Proposals for any current or future agenda items at WRC require CEPT administrations to agree a European Common Proposal well in advance of a WRC. A result of the increasing influence of RTOs and other regional bodies is that amateur matters require the early and ongoing support of Societies to engage with their administrations (either in CEPT, or others such as the African or Arab spectrum groups).
+
+For example, at the 2014 Varna General Conference, an early IARU Region-1 proposal to CEPT for a future WRC-18 agenda item for harmonised allocations at 1.8, 50 and 3400 MHz was discussed. It was recommended that it be strongly supported by Member Societies, who in turn would need to engage with their administrations. If successful this would be discussed and agreed as a future agenda item at WRC-15 (along with 5MHz and other agenda items that affect amateur radio).
+
+The Varna Conference and the IARU-AC also noted how the earlier start to the future-WRC preparation process had changed in recent years, along with the growing pressures on amateur spectrum, and that this would feed into Spectrum Strategy.
+
+# List of Regional Telecommunications Organisations (RTOs)
+
+### Region-1: Europe, Africa, Middle East, North Asia
+
+CEPT - European Conference of Postal and Telecommunications Administrations ATU - African Telecommunications Union ASMG - Arab Spectrum Management Group RCC - Regional Commonwealth in the field of communications (Russia et al)
+
+### Region-2: Americas
+
+CITEL - Inter-American Telecommunication Commission
+
+### Region-3: Asia-Pacific
+
+APT - Asia Pacific Telecommunity Channel designation system for VHF/UHF FM channels
+
+# Channel designation system for VHF/UHF FM channels
+
+Although the FM channels can be referenced by their centre frequency, a numbering/naming system for FM channels in the 50 MHz, 145 MHz and 435 MHz is recommended (Tel Aviv 1996) Note: For the microwave bands the "old" numbering system as indicated in the bandplan still is recommended.
+
+### Principle
+
+The system is based upon the following principles:
+
+- *For each band, there should be a "designator letter":*
+  - 1. 51 MHz : **F**
+  - 2. 145 MHz : **V**
+  - 3. 435 MHz : **U**
+- *Each designator letter should be followed by two (for 50 and 145 MHz) or three (for 435 MHz) digits which indicate the channel.*
+- *If a channel is used as a repeater output, its designator should be preceded by the letter "R".*
+- *In the 50 MHz band the channel numbers start at F00 for 51.000 MHz and increment by one for each 10 kHz.*
+- *In the 145 MHz band the channel numbers start at V00 for 145.000 MHz and increment by one for each 12.5 kHz.*
+- *In the 435 MHz band the channel numbers start at U000 for 430 MHz and increment by one for each 12.5 kHz.*
+
+## Examples
+
+| F51   | Simplex frequency 51.510 MHz                              |
+|-------|-----------------------------------------------------------|
+| RF79  | Repeater with output frequency 51.790 MHz                 |
+| V40   | Simplex frequency 145.500 MHz (the old S20)               |
+| RV48  | Repeater with output frequency 145.600 MHz (the old R0)   |
+| U280  | Simplex frequency 433.500 MHz (the old SU20)              |
+| RU002 | Repeater with output frequency 430.025 MHz (the old FRU1) |
+| RU242 | Repeater with output frequency 433.025 MHz (the old RB1)  |
+| RU368 | Repeater with output frequency 434.600 MHz (the old RU0)  |
+| RU692 | Repeater with output frequency 438.650 MHz (the old R70)µ |
+
+### Notes:
+
+- *In the 50 MHz band no FM channels are defined below 51 MHz. (See also footnote e to the 50 MHz bandplan.*
+- *In the 145 MHz band FM channels only exist for the segment with the channel frequencies 145.000 -- 145.800 MHz (the latter channel may be used for a downlink by manned space stations)*
+- *In the 435 MHz band no FM channels are defined in the segment 432.000 MHz - 433.000 MHz*
+
+![](_page_66_Picture_1.jpeg)
+
+# CONTESTING
+
+# RULES IARU R1 50/70 MHZ, 145 MHZ AND UHF/µW CONTESTS New rules for 2021
+
+# Objective
+
+The main objectives are to make as many contacts as possible and to have fun. Other objectives may include improving your operating skills, testing new equipment configurations and techniques, expanding your horizons by operating on the microwave bands and exploring radio propagation.
+
+# Operating modes
+
+IARU recommends avoiding organising any contest where is permitted either the use of digital modes and analogue modes (phone-cw), with the main goal to increase the use of the spectrum efficiently during any contest activity. Member Societies are encouraged to follow for the Subregional Contests.
+
+# Definitions
+
+- **Station**: set of antennas, transmitters and receivers used during the contest on each frequency band (i.e. multiband setups are composed of multiple stations).
+- **Location:** geographical area with diameter of no more than 500 meters where the station resides during the contest.
+- **Call Sign:** identification of the station during the contest. Added prefix and/or suffix do not generate different call sign (i.e. S50AAA/p or DL/S50AAA are the same call sign as S50AAA).
+- **Operator:** an individual that operates the station during the contest using the station's call sign. Operator may reside inside (local operator) or outside (remote operator) the location. During the contest an operator may operate only stations that form one entry.
+- **Entries:**  o **MULTI operator**: stations from the same location, operated by more than one operator and using one callsign on all bands. o **SINGLE operator**: stations from the same location, operated by the same operator and using one callsign on all bands, with no operational assistance of another person during the contest. o **6 HOURS:** stations from the same location, operated by any number of operators and operating according to the 6 hours' time rule. The 6 hour time segment can be divided into maximum two periods. The time of the first QSO sets the start time of the first period. When operating in two periods, the pause between the periods must be longer than 2 hours. The first time difference of 2 hours or more between two consecutive QSOs marks the pause segment. Only the QSOs that fall into the combined 6 hour time segment will be counted for points. Participants are welcome to operate longer than 6 hours and in such case they shall send their complete log (the contest robot will automatically extract the 6 hours part from the log, while the rest of the log entries will be used for cross-checking purposes). o **LOW POWER**: multi or single operator entries, transmitting with total of up to 100 W PEP from the transmitter and using only one directional or omnidirectional antenna system. The same antenna must be used for transmit and receive. Directional antenna system is a single directional antenna or a group (array) of single directional antennas, grouped together to achieve maximum obtainable gain in a given direction (that is, all the antennas in the group shall be pointed in the same direction). Omnidirectional antenna is an antenna with a radiation pattern that has approximately the same gain in all azimuth directions.
+
+# Conditions for entrants
+
+All licensed radio amateurs in Region 1 may participate in the contest.
+
+The entrants must operate within the letter and spirit of the contest. Entrants must operate according to the license conditions of the country where the station resides. Stations operating under special high power license can only entry as check logs.
+
+# Date of contests
+
+- **ARU Region 1 50 MHz MGM Contest will begin on the third Saturday of April**
+- **IARU Region 1 70 MHz MGM Contest will begin on the third Saturday of May**
+- **IARU Region 1 50 MHz (CW-SSB Only) Contest will begin on the third Saturday of June**
+- **IARU Region 1 70 MHz (CW-SSB Only) Contest will begin on the third Saturday of July**
+- **IARU Region 1 145 MHz contest will begin on the first Saturday of September**
+- **IARU Region 1 UHF/Microwaves contest will begin on the first Saturday of October.**
+
+Each contest will commence at 14:00 UTC on the Saturday and end at 14:00 UTC on the Sunday.
+
+# Contest sections
+
+The contests shall comprise the following sections for:
+
+### 50 MHz Contest:
+
+- **SINGLE (SO): single operator entries only CW/SSB)**
+- **MULTI (MO): multi operator entries (only CW/SSB)**
+- **6HOURS (6H): 6 hours entries (only CW/SSB)**
+- **SINGLE (SO-MGM): single operator entries MGM**
+- **MULTI (MO-MGM): multi operator entries MGM**
+- **6HOURS (6H-MGM): 6 hours entries (MGM)**
+
+# 70 MHz Contest:
+
+- **SINGLE (SO): single operator entries (only CW/SSB)**
+- **MULTI (MO): multi operator entries (only CW/SSB)**
+- **SINGLE (SO-MGM): single operator entries MGM**
+- **MULTI (MO-MGM): multi operator entries MGM**
+
+# 145 MHz contest:
+
+- **SINGLE (SO): single operator entries.**
+- **MULTI (MO): multi operator entries.**
+- **SINGLE LOW POWER (SO-LP): single operator low power entries.**
+- **MULTI LOW POWER (MO-LP): multi operator low power entries.**
+- **6HOURS (6H): 6 hours entries.**
+
+# 435 MHz Band:
+
+- **SINGLE (SO): single operator entries.**
+- **MULTI (MO): multi operator entries.**
+- **SINGLE LOW POWER (SO-LP): single operator low power entries.**
+- **MULTI LOW POWER (MO-LP): multi operator low power entries.**
+- **6HOURS (6H): 6 hours entries.**
+
+# 1.3 GHz, 2.4 GHz, 3.4 GHz, 5.7 GHz, 10 GHz bands and for the Millimetre group (the combined group of amateur bands above 10 GHz):
+
+- **SINGLE (SO): single operator entries.**
+
+- **MULTI (MO): multi operator entries.**
+
+# Operating
+
+Only one signal on the band is allowed at any time.
+
+Station must operate from the same location throughout the contest time.
+
+# Contacts
+
+Each station may only be worked once per band. If a station is worked again on the same band, only one contact may count for points. Any duplicate contacts should be logged without claim for points and clearly marked as duplicates.
+
+Contacts made via active repeaters and EME contacts do not count for points.
+
+Competitors are obliged to follow the common definition for a valid QSO (as defined in the VHF Managers Handbook and replicated below). The contest exchange (call, report, QSO number and locator) shall be sent and confirmed on the band where the contact started and only during the contact.
+
+No attempt should be made during the QSO or after the contest to obtain any part of the required exchange information via other communication methods such as the Internet chat channel, WEBDSR and remote receiver outside 500 metres diameter from the station location, DX Cluster, talk-back on another amateur band, telephone etc.. Such a secondary method invalidates the contest QSO.
+
+Correction of logged exchanges after the contest, by use of any database, recordings, email or other method, is not allowed. The log should contain what happened (sent and received) in the band during the contest.(VGC 2020)
+
+Self-spotting is permitted on all media except the DX Cluster (sending lots of self-spots to chat rooms is not recommended and is discouraged).
+
+### Acceptable examples when using a secondary method:
+
+- "Shall we make a sked on 144.388?"
+- "I have QRM, let's move to 144.218 kHz and start again"
+- "Nothing received, please try again" and the QSO starts again
+- "Thank you for a nice QSO" Note: Only after the QSO has completed on the radio!
+
+### Unacceptable examples when using a secondary method:
+
+- "I need your serial number"
+- "Please repeat all information"
+- "Please confirm <report>, <serial number>, <locator> etc."
+
+# Definition for a valid contest QSO:
+
+A valid contact is one where both operators during the contact have:
+
+- mutually identified each other
+- received a contest exchange, and
+- received a confirmation of the successful identification and the reception of the contest exchange.
+
+# Type of emission
+
+# Contacts may be made in **A1A**(CW), **J3E**(SSB) or **F3E**(FM) (**G3E**(PM)).
+
+**MGM** (Machine Generated Mode) modes are allowed only during the 50/70 MHz contest. Every MGM contact shall be properly marked in the LOG with EDI mode **code 7**.
+
+# Contest exchanges
+
+# CW, SSB or FM/PM modes
+
+Code numbers exchanged during each contact shall consist of the RS or RST report, followed by a serial number commencing with 001 for the first contact on each band and increasing by one
+
+for each successive contact on that band. This exchange must immediately be followed by the complete QTH locator (6 digit) of the sending station (examples: 59003 JO20DB or 579123 IN55CC).
+
+All times must be logged in UTC. Call signs logged must be the same as those exchanged over the air by the entrants during the QSO. For contacts on 50 MHz, outside of Region 1, the received locator can be 4 digits and "MM" will be added as 5th and 6th digit.
+
+Correction of logged exchanges after the contest, by use of any database, recordings, email or other method, is not allowed
+
+### MGM modes
+
+Code numbers exchanged during each contact shall consist of the report (as appropriate for the mode in use) and 4-character QTH locator (e.g. IO91). Serial number is not required.
+
+### All times must be logged in UTC.
+
+Call signs logged must be the same as those exchanged over the air by the entrants during the QSO. Correction of logged exchanges after the contest, by use of any database, recordings, email or other method, is not allowed.
+
+# Scoring
+
+## 50 and 70 MHz CW/SSB only, 145 MHz and UHF/Microwave Contests
+
+For the amateur bands up to 10 GHz inclusive, points will be scored on the basis of one point per kilometre, i.e. the calculated distance in kilometres will be truncated to an integer value and 1 km will be added. The centre of each locator square is used for distance calculations. In order to make contest scores comparable, for the conversion from degrees to kilometres a factor of 111.2 should be used when calculating distances with the aid of the spherical geometry equation.
+
+All QSOs including those with unique stations shall count for points (unique station is a station that appears in the log of only one contest entrant).
+
+For the combined higher bands (Millimetre group) the score will be the sum of the points scored on each of the bands, using the following multiplication factors for the number of kilometres scored on each band:
+
+- 24 GHz 1 x
+- 47 GHz 2 x
+- 76 GHz 3 x
+- 122 GHz 4 x
+- 134 GHz 8 x
+- 245 GHz 10 x
+
+## 50 and 70 MHz MGM Contests
+
+The points will be scored on the basis of one point per kilometre, i.e. the calculated distance in kilometres will be truncated to an integer value and 1 km will be added.
+
+The centre of the Large Locator Square (e.g. IO84MM to IO91MM) is used for distance calculations. In order to make contest scores comparable, for the conversion from degrees to kilometres a factor of 111.2 should be used when calculating distances with the aid of the spherical geometry equation.
+
+A QSO between stations in the same Large Locator Square will count for 50 points.
+
+All QSOs including those with unique stations shall count for points (unique station is a station that appears in the log of only one contest entrant).
+
+The final score is total kilometres worked multiplied by the number of large Locator Squares (e.g. IO91) worked.
+
+E.g. 10.000 (total qrb points) x 20 Large Locator Square = Final Score of 200.000 points
+
+# Entries
+
+50 and 70 MHz CW/SSB only, 145 MHz and UHF/Microwave Contests
+
+The entries must be set out in EDI digital/electronic form (refer to VHF Managers Handbook, Part 3 section 5) separately for each frequency band. EDI header shall as a minimum contain the following fields:
+
+- Callsign and WWL used (PCall and PWWLo)
+- Section and band (PSect and PBand)
+- Operators callsigns (RCall for SO entries, RCall and Mope1, Mope2,… for MO entries)
+- E-mail address (RHBBS)
+- TX power in watts (SPowe)
+- Antenna (SAnte); it shall be clearly identifiable how many antenna systems were in use
+
+Logs shall be sent no later than the second Monday following the contest weekend. Late entries will be accepted as check logs.
+
+By submitting the contest or check log, an entrant agrees that he / she has:
+
+- understood the contest rules and agrees to be bound by them,
+- operated according to all the rules and regulations that pertain to his and/or station license,
+- agreed the cross-checked log may be made open to the public, except for the personal data in PAdr1, PAdr2, RName, RAdr1, RAdr2, RPoCo, RCity, RCoun, RPhon and RHBBS lines of EDI file format,
+- agrees the contest organizer can score, amend, publish, republish, print, and otherwise distribute (by any means including paper or electronic) the entry either in its original format, in any other suitable format with or without modifications or combined with the entries from other contestants for entry into the specific contest, other contests, or for other reasons including training, development and advancement of amateur radio,
+- accepts all decisions of the contest organizer as final.
+
+### 50 and 70 MHz MGM Contests
+
+Since MGM modes need proper software packages that can't export their logs in EDI format, it has been decided to permit the upload of WSJT-X and MSHV ADIF files.
+
+For the 2021 year, ADIF files can be directly uploaded to the entry robot at https://iarulogs.rsgbcc.org/cgibin/vhfenter.pl (thanks to RSGB); participants shall declare on the same page all the necessary fields to convert the ADIF file into a valid EDI format :
+
+- Callsign and WWL used (PCall and PWWLo)
+- Section and band (PSect and PBand)
+- Operators callsigns (RCall for SO entries, RCall and Mope1, Mope2,… for MO entries)
+- E-mail address (RHBBS)
+- TX power in watts (SPowe)
+- Antenna (SAnte);
+
+From 2022 the IARU Region 1 Contest Robot will be ready to allow ADIF upload.
+
+Logs shall be sent no later than the second Monday following the contest weekend. Late entries will be accepted as check logs.
+
+By submitting the contest or check log, an entrant agrees that he / she has:
+
+- understood the contest rules and agrees to be bound by them,
+- operated according to all the rules and regulations that pertain to his and/or station license,
+- agreed the cross-checked log may be made open to the public, except for the personal data in PAdr1, PAdr2, RName, RAdr1, RAdr2, RPoCo, RCity, RCoun, RPhon and RHBBS lines of EDI file format,
+
+- agrees the contest organizer can score, amend, publish, republish, print, and otherwise distribute (by any means including paper or electronic) the entry either in its original format, in any other suitable format with or without modifications or combined with the entries from other contestants for entry into the specific contest, other contests, or for other reasons including training, development and advancement of amateur radio,
+- accepts all decisions of the contest organizer as final.
+
+### Stations eligible to win a prize
+
+- In every category of all the IARU Region 1 Contests the stations willing to win their categories must submit their logs individually to the IARU R1 Contest Robot not later than three days after the event (Wednesday 23:59:59 UTC); only these stations will be eligible to the victory and prizes.
+- If the first station in the classification did not send his log before the deadline to be eligible for the victory (34 hours), then the first station which sent his log within the 34 hours deadline will be the winner. (VGC 2020)
+
+# Judging of entries
+
+All logs are checked using custom software and human judgement.
+
+The claimed contact shall be disqualified for any error in the information logged by the entrant. When there is high evidence that the error is due to the wrongly logged information of the transmitting station (i.e. wrong date/time or call/UL) such a LOG shall not be used for adjudication purposes. The final judging of the entries shall be the responsibility of the contest organizer whose decision shall be final.
+
+Entrants deliberately contravening any of these rules, attempting fraud or flagrantly disregarding the IARU Region 1 band plans shall be disqualified. Each VHF Manager and/or national Contest Committee can propose to the contest organizer disqualification or penalization of an entrant.
+
+# Awards
+
+### Section winners:
+
+Certificates will be issued by the contest organizer to the winners of the sections on each band up to 10 GHz and for the Millimetre group.
+
+### Overall winners for UHF/Microwave contest:
+
+The overall winner of the IARU Region 1 UHF/Microwaves contest will be declared separately for the SO and MO sections.
+
+For the overall results tables, the scores of the entrants operating on at least two of the following bands will be combined, using an adaptive multiplier system:
+
+### Millimetre group
+
+Note: SO entries to the 6H section on 435 MHz will be included in the Overall SO classification if the entries on all bands are SO. MO entries to the 6H section on 435MHz will be included in the Overall MO classification.
+
+The band multipliers for the overall score are calculated as follows:
+
+- The multiplier for 435 MHz is one.
+- The multiplier for each of the other bands is equal to the winning score on the 435 MHz band divided by the winning score on each band. The multiplier on each band for the SO and MO sections are determined separately.
+- Example: o Winning score in SO on 435MHz is 200,000 points
+
+- o Winning score in SO on 1.3GHz is 20,000 points o The multiplier for SO on 1.3GHz is 200,000 divided by 20,000 = 10 o So, all scores in SO on 1.3GHz are multiplied by 10 for the Overall SO results table
+- The overall millimetre group scores are calculated according to rule 9 before the multiplier for the millimetre group is calculated.
+
+# RULES IARU REGION I ATV CONTEST
+
+# Goal
+
+Stimulation of ATV activity by organizing a yearly international ATV contest.
+
+# Terms and Definitions
+
+**ATV contest:** Competition of licensed or receive-only ATV stations in a certain period of time, on each VHF/UHF/Microwave band on which ATV transmissions are allowed, using the mode(s) authorised for that band. The distance between stations that make contacts on several bands define the number of earned points.
+
+**Repeater**: A public (amateur) service that (re)transmits received signals that are intended to be received by more than one person.
+
+**Station**: Any person (or group of persons using one call sign) within IARU Region 1 that is able to transmit and/or receive Amateur Television signals from their own location or remotely, without being a repeater. No more than one transmitter may be in use at the same time. The equipment used by one station must not be shared with another station participating in the contest.
+
+**Rover station:** Any station that is not fixed to one location that moves at least a minimum of five kilometres. Every time location is changed the moving station should be considered as a new station with the same call sign. For that reason a new log sheet and four digit code should be used by the moving station. Roving stations are limited to 4 locations (which may include their home location) during the contest.
+
+**Four digit code**: Four random chosen digits. The digits shall neither be the same (e.g. 2222) nor consecutive (e.g. 4567 or 5432).
+
+**Contact:** Contacts are considered to be valid when a four digit code that is transmitted by another ATV station is received. Contacts made via repeaters or transponders are not considered as a contact.
+
+**IARU locator**: The six, eight or ten digits of the IARU locator which is related to the longitude and latitude coordinates of the actual position of the antennae that are used during the contact.
+
+# **Vision report:** The internationally recognized codes P0 to P5:
+
+| on report: | The internationally recognized codes P0 to P5:       |
+|------------|------------------------------------------------------|
+|            | Analogue Digital                                     |
+| P0         | No picture received No picture received              |
+| P1         | Synchronisation with little picture                  |
+| P2         | Only large images (call sign etc.)                   |
+| P3         | Picture noisy but some detail resolved Some blocking |
+| P4         | Picture slightly noisy, but with good                |
+| P5         | Noise-free picture Solid picture                     |
+
+**Log file:** An Excel spreadsheet containing all the information that is needed to judge the contacts made and claimed points. It consists of a standard cover sheet and data sheets for every individual band
+
+- A standard cover sheet contains the essential information required to judge the contest entry. The following information shall be submitted: o name and address of the (first) operator, o station call sign, o IARU locator, o bands used, with the transmitted four-digit code group used for each band, o claimed score for each band.
+
+The coversheet should show the typed name of the (first) operator certifying the correctness of the log(s) submitted. The typed name is the alternative of the signature.
+
+- Data sheets for every individual band containing the following columns in the order named:
+  - date,
+  - time in UTC,
+  - call sign of the station worked/seen,
+  - report sent: P# report followed by serial number,
+  - report received: P# report followed by serial number,
+  - (seen) four digit code,
+  - IARU locator received,
+  - number of points claimed.
+
+# Responsibilities
+
+**Contestants:** Operate within the letter and spirit of the contest and in accordance with the licences of their country. Stations operating under special high power licenses shall do so "hors concours".
+
+Completion and delivery of the entry to the National ATV Manager
+
+**National ATV manager, National VHF manager or the National Contest Committee:** Judge logs in time, send the results within four weeks after the contest to the IARU ATV manager.
+
+**IARU ATV contest manager:** Organize, publish blank log file at least 3 weeks before the contest, judge logs in time, issue results within six weeks after the contest.
+
+# Contest
+
+**Date of contest:** The contest will be held in the second full weekend of June.
+
+**Duration of the contest:** The contest will commence at 12:00 UTC on the Saturday and will end at 18:00 UTC on the Sunday. It is recommended that the national societies will run their ATV contests at the same time as the IARU Region 1 ATV contest takes place.
+
+**Contacts:** For contest scoring purposes a participating station may be worked or viewed only once on each band. A roving station is considered as a new station, every time it has changed its location.
+
+**Contest exchanges:** The following information shall be exchanged during a contact:
+
+- Four digit code. For each band used, a transmitting station shall transmit the four digit code that shall not change throughout the contest. Roving Stations that have changed their location should change their transmitted codes for each new location. There is no requirement for stations contacted to change their codes..
+- THIS FOUR DIGIT CODE SHALL BE EXCHANGED IN VIDEO ONLY AND SHALL NOT BE TRANSMITTED BY ANY OTHER MODE THAN VISION.
+- Call sign
+- Vision report,
+
+- IARU locator (the location of the receiving or transmitting antennae does define the location of the station),
+- Contact serial number, starting with 001 on each band used and increasing by one for each successive contact on that band, starting from one for the new log sheet in use by roving stations).
+
+**Scoring.** A two-way exchange of the four-digit code group by vision using a permitted transmission ATV mode together with the exchange of the other information shall score:
+
+| Band 50 MHz    | Mults 2 |
+|----------------|---------|
+| 435 MHz        | 1       |
+| 1.3 GHz        | 1       |
+| 2.3            | 2       |
+| 3.4            | 2       |
+| 5.7            | 3       |
+| 10             | 3       |
+| 24             | 6       |
+| 47             | 8       |
+| 76             | 8       |
+| 122            | 10      |
+| 134            | 12      |
+| 241 and higher | 14      |
+
+If only one station received the four-digit code group, and the other information was exchanged, the scores for both stations shall be reduced by 50%.
+
+Note: for scoring purposes all valid contacts shall be deemed to have taken place over a distance of at least 5 kilometres, even if the two stations in contact have the same or adjacent IARU locators.
+
+**Scoring Sections:** Two separated classes for each band : **Single-site Stations** and **Roving Stations**.
+
+**Entries:** The entries must be set out on completed log files. A copy of the logs fils shall be sent to the national ATV Manager, national VHF Manager or the national Contest Committee, not later than the third Monday following the contest weekend. The submission of the logs files implies that the entrant accepts these contest rules. Stations in countries without national coordinators should send log files directly to atv@iaru-r1.org
+
+**Judging of entries**: The judging of the entries shall be the responsibility of the IARU Contest Manager, whose decision shall be final. Entrants deliberately contravening any of these rules or flagrantly disregarding the IARU Region 1 band plans shall be disqualified. Minor errors may result in loss of points. The claimed contact will be disqualified for an obviously wrongly stated locator, call sign, code number or a time error of more than 10 minutes.
+
+**Awards:** The winner on each band and the overall leading station shall receive a certificate. The IARU Contest Manager may also send certificates to all entrants if they wish.
+
+# PROCEDURE FOR ORGANISING IARU-R1 1 VHF/UHF/µWAVE
+
+# CONTESTS
+
+The organisation of the IARU contests have been changed during the IARU General conference in Landshut(2017).
+
+It is proposed to create a team of experienced VHF contesters and contest robot owners/de-signers to define common checking rules for automatic contest adjudication applications.
+
+# Terms of reference for the contest working group
+
+### Objectives
+
+- Organisation and conduct of IARU-Region 1 VHF/UHF/SHF contests including: o Collecting logs o Evaluating and judging of the received logs
+- Publication of official results in a timely manner
+- Preparation of awards and certificates
+- Encouragement of new participants, modes, activity and use of the higher frequency bands
+- Promotion of IARU-Region 1 VHF/UHF/SHF to encourage participation by website and other means such as social media
+
+## Responsibilities
+
+- To engage contesters both electronically and at major events such as Friedrichshafen where an annual forum and awards ceremony might occur
+- To maintain and modify contest rules as appropriate
+- To further develop contest organisation
+- To decide when and how the changes to the contest rules and contest organisation would be implemented
+- To maintain an appropriate 'Contesting Handbook' that would be the master refer-ence for the Organisation and Rules of IARU Region-1 VHF/UHF/SHF Contests - including any directly associated procedures and items such as log file formats
+- To arrange for contest information, rules and results to be easily found online
+- To coordinate the development of the contest robot
+- Annual budgeting and expenditure, in cooperation with the C5 Chairman. This budget needs to be approved by the EC.
+- To provide a yearly report to EC
+- To provide reports to C5 meetings
+- To operate in an open and transparent way including: o Regular consultation of contest managers and contesters o Ensure that there is at least 6 months' notice period before any agreed contest rule changes are implemented o In case of serious problems, appeals (or strategic issues), C5/EC would continue to be the arbiter
+
+### Group Membership
+
+The Working Group consists of:
+
+- C5 Contest Co-Ordinator
+- C5 Chair
+- up to seven additional ordinary members
+- Members shall be active contesters. Of the ordinary members, at least one needs to be: o Robot/IT expert o VHF/UHF specialist o Microwave specialist
+
+#### Actual membership
+
+- C5 Contest Co-Ordinator : IV3KKW
+- C5 Chair: PA2DW
+- Project manager: PE1ITR
+- Members: OE1MCU, OK1VAO, F5LEN, S53WW, OM3BH, HA0LC, G0FCT.
+
+Sub-regional VHF/UHF/µWave contest coordination within IARU-R1 It is recommended that the national and sub-regional activity contests rules should be complementary and that those contests should be open to all (National and International contesters) to encourage and promote activity on the VHF, UHF and SHF bands.
+
+In order to avoid confusion and improve efficiency, the submission of contest entries shall be no later than the second Monday after the contest, which is in accordance with the rules approved by IARU Region 1. (Varna 2014)
+
+# MONTHLY DIGITAL ACTIVITY CONTEST
+
+Each MS organizes monthly digital weak signal mode activity contests as described above according to this schedule:
+
+- the 1st Wednesday of the month from 17:00 to 20:00 UTC on the 144 MHz band.
+- the 2nd Wednesday of the month from 17:00 to 20:00 UTC on the 432 MHz band.
+
+The contest managers share the QSO records in the logs for cross checking.
+
+If it is not possible for an MS to organize this activity contests herself, she will at least advertise this activity in her publications.
+
+# MGM CONTEST OPERATING PROCEDURES
+
+# Introduction
+
+MGM is now a mainstream mode alongside SSB and CW for the exchange of contest in-formation, facilitated by the widespread and low cost availability of PCs and free soft-ware.
+
+- The main purpose of this guide is to provide a protocol for the efficient exchange of con-test information when using MGM. However, you will not be penalised for using a differ-ent protocol so long as the complete contest exchange only takes place over the air.
+- The protocol is an extension of standard meteor scatter procedures to include contest information, and the description is based around the standard WSJT-10 messages and modes (the most commonly used in contests), although the same messages may be used with other Machine Generated Modes such as PSK which are not included in the WSJT suite.
+- This Guide does not describe the interconnections between PC and transceiver, since such information is readily available on the internet. All that is required is PTT control via the PC and line in/out connections for transmit and receive audio.
+- This Guide does not describe how to set up or optimise the use of MGM software, nor does it compare the merits of different software applications.
+
+# What needs to be logged?
+
+In VHF contests the following needs to be received over the air and logged accurately by both parties to a contest exchange:
+
+- both calls
+- report (as appropriate for the mode in use)
+- Large Square Locator (4 digit e.g. IO91)
+
+Serial number is not required
+
+# VHF& UP TROPHY
+
+C5CWG propose to use 2021 year to start to collect all the information needed, prepare the contest robot, then start with the official IARU Reg. 1 VHF & Up Trophy in 2022.
+
+# Objective
+
+The main objective is to increase the contest activity during the entire year in all the IARU Region 1 countries on all the bands from 145 MHz to microwaves.
+
+# Dates and bands
+
+- 1st weekend of March : 1st Subregional contest 145 MHz & Up
+- 1st weekend of May: 2nd Subregional contest 145 MHz & Up
+- 1st weekend of June : Microwave Subregional Contest 1296 MHz and up
+- 1st weekend of July: 3rd Subregional contest 145 MHz & Up
+- 1st weekend of September : IARU Region 1 145 MHz contest
+- 1st weekend of October : IARU Region 1 UHF & Up Contest (435 MHz & up)
+- 1st weekend of November : Marconi Memorial Contest 145 MHz (Only CW)
+
+# Rules
+
+- The normal rules like described in the contest rules of the IARU Region 1 VHF Handbook (Part 3, Section
+  - 1) are applicable.
+- If participating in the one of the contests in the list in multiple bands, a different log is needed per band.
+- You need to participate on the same band and category on at least all the contests in the calendar except one.
+- The final score is the sum of the points of each contest where the station participated.
+
+# Categories:
+
+# 145 MHz band:
+
+- SINGLE (SO): single operator entries.
+- MULTI (MO): multi operator entries.
+- SINGLE LOW POWER (SO-LP): single operator low power entries.
+- MULTI LOW POWER (MO-LP): multi operator low power entries.
+- 6 HOURS (6H): 6 hours entries.
+
+### 435 MHz band:
+
+- SINGLE (SO): single operator entries.
+- MULTI (MO): multi operator entries.
+- SINGLE LOW POWER (SO-LP): single operator low power entries.
+- MULTI LOW POWER (MO-LP): multi operator low power entries.
+- 6 HOURS (6H): 6 hours entries.
+
+#### 1.3 GHz, 2.4 GHz, 3.4 GHz, 5.7 GHz, 10 GHz bands and for the Millimetre group (the combined group of amateur bands above 10 GHz):
+
+- SINGLE (SO): single operator entries.
+- MULTI (MO): multi operator entries.
+
+### Stations eligible to win a prize
+
+- The stations willing to win the VHF & Up Trophy must submit their logs individually to the IARU R1 Contest Robot not later than three days after the event (Wednesday 23:59:59 UTC); only these stations will be eligible to the victory and prizes.
+
+# ELECTRONIC CONTEST LOG EXCHANGE
+
+# Introduction
+
+At its meeting in Vienna 1998 the VHF/UHF/Microwaves Committee has recommended the use of the Electronic Contest Log distribution format for the exchange of log information concerning IARU Region 1 Contests. This recommendation has been endorsed by the IARU R1 EC at its 1998 meeting.
+
+The aim of the common file format is to make contest log programmers able to deliver a standard output file from their programs, to enable contest managers to receive logs via data transfer system (e.g. diskettes, Internet) introduce electronic log processing and ease submission for participants.
+
+What media to use is not specified, and is up to the contest manager. If Internet is a reliable medium it is a good choice, however, that does not solve yet the legal issue with the responsible operators signature yet required for IARU Region 1 contests.
+
+When a contest manager invites to a contest she/he should state if electronic log submission is possible, in what way (e.g. INTERNET) and where (managers E-mail address), just like own mailing address. Contest managers must have a validation program to make a complete validation including cross checking etc. Contest participants can use the electronic data file format to submit their logs to the contest manager in time. To be able to do this, participants must use a contest program capable of generating a REG1TEST file.
+
+Note: Many logging programmes do not yet accept a non-numeric character for the T part of the report. Users shall check this according to the recommendation in section.
+
+# Logbook programs supporting EDI
+
+- http://www.rudius.net/oz2m/taclog/
+- http://www.ucxlog.org/
+- http://www.win-test.com/
+- http://lea.hamradio.si/~s52aa/vhfctest4win/
+- http://saigacontest.gmxhome.de/
+- http://www.n1mm.com/
+- http://www.uba.be/sites/default/files/uploads/downloads/WinOnContest.zip
+
+# Standard format for Electronic Contest Log Exchange (Vienna 1998)
+
+Electronic Data Interchange - EDI-file format for contests in Region 1 above 30 MHz. This document is the specification for the Region 1 above 30 MHz contest file formats. Examples for commonly known contests are shown in the appendix.
+
+The aim is to make contest-log programmers able to deliver a standard (file) format from their programs, to enable contest managers to receive log data through various types of digital communication systems e.g. diskettes, e-mail, etc; for electronic evaluation purposes. (Prepared by: Bo Hansen, OZ1FDJ, Søren Pedersen, OZ1FTU)
+
+# Format
+
+|                      | [REG1TEST;1]File identifier; file version                                   |
+|----------------------|-----------------------------------------------------------------------------|
+| TName=               | Contest name                                                                |
+| TDate=               | Beginning;ending date of contest                                            |
+| PCall=               | Callsign used                                                               |
+| PWWLo=               | WWL used                                                                    |
+| PExch=               | Exchange used                                                               |
+| PAdr1=               | Address line 1 from where the contest took place                            |
+| PAdr2=               | Address line 2 from where the contest took place                            |
+| PSect=               | Section in which station participates                                       |
+| PBand=               | Band used during the contest                                                |
+| PClub=               | Club station where points can be accumulated                                |
+| RName=               | Name of responsible operator                                                |
+| RCall=               | Callsign of responsible operator                                            |
+| RAdr1=               | Address line 1 of responsible operator                                      |
+| RAdr2=               | Address line 2 of responsible operator                                      |
+| RPoCo=               | Postal code of responsible operator                                         |
+| RCity=               | City of responsible operator                                                |
+| RCoun=               | Country of responsible operator                                             |
+| RPhon=               | Phone number of responsible operator                                        |
+| RHBBS=               | Home BBS of responsible operator                                            |
+| MOpe1=               | Multi operator line 1                                                       |
+| MOpe2=               | Multi operator line 2                                                       |
+| STXEq=               | TX equipment                                                                |
+| SPowe=               | TX power [W]                                                                |
+| SRXEq=               | RX equipment                                                                |
+| SAnte=               | Antenna                                                                     |
+| SAntH=               | Antenna height above ground level [m];height above sea level [m]            |
+| CQSOs=               | Claimed number of valid QSOs;Band multiplier                                |
+| CQSOP=               | Claimed number of QSO-points                                                |
+| CWWLs=               | Claimed number of WWLs;Bonus per each new WWL;WWL multiplier                |
+| CWWLB=               | Claimed number of WWL bonus points                                          |
+| CExcs=               | Claimed number of Exchanges;Bonus per each new Exchange;Exchange multiplier |
+| CExcB=               | Claimed number of Exchange bonus points                                     |
+| CDXCs=               | Claimed number of DXCCs;Bonus per each new DXCC;DXCC multiplier             |
+| CDXCB=               | Claimed number DXCC bonus                                                   |
+| CToSc=               | Claimed total score                                                         |
+| CODXC= Remarks lines | Call;WWL;distanceBest DX contact [Remarks]Remarks identifier                |
+
+[QSORecords;Number of QSO records following]QSO records identifier;number of QSO records following Date;Time;Call;Mode code;Sent-RST;Sent QSO number;Received-RST;Received QSO number; Received exchange;Received-WWL;QSO-Points;New-Exchange-(N);New-WWL-(N);New-DXCC-(N);Duplicate-QSO- (D)
+
+# Explanation of keywords in header
+
+Keywords are defined as the word in front of the actual argument. The keyword is separated from the argument with an equal sign (=).
+
+### [REG1TEST;1]
+
+REG1TEST;1 is the file identifier and the file version. It serves as indicator for which format and version is being used and where data begins.
+
+#### **TName**
+
+Argument describes the name of the contest in which the station participated.
+
+#### **TDate**
+
+Arguments describe the beginning and ending dates of the contest. Arguments are separated with a semicolon (;). Arguments are written as YYYYMMDD.
+
+### **PCall**
+
+Argument describes the callsign used during the contest.
+
+#### **PWWLo**
+
+Argument describes own World Wide Locator (WWL, Maidenhead, Universal Locator) used during the contest. Maximum length is six characters.
+
+#### **PExch**
+
+Argument describes own Exchange during the contest. This can be any type of information, e.g. Province, DOK, County, State, Power, Name. Maximum length is six characters.
+
+### **PAdr1**
+
+Argument describes the address of the QTH used during the contest, line 1.
+
+### **PAdr2**
+
+Argument describes the address of the QTH used during the contest, line 2.
+
+### **PSect**
+
+Argument describes in which section the station is participating. Synonyms to the meaning Asection@ are: class, category, group etc.
+
+| Section         | PSection              |
+|-----------------|-----------------------|
+| SINGLE          | SO, SINGLE, SINGLE-OP |
+| MULTI           | MO, MULTI, MULTI-OP   |
+| 6 HOURS SINGLE  | SO-6H, SINGLE-OP-6H   |
+| 6 HOURS MULTI   | MO-6H, MULTI-OP-6H    |
+| SINGLE with MGM | SO-MGM, SINGLE-OP-MGM |
+| MULTI with MGM  | MO-MGM, MULTI-OP-MGM  |
+
+### **PBand**
+
+Argument describe which band was used during the contest. Please note the bands and which frequency range they represent in the table below:
+
+Frequency PBand 50 - 54 MHz 50 MHz 70 - 70,5 MHz 70 MHz 144 - 148 MHz 145 MHz 430 - 440 MHz 435 MHz 1240 - 1300 MHz 1,3 GHz 2300 - 2450 MHz 2,3 GHz 3400 - 3600 MHz 3,4 GHz 5650 - 5850 MHz 5,7 GHz 10,0 - 10,5 GHz 10 GHz 24,0 - 24,25 GHz 24 GHz
+
+| 47,0 - | 47,2 GHz | 47 GHz  |
+|--------|----------|---------|
+| 75,5 - | 81 GHz   | 76 GHz  |
+| 120 -  | 120 GHz  | 120 GHz |
+| 142 -  | 148 GHz  | 144 GHz |
+| 241 -  | 250 GHz  | 248 GHz |
+
+#### **PClub**
+
+Argument describes the callsign of the radio club where operator(s) are member. Can be used if points are accumulated to the club etc.
+
+#### **RName**
+
+Argument describes the given- and surname of the responsible operator.
+
+#### **RCall**
+
+Argument describes the callsign of the responsible operator.
+
+### **Adr1**
+
+Argument describes the address of the responsible operator, line 1.
+
+#### **RAdr2**
+
+Argument describes the address of the responsible operator, line 2.
+
+#### **RPoCo**
+
+Argument describes the postal code of the responsible operator.
+
+#### **RCity**
+
+Argument describes the city of the responsible operator.
+
+### **RCoun**
+
+Argument describes the country of the responsible operator.
+
+### **RPhon**
+
+Argument describes the telephone number of the responsible operator.
+
+#### **RHBBS**
+
+Argument describes the Bulletin Board System or electronic mail address of the responsible operator.
+
+#### **MOpe1**
+
+Arguments describe the operators participating in the contest, line 1. All arguments separated with a semicolon (;). Responsible operator is not needed in this argument.
+
+#### **MOpe2**
+
+Arguments describe the operators participating in the contest, line 2. All arguments are separated with a semicolon (;).Responsible operator is not needed in this argument.
+
+### **STXEq**
+
+Argument describes the transmitting equipment used during the contest.
+
+#### **SPowe**
+
+Argument describes the transmitting power used during the contest, unit is Watt.
+
+#### **SRXEq**
+
+Argument describes the receiving equipment used during the contest.
+
+#### **SAnte**
+
+Argument describes the antenna system used during the contest.
+
+#### **SAntH**
+
+Arguments describe the antenna height above ground level and sea level, unit is meter. All arguments separated with a semicolon (;).
+
+### **CQSOs**
+
+Arguments describe the claimed number of valid QSOs and the band multiplier. All arguments are separated with a semicolon (;).
+
+### **CQSOP**
+
+Argument describes the claimed total number of QSO-points. The format does not specify that QSO-points can only be based upon distances.
+
+#### **CWWLs**
+
+Arguments describe the claimed number of WWLs worked, the number of bonus points claimed for each new WWL and the WWL multiplier. All arguments are separated with a semicolon (;).
+
+If no bonus points are claimed then bonus points per each new WWL are set to zero (0). If no multiplication is used for each new WWL the multiplier is set to one (1).
+
+#### **CWWLB**
+
+Argument describes the claimed total number of WWL bonus points.
+
+#### **CExcs**
+
+Arguments describe the claimed number of Exchanges worked, the number of bonus points claimed for each new Exchange and the Exchange multiplier. All arguments are separated with a semicolon (;). If no bonus points are claimed then bonus points per each new Exchange are set to zero (0). If no multiplication is used for each new Exchange the multiplier is set to one (1).
+
+#### **CExcB**
+
+Argument describes the claimed total number of Exchange bonus points.
+
+#### **CDXCs**
+
+Arguments describe the claimed number of DXCCs worked, the number of bonus points claimed for each new DXCC and the DXCC multiplier. All arguments are separated with a semicolon (;). If no bonus points are claimed then bonus points per each new DXCC are set to zero (0). If no multiplication is used for each new DXCC the multiplier is set to one (1).
+
+### **CDXCB**
+
+Argument describes the claimed total number of DXCC bonus points.
+
+#### **CToSc**
+
+Argument describes the total claimed score. The format does not specify how the total score is calculated.
+
+#### **CODXC**
+
+Arguments describe the claimed ODX contact call, WWL and distance. All arguments are separated with a semicolon (;).
+
+#### **[Remarks]**
+
+The [Remarks] identifier is used to mark where the Remarks begins. All lines following, until [QSORecords;Number of QSO records following], are remarks. If no remarks are written identifier must still be present.
+
+#### Remarks lines
+
+Remarks lines are where the station may write comments to the test. The number of lines is variable. All lines in between [Remarks] and [QSORecords;Number of QSO records following] are remarks.
+
+### **[QSORecords;**Number of QSO records following]
+
+The [QSORecords;Number of QSO records following] is the QSO record identifier used to mark where QSO records begins, and how many consecutive QSO records to follow.
+
+### QSO record definition
+
+Date;Time;Call;Mode code;Sent-RST;Sent QSO number;Received RST;Received QSO number;Received Exchange;Received-WWL;QSO-Points;New-Exchange-(N);New-WWL-(N);New-DXCC-(N);Duplicate-QSO-(D) All arguments are separated with a semicolon (;).All fields in the QSO record is written on the same line, and ending with ASCII characters 13 and 10 (CR LF).
+
+| Field Content       | Maximum                                             |                             |
+|---------------------|-----------------------------------------------------|-----------------------------|
+| Date                | YYMMDD, 6 characters                                | 6                           |
+| Time                | UTC, 4 characters, with leading zeros               | 4                           |
+| Call                | 3 to 14 characters                                  | 14                          |
+| Mode code           | 0 or 1 character                                    | 1                           |
+| Sent-RST            | 0 or 2 or 3 characters                              | 3                           |
+| Sent QSO number     | 0 or 3 or 4 characters, with leading zeros          | 4                           |
+| Received-RST        | 0 or 2 or 3 characters                              | 3                           |
+| Received QSO number | 0 or 3 or 4 characters, with leading zeros          | 4                           |
+| Received Exchange   | 0 or 1 to 6 characters (see also PExch)             | 6                           |
+| Received WWL        | 0 or 4 or 6 characters, World Wide Locator          | 6                           |
+| QSO points          | 1 to 6 characters, including bandmultiplier         | 6                           |
+| New-Exchange        | 0 or 1 character, "N" if QSO is a new exchange      | 1                           |
+| New-WWL             | 0 or 1 character, "N" if QSO is a new WWL           | 1                           |
+| New-DXCC            | 0 or 1 character, "N" if QSO is a new DXCCL         | 1                           |
+| Duplicate-QSO       | 0 or 1 character, "D" if contact is a duplicate QSO | 1                           |
+|                     |                                                     | + field separators, 14 = 75 |
+
+### **Mode code**
+
+The mode code is used to show which modes were used for the QSO. Below is a list of the code with corresponding modes.
+
+| Mode code | TX mode       | RX mode                 |
+|-----------|---------------|-------------------------|
+| 0         | none of below | none of below           |
+| 1         | SSB           | SSB                     |
+| 2         | CW            | CW                      |
+| 3         | SSB           | CW                      |
+| 4         | CW            | SSB                     |
+| 5         | AM            | AM                      |
+| 6         | FM            | FM                      |
+| 7         | RTTY - MGM    | RTTY – MGM (Varna 2014) |
+| 8         | SSTV          | SSTV                    |
+| 9         | ATV           | ATV                     |
+
+If the mode is not important it can be left blank, i.e. not stated in rules/invitation.
+
+# Characters
+
+Used characters are in accordance with the 7-bit ASCII alphabet and only characters with the following decimal number are allowed 10, 13, 32-127.
+
+# Line length
+
+If line length is already specified it must not be exceeded, other lines must not exceed a length of 75 characters. Length is limited due to Packet Radio transferral.
+
+All lines, in the format description, with the "F" denote that entry is a *free format*. This means that any of the above characters in the 7-bit ASCII alphabet can be used.
+
+All other entries are *forced format* and characters, as above, are in capital. All numbers in forced format are positive integers and non-exponential notation and entry cannot be left empty, i.e. 0 (zero) or greater. All forced formats must be in accordance with SI-units (Système International).
+
+#### Separator (;)
+
+This separator semicolon (;) is written to separate multiple information on same line.
+
+If the format is used for a contest which does not use some of the QSO exchanges, i.e. QSO no., WWL and Exchange, these fields are left blank. Proper interpretation must be ensured by manager program.
+
+#### Faulty QSOs
+
+A duplicate QSO is marked with a "D" in the Duplicate-QSO field, and the QSO-points field is set to 0 (zero). The format does not define when a QSO is a duplicate.
+
+An incomplete QSO is written with the information received, and the QSO-points field is set to zero (0). In case of a mistake, an error mark must be inserted in the Callsign field to keep a correct flow in the number of QSOs records. The error mark must be an "ERROR" and the other fields except Time and Sent QSO no., if used, can be left empty. In case the empty field is accumulated, e.g. QSO-points, it is set to 0 (zero).
+
+### QSO numbers
+
+The format does not define in what order the QSO numbers must be listed. It is possible to use the format to submit logs for contests requiring consecutive numbers for all QSOs, even if they are on different bands.
+
+### Missing information
+
+If a contest log program cannot fill in all the information, the missing information can be left blank, except if information is needed for claiming/calculating scores, e.g. log program cannot identify WWLs, DXCCs etc. If the information is required for the scores this log program cannot be used for this particular contest anyway.
+
+The following section describes different EDI-files for various commonly known contest types.
+
+Example: Region 1 Contest, standard type
+
+[REG1TEST;1]
+
+TName=IARU Region 1, March contest VHF
+
+TDate=19950304;19950305
+
+PCall=OZ1FDJ
+
+PWWLo=JO65FR
+
+PExch=
+
+PAdr1=Herlevgaardsvej 32 A, st. tv., DK-2730 Herlev
+
+PAdr2=
+
+PSect=Multi operator
+
+PBand=144 MHz
+
+PClub=OZ2AGR
+
+RName=Bo Hansen
+
+RCall=OZ1FDJ
+
+RAdr1=Herlevgaardsvej 32 A, st. tv.
+
+RAdr2=
+
+RPoCo=DK-2730
+
+RCity=Herlev
+
+RCoun=DENMARK
+
+MOpe1=OZ1FTU MOpe2= STXEq=FT-225RD+MRF247 SPowe=90 SRXEq=FT-225RD+MuTek+BF981 1,5 dB NF SAnte=9 elements OZ5HF SAntH=14;41 CQSOs=24;1 CQSOP=11579 CWWLs=19;0;1 CWWLB=0 CExcs=0;0;1 CExcB=0 CDXCs=7;0;1 CDXCB=0 CToSc=11579 CODXC=OY9JD;IP62OA;1302 [Remarks] Nice with the Aurora, made it possible to work more than usual in a 24 h contest. Nice to hear Jon (OY9JD) again, but, many stations calling so no time for chat. Besides the Aurora there was only little activity, as usual, in Scandinavia. [QSORecords;26] 950304;1445;OZ9SIG;1;59;001;59;006;;JO65ER;6;;N;N; 950304;1446;DL5BBF;1;54;002;59;023;;JO42LT;396;;N;N; 950304;1449;OZ1HLB/P;1;59;003;59;015;;JO55US;48;;N;; 950304;1450;DL6FBL;1;53;004;51;092;;JO40XL;608;;N;; 950304;1454;DF0TAU;1;54;005;59;084;;JO40QO;606;;;; 950304;1508;DJ3QP;1;55;006;59;095;;JO42FB;485;;;; 950304;1510;DG5TR;1;53;007;53;006;;JO53QP;242;;N;; 950304;1519;DL0WU;1;55;008;53;108;;JO31OF;609;;N;; 950304;1528;DL3LAB;1;59;009;59;046;;JO44XS;191;;N;; 950304;1532;DL5XV;1;56;010;59;033;;JO53AO;283;;;; 950304;1544;OZ8RY/A;1;56;011;57;010;;JO66HB;39;;N;; 950304;1553;OZ1AOO;1;59;012;59;001;;JO65FR;1;;;; 950304;1603;ERROR;;;013;;;;;0;;;; 950304;1618;DL0WX;1;53;014;52;174;;JO30FQ;688;;N;; 950304;1626;SM4HFI;2;53A;015;54A;019;;JP70TO;573;;N;N; 950304;1631;GM4YXI;2;57A;016;55A;015;;IO87WI;911;;N;N; 950304;1636;OH2AAQ;2;52A;017;59A;015;;KO29FX;851;;N;N; 950304;1640;OH2BNH;2;55A;018;57A;024;;KP20LG;891;;N;; 950304;1641;LA2AB;1;59A;019;57A;027;;JO59FV;479;;N;N; 950304;1646;SM5BSZ;2;55A;020;57A;029;;JO89IJ;480;;N;; 950304;1700;SK5BN;2;51A;021;55A;026;;JP80UE;585;;N;; 950304;1720;DL9LBA;2;529;022;559;056;;JO44UP;213;;;; 950304;1730;SK6NP;2;559;023;539;029;;JO68MB;262;;N;; 950304;1736;OH1MDR;2;52A;024;57A;023;;KP01VJ;830;;N;; 950304;1739;OY9JD;2;51A;025;52A;011;;IP62OA;1302;;N;N; 950304;1826;OZ9SIG;1;59;026;59;006;;JO65ER;0;;;;D
+
+Example : AGCW DL VHF Contest (contest manager: DJ2QZ) [REG1TEST;1] TName=AGCW contest 2 m TDate=19950318;19950318 PCall=OZ1FDJ PWWLo=JO65FR PExch=C PAdr1=Herlevgaardsvej 32 A, st. tv., DK-2730 Herlev PAdr2= PSect=C PBand=144 MHz PClub=OZ2AGR RName=Bo Hansen RCall=OZ1FDJ RAdr1=Herlevgaardsvej 32 A, st. tv. RAdr2= RPoCo=DK-2730 RCity=Herlev RCoun=DENMARK RPhon=(+45) 42 91 53 98 RHBBS=OZ6BBS MOpe1= MOpe2= STXEq=FT-225RD+MRF247 SPowe=90 SRXEq=FT-225RD+MuTek+BF981 1,5 dB NF SAnte=9 elements OZ5HF SAntH=14;41 CQSOs=24;1 CQSOP=11579 CWWLs=19;500;1 CWWLB=9500 CExcs=3;0;1 CExcB=0 CDXCs=7;0;1 CDXCB=0 CToSc=11579 CODXC=OY9JD;IP62OA;1302 [Remarks] Nice with the Aurora, made it possible to work more than usual. Nice to hear Jon (OY9JD) again, but, many stations calling so no time for chat. Besides the Aurora there was only little activity, as usual, in Scandinavia. [QSORecords;26] 950318;1600;OZ9SIG;2;599;001;599;006;B;JO65ER;6;N;N;N; 950318;1602;DL5BBF;2;549;002;599;023;C;JO42LT;396;N;N;N; 950318;1607;OZ1HLB/P;2;599;003;599;015;C;JO55US;48;;N;; 950318;1609;DL6FBL;2;539;004;519;092;C;JO40XL;608;;N;; 950318;1614;DF0TAU;2;549;005;599;084;B;JO40QO;606;;;; 950318;1618;DJ3QP;2;559;006;599;095;C;JO42FB;485;;;; 950318;1625;DG5TR;2;539;007;539;006;A;JO53QP;242;N;N;; 950318;1628;DL0WU;2;559;008;539;108;C;JO31OF;609;;N;; 950318;1630;DL3LAB;2;599;009;599;046;C;JO44XS;191;;N;;
+
+950318;1632;DL5XV;2;569;010;599;033;C;JO53AO;283;;;; 950318;1644;OZ8RY/A;2;569;011;579;010;A;JO66HB;39;;N;; 950318;1653;OZ1AOO;2;599;012;599;001;A;JO65FR;1;;;; 950318;1703;ERROR;;;013;;;;;0;;;; 950318;1718;DL0WX;2;539;014;529;174;C;JO30FQ;688;;N;; 950318;1726;SM4HFI;2;53A;015;54A;019;C;JP70TO;573;;N;N; 950318;1731;GM4YXI;2;57A;016;55A;015;C;IO87WI;911;;N;N; 950318;1736;OH2AAQ;2;52A;017;59A;015;C;KO29FX;851;;N;N;
+
+# AUTOMATIC CONTEST ADJUCTION SOFTWARE
+
+In this section we will explain the working of the contest robot and give guidelines for other member societies who want to make their own contest robot. (Vienna 2016)
+
+![](_page_91_Picture_1.jpeg)
+
+# OPERATIONAL & TECHNICAL REFERENCES
+
+# ENCOURAGING INOVATIONS(VGC 2020)
+
+To encourage multinational amateur radio interest groups to promote and document their innovations for the sake of radio amateur activities through IARU (R1). Their experience and know-how can be an added value for the amateur community and IARU Member Societies.
+
+This would not impact the way in which proposals are presented to the Region for General Conferences. This initiative should also be taken into account in framing the Terms of Reference for the proposed TWG
+
+# Wideband experimentations (VGC 2020)
+
+A framework for wideband experimentation the amateur bands be developed by opening up new designated segments of existing and new bands for free experimentation with unheard of modulation modes and techniques
+
+# OPERATING PROCEDURES
+
+# Minimum Requirement for a valid QSO
+
+A definition for a valid QSO on VHF and on higher bands is:-
+
+A valid contact is one where both operators during the contact have
+
+- mutually identified each other
+- received a report, and
+- received a confirmation of the successful identification and the reception of the report.
+
+### *It is emphasized that the responsibility always lies with the operator for the integrity of the contact.*
+
+# Use auf Calling Frequencies
+
+Call frequencies should only be used for calling (CQ) and then left again for the QSO. Please do not use call frequencies for activities such as SOTA, activity days, etc.
+
+# Weak-signal QSO procedure
+
+Terrestrial signals may often be heard on the VHF bands that are weak and suffering from considerable fading. It will be helpful in these circumstances to be able to resort to an operating procedure that maximises the possibility of a contact.
+
+The procedure described here is primarily for CW and SSB contacts although the principle may be adapted for other communication techniques if required.
+
+# The Basis of the Procedure
+
+Imagine that two stations can hear each other but signals are very weak and suffering from considerable fading. This is often experienced on the 50MHz, 70MHz and 144MHz bands during poor tropospheric propagation conditions. These two stations may attempt to contact each other but can often be transmitting (or receiving) at the same time. Therefore the QSO is most likely to fail. Somehow you need to be able to drop into a timed period mode to enhance the chance of making a QSO. But which station starts the first timed period?
+
+This may simply be achieved from the way you are beaming your directional antenna.
+
+So, for example, if you hear a station when you are beaming WEST (or NORTH) and \*hopefully\* the other station is beaming EAST (or SOUTH) then both stations can drop into a timed sequence because they will know approximately where the other station is.
+
+The weak-signal QSO procedure commences by ascertaining from your beam-heading which station starts the first 1-minute period.
+
+- If you are beaming SOUTH or EAST you start the first (even) 1-minute period. For example: 00-01, 02-03, 04-05 ……. and so on 54-55, 56-57, 58-59….
+- If you are beaming NORTH or WEST you start in the second (odd) 1-minute period. For example: 01-02, 03-04, 05-06 ……. and so on 55-56, 57-58, 59-60….
+
+Stations alternately call each other until signals are heard.
+
+• QRZ G4ASR ... QRZ G4ASR ... OVER ( or K on CW)
+
+When the call sign of the calling station is heard insert a conventional tropo report (3 times)
+
+• F6ETI G4ASR 52 52 52 ... F6ETI G4ASR 52 52 52 ... OVER (K)
+
+Reply with a confirmation roger report (3 times)
+
+- G4ASR F6ETI R57 R57 R57 ... G4ASR F6ETI R57 R57 R57 ... OVER (K)
+
+Confirm with a string of rogers (3 times)
+
+- F6ETI G4ASR Roger Roger Roger ... OVER (K)
+- G4ASR F6ETI Roger Roger Roger ... OVER (K)
+
+### Valid Contacts
+
+A valid contact is one where each operator has copied both call signs, the report and a confirmation that the other operator has done the same. This confirmation may either be an "R" preceding the report or a string of three consecutive "rogers" (RRR).
+
+This procedure may also be used for contest contacts by inserting the appropriate contest exchange requirements within the 1-minute periods.
+
+# Operating code of practice for 50 MHz operators
+
+# 50 MHz as a DX band
+
+It should be recognised by all 50 MHz operators that 50 MHz is a DX band. All 50 MHz operators should always treat each other with respect and tolerance.
+
+### Band plan
+
+Always respect the band plan as issued by IARU, taking into account the conditions of your license.
+
+### Local QSO's
+
+Do not conduct local QSO's within the 50.100 to 50.130 MHz window for Intercontinental contacts.
+
+### Learn to listen
+
+True 50 MHz band DX'ers spend about five percent of their time transmitting while ninety-five percent of time is spent listening and observing changing band conditions and propagation modes. This will be far more effective than just calling CQ DX at random.
+
+### 50.100 - 50.130 MHz window for intercontinental contacts
+
+This Window is widely accepted and should be used for Inter-continental QSO's only.
+
+### 50.110 MHz Intercontinental calling frequency
+
+This should be used for Intercontinental contacts only. Do not under any circumstances engage in local continental QSO's on this frequency even for a minute or two. Do not encourage pile-ups on 50.110 MHz.
+
+## 50.110 MHz CQ'ing
+
+LISTENING is the first rule of working rare DX on the 50 MHz band. So think twice before calling CQ on 50.110 MHz. But the occasional CQ is good as it can discover an unrecognised opening.
+
+### QSO techniques
+
+Follow the style and take the lead of the DX operator in providing information. Otherwise keep it simple as there are other stations waiting in line.
+
+### DX pile-up operating
+
+You should listen to the DX stations carefully and not continue to call if they request a particular country or prefix if that is not you. You should NOT call if you cannot hear the DX station!
+
+### Split frequency operation
+
+When a DX station creates a large pile-up, split-frequency operation is recommended. To minimise interference with other DX stations operating simplex, it is recommended that a maximum split of 10 kHz is used.
+
+### Duplicate QSO's
+
+It is always tempting to call a rare DX station every time you hear it. This should be avoided as it means that you are taking away the opportunity for the DX station to work a new station and give them their first QSO with the DX country.
+
+### Telegraphy operation
+
+Telegraphy is probably the best mode of operation on the 50 MHz band due to the nature of many DX openings.
+
+#### FM QSO's in Europe
+
+All FM transmissions should be made above 50.500 MHz for the obvious reason that FM is wideband and could wipe out weak DX signals.
+
+### Mutual interference
+
+Proper adjustment of transmitters will minimise distortion and reduce interference with operators on nearby frequencies. The correct level of audio setting for the microphone in use is essential for readability and minimal distortion. Linear amplifiers should be only driven so that they operate in the linear region and in any case should only be used when propagation conditions require it. Please note that poor receiver performance with respect to adjacent channel rejection and overload will also limit your effectiveness.
+
+# Operating procedures for Meteor Scatter QSO's
+
+### Introduction
+
+The goal of the procedures described is to enable valid contacts to be made by meteor scatter (MS) reflection as quickly and easily as possible. Meteor scatter is unlike most other propagation modes, in that neither station can hear the other until an ionised meteor trail exists to scatter or reflect the signals. As the reflections are often of very short duration the normal QSO procedure is not readily applicable and specialised operating techniques must be taken to ensure that a maximum of correct and unmistakable information is received. The two stations have to take turns to transmit and receive information in a defined format, following the procedures as detailed below. Some meteor showers are strong enough to make some of these measures unnecessary, but to encourage use of all generally listed showers there is no reason why the suggested procedures should not always be used. As with operating procedures in general, the virtues of the MS operating procedures are mainly that they are standard and are widely understood throughout IARU Region 1.
+
+## Scheduled and Random Contacts
+
+Two types of MS contacts, arranged in different ways, may be distinguished:
+
+- A scheduled contact, where two interested stations arrange in advance the frequency, timing, transmission mode, e.g. Telegraphy, SSB or MGM and call signs to be used. Scheduling may be carried out by exchange of letters or e-mail, by radio via the European VHF Net on 14,345 MHz, by Internet chat-rooms, packet-radio etc.
+- A non-scheduled contact, where a station calls CQ or responds to a CQ call, are called "random contacts". Random contacts are far more difficult and because you are starting entirely from scratch, it is particularly important for both stations to follow the standard meteor scatter QSO procedures described in this document.
+
+### Timing
+
+Prior to any MS activity it is absolutely vital that clocks need to be set to better than 1 second of standard time. Any clock inaccuracy will result in wasted time. Accurate timing of transmit and receive periods is important for two reasons: 1) to maximise the chances of hearing the other station, and 2) to avoid interference between local stations. Accurate timing can be accomplished for example by checking against
+
+the time-ticks on standard frequency transmissions, TV Teletext, telephone 'speaking-clock', GPS time signals or the Internet.
+
+The recommended time periods for the different modes are:
+
+- Telegraphy: 2.5 minutes periods.
+- SSB: 1 minute periods.
+- MGM: 30 seconds periods.
+
+This practice gives quite satisfactory results. However developing technology make it possible to use much different periods and amateurs may wish to arrange 1 minute periods for Telegraphy and shorter periods for SSB and MGM especially during major showers. If non-recommended time periods are used the first priority is to avoid causing interference to local stations that are using the recommended periods. Even though the recommended period for SSB contacts is 1 minute periods a quick-break procedure making a break every 10-15 seconds, in case the QSO can be completed within one long burst, are encouraged during major meteor showers.
+
+### Transmit periods
+
+In order to minimise the overall interference with other stations standard transmit periods are recommended. Station in central and Western Europe should use second period. All MS operators living in the same area should, as far as possible, agree to transmit simultaneously in order to avoid mutual interference.
+
+### QSO duration
+
+Every uninterrupted QSO period must be considered as a separate trial. This means that it is not permissible to break off and then continue the contact at a later time.
+
+### Frequencies
+
+### **Scheduled contacts**
+
+These contacts may be arranged on any frequency, taking into consideration the mode and band plan. Scheduled contacts must not use known popular frequencies and the random MS frequencies. Special care should be applied on the frequency selection to avoid interference when using reverse transmit periods according to your location.
+
+### **Random contacts**
+
+The frequency used for CQ calls for random contacts should be according to the IARU Region 1 bandplans.
+
+### QSY frequencies for MGM
+
+To avoid -interference, which results from a large number of stations attempting to complete contacts on the various MS calling frequencies, a QSY method is recommended. During the CQ the caller indicates on which frequency he/she will listen for a reply and carry out any subsequent QSO. The procedure for moving a beginning QSO off the calling frequency without losing contact is as follows. If an operator wants to call CQ the following QSY procedure should be used:
+
+- Select the frequency to be used for a QSO by checking whether it is clear of traffic and QRM.
+- In the CQ call, immediately following the letters "CQ", kHz is inserted to indicate the frequency that will be used for reception when the CQ call finishes.
+- During the receiving period the receiver should be tuned to the frequency indicated by the letter used in the CQ call.
+- When the caller receives a signal on the receiving frequency indicated during the call and identifies the reply as an answer on his CQ, the transmitter is moved to the same receiving frequency and the whole QSO procedure takes place there.
+
+If an operator instead of calling CQ wishes to listen for a CQ call the following QSY-procedure should be used:
+
+- Listen on a random contact frequency.
+
+- When a CQ call is received, note the kHz-frequency, which follows the letters "CQ" in the call. From this find the correct receiving frequency which the calling station will use for receiving replies.
+- QSY the transmitter to the receiving frequency, and transmit a reply during the appropriate period. The format for the reply can be found in section 8.
+- As the QSO will take place on this frequency, continue to transmit and to listen, during the appropriate periods, on this frequency. It may be that the station calling CQ will not hear your first reply, but may do so during one or more subsequent periods. Hence there is no need to return to the calling frequency.
+- The QSY frequencies should take place in the segment according to the IARU Region 1 bandplans.
+
+#### • *MGM, kHz-frequency*
+
+Users of MGM indicate the frequency they intend to carry out the QSO by adding the three digits of the absolute frequency, i.e. the kHz-frequency. For example CQ383 indicates that the station will listen on 144,383 MHz for a subsequent contact.
+
+*Example*: G4ASR wishes to try a random MS experiment on MGM and wants to start with calling CQ. He first checks his receiver in the MGM range of 144,360 MHz to 144,397 MHz and finds a clear frequency on 144,394 MHz. He calls CQ on 144,370 MHz, and he must now add the kHzfrequency to his CQ call to indicate on which frequency he intends to listen. In this example he will therefore call "CQ394" in his CQ call.
+
+*Example:* Your receive PA2DW who is calling "CQ274" on the 50 MHz random frequency. This tells you that PA2DW will listen on exactly 50,274 MHz.
+
+### • *CW/SSB*
+
+This proposal does not describe any procedures for QSY operation on CW/SSB anymore.
+
+### QSO procedure
+
+All modes use the same MS-QSO procedure.
+
+When attempting random SSB contacts, speak the letters clearly, using phonetics where appropriate.
+
+#### • *Calling*
+
+The contact starts with one station calling the other by sending both call signs.
+
+#### • *Reporting system*
+
+The report consists of two numbers:
+
+*First number Second number (signal strength)* 
+
+### **burst duration S-units S/N**
+
+2 : up to 0,5 s 6 : below S2 or below 5 dB
+
+3 : 0,5 - 1 s 7 : from S2 to S3 or from 5 dB to 10 dB 4 : 1 - 5 s 8 : from S4 to S5 or from 10 dB to 15 dB
+
+5 : longer than 5 s 9 : above S5 or above 15 dB Note that the number "1" is not used as the first number/burst duration.
+
+Maximum duration of a ping (Underdense Reflection):
+
+#### **Band Duration** 50 MHz 1000 ms
+
+### 432 MHz 13 ms
+
+This means that the duration of bursts (Overdense Reflections) are longer than the above ping durations.
+
+#### • *Reporting procedure*
+
+A report is sent when the operator has positive evidence of having received the correspondent's or his own callsign or parts of one of them. The report should be sent twice between each set of call signs. The report must not be changed during a contact even though signal strength or duration might well justify it.
+
+### • *Confirmation procedure*
+
+- As soon as either operator copies both call signs and a report he may start sending a confirmation. This means that all letters and figures have been correctly received. The message can be pieced together from fragments received over several bursts and pings, but it is up to the operator to ensure that it is done correctly and unambiguously. Confirmation is given by inserting an R before the report.
+- When one operator receives a confirmation message, such as "R27", and all required information is complete he must confirm with a string of R's, inserting his own call sign after at least 3 R's. When the other operator has received the R's, the contact is complete and he may respond in the same manner.
+
+### • *Requi***r***ements for a complete QSO*
+
+Both operators must have copied both callsigns, the report and a confirmation that the other operator has done the same. This confirmation can either be an "R" preceding the report or a string of minimum three consecutive "RRR".
+
+### Valid contacts
+
+A valid contact is one where both operators have copied both callsigns, the report and an unambiguous confirmation. However no recourse should be made during the contact to obtain the required information, change of frequency, antenna direction, etc. via other methods such as the Internet, DX Cluster, talk-back on another band, telephone etc. Such secondary methods invalidate the meteor scatter contact. In essence: if anything concerning the ongoing QSO attempt is agreed through other means than the QSO attempt frequency a new start is required.
+
+Additional information for communication before and during the MS QSO
+
+#### **Acceptable examples:**
+
+- *"shall we make a sked on 144.388 starting at 1310z, I will start")*
+- *"I have QRM, let's move 5 kHz up and start again"*
+- *"let's continue for another 15 minutes and start again"*
+- *"thank you for a nice QSO" after the QSO has completed on the radio"*
+
+### **Unacceptable Examples:-**
+
+- *"I only need the final rogers"*
+- *"470/9"*
+- *"I received a burst from you"*
+- *"I received a burst from you but I cannot decode it"*
+
+# QSO Procedure for Airplane Reflections
+
+Airplane Reflections is the process of reflecting radio waves off the body of an aircraft in flight. Contacts may be made on any of the UHF or Microwaves bands with distances up to 800 kilometres or so away. (The higher the frequency, the shorter the time you have). As the available time for a QSO in this propagation mode is very brief, usually less than one minute, we need an operating procedure in order to speed up the information exchange.
+
+The scheme (not the reporting system) for the "old" MS procedure seems like a suitable model for this purpose. This procedure is primarily for CW and SSB contacts but may be adapted for other communication modes if required.
+
+### Calling
+
+The contact starts with one station calling randomly (CQ), - or in a scheduled QSO: Calling the other station by sending both call signs. A calling sequence should be kept as short as possible.
+
+### Reporting system
+
+The report is the standard RS(T) reporting system: as example 59 or 599.
+
+### Reporting procedure
+
+A report is sent when the operator has positive evidence of having received the correspondent's or his own callsign or parts of them. The report should be sent at least twice between each set of call signs. The report must not be changed during a contact even though signal strength or duration might well justify it.
+
+# Confirmation procedure
+
+As soon as either operator copies both call signs and a report he may start sending a confirmation. This means that all letters and figures have been correctly received. The message can be pieced together from fragments, but it is up to the operator to ensure that it is done correctly and unambiguously. Confirmation is given by inserting an R before the report. When one operator receives a confirmation message, such as "R57", and all required information is complete he must confirm with a string of R's, inserting his own call sign after at least 3 R's. When the other operator has received the R's, the contact is complete and he may respond in the same manner.
+
+### Requirements for a complete QSO
+
+Both operators must have copied both callsigns, the report and a confirmation that the other operator has done the same. This confirmation can either be an "R" preceding the report or a string of minimum three consecutive "RRR".
+
+And in practice:
+
+If you start calling CQ: CQ G4ASR …CQ G4ASR … CQ G4ASR … BREAK ( or K on CW)
+
+Or starting a scheduled QSO:
+
+SM7ECM G4ASR... BREAK ( or K on CW)
+
+When signals are heard insert a conventional tropo report (usually 2 - 3 times)
+
+SM7ECM G4ASR 52 52 52... BREAK (K)
+
+Reply with a confirmation roger report (usually 2 - 3 times)
+
+[G4ASR SM7ECM] R57 R57 R57 ... BREAK (K)
+
+Confirm with a string of rogers (usually 3 times)
+
+[SM7ECM G4ASR] Roger Roger Roger...BREAK (K)
+
+[G4ASR SM7ECM] Roger Roger Roger...BREAK (K)
+
+Usually QSOs made via Airplane reflections is conducted on random frequencies. As a consequence the callsigns could be eliminated when first copied correctly. For contest purposes you have to add the contest exchange i.e. the Locator.
+
+# Rapid Deployment Amateur Radio (RaDAR)
+
+### Introduction
+
+Rapid Deployment Amateur Radio, often referred to by its acronym RaDAR, is a concept for operating an amateur radio station anywhere, anytime and even in adverse environmental conditions. This concept supports the amateur radio service's emergency communications mandate.
+
+### The concept
+
+Rapid deployment and indeed rapid redeployment is what makes RaDAR different otherwise it would be just the same as all the others nothing different to what has been done for a 100 years.
+
+RaDAR has evolved into something where movements are the highlight. It is therefore more than just making QSOs, it's a challenge to decide quickly where and how to set up an effective station, proving it works by making 5 contacts; packing up making sure nothing is left behind, moving and doing it all over again.
+
+It's a different challenge including repeated physical activity. It's also a method of learning, practising and finding what works and what does not.
+
+# Modes of communication
+
+RaDAR promotes the use of voice, digital, CW, HF, point to point VHF and UHF communications and even satellite communications. The use of terrestrial repeaters is however not allowed, for contest purposes at least.
+
+### Summary
+
+Many looking to practice amateur radio in different ways will see its value and the extreme fun it can be. The highlight is the "moving" aspect of RaDAR which is what makes RaDAR different to all other amateur radio activities.
+
+A link will be made on the IARU R1 website to give more information about RaDAR.
+
+# Operating practice for digital modes
+
+### Guidelines for Packet Radio Operators
+
+- Amateur Radio takes pride in being self-regulated. Packet Radio Operators should continue this tradition.
+- Packet Radio Operators, like all Amateur Radio Operators, should observe published Band Plans.
+- A Packet Radio Operator should not send the following traffic either direct or via mail boxes:
+- All advertising for selling, buying or trading goods, including amateur equipment (except if permitted by local regulations).
+- All statements and/or propaganda on political or religious subjects.
+- All inappropriate language, as, for instance, the use of swear words, obscenities, defamatory or libellous language etc.
+- All material which may infringe copyright.
+- All material which infringes privacy, whether personal or corporate.
+- A Packet Radio Operator utilising a BBS should avoid transmitting unnecessary or redundant messages and documents in order to enhance network efficiency.
+- A Packet Radio Operator utilising a BBS should ensure that the callsign of the originating station, including the name of the person responsible in the case of a club station, is clearly shown on every message so that the sender can be identified.
+- A Packet Radio Operator should avoid messages that are too long for efficient relay through the network.
+- A Packet Radio Operator utilising a BBS should ensure that all messages transmitted are addressed to the appropriate group of recipients and not addressed to inappropriate areas in order to ensure network efficiency.
+
+### Guidelines for Packet Radio Bulletin Board Operators
+
+- The Operator of a Packet Radio Bulletin Board is obliged to provide a reliable service, within a defined area for a defined purpose.
+- A Packet Radio Bulletin Board Operator is morally responsible for all messages forwarded by his system. He should make his best efforts to ensure that the traffic forwarded is appropriate to the Amateur Services and in accordance with the Guidelines for Packet Radio Operators.
+- HF Mail Boxes should only be used where there is a genuine need that cannot be provided by VHF and other means.
+- A Packet Radio Bulletin Board Operator may take action to exclude a User who persistently contravenes the Guidelines for Packet Radio Operators. Exclusion of a User should be done as a last resort after the User has been warned and where exclusion does not contravene local regulations.
+
+# Guidelines for APRS
+
+Based on Cavtat 2008 recommendation CT08\_C5\_Rec13, IARU Region-1 is to adopt the APRS "New n-N Paradigm", as published by WB4APR
+
+By simplifying the network to only accept "WIDEn-N", and telling users to limit their "N's" to the minimum needed for their own area, a vast improvement in reliability and throughput will be achieved in a common IARU, Region 1 APRS System, and beyond.
+
+ON6TI is to draw up a form of words that will detail this further in a future edition of the VHF Managers' Handbook
+
+# AMATEUR SATELLITTES
+
+# Introduction
+
+The Amateur Satellite Service is a radiocommunications service using spaceborne radio equipment for the same purposes as the Amateur Service. This includes amateur communications by earth orbiting satellites, interplanetary missions and contacts with astronauts on the International Space Station.
+
+Starting with the launch of Oscar-1 in 1961, amateur satellites have become increasingly sophisticated. They have provided voice and data links, served school science groups, provided emergency communications, acted as technology demonstrators, and transmitted Earth images. Construction and operation of any amateur satellite is subject to a range of ITU, IARU and other regulatory and coordination procedures.
+
+# IARU Region 1 and IARU Satellite Coordination
+
+### General
+
+Satellite builders should make certain that their operating frequencies are coordinated to ensure that mutual interference between different spacecraft does not occur. More information about this process can be found here: http://www.iaru.org/satellite/
+
+National VHF/Microwave Managers and Amsat organisations are encouraged to closely coordinate activities and monitor developments in their countries so that, for example, Cubesat projects are fully coordinated. Advice is available from IARU Satellite Advisors and Coordinators.
+
+Satellites transmitting on Amateur bands with undocumented protocols or without permission There is an ever-increasing number of small satellites being launched these days. Many of these resort to the Amateur satellite service as an inexpensive way of obtaining spectrum access. This is currently generating two problems: some of these satellites have not obtained IARU frequency coordination or other necessary permits but still transmit on the Amateur bands, others obtain IARU coordination but do not publish the specifications of the protocols they use, so Amateurs all over the world cannot decode the satellite signal.
+
+The interim meeting in Vienna propose the formation of a working group within IARU R1 to decide what changes to the IARU frequency coordination process would guarantee that interested Amateurs have enough technical information to make a decoder software.
+
+Since the problems addressed in this proposal are not specific to IARU R1, but rather affect the worldwide Amateur collective, another task of this working group will be to coordinate with the other IARU regions, so that this matter can be treated in a global basis and a joint effort can be made.
+
+Finally, one other task of the working group should be to inform universities through their national societies of the concerns and rules for Amateur bands use and to organize a prospective survey of potential satellite projects to help spread the information.
+
+*Note from EC: The proposal addresses small satellites operating in bands allocated to the amateur satellite service without IARU coordination and encrypted downlink signals in violation of article 25 of the ITU Radio Regulations. This item will be addressed by the IARU Satellite Advisor and the IARU Satellite Frequency Coordination Panel*
+
+# Amateur Satellite Names
+
+Amateur Satellites are currently named within two generic groups, one is OSCAR which is an acronym for Orbiting Satellite Carrying Amateur Radio and the other is RS which is an acronym for Radio Sport, the description used for Amateur Radio in the former Soviet Union.
+
+A nomenclature has been developed that includes a reference to either the group that built the satellite or a name that the builders would like assigned to their satellite e.g. UoSAT-OSCAR -22 that was built by the University of Surrey and Fuji-OSCAR -20 which was built in Japan. For simplicity most Amateur Satellite names are abbreviated to XX-yy e.g. UoSAT-OSCAR-22 is known as UO-22 and Fuji-OSCAR-20 is known as FO-20. Most of the Russian-built Amateur Satellites are simply known as RS-yy.
+
+The OSCAR designation is administered by Amsat-NA not IARU. There is no requirement for an OSCAR number to be assigned to an amateur satellite in order for it to be legitimately recognised and used in the amateur satellite service. However OSCAR numbers are a proud tradition of amateur radio that should be supported and continued.
+
+# Amateur-satellite operating practice
+
+(Adopted at the IARU Region I Conference in Warsaw, 1975)
+
+Region I member societies accept the instructions published by the sponsors of amateur -satellites like e.g. AMSAT as regards the times for operation, output powers that may be employed and the way of operating through the amateur-satellite, including adherence to the published satellite bandplan.
+
+All possible publicity should be given to satellite bandplans, operating schedules, power limitations on ground stations etc., together with advice on the necessity of receiver improvement via low-noise pre-amplifiers and, where applicable, low-angle antennas, in order to enable operators to monitor their own and other downlink transmissions satisfactorily, thus ensuring that:
+
+- no transmission is started on a frequency already in use
+- interference due to doppler effect frequency shift is avoided
+- blocking caused by own transmissions can be identified and output power can be reduced
+- other stations calling can be heard and identified.
+
+Amateur-satellite users should be encouraged to:
+
+- refrain from transmitting unless they can monitor their own signals
+- strictly adhere to the satellite bandplan with their modes of transmission
+- avoid long calls and slow operation
+- refrain from operating during times reserved for specific purposes like scientific experiments, as published by the satellite sponsors.
+
+National societies should supervise the implementation of the above recommendations, and take appropriate action against persistent offenders.
+
+The above recommendations were re-confirmed and strengthened at the IARU Region I Conference in Miskolc-Tapolca (1978), where the following resolution was adopted:
+
+*Publicity, preferably on an annual basis, should be given to the correct ethics and practices for satellite operation. National societies should investigate the possibility of setting up monitoring stations for the amateur-satellite service, in order to be able to take direct action against operators who do not observe the internationally agreed operating rules. It is recommended that national societies* 
+
+- Write to offending amateurs in their own country (society members as well as non-society members pointing out the correct behaviour and operating practice expected from them;
+- report directly to other member societies any infringements of the established rules occurring in their country. •
+
+At the IARU Region 1 Conference in Tel Aviv 1996 it was decided that for a trial period the IARU Region 1 Monitoring System coordinator should not limit his activities to the bands below 30 MHz but take care as well, together with the national monitoring system coordinators and national satellite coordinators, of intruders in the input channels of satellite transponders. This activity might be rather complex as even the 145 MHz band is not exclusively for amateurs in some countries and the other satellite allocations have a secondary status in most countries.
+
+But the **VHF Managers** shall pay a lot of attention to this activity as the growing problem of intruders in satellite inputs is becoming a serious nuisance.
+
+# Amateur Satellite Band Plan Usage
+
+In IARU Region 1 band plans the following frequency segments are designated for use by satellites:-
+
+- 145.800 146.000 MHz (out of the overall 144-146MHz ITU allocation)
+- 435.000 438.000 MHz
+- 1260 1270 MHz (uplink only)
+- 2400 2450 MHz
+- 3400 3410 MHz (only available in a few Region 1 countries)
+- 5650 5670 MHz (uplink only)
+- 5830 5850 MHz (downlink only)
+- 10.450 10.500 GHz
+- 24.000 24.050 GHz
+- 47.000 47.200 GHz
+- 76.000 81.000 GHz
+- 134.00 136.00 GHz
+- 136.00 141.00 GHz
+- 241.000 248.00 GHz
+- 248.000 250.00 GHz
+
+# Satellite Transponder Designations
+
+Apart from beacons and telemetry transmissions, amateur satellites often carry transponders. There are two methods of designating operation modes and frequencies. The original method specified by operational mode type was as per the table below:-
+
+More recently a more flexible alternative method has been developed where the input (uplink) is always specified first. A slash is used to separate input and output:-.
+
+| Band    | Wavelength | Designator |
+|---------|------------|------------|
+| 21MHz   | 15m        | H          |
+| 29MHz   | 10m        | T          |
+| 144MHz  | 2m         | V          |
+| 435MHz  | 70cm       | U          |
+| 1260MHz | 24cm       | L          |
+| 2400MHz | 13cm       | S          |
+| 5650MHz | 6cm        | C          |
+| 10GHz   | 3cm        | X          |
+| 24GHz   | 1.5cm      | K          |
+
+When this newer method is used for transponder modes, the older designations become:-
+
+| Old Name | New Name |
+|----------|----------|
+| A        | V/T      |
+| B        | U/V      |
+| J        | V/U      |
+| K        | H/T      |
+| KA       | H,V/T    |
+| KT       | H/T,V    |
+| L        | L/U      |
+| S        | U/S      |
+| T        | H/V      |
+
+| MODE | Uplink between |           | Downlink between |           |
+|------|----------------|-----------|------------------|-----------|
+| A    | 145.8 -        | 146.0 MHz | 29.3 -           | 29.5 MHz  |
+| B    | 435 –          | 438 MHz   | 145.8 -          | 146.0 MHz |
+| J    | 145.8 -        | 146.0 MHz | 435 -            | 438 MHz   |
+| K    | 21.26 -        | 21.30 MHz | 29.40 -          | 29.50 MHz |
+| L    | 1260 -         | 1270 MHz  | 435 -            | 438 MHz   |
+| S    | 435 -          | 438 MHz   | 2400 -           | 2450 MHz  |
+| T    | 21.26 -        | 21.30 MHz | 145.8 -          | 146.0 MHz |
+
+### Amateur Satellite Organisations For up to date information visit:
+
+http://www.amsat.org/amsat-new/links/index.php http://www.amsat.org/amsat-new/satellites/
+
+# Current Satellites
+
+For current operational information check these sites:
+
+http://www.amsat.org/amsat-new/satellites/status.php http://www.dk3wn.info/satellites.shtml http://oscar.dcarr.org/
+
+The list is also posted on the RSGB web site at http://data.dcc.rsgb.org
+
+# SIGNAL REPORTING SYSTEM
+
+# Signal reporting ( Recommendation R.1; R.2)
+
+Although from the beginning of amateur radio signal reports have been essential, no formal standard for the reports exists. But the "Readability, Strength, Tone" system with R,S and T values between 1 and 9 is in widespread use. Several handbooks gave and give in words indications how the values are to be understood.
+
+The readability and tone reports are in principle "subjective" but the strength report can be objective as a simple measurement of the received signal in voltage or power is possible. Such reports are in particular at the VHF and higher frequencies useful for more precise evaluation of propagation, antenna properties and receiver sensitivities.
+
+At the IARU Region 1 Conference in Hungary 1978 the need for a harmonised standard for the "S-meter scale" was expressed and a proposal was accepted for publication in society journals. The essential recommendation was *1 S-point is 6 dB*. At the Brighton Conference in 1981 the recommendation was formally adopted as a standard for amateur radio equipment manufacturers.
+
+At the 1990 Torremolinos conference an amendment was adopted which reconfirmed the -93 dBm reference level for frequencies above 144 MHz, but no statement was issued for the bands between 30 and 144 MHz.
+
+Although not explicitly stated the implication of the recommendation is that on VHF and higher frequencies the S-meter will deviate on the thermal noise only ( S2 in 3 kHz bandwidth, S3 in 12 kHz bandwidth). Although the recommendation is not too complex it seems to be rather difficult to implement by commercial manufacturers.
+
+Another matter is the 'tone' report. This is a subjective measure. It was important in the 'old days' when rather primitive oscillators were used in the TX. Modern transmitters, even on the millimeter bands, have in most cases a very good oscillator, resulting in a 'pure tone' and a T9 report is generally given.
+
+On VHF and higher, however, the characteristics of the propagation medium can significantly 'modulate' the signal (doppler shift, spreading) and a T9 report is not possible. Definitions of tone reports below 9 are rather vague. At the Region 1 conference 1999 in Lillehammer a recommendation (**R.2**) has been accepted to use special letters for signal tone reports when the influence of the propagation is detectable. Such reports can support propagation studies.
+
+#### IARU Region 1 Technical Recommendation S-METER READINGS BRIGHTON 1981, TORREMOLINOS 1990
+
+# *Standardisation of S-meter readings*
+
+- One S-unit corresponds to a signal level difference of 6 dB,
+- On the bands below 30 MHz a meter deviation of S-9 corresponds to an available power of -73 dBm from a continuous wave signal generator connected to the receiver input terminals,
+- On the bands above 30 MHz this available power shall be -93 dBm,
+- The metering system shall be based on quasi-peak detection with an attack time of 10 msec " 2 msec and a decay time constant of at least 500 msec.
+
+## IARU Region 1 Technical Recommendation TONE REPORTS Vienna 2010
+
+#### *Tone reports*
+
+In order to give an indication of distorted tonal quality due to special propagation modes, the 1-9 scale of the Tonality (T) component of the RST reporting system will be extended with the following:
+
+- "a" For signals distorted by auroral propagation
+- "s" For signals distorted by scatter propagation mechanisms
+- "m" for signals distorted by multipath propagation.
+
+For example:-
+
+- 599 Good signal
+- 58a Fairly good Signal via Aurora
+- 59s Good signal via Scatter (e.g. Rainscatter)
+
+### Footnotes
+
+- Other letters may be defined in future should the need arise
+- This alternative system may be used for any mode e.g. CW, SSB, MGM etc
+
+# The RSQ (Readability Strength Quality) reporting scale for digital modes:
+
+Where applicable RSQ reporting may be used for digital modes
+
+## Readability (% of text)
+
+- R5 95%+ Perfectly readable
+- R4 80% Practically no difficulty, occasional missed characters
+- R3 40% Considerable difficulty, many missed characters
+- R2 20% Occasional words distinguishable
+- R1 0% Undecipherable
+
+### Strength
+
+- S9 Very strong trace
+- S7 Strong trace
+- S5 Moderate trace
+- S3 Weak trace
+- S1 Barely perceptible trace
+
+### Quality
+
+- Q9 Clean signal, no visible sidebar pairs
+- Q7 One barely visible pair
+- Q5 One easily visible pair
+- Q3 Multiple visible pairs
+- Q1 Splatter over much of the spectrum
+
+The MOS (Mean Opinion Score) reporting scale for digitized speech:
+
+| MOS | Quality   | Impairment                    |
+|-----|-----------|-------------------------------|
+| 5   | Excellent | Imperceptible                 |
+| 4   | Good      | Perceptible, but not annoying |
+| 3   | Fair      | Slightly annoying             |
+| 2   | Poor      | Annoying                      |
+| 1   | Bad       | Very annoying                 |
+| 0   | Unusable  | Total                         |
+
+### *Notes*:
+
+Non-integer MOS scores like 3.5 are possible. An MOS of 3.0 is generally referred to as toll quality, meaning good enough to pay for. Digital voice users may tolerate MOS levels less than three if they get additional benefits, such as simultaneous voice and data services.
+
+While evaluation of voice systems may be made based on test-bench measurements, they must ultimately relate to the perception of the listener. A large body of voice-system evaluations exists based on MOS. Comparisons among systems are therefore readily made. MOS relates well to the readability figures commonly used in Amateur Radio signal reports.
+
+# THE LOCATOR SYSTEM
+
+# **Background**
+
+The IARU Locator system was originally defined in 1980 as a world-wide system for radio amateurs to document their location with sufficient accuracy for practical purposes using a simple alphanumeric scheme related to latitude and longitude. The initial specification called for a six character code which could define a station's location to a squaroid(4) of approximately 4,6 km each side at mid latitudes. The resulting positional accuracy was therefore around 3 km. This was deemed adequate for VHF contest scoring purposes. It also mentioned a shortened option with only four characters which was intended for HF use. In contrast, longer versions may be used when higher accuracy is required such as it might be the case for microwave activity.
+
+Today's common locator is a six-character code which can be extended to any length when needed.
+
+# **Definition of the IARU locator**
+
+Latitude and longitude are determined in line with WGS84 (also referred to EPSG:4326). This means the latitude is measured within a range of -90 to +90 degrees, with -90° being the South Pole and +90° being the North Pole. Longitude is defined from -180° to +180° where positive numbers indicate east longitude.
+
+The Locator first divides the latitude/longitude into large 'squaroids' of 10 degrees of latitude and 20 degrees of longitude. There are 18 of these subdivisions for latitude and longitude; each is allocated a letter of the English alphabet from 'A' to 'R'.
+
+### First and second character
+
+The first letter of the Locator corresponds to the 20 degree longitude squaroid3 starting from the antipodal line of +/-180 degrees and counting round the world in units of 20°. Therefore 20 degrees west of Greenwich would be the ninth division and gets the letter 'I'. At the poles, where longitude is undefined, the letter 'A' shall be used.
+
+The second character of the locator defines the large squaroid of latitude, counting up from the South Pole up to the North Pole. A latitude of 50 degrees North therefore corresponds to 14 up from the pole and equates to the letter '0'.
+
+# Third and fourth character
+
+Each 20 x 10 degree squaroid is then subdivided into 10, measured conventionally from left to right for longitude and bottom to top for latitude. The pair of numbers from '0' to '9' corresponding to this division are appended to the locator as characters 3 and 4 for longitude and latitude respectively.
+
+For example, the squaroid whose lower left corner lies at 2° West and 50° North becomes 'IO90'. This four-character format is the lowest resolution used in practice and at mid
+
+<sup>3</sup> The term 'squaroid' is used throughout this document instead of the common, colloquial term 'square.' The small subdivisions of latitude/longitude are three dimensional projections of a spheroid and are neither square, nor have their sides straight. On a Mercator map projection, they may appear rectangular, and at 60 degrees' latitude, may even appear square but this is only an artefact of the projection in use. The term 'squaroid' removes this ambiguity.
+
+latitudes gives a positional accuracy of very roughly 80 km, which is usually sufficient for most HF use.
+
+### Fith and sixth character
+
+These large squaroids are subdivided into 24 x 24 "sub-squares", with dimensions 5 x 2.5 minutes of arc for longitude/latitude respectively. Again, counting left to right and bottom to top, they are allocated the letters 'A' to 'X'.
+
+For example, 'IO90IV' therefore corresponds to the squaroid whose lower left corner sits at 1 degree 20 minutes West and 50 degrees 52.5 minutes North. This six character format represents a positional accuracy of around 3 km at mid latitudes(5)
+
+### 20.2.3.1 XSeventh and eighth character
+
+These "sub-squares" are divided into 10 "small squares" of 0.5' x 0.25' for roughly 300 metres positioning accuracy. These appear as another pair of numbers from '0' to '9', for example 'IO90IV58'.
+
+# Further characters
+
+The concepts for the letters of the fifth and sixth character (letters 'A' to 'X') and seventh and eighth character (numbers '0' to '9') can be repeated to form any even length precision locators. Software implementations of high precision locators need to take into account the limitations of floating point and integer presentation of the architecture and select variable types appropriately.
+
+For example, 'JN18DU55IX' is a valid 10 character locator.
+
+# **5.2.5 Reference location for locators**
+
+The reference location for a given locator is the centroid of the locator's squaroid. Thus, the size of the squaroid and the location of the centroid depend on the character length of the locator. Thus, for distance calculation purposes, the nominal locator length shall be defined (e.g. within contest rules). In case, no such definition can be found, a six character locator shall be used.
+
+# **5.2.5 Notation of locators**
+
+Locators shall use upper case characters for all positions.
+
+It is recommended that software implementations accept any case or mixed case input as the use of lower or mixed case characters does not introduce any ambiguity.
+
+For example: While 'JN18DU' is a correct notation, 'JN18du' shall be treated equally.
+
+# **5.2.5 Extreme locators and example test cases for locators**
+
+A locator implementation shall be verified for correctness using at least the following test cases:
+
+#### *20.2.4.1 Determination of Locator*
+
+| Name                  | Longitude    | Latitude     | Locator      |            |
+|-----------------------|--------------|--------------|--------------|------------|
+| South pole            | Singular     | -90 (90 S)   | AA00AA       | A00AA00AA  |
+| North pole            | Singular     | 90 (90 N)    | AR09AX       | AR09AX09AX |
+| Equator 0° E          | 0 E          | 0 N          | JJ00AA       | JJ00AA00AA |
+| Equator 180° E        | 180 (180 E)  | 0 N          | AJ00AA       | AJ00AA00AA |
+|                       | -160 (160 W) | -80 (80 S)   | BB00AA       | BB00AA00AA |
+| Eiffel Tower in Paris | 2.2945       |              |              |            |
+|                       | (2°          | 17’ 40.2” E) |              |            |
+|                       |              | (48°         | 51’ 29.6” N) |            |
+|                       |              |              | JN18DU       | JN18DU55IX |
+
+#### *20.2.4.2 Determination of location*
+
+The Locator does not provide an exact location, but 'squariod' and a centroid which can be used for distance calculations.
+
+The following examples are rounded to 10 digits after the decimal point.
+
+# AVAILABILITY OF REPEATER INFORMATION
+
+IARU R1 members are encouraged to publish information regarding repeaters on their public web pages. Members shall inform the IARU R1 secretariat about the URL of that information and update the secretariat if the URL changes. The secretariat shall keep an up-to-date list of all IARU members and their respective web page regarding repeater information on the IARU R1 web page.
+
+IARU R1 promotes the exchange of information between members and proposes the following format on a non-exclusive basis
+
+Repeater information shall be available using a JSON interface with the following two endpoints:
+
+# **Endpoint /api/v1/site**
+
+This endpoint consists of a JSON array of sites. Each site shall have at least the following attributes:
+
+| Attribute | Type    | Description Example |
+|-----------|---------|---------------------|
+| uuid      | UUID v4 | Unique ID of the    |
+| site_name | String  | Name of the site in |
+| city      | String  | City of at least    |
+| latitude  | Float   | Latitude of site as |
+| longitude | Float   | Longitude of site   |
+
+| sea_level     | Float  | Sea level of site in |
+|---------------|--------|----------------------|
+| locator_short | String | IARU-Locator with    |
+| locator_long  | String | IARU-Locator with    |
+| country       | String | Two letter country   |
+| source        | String | String identifying   |
+
+# **Endpoint /api/v1/trx**
+
+This endpoint consists of a JSON array of Stations. Each station shall have at least the following attributes:
+
+/api/v1/trx
+
+| Attribute       | Type          | Description Example |
+|-----------------|---------------|---------------------|
+| uid             | Integer       | Unique ID of the    |
+| type_of_station | String (Enum) |                     |
+| frequency_tx    | Float         | Transmit frequency  |
+| frequency_rx    | Float         | Receive frequency   |
+
+| callsign  | String       | Callsign of the    |
+|-----------|--------------|--------------------|
+| Site_uuid | UUID v4      | UUID of site (as   |
+| sysop     | String       | Callsign of the    |
+| status    | String(Enum) |                    |
+| fm        | Boolean      | True if this is an |
+| fm_wakeup | String       | Free-text string   |
+| ctcss_tx  | Float        | Frequency of the   |
+
+| ctcss_rx      | Float   | Frequency of the    |
+|---------------|---------|---------------------|
+| ctcss_comment | String  | Addional            |
+|               |         | /ctcss for details” |
+| url           | String  | URL of a web page   |
+| digital_id    | String  | Digital ID (ID type |
+| DMR           | Boolean | TRUE if this        |
+| cc            | Integer | Colour code of the  |
+| c4fm          | Boolean | TRUE if this is a   |
+| dstar         | Boolean | TRUE if this is a   |
+| tetra         | Boolean | TRUE if this is     |
+| other_mode    | Boolean | TRUE if the         |
+
+| other_mode_name | String | String describing  |
+|-----------------|--------|--------------------|
+| comment         | String | Free-text comment  |
+| country         | String | Two letter country |
+| source          | String | String identifying |
+
+### Examples of endpoints
+
+Here is an example of the above endpoints of the ÖVSV Open Source solution:
+
+- For site: https://repeater.oevsv.at/api/v1/site
+- For stations: https://repeater.oevsv.at/api/v1/trx
+
+# ANTENNA POLARISATION ( RECOMMENDATION P.1.)
+
+At several conferences the antenna polarisation has been discussed. Interestingly enough the use of horizontal polarisation, almost exclusively used for non-channelised amateur traffic on VHF and higher frequencies has never been formally recommended. Part of recommendation FM.2. recommends vertical polarisation for FM repeaters.
+
+At the Lausanne conference in 1953 (this is really the oldest technical recommendation of Region 1 ) the helical antenna thread direction was laid down. Why that was done at the time is unclear, but 30 years later (Cefalu 1984 ) the EME community felt a need for the definition of circular polarisation for EME contacts. 12 years later, however, it was recommended to use for EME above 3 GHz linear polarisation for the time being.
+
+As using circular polarisation appears to have advantages for repeater stations the matter may come up again at future conferences.
+
+### Standards for signal polarisation
+
+- **Helical aerials**  Looking into the direction of transmission, helical beam aerials shall have a right-hand thread.
+- **Moonbounce aerials** The polarisation of microwave signals used for communication via moonbounce shall be right-hand circular, i.e. the wave travelling away from the observer should rotate in a clockwise direction for operation below 3 GHz. For operation above 3 GHz linear polarisation shall be used. European stations should use vertical polarisation. All stations shall include provision for adjustable polarisation and be prepared to agree the offset beforehand. Exact polarisation offsets shall be checked at the commencement of activity. Should technical developments occur to make circular polarisation practical for general adoption this will be considered at a future conference.
+- **FM Repeater aerials** Vertical ( see recommendation FM.2.)
+
+# DEFINITION FOR PING AND BURST FOR SCIENTIFIC ANALYSIS OF AMATEUR RADIO METEOR SCATTER
+
+For the analysis of scientific data the old way of defining a ping and a burst, which depended on information / no information, is not relevant.
+
+# Definitions
+
+- **Ping:** Reflection from an underdense meteor trail.
+- **Burst:** Reflection from an overdense meteor trail.
+
+# Background:
+
+Radio Amateurs have used the term "ping" to describe a 'short' reflection. Most of the European operators define "ping" as a reflection too short to pass information. This definition was most likely evolved in the 1970's, when high speed CW (then < 600 LPM) gained popularity in Europe. With the less efficient equipment used those days, the shorter reflections were either too short to pass full characters due to slow speed and/or too weak to decode with the equipment available at that time.
+
+Some operators define "ping" as a reflection from an underdense meteor trail and "burst" as a reflection from an overdense trail. This is also how 'ping' and 'burst' are described in The VHF/UHF DX Book (published by RSGB). Generally it can be said that most good reflections come from overdense trails and short/less usable reflections (pings) from underdense trails. Overdense and underdense reflections can be roughly separated by duration of the reflection (reference 1).
+
+The principal difference of underdense and overdense trail is the mechanism that re-emits RF-energy. On underdense trails the RF-energy penetrates the trail and makes electrons oscillate and re-radiate energy, while on overdense trails, no penetration occurs and the trail is modelled as a metallic cylinder reflecting RF-energy. When receiving meteor reflections the audible differences are found in signal strength, duration and decaying shape.
+
+CW speeds used in MS have increased since 1970's by about four times and new digital equipment (i.e. DTR) make copying useful information from a weak reflection now much more easier. The old way of defining a ping has thus become invalid and does have serious lack of logic by definition, while the underdense/overdense division is based on well-known and studied physical facts, as described in scientific literature.
+
+It would also be extremely useful, if MS working results published i.e. in DUBUS were of scientific use. Such working results could be used by people like OH5IY, who are doing scientific research on meteor scatter. QSO information in DUBUS contains the number of pings and bursts of every contact. This information is of little use, however, if ping is understood as a reflection with no information, thus depending on speed used. Instead, if ping is defined as an underdense reflection this kind of information would be of great value. The relative number of underdense and overdense reflections could be compared between different showers and between consecutive hours in the same shower. This would provide us new knowledge of meteor showers and sporadic meteors.
+
+# Aid for defining underdense and overdense trails
+
+Underdense and overdense reflections can be roughly separated by duration of the reflection (which varies by frequency). The threshold is not sharp, but a simple approximation can be made. On 50 MHz overdense trail durations are typically greater than 0.5 s (reference 1) and maximum underdense trail durations approximately 0.5-1 s (reference 2).
+
+In the following table a 1 s reflection on 50 MHz has been taken as upper limit for the underdense trails.
+
+Durations for other frequencies have been derived from it according to the following formula (reference 3)
+
+Where t = duration in seconds, f = frequency in MHz
+
+# Maximum duration of an underdense reflection (ping):
+
+| Frequency | Duration | CW speed | Number of letters received |
+|-----------|----------|----------|----------------------------|
+| 50 MHz    | 1 s      | 100 LPM  | 2                          |
+|           |          | 1000 LPM | 17                         |
+|           |          | 2000 LPM | 33                         |
+| 70 MHz    | 0.5 s    | 100 LPM  | 1                          |
+|           |          | 1000 LPM | 8                          |
+|           |          | 2000 LPM | 17                         |
+| 145 MHz   | 0.1 s    | 100 LPM  | 0                          |
+|           |          | 1000 LPM | 2                          |
+|           |          | 2000 LPM | 4                          |
+| 435 MHz   | 0.013 s  | 100 LPM  | 0                          |
+|           |          | 1000 LPM | 0                          |
+|           |          | 2000 LPM | 0                          |
+
+This table corresponds well with the situation as presently encountered on the popular 144 MHz band. For example, a reflection on 145 MHz with the speed of 1000 LPM containing up to two letters when decoded would be a ping. On the 435 MHz band pings are so short in duration (less than 0.013s) as to be almost impossible to detect.
+
+### References:
+
+- 1. The evolution of meteor burst communications system, P.S. Cannon & A.P.C Reed, Journal of the Institution of Electronic and Radio Engineers, Vol. 57. No. 3, pp 101-112, May/June 1987.
+- 2. J.A.Weitzen & al., An Estimate of the Capacity of the Meteor Burst Channel, IEEE Transactions on Communications, Vol.Com-32, No.8. August 1984.
+- 3. W.T. Ralston & al. Distribution of underdense meteor trail durations and duty cycle and applications to meteor scatter communication system design. Radio Science, Volume 28, Number 5, pp 747-757, September-October 1993
+
+# FREQUENCY MODULATED TELEPHONY
+
+# The basic FM standard (Recommendation FM.1.)
+
+One of the longest standing IARU Region 1 technical recommendations, adopted at the Region 1 Conference in Brussels (1969) deals with the basic parameters of Narrow Band FM (NBFM) Telephony. It states *"For FM within Region 1 a maximum modulation index of 1 and an audio band restricted to 3 kHz shall be used"*
+
+Between 1963 and 1969 the gradual introduction of VFO controlled SSB, replacing AM(x-tal controlled), was taking place on VHF. At the same time, however, the problems with LF break-through in radio, TV and audio equipment became embarrassing. Using FM and PM appeared to be the right solution in this case. Of course the recently acquired habit of VFO control and co-channel working was used with FM as well.
+
+In order for an efficient use of FM it appeared necessary to agree upon a few basic parameters which would determine the optimum filter to be used in the receiver. A 12 kHz receiver bandwidth was finally chosen. This appeared to be the minimum value giving distinctly better quality than 6 kHz AM without showing too much of a threshold effect (at least not much more than conventional AM). Soon after the recommendation had been adopted several manufacturers of crystal-filters marketed 12 kHz wide filters.
+
+Almost 30 years later this basic recommendation still is in force, although VFO controlled FM has almost disappeared (it still is used with rain-scatter on microwaves) and the majority of amateurs use crystalcontrolled FM transceivers with filters wider than 12 kHz, thus loosing several dB's in communications efficiency.
+
+It must be noted that the application of the recommendation is not limited to frequencies above 30 MHz. It equally well applies to the 29 MHz band, although it appears that FM on that band is often received with filters narrower than 12 kHz.
+
+Three years later, at the 1972 Scheveningen conference, a more detailed standard, largely based upon the first was adapted, but this time VFO control appeared to be out of fashion and the standard dealt with "Fixed channel FM stations". The audio response was specified more in detail as *300-3000 Hz with a 12 dB/octave fall off outside this band and 6 dB/octave pre-emphasis*.
+
+It appears sensible to combine those two recommendations into a single one at a future conference.
+
+#### IARU Region 1 Technical Recommendation FM.1 BRUSSELS 1969, SCHEVENINGEN 1972
+
+- **TECHNICAL STANDARD FOR NARROW BAND FM (NBFM)**
+  - 1. For FM within Region 1 a Maximum Modulation Index of 1 and an audio band restricted to 3 kHz shall be used.
+- **TECHNICAL STANDARDS FOR FIXED CHANNEL FM STATIONS** 
+  - 1. Traffic mode: Simplex on one channel.
+  - 2. Maximum Deviation: " 3 kHz, 12K0F3E.
+  - 3. AF response: 300 3000 Hz, outside this band down with 12 dB/octave.
+  - 4. Pre-emphasis: +6 dB/octave in the transmitter.
+  - 5. De-emphasis: -6 dB/octave in the receiver.
+
+# FM Repeaters ( Recommendation FM.2.)
+
+At the 1972 Conference in Scheveningen a recommendation was worded for the then appearing FM repeaters. Initially the recommendation only was meant for the 145 MHz band, but later the 435 MHz band was added. The recommendation -of course- was based upon the standing recommendation for the audio channel parameters ( FM.1.). But in addition the antenna polarisation was recommended as being *vertical* **which was a logical choice for a system meant to be used by mobile stations. Note that, although no** recommendation on antenna polarisation existed at the time, consensus existed on the use of horizontal polarisation for all VHF and UHF activities and that still is the case for all non-channelised activities on VHF/UHF.
+
+In order to make the planning of repeaters using the same channel easier a *maximum ERP of 15 Watts* was recommended. As, however, the antenna height above the surroundings was not specified this ERP limit is not sufficient for the planning, but no additions have been made to this recommendation. The major flaw of the recommendation is the lack of any explicit specification of the receiver bandwidth. Had the receiver parameters been defined compatible with the transmitter definition (some people think this is implicit) some difficulties in a few countries with the introduction of a 12.5 kHz channel spacing system would never have been arisen.
+
+# IARU Region 1 Technical Recommendation FM.24
+
+# *Technical standards for FM repeaters in the 145 MHz and 435 MHz bands*
+
+- **Polarisation:** Antennas in the repeater service shall have vertical polarisation.
+- **Operation:** Repeaters should use either CTCSS or 1 750 Hz tone burst for access in order to prevent unwanted operation caused by interference or other signals. CTCSS is preferred for new FM repeaters - see below. DTMF can be optionally used to control repeater functions as per below. When the signal to be relayed has disappeared or the operating time has come to an end the repeater station shall send its own call, and 15 seconds thereafter the transmission shall be interrupted. It should not be possible to interrupt the automatic identification transmission by a selective call. For the station identification F2A modulation shall be used. When working through a repeater station the lowest usable power consistent with good communication is recommended.
+- **Power:** The effective radiated power of the repeater transmitter shall not exceed 15 Watts.
+- **Traffic mode**: Simplex using demodulation/remodulation on a single channel / frequency pair.
+- **Deviation:** The maximum deviation of the repeater transmitter shall be " 3 kHz ( 12K0F3E).
+- **A.F. response:** Audio frequency response shall be 300 3000 Hz. Outside this band the response shall go down with 12 dB/octave.
+- **Pre-emphasis:** The transmitter pre-emphasis shall be +6 dB/octave.
+- **De-emphasis:** The receiver de-emphasis shall be -6 dB/octave.
+- **Responsibility:** The repeater shall be under the control of the national IARU member society or their agent. The member society shall be responsible for the allocation of the adopted channel frequencies.
+- **CTCSS**: The use of CTCSS is strongly encouraged for VHF and UHF FM repeaters in Region 1, with the aim of reducing inadvertent interference by users to repeaters sharing the same input channel. In order to minimise mutual unwanted interference, from 1 Jan 2015 all new FM repeaters should use CTCSS tones on receivers as well as on transmitters.
+
+For CTCSS the frequencies listed in table FM2.1 shall be adopted as a standard so that compatibility between repeater systems in different countries can be maintained, aiding the traveller who moves between countries.(The frequencies shall be accurate " 1%)
+
+- **DTMF:** The DTMF system as specified below can be used as an alternative to the control of repeaters, voice mail boxes etc. o The hardware part of the DTMF system consists of a keyboard with 12 push-buttons using the symbols #,\*,A,B,C,D and figures from 0 to 9. When pressed each push-button will activate 2 tones simultaneously, one above, the other below 1000 Hz, according to the following scheme in table FM.2.2. o For example, if No. 5 is pressed, the tone combination 770 Hz/1336 Hz will be the result. The tone frequencies have to be accurate within " 1.5 % . o Each tone burst should be between 65 and 105 msec long. The pause between tones should be at least 200 msec.
+- **User functions:** To control the basic functions of repeaters and voice-mailboxes, the following codes should be used : Basic commands :
+  - 6. \* Repeater opens, ( like the 1750 Hz )
+  - 7. \* + 0 Repeater opens and transmits callsign, location and if necessary- the CTCSS tone.
+  - 8. \* + 1..9Additional functions ( squelch control, power level and others ) These basic commands can be extended and it is possible to control special functions of the
+
+repeaters or voice-mailboxes
+
+## CTCSS frequencies Hz to be used for repeater access
+
+### **CTCSS FREQUENCIES IN Hz TO BE USED FOR REPEATER ACCESS**
+
+| 67,0 | 94.8  | 131.8 | 186.2 |
+|------|-------|-------|-------|
+| 71.9 | 100.0 | 141.3 | 203.5 |
+| 74.4 | 103.5 | 146.2 | 210.7 |
+| 77.0 | 107.2 | 151.4 | 218.1 |
+| 79.7 | 110.9 | 156.7 | 225.7 |
+| 82.5 | 114.8 | 162.2 | 233.6 |
+| 85.4 | 118.8 | 167.9 | 241.8 |
+| 88.5 | 123.0 | 173.8 | 250.3 |
+| 91.5 | 127.3 | 179.9 |       |
+
+## DTMF frequency pairs
+
+|     |      | DTMF FREQUENCY PAIRS |      |      |
+|-----|------|----------------------|------|------|
+| Hz  | 1209 | 1336                 | 1477 | 1633 |
+| 697 | 1    | 2                    | 3    | 4    |
+| 770 | 4    | 5                    | 6    | B    |
+| 852 | 7    | 8                    | 9    | C    |
+| 941 | *    | 0                    | #    | D    |
+
+# DIGITAL TRANSMISSIONS
+
+# Principles for digital modes
+
+The increase in digital modes, their rate of change, innovative developments and on air activity should be considered in a more strategic and less prescriptive manner.
+
+There has been a trend by both IARU and national regulators to be 'Technology Neutral', particularly for high-level recommendations, to ensure they do not specify a particular mode. Indeed, IARU Region-1 C5 has led this by using general terms such as MGM or DV.
+
+The increase in digital modes should be facilitated where possible by reviewing and relaxing Bandwidth restrictions that may have their origins in classical analogue modes (CW, SSB etc) – and may now impede new data modes.
+
+The use of computing/automation can however undermine the criteria for valid QSOs for Contests, Awards etc. The IARU-R1 QSO definition should still be respected.
+
+Therefor the interim meeting in Vienna 2019 adopted following principles:
+
+- **Mode Neutrality:** The Band Plans in the VHF Managers Handbook shall remain Mode-Neutral as far as possible including for MGM, Digital Voice(DV), Digital Data (DD) and DATV, avoiding frequency designations for specific digital modes
+- Whilst the IARU Band Plans should adhere to the 'Mode Neutrality' principle above, Member Societies remain free at national level to **coordinate specific mode designations**
+- **Bandwidth** restrictions should be reviewed and relaxed where possible to facilitate experimental and emerging digital communications modes (but the need to be mode-neutral should still be observed)
+- **Digital Developers** should be encouraged to avoid embedding or recommending spot frequencies, and instead **to consult IARU band planners** and incorporate flexibility
+- **Valid QSOs** for contests and awards etc shall respect the IARU-R1 QSO definition and in particular the criteria that **the human operator is responsible**. This requires that such contacts are not invalidated by the use of automation – such as auto-completion, databases etc.
+
+# Packet-radio (mailbox) operating practice
+
+At the IARU Region 1 Conference in Torremolinos (1990) the following recommendation was adopted:
+
+*The Conference endorses the views expressed in documents 90/TS/C3.50 and 90/TS/C.53 on the undesirability of spreading of inappropriate messages via Packet-Radio Bulletin Board Systems and would extend this view to any use of the amateur bands which contravenes the definitions of the Amateur Service and Amateur Satellite Service.* 
+
+You will find document 90/TS/C3.53 contained the IARU Administrative Council Resolution 87-2 (revised in 1989) in chapter 6.6.
+
+Document 90/TS/C3.50 was a paper submitted by ARI, which with regard to messages having inappropriate content in essence expressed the same views as AC Resolution 87-2.
+
+At its meeting in Bandung, October 1991, the IARU Administrative Council re-considered the matter of inappropriate traffic via Packet Radio, and drafted an additional Resolution 91-1. At its meeting in Vienna, March 1992, the IARU Region 1 VHF/UHF/Microwaves Committee decided to recommend the immediate introduction of this Resolution as interim Region 1 policy. This was accepted by the IARU Region 1 Executive Council at its meeting in Budapest, April 1992, and later ratified by the IARU Region 1 Conference in De Haan (1993). The AC Resolution 91-1 is attached as chapter 6.7.
+
+Concerning the relaying of messages to amateur stations RESOLUTION 87 2 (Revised 1989)
+
+The IARU Administrative Council, Noordwijkerhout, April 1987:
+
+*Recognising the problems caused by the handling by amateur stations of communications having inappropriate content, particularly with regard to business and commercial matters* 
+
+*Recognising the impact on other users of the crowded spectrum from unattended store and forward ("mailbox") stations, and further recognising that the problem of controlling the content of amateur radiocommunication is made more difficult by the availability of such stations,*
+
+*Resolves that the Administrative Council affirms the action taken at its Buenos Aires meeting, in urging member societies to emphasize to their members the importance of adhering to the spirit and intentions of the ITU Radio Regulations, and of handling only that traffic which does conform; and further* 
+
+*Resolves that member societies are hereby urged to acquaint their members as to the undesirable aspects of the uncontrolled proliferation of unattended store and forward ("mailbox") stations.* 
+
+# Concerning guidelines for packet radio RESOLUTION 91-2
+
+The IARU Administrative Council, Bandung, October 1991,
+
+*Considering the growing popularity of packet radio for the relaying of messages between radio amateurs,* 
+
+*Recognizing that a medium as effective as packet radio can invite abuse through the introduction of traffic that is inappropriate to the Amateur Service internationally,* 
+
+*Noting Resolution 87-2 (revised 1989) which urges adherence to the spirit and intentions of the ITU Radio Regulations in handling traffic, and calls attention to the undesirable aspects of the uncontrolled proliferation of unattended store-and-forward "mailbox" stations,* 
+
+*Resolves that the attached "Guidelines for Packet Radio Operators" and "Guidelines for Packet Radio Bulletin Board Operators" first adopted at the Region 3 Conference, Bandung, October 1991, shall be distributed to IARU member-societies worldwide with the request that they be shared with the amateurs of each country, and*
+
+*further resolves that future IARU regional conferences are invited to suggest improvements to these guidelines so they will continue to be representative of good amateur radio operating practices as these practices evolve over time.* 
+
+# IPv6 allocation
+
+Varna 2014
+
+The IARU Region-1 VHF/Microwave Committee (C5) recommends that in order to underpin an exciting future for amateur data communications that the IARU Administrative Council considers the draft paper from Region 1 and provides support for obtaining an IPv6 allocation for global amateur radio.
+
+# Digital voice
+
+ÖVSV will start activities for gaining interoperability in bridging technology for Digital Voice modes.
+
+# AMATEUR TELEVISION
+
+# FM-ATV (Recommendation V.2. )
+
+For ATV experiments above 1 GHz a recommendation was adopted at the 1991 Torremolinos Conference. The recommendation was based upon the emerging standards for satellite TV transmitters, but as in many of the microwave amateur bands the available spectrum was limited, a *channel bandwidth of 18 MHz (-60 dB)* was recommended. Although the standard was adopted without much discussion, at the 1996 Tel Aviv conference it was decided that it was not possible to adhere to the given bandwidth limitation when complying with all other parts of the recommendation. This was due to the recommended audio subcarriers at 5.5 or 6 MHz .
+
+At the Lillehammer 1999 Conference the standard was amended in the shared microwave bands. Although the level of the spectrum outside the main spectral lobe is not yet ideal, the standard is now more realistic.
+
+# BEACON REQUIREMENTS
+
+# Beacon message
+
+As beacons are often heard at very low signal levels, together with spurious signals, it is important the message is simple, unambiguous and repeated frequently. It is also necessary to have a period without information ("carrier") for frequency checking purposes and signal strength measurement; and also to make it easy to distinguish the frequency when using F1A.
+
+- For a coordinated beacon, the only essential information in the beacon message is the callsign. The locator or other information is not essential
+- The callsign should be sent in plain CW at least once per minute, not exceeding 60 characters per minute
+- Beacons should include a period of plain carrier of approximately 20-30s, sufficient for frequency checking purposes.
+- For mixed mode beacons, the MGM mode should start on the even minute, whilst the odd minute includes the plain carrier period. Effort should be made to ensure good timing accuracy of the even/odd minutes.
+- It may be helpful to indicate a forthcoming change of mode by a short CW symbol (such as an 'S' or 'X')
+- For beacons that are MGM only (which should only be exceptions to the other recommendations) then the message should be MGM at the start, followed by the CW ID within a minute period.
+
+Examples of these (with approximate message lengths) are illustrated below:- Simple 30 & 60 second Messages
+
+MGM Mixed Mode (these are examples and can be change to suit the MGM mode deployed – Varna 2014)
+
+|    | MGM |    | CW |     |         |     |       |       |
+|----|-----|----|-----|-----|---------|-----|-------|-------|
+|    |     |    |     |     | Carrier | ‘X’ | Other | CW-ID |
+| 0s |     | 30 |     | 60s |         | 90  |       | 120s  |
+
+### MGM Mixed Mode
+
+### MGM Mixed Mode
+
+# MGM
+
+# Operation
+
+- Operation should be 24 hour continuous.
+- If beacons change parameters during the transmission this must be reflected in the message transmitted.
+- IARU Region-1 encourages best practice for both timing/frequency accuracy and phase noise to enhance general performance for the benefit of all.
+- That development of new modes optimised for beacons are encouraged, which may either enhance DX reception or permit more efficient equipment (and thus lower electricity costs) to enhance sustainability
+- That National Societies and IARU-R1 coordinators be kept updated on such developments.
+
+# Beacons spectrum
+
+![](_page_129_Diagram_2.jpeg)
+
+Should MGM be implemented on a beacon, a standard 1kHz tuning offset should be adopted as per the example in the diagram.
+
+In any given frequency band, the specific MGM selection should have regard to the beacon frequency spacing and MGM bandwidth
+
+# Status
+
+It is important that the operational parameters and the status of each beacon are widely known. The information should be sent to the IARU Region 1 VHF beacon coordinator via the local beacon
+
+# PROPAGATION RESEARCH BY AMATEURS
+
+# Introduction
+
+Amateurs have always contributed to radio science, both in the technical field, e.g. with the development of new transmitting and receiving methods, and in the field of propagation research by showing the limits of distance and the variety of propagation phenomena that can be used over an ever increasing range of frequencies.
+
+Regarding propagation, amateur contributions during the first years of radio in the 'world below 200 metres' are, of course, well-known, as are, for instance, the pioneering efforts of the "amateur" Grote Reber in the field of radio-astronomy. Those were the early days, but also in more recent times amateurs have made considerable contributions in the field of scientific investigations. To mention a few examples:
+
+- in the fifties several research institutes in Western Europe carried out tropo-scatter research in close co-operation with an extensive network of amateur observer stations;
+- fundamental work was and is done by amateurs in the definition and study of the TE (Trans-Equatorial) propagation mode of VHF radio-waves;
+- during the IGY (International Geophysical Year), amateurs supported various propagation research projects initiated by the Max Planck Institute in Katlenburg/Lindau as well as by other scientific institutes.
+
+The important facts which enable amateurs to make valuable contributions to propagation research are:
+
+- world-wide there are almost no regions which are not covered by amateurs. If effectively organised, amateurs constitute an extensive network of observation points that an official research institute could hardly afford to set up;
+- amateurs are enthusiastic in the disciplines they pursue, are often on the bands for extended periods of time - pushing the various propagation modes to their limits! - and in many cases, are in possession of high-performance, individually-calibrated pieces of transmitting/receiving equipment.
+
+IARU Region I fully recognizes the importance of this type of work in the Amateur Service, and at the IARU Region 1 Conference in Warsaw (1975) the following general recommendation was adopted:
+
+- Groups of amateurs shall be organised to carry out scientific observations regarding all forms of radio propagation, including
+  - 1. ionospheric
+  - 2. tropospheric
+  - 3. space.
+- These groups are recommended to co-operate closely with RSGB, DARC, REF and any other societies which have a proper organisation for handling scientific data and co-operating with scientific institutes.
+- It is also recommended that the results of such observations be published in the journals of member societies and/or scientific journals.
+
+Currently, in the international field, amateurs are involved in long-term studies of tropospheric and auroral propagation modes, long range ionospheric high MUF studies and the study of the characteristics of moonbounce and meteor-scatter techniques.
+
+On a national scale amateurs co-operate in the development of repeater systems for mobile station use, together with studies of terrain and inner city problems associated with operating mobile stations.
+
+Furthermore, studies are carried out on the effects of micro (local) climate on space communications and, in particular, on microwave band communications during adverse weather conditions like e.g. heavy rain, which can enhance signals considerably.
+
+The above is certainly not an exhaustive summary; on the contrary, the list of scientific activities in which amateurs participate is expanding all the time.
+
+Coordination of amateur participation in propagation research As set out in the introduction (section IVa), IARU as well as IARU Region 1 have always recognized the importance of scientific work carried out by amateurs, and IARU Region 1 are officially supporting various activities of member societies in the field of propagation research.
+
+Currently the RSGB, via their RSGB Propagation Studies Committee, and the SARL are the member society which co-ordinate the amateur participation in propagation research.
+
+### Sporadic-E investigations
+
+At the IARU region 1 Conference in Warsaw (1975) REF proposed to start on two projects:
+
+- a study of long distance VHF propagation with the aid of beacons to be set up in the southern part of Europe
+- a study of sporadic-E activity over the North Atlantic area, particularly on the amateur bands 28 MHz and 50 MHz.
+
+Both projects were accepted at the final Plenary Meeting of this Conference, and the work of supervising these projects was entrusted to Serge Canivenc, F8SH, who was nominated as IARU Region 1 Coordinator for sporadic-E investigations.
+
+The following recommendations concerning the above projects were adopted at the IARU Region 1 Conference at Warsaw (1975):
+
+*Sporadic-E investigations: that the proposal to establish beacon stations in southern Europe, as described in document WA58 (with the exception that the radiated power should preferably be limited to 50 W) be adopted. Proposals for beacons should be submitted through member societies to the IARU Region 1 Sporadic-E Coordinator Mr. Serge Canivenc, F8SH.* 
+
+Transatlantic Sporadic-E investigations: that the proposals set out in document WA59 be adopted in order to promote an investigation of Sporadic-E propagation in the North Atlantic area. It is also recommended that Region 2 be invited by Region 1 to encourage their member societies to set up, for the purpose of the investigation, beacon stations in the 50 MHz band, e.g.in Canada and in the U.S.A. Region 1 societies should then establish an observation network in consultation with Mr. Serge Canivenc, F8SH, the IARU Region 1 Sporadic-E Coordinator. Region 2 is invited to join the programme and to publicise the contents of document WA59.
+
+On the basis of the above recommendations, F8SH extended his activities and started a programme for the investigation of VHF wave propagation via Field Aligned Irregularities (FAI). This phenomenon was discovered by amateurs in southern Europe in the 70's. They noticed that stations contacted during sporadic-E openings were often on a quite different bearing from the one corresponding to the normal great-circle path.
+
+F8SH fulfilled the function of IARU Region 1 Sporadic-E Coordinator till July 1988 when he suddenly passed away. His excellent work, his many publications and his highly appreciated representation of the Amateur Service in the CCIR Interim Working Party 6/8 dealing with anomalous VHF ionospheric propagation will be remembered with gratitude.
+
+He was succeeded by **Jim Bacon, G3YLA** ( address in section If) who will continue and further develop the work started by F8SH.
+
+### Auroral propagation
+
+At the IARU Region I Conference in Warsaw (1975) the RSGB, via their Propagation Studies Committee, proposed to standardize auroral reporting by amateurs throughout Region I, so that the greatest use can be made of these reports for scientific studies.
+
+At the final Plenary Meeting of the Conference this proposal was adopted, and Charlie Newton, G2FKZ, was nominated as IARU Region 1 Coordinator for Auroral Studies.
+
+The following recommendation relating to the auroral project was adopted at the IARU Region 1
+
+Conference in Warsaw (1975):
+
+*VHF Auroral Propagation: that the proposals set out in document WA32 (regarding the standardisation of auroral reporting) be adopted by member societies and that member societies publicise the reporting forms contained therein.* 
+
+In 1993 G2FKZ resigned, and the IARU Region 1 Conference in De Haan (September 1993) nominated as his successor **Vaino Lehtoranta, OH2LX** (address in section If)
+
+## Tropospheric propagation studies
+
+At the IARU Region 1 Conference in Warsaw (1975), on the proposal of the RSGB Propagation Studies Committee IARU Region 1 nominated as Tropospheric Propagation Studies Coordinator
+
+Mr. R.G.Flavell, G3LTP. He resigned from this post at the conference in Tel Aviv 1996.
+
+At the moment a successor is sought for. He will have to look into propagation effects on the microwaves ( such as 'rainscatter' )
+
+### Information exchange programme
+
+The RSGB Propagation Studies Committee hold the official solar and ionospheric data back to the IGY, the International Geophysical Year (1967), and any information can be supplied upon application to RSGB Headquarters.
+
+Tape/slides lecture material on auroral propagation is also available via the Hon. Secretary of IARU Region I
+
+### Co-operation with CCIR study groups and publications
+
+Co-operation has been established with the CCIR propagation study groups 5 for tropospheric propagation, and 6 for ionospheric propagation.
+
+Five IARU Region 1 propagation reports were submitted to CCIR study groups via F8SH, the former IARU Region 1 Sporadic-E Studies Coordinator, and, where appropriate, the attention of CCIR study groups has been and is drawn to the results of amateur investigations/observations which could be used fruitfully in their studies.
+
+Some scientific publications which have used amateur data are
+
+- Tropo I.E.R.E. Conference Proceedings 40 (1978) pp 265-280
+  - 1. I.E.E. Conference Publication 169 (1978) Pt 2 pp 182-186
+  - 2. I.E.E. Conference Publication 195 (1981) Pt 2 pp 163-167
+  - 3. I.E.E. Conference Publication 219 (1983) Pt 2 pp 14- 18
+  - 4. I.E.E. Conference Publication 248 (1985) pp 498-501
+- Aurora I.E.E. Conference Publication 219 (1983) Pt 2 pp 259-262
+  - 1. T.E.P. I.E.E. Conference Publication 219 (1983) Pt 2 pp 325-328
+
+### Action/support required from IARU Region 1 member societies
+
+IARU Region 1 considers it of the utmost importance that member societies stimulate and encourage the participation of amateurs in scientific and propagation studies. To this end wide publicity should be given to the projects already in progress, and possibilities for new projects and/or extensions of existing projects should be investigated.
+
+In all this work close co-operation with the existing Coordinators and/or coordinating institutes is strongly recommended. As already indicated, for publications member societies can obtain information at the addresses given above.
+
+This type of work can open a whole new field of extremely interesting activities for amateurs! To mention a few examples:
+
+- Now that in some European Region 1 countries the 50 MHz band has been opened for amateur use, every effort should be made to increase the number of beacons and observation stations on this band, where many propagation modes can be studied, including modes such as back-scatter meteor trails, and, at suitable solar times, high M.U.F. propagation. As this band is not yet universally available for the Amateur Service, listening stations can play an important role here!
+- VHF Managers/Contest Committees etc. should be aware of the possibility of using contest logs for the derivation of data useful for scientific studies. These logs often contain a wealth of data covering a wide geographical area, providing detailed information, particularly on tropospheric propagation, that could not be obtained in any other way. This is an excellent illustration of the main strength of the Amateur Service: the mass of observation stations!
+
+Reporting forms (log sheets), used in the various projects and showing the data that preferably should be gathered by the participants, as well as the necessary information and instructions are obtainable from the addresses given above.
+
+Some reporting forms already in use are appended to this section, together with some examples of information sheets accompanying these reporting forms.
+
+## Cooperation with the DUBUS magazine
+
+In order to facilitate the flow of information from amateurs to the coordinators a cooperation with DUBUS has been arranged in 1995 whereby the relevant DUBUS editors will share the information received with the IARU Region 1 coordinators.
+
+## Propagation database
+
+At the IARU Region 1 Conference 1999 in Lillehammer the offer of Michael Kastelic, OE1MCU, was accepted to create a easily accessible database for the collection and distribution of amateur reports. Appendix Sample reporting forms and information sheets ( nov 96)
+
+# VHF/UHF/µWAVES RECORDS
+
+The desirability of having a list of national and international records on VHF, UHF, and MICROWAVES, which would give a good impression of the progress made by amateurs in the course of the years, has been recognized for a long time. At the meeting of the VHF Working Group in Amsterdam (1976) SM5AGM, Folke Rasvall, then VHF Manager of SSA, offered to compile an IARU Region I record table for the different modes of wave propagation. This offer was accepted with thanks, and it was agreed that: *VHF Managers shall send OZ1FF (oz1ff@mail.dk) a list of their national DX records, covering the various modes of propagation, i.e. tropospheric, aurora, meteor scatter, sporadic-E and EME, for each of the VHF, UHF and Microwaves bands; b) the information, after having been collated by SM5AGM, shall be sent to the Hon. Secretary of IARU Region I for publication in the Region I News, e.g. once per annum; c) the VHF Manager shall sent the information on any new record established in his country immediately to SM5AGM.* 
+
+The following recommendation was adopted at the IARU Region I Conference in Opatija (1966): *In principle all QSO's via a translator system shall be in a special class and shall not be eligible for inclusion in normal Countries Worked lists or for DX-record awards. A special list for translator QSO's shall be established.* 
+
+*Each year the IARU Region I record table as well as the national record table should be published in the national amateur radio magazine, accompanied by a request to the readers for submitting necessary changes. Claimed records should be carefully checked. For instance, for tropo records check the weather map for the day in question, for sporadic-E records check the time of the year and the time of day and, if possible, compare the claim with reports on other QSO's made during the opening. It has occurred that long meteor- scatter bursts were taken for a short sporadic-E opening! Be also aware of the possibility that 28, 21 or 14 MHz QSO's may mistakenly be reported as 145 MHz QSO's by stations using transverter systems. Check whether QSL cards have been exchanged. Please note that records are only established for different propagation modes, and that the Region I list does not deal with different transmission modes (CW, SSB etc.) or with "firsts". From the above it is clear that a sound record table can only be established in close co-operation with all national VHF and Microwave Managers or Committees.* 
+
+At the IARU Region I Sub Working Group in Vienna 2013, OZ1FF, was elected as the successor of SM7NZB .
+
+DX Records Coordinator OZ1FF Kjeld Bülow Thomsen kjeld@oz1ff.dk
+
+For the latest list of records please visit: http://dxrecords.vushf.dk

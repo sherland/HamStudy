@@ -68,6 +68,10 @@ Energi er effekt ganger tid:
 
 `W = P·t`
 
+For en ohmsk motstand er strøm-/spenningskarakteristikken en rett linje med
+helning `1/R`. Motstanden må dimensjoneres for både motstandsverdi,
+effekttap, maksimal spenning, toleranse og temperatur.
+
 ### Eksempel: seriemotstand for en last
 
 Egen utledning fra Ohms lov og effektformlene i kildene over.
@@ -256,6 +260,10 @@ Kapasitansen er:
 
 `C = Q/U`
 
+Kapasitansen øker kvalitativt med større plateareal, mindre plateavstand og
+høyere relativ permittivitet i dielektrikumet. Spenningsrating, polaritet for
+elektrolytter og dielektriske tap må respekteres.
+
 Strømmen bestemmes av hvor raskt spenningen endres:
 
 `i = C·du/dt`
@@ -322,6 +330,11 @@ AC ligger strømmen 90° etter spenningen. Reaktansen øker med frekvensen.
 En 10 mH-spole ved 1 kHz har:
 
 `XL = 2π·1000·0,010 = 62,8 Ω`.
+
+Induktansen øker vanligvis med flere vindinger, større tverrsnitt/diameter,
+kortere magnetisk feltvei og en kjerne med høyere permeabilitet. Lang spole,
+stor viklingsavstand og luftkjerne gir lavere induktans når annet holdes likt;
+reell geometri og kjernemetning begrenser slike tommelfingerregler.
 
 Spoler i serie summeres når gjensidig kobling kan neglisjeres. For ukoblede
 spoler i parallell brukes inversformelen. Jern- og ferrittkjerner øker

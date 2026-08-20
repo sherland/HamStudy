@@ -118,7 +118,9 @@ frekvens. Rundsløyfens fase må være 0° (eller et helt antall 360°), og
 sløyfeforsterkningen må være minst én ved oppstart. Amplitudebegrensning gjør
 sløyfeforsterkningen én i stabil drift. LC-oscillatoren er avstembar;
 krystalloscillatoren er vanligvis mer stabil. En VCO endrer frekvens med en
-styrespenning. Støy og tilfeldige fasevariasjoner rundt bærebæreren kalles
+styrespenning. En overtoneoscillator får krystallet til å arbeide på en
+høyere mekanisk resonans og bruker avstemming til å velge riktig overtone.
+Støy og tilfeldige fasevariasjoner rundt bærebæreren kalles
 fasestøy.
 
 En PLL sammenligner fasen til et referansesignal med en delt versjon av
@@ -150,6 +152,21 @@ lett å filtrere bort, mens en lavere andre IF gjør smal selektivitet enklere.
 Direktekonvertering blander rett til basebånd rundt 0 Hz. En moderne SDR kan
 digitalisere RF eller en IF og utføre miksing, filtrering og demodulasjon
 numerisk.
+
+Blokkene etter IF tilpasses trafikkarten:
+
+| HAREC-type | Nødvendig signalvei etter selektiv IF |
+|---|---|
+| CW, A1A | produktdetektor + BFO → smalt audiofilter → audioforsterker |
+| AM, A3E | diode-/innhyllingsdetektor → audiofilter/-forsterker |
+| SSB, J3E | produktdetektor + innskutt bærebærer/BFO → audiofilter/-forsterker |
+| FM, F3E | limiter → FM-diskriminator/PLL-detektor → audioforsterker; squelch kan sperre audio |
+
+En dobbel superhet gjentar mikser/LO/IF-filter for den andre IF-en. En
+direktekonverterende CW/SSB-mottaker bruker inngangsfilter/-forsterker,
+lokaloscillator og produktmikser direkte til audio/basebånd. Dermed er
+«detektoren» ikke én universell blokk: AM-innhylling, SSB/CW-produktdeteksjon
+og FM-diskriminator løser forskjellige oppgaver.
 
 AGC regulerer forsterkningen slik at svak og sterk mottaking gir håndterlig
 utgangsnivå. S-meteret viser et mål relatert til mottatt nivå. Squelch sperrer
@@ -197,6 +214,11 @@ klasse-C-trinn kan brukes fordi informasjonen ikke ligger i amplituden, men
 frekvensmultiplikasjon multipliserer også deviasjonen. CW trenger kontrollert
 nøkling og stabil oscillator for å unngå clicks og chirp.
 
+En frekvensmultiplikator bruker et ikke-lineært trinn og et avstemt filter til
+å velge en harmonisk. En fasemodulator endrer bærebølgefasen; en
+frekvensmodulator endrer øyeblikksfrekvensen. SSB-modulatorens krystallfilter
+må ha passbånd og flankeselektivitet som velger ønsket sidebånd.
+
 Frekvensomforming er ikke alltid nødvendig: en sender kan generere direkte på
 utgangsfrekvensen. Med miksing oppstår både ønskede og uønskede produkter, så
 filtervalg er en del av senderarkitekturen.
@@ -207,6 +229,11 @@ Utgangseffekt, virkningsgrad, utgangsimpedans, frekvensstabilitet og opptatt
 RF-båndbredde beskriver senderen. PEP er middelverdien av RF-effekten under
 toppen av modulasjonsinnhyllingen; for en umodulert sinus i 50 Ω kan den
 beregnes med RMS-spenningen under toppen.
+
+Audiofrekvensområdet og modulasjonsfilteret bestemmer en viktig del av RF-
+båndbredden. For vid audio gir unødvendig bred sending; for smal audio gir
+dårlig forståelighet. Deviasjon og modulasjonsindeks må holdes innen valgt
+FM-kanal, og lineære trinn må ha margin mot klipping for AM/SSB.
 
 Eksempel, egen utledning: Målt sinus er 100 V topp-til-topp over en ideell
 50 Ω-last. `Û=50 V`, `URMS=50/√2=35,36 V`, og

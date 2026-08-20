@@ -171,6 +171,11 @@ for begge halvperioder. Kondensatoren lades nær toppene og leverer laststrøm
 mellom dem. For fullbølgelikeretting er rippelfrekvensen dobbelt nettfrekvensen.
 En nyttig første tilnærming er `ΔU≈Ilast/(frippel·C)`.
 
+En halvbølgelikeretter bruker bare én halvperiode og får rippelfrekvens lik
+nettfrekvensen. En senteruttaket fullbølgekobling bruker begge halvperioder
+med to dioder; brokoblingen gjør det samme uten senteruttak, men har to
+diodefall i strømveien.
+
 Eksempel: `Ilast=0,10 A`, `frippel=100 Hz`, `C=2200 µF` gir
 `ΔU≈0,10/(100·0,0022)=0,455 V` topp-til-topp. En regulator trenger nok
 inngangsmargin gjennom hele rippelen og må tåle effekttapet

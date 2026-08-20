@@ -116,6 +116,7 @@ DOCUMENTS = {
     "Materiell/07-maleteknikk-emc.md",
     "Materiell/08-sikkerhet.md",
     "Materiell/09-operasjon-regelverk.md",
+    "data/materialdekning.csv",
 }
 
 
@@ -141,7 +142,11 @@ def main() -> None:
         path = Path(filename)
         assert path.stat().st_size > 300, f"Manglende eller for lite dokument: {filename}"
 
-    for verifier in ("scripts/verify_frequency_tables.py", "scripts/verify_harec_matrix.py"):
+    for verifier in (
+        "scripts/verify_frequency_tables.py",
+        "scripts/verify_harec_matrix.py",
+        "scripts/verify_material_coverage.py",
+    ):
         subprocess.run([sys.executable, verifier], check=True)
 
     print(

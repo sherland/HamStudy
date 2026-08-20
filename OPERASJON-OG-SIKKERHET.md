@@ -6,11 +6,15 @@ Dette er en eksamensorientert oversikt over HAREC-del b og sikkerhetspunkt a.10.
 
 ## En normal radioforbindelse
 
+Klassifisering: `eksamenspensum` og, for identifikasjon/innhold, `bindende regel`.
+
 HAREC krever at kandidaten kan starte, gjennomføre og avslutte en kontakt, bruke riktig kallesignal og forkortelser, kjenne tillatt innhold og kontrollere sendekvaliteten.
 
 En praktisk rekkefølge er å lytte først, forsikre seg om at frekvensen er ledig, kalle opp, identifisere stasjonen, utveksle nødvendige opplysninger og avslutte tydelig. Etter norsk forskrift skal kallesignalet sendes ved begynnelsen og slutten av forbindelsen og med korte mellomrom under sending. Forskriften oppgir ikke et fast minuttintervall.
 
 ## Fonetisk alfabet
+
+Klassifisering: `eksamenspensum`.
 
 | A–I | J–R | S–Z |
 |---|---|---|
@@ -25,6 +29,8 @@ En praktisk rekkefølge er å lytte først, forsikre seg om at frekvensen er led
 | India | Romeo |  |
 
 ## Q-kodene i HAREC
+
+Klassifisering: `eksamenspensum`.
 
 | Kode | Kjernebetydning |
 |---|---|
@@ -47,6 +53,8 @@ Et spørsmålstegn gjør normalt Q-koden til et spørsmål; uten spørsmålstegn
 
 ## Operative forkortelser
 
+Klassifisering: `eksamenspensum`.
+
 | Forkortelse | Betydning |
 |---|---|
 | BK | Break, avbryt/bryt inn |
@@ -62,15 +70,47 @@ Et spørsmålstegn gjør normalt Q-koden til et spørsmål; uten spørsmålstegn
 | TX | Sender/sending |
 | UR | Din/du er |
 
+RST står for lesbarhet, signalstyrke og tone. HAREC krever at forkortelsen
+forstås, men vedlegg 6 spesifiserer ikke hele tallskalaen. Bokas tabell i
+kapittel 16 kan brukes pedagogisk etter sidekontroll.
+
+## Konkurranser, nett og reléstasjoner
+
+Klassifisering: `tilleggsstoff` og `anbefalt praksis`.
+
+Dette er nyttig operativ praksis, men er ikke egne læringsmål i HAREC-listen.
+Lytt til den etablerte prosedyren, send bare nødvendig informasjon, identifiser
+deg etter norsk regel og respekter båndplan, kanalbruk og eventuelle
+lokale regler. Slike aktiviteter merkes `TILLEGG` dersom de senere blir til
+flashkort, med mindre en nyere norsk eksamensveileder uttrykkelig tar dem inn.
+
 ## Nød og katastrofer
 
-HAREC-listen krever kjennskap til `SOS` i radiotelegrafi og `MAYDAY` i radiotelefoni, samt radioamatørtjenestens mulige internasjonale bruk ved nasjonale katastrofer. Dette må ikke forveksles med en generell rett til å overta eller forstyrre organiserte nødnett. Følg myndighetenes instrukser, gi reell nødtrafikk prioritet og bruk bare prosedyrer og frekvenser du har grunnlag for å bruke.
+Klassifisering: `eksamenspensum`; konkret bruk må også følge `bindende regel`.
+
+HAREC-listen krever kjennskap til `SOS` i radiotelegrafi og `MAYDAY` i radiotelefoni, samt radioamatørtjenestens mulige internasjonale bruk ved nasjonale katastrofer. Haste- og sikkerhetssignaler utover disse er ikke spesifisert i HAREC-listen og må kildebelegges før de eventuelt gjøres til eksamenskort. Dette må ikke forveksles med en generell rett til å overta eller forstyrre organiserte nødnett. Følg myndighetenes instrukser, gi reell nødtrafikk prioritet og bruk bare prosedyrer og frekvenser du har grunnlag for å bruke.
 
 ## Båndplan og frekvenstillatelse
 
+Klassifisering: båndplan er `anbefalt praksis`; forskriftens grenser er `bindende regel`.
+
 En IARU/NRRL-båndplan fordeler anbefalte bruksområder innenfor et bånd. Den norske forskriften bestemmer om en frekvens faktisk kan brukes, med hvilken effekt og på hvilke vilkår. En anbefaling i båndplanen utvider aldri den norske tillatelsen.
 
+## Midlertidig bruk i andre land
+
+Klassifisering: `eksamenspensum` og normgivende CEPT-regler; vertslandets regler er bindende lokalt.
+
+CEPT T/R 61-01 forenkler midlertidig bruk under besøk i land som har tatt
+ordningen i bruk. Operatøren må følge vertslandets regler og kontrollere at
+landet, lisensekvivalensen og eventuelle særvilkår fortsatt står i de aktive
+CEPT-tabellene. Ved sending brukes vertslandets prefiks foran det nasjonale
+kallesignalet, skilt med `/` i telegrafi eller «stroke» i telefoni. En lagret
+prefiksliste bør behandles som versjonssensitivt oppslagsstoff, ikke pugges som
+en tidløs regel.
+
 ## Sikkerhetspensum
+
+Klassifisering: HAREC-listen er `eksamenspensum`; bokas ekstra emner er `tilleggsstoff` inntil et norsk krav dokumenterer noe annet.
 
 HAREC a.10 nevner fire kjerneområder:
 

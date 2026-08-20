@@ -1,0 +1,343 @@
+Radioamatør - Nkom
+
+Hopp til hovedinnhold
+
+Gå til hovedsiden
+
+Søk
+
+Meny
+
+Om Nkom
+
+Om Nkom
+
+Kontakt oss
+
+Min side
+
+Karriere
+
+Aktuelt
+
+Presse
+
+Arrangementer
+
+Høringer
+
+Statistikk og analyse
+
+Rapporter og dokumenter
+
+Skjemaer
+
+Personvernerklæring
+
+Information in English
+
+Hovedmeny
+
+Frekvenser og elektronisk utstyr
+
+Radiostøy
+
+Frekvensbehov mot 2030
+
+Om 5G
+
+Frekvenser til mobilkommunikasjon og 5G
+
+Tillatelse til å bruke frekvenser
+
+Radioamatør
+
+Om ekom og vindturbiner
+
+Import og salg av utstyr
+
+Frekvensauksjoner
+
+Jammere og repeatere
+
+Satellitt
+
+Frekvensforvaltning og internasjonalt arbeid
+
+Fysiske nett og infrastruktur
+
+Vær forberedt til 2G-nettet stenger
+
+Veileder til offentlige aktører om innplassering av infrastruktur for mobilnett
+
+Informasjonskurs i ekomnett på Youtube
+
+Autorisasjon for installasjon og vedlikehold av ekomnett
+
+Tekniske krav til ekomnett
+
+Offentlig støtte til bredbåndsutbygging
+
+Ekomportalen - tilrettelegger for utbygging av bredbånd
+
+Europeisk stønad til offentlege Wi-Fi-soner
+
+Elektromagnetisk stråling
+
+Internett
+
+Informasjon om internett for forbruker
+
+Informasjonskapsler/cookies
+
+Domenenavn
+
+Nettnøytralitet
+
+Elektronisk ID og tillitstjenester
+
+Ekommarkedet
+
+Nye analyser av bredbåndsmarkedene
+
+Utfordrerhjelpen
+
+Om markedsregulering
+
+Markeder
+
+Kostnadsmodeller og WACC
+
+Plikter og regelverk
+
+Liste over registrerte tilbydere
+
+Tvister og klager
+
+Godkjentordning for prissammenligningstjenester
+
+Bredbåndsforum
+
+Telefoni og telefonnummer
+
+Informasjon om telefoni for sluttbruker
+
+Telefonnummer og den norske nummerplan
+
+Nødnummer, nødanrop og lokalisering
+
+Telefonsvindel
+
+Forvaltning av nummerressurser
+
+Andre nummerressurser
+
+Mobile nettverkskoder for ikke-offentlige nett og testformål
+
+Rapporteringsplikt for tilbydere av nummerbruk
+
+Nummerportering ved bytte av tilbyder av nummerbasert person-til-person-kommunikasjonstjeneste
+
+Hemmelig nummer og reservert nummer
+
+Arbeidsgruppe Nummer
+
+Relevante dokumenter for tilbydere
+
+Finn tilbyderen
+
+Post
+
+Informasjon til forbrukere
+
+Informasjon til posttilbydere
+
+Tilbydare med leveringsplikt
+
+Postregulering
+
+Sikkerhet og beredskap
+
+Nasjonale risiko- og sårbarhetsvurderinger – Nkom ROS
+
+Programmet for forsterket ekom
+
+Tilbyders sikkerhets- og beredskapsplikter
+
+Personvern og tilbyders taushetsplikt
+
+Prioritetsabonnement i mobilnett
+
+Sosial media
+
+ForsidenFrekvenser og elektronisk utstyrRadioamatør
+
+Hjem
+
+Radioamatør
+
+Amatørradio er en fritidsinteresse som utføres av radioamatører. En radioamatør kan kommunisere med andre radioamatører i hele verden. Utstyr og antenner kan bygges selv, eller du kan kjøpe mer avansert utstyr som blir kontrollert av PC, som for eksempel software defined radio. Her får du mer informasjon om kurs, radioamatørlisens, kallesignal og forskrifter for å drive amatørradio.
+
+06.03.2020
+
+Innhold
+
+Hva er en radioamatør?
+
+Hvordan blir radioamatør?
+
+Kallesignal
+
+Registrering av gyldige kallesignal via Min Side
+
+Forskrift om radioamatørvirksomhet
+
+Norsk Radio Relæ Liga (NRRL)
+
+International Radio Amateur Union (IARU)
+
+Relaterte
+
+Rapporter og dokumenter
+
+Lover og regler
+
+Hva er en radioamatør?
+
+Amatørradio er en fritidsinteresse som utføres av radioamatører. En radioamatør kan kommunisere med andre radioamatører i hele verden. For å bli radioamatør må du avlegge en prøve som viser at du har grunnleggende kunnskap om elektronikk og radiokommunikasjon.
+
+Etter bestått prøve får du tildelt radioamatørlisens og kallesignal fra Nkom. Lisensen gir deg rett til å inneha utstyr og benytte frekvenser som er avsatt til radioamatørvirksomhet. Informasjon om hvilke frekvenser radioamatører kan sende på, og hvilken sendereffekt som du kan bruke, finnes i forskriften om radioamatørlisens.
+
+For mer informasjon om radioamatørvirksomhet se hjemmesiden til Norsk Radio Relæ Liga (NRRL).
+
+NRRL - Tema
+
+Hvordan blir radioamatør?
+
+Kurs
+
+De fleste kurs om radioamatørvirksomhet arrangeres av NRRL. For opplysninger om når og hvor det holdes kurs, anbefaler vi at du kontakter NRRL. Det er en fordel å ha gjennomført kurs før radioamatørprøven avlegges.
+
+Prøve
+
+For å få radioamatørlisens må en ha bestått en prøve. Prøven arrangeres av NRRL, med spørsmål utarbeidet av Nkom.
+
+Hva koster det?
+
+Du må betale et engangsgebyr for utstedelse av radioamatørlisens på 2170 kroner. (gjeldene pris for 2026) Dette betales til Nkom.
+
+Uansett om du skal ta et kurs, eller du ønsker å studere på egenhånd, anbefaler vi at du leser kursboken “Veien til internasjonal radioamatørlisens”. Boken kan kjøpes hos NRRL.
+
+Hvordan søke om radioamatørlisens og kallesignal.
+
+Alle som ønsker radioamatørlisens og kallesignal må registrere seg på Min side hos Nkom. Dette gjøres etter at du har tatt prøven og bestått. Du vil motta bekreftelse og kallesignal fra NRRL, og benytter dette når du logger deg inn.
+
+Lisenskort
+
+Tidligere ble lisenskort produsert som plastkort, slike lisenskort lages ikke lenger. En periode inneholdt lisensbrevet en del som kunne klippes, brettes og lamineres, og som da ble på størrelse med det gamle lisenskortet.
+
+De gamle lisenskortene vil fremdeles være gyldige, men det vil ikke lenger være mulig å få tilsendt slike lisenskort. Trenger du å ta med deg bevis på din radioamatølisens, må du ta med deg vedtaket ditt.
+
+Kallesignal
+
+Den som har bestått radioamatørprøven har rett til å få radioamatørlisens og et kallesignal. Gjeldende praksis for tildeling av kallesignal er at du får neste ledige kallesignal fra en liste som Nkom administrerer.
+
+Kallesignalet er på formen LBnXX, der n er et tall mellom 0 og 9 og X er en bokstav mellom A og Z. Kallesignal tildeles fortløpende.
+
+Endring av kallesignal
+
+I noen tilfeller kan sammensetningen av kallesignalet være uheldig. Det kan være at kallesignalet kan assosieres med et støtende ord, eller det kan være at vedkommende radioamatør har talefeil, og får problemer med uttalelsen. Det kan da søkes om å få endret kallesignal.
+
+Endring av kallesignal, koster 1080 kroner (gjeldene pris for 2026).
+
+Søknad om endring av kallesignal kan du gjøre på Min side hos Nkom.
+
+Nå tildes LB-kallesignaler, og ikke LA
+
+Siden 1983 har den løpende serien for tildeling av kallesignaler til nye radioamatører i Norge vært på formen LAnXXA, der n er et tall mellom 1 og 9 og X er en bokstav mellom A og Z. Etter 2014 ble NRRL og Nkom enige om at denne serien ikke skulle videreføres, og ny serie LBnXX er valgt.
+
+Klubbkallesignal
+
+Dersom det er én eller flere radioamatører som ønsker et felles kallesignal, kan det søkes om klubbkallesignal. Et klubbkallesignal kan være på formen LAnXXX* eller LAnXXXX, der n er et tall mellom 1 og 9 og X er en bokstav mellom A og Z. (*Merk at siste bokstav ikke kan være A).
+
+Varigheten på et klubbkallesignal er på 10 år, men klubben kan søke om å få nye 10 år før utløpsdato.
+
+Et klubbkallesignal koster 1080 kroner (gjeldene pris for 2026). Søknad om klubbkallesignal kan du gjøre på Min side hos Nkom.
+
+Kallesignaler for reléstasjoner og andre faste stasjoner
+
+Det kan tildeles egne kallesignaler til reléstasjoner. Det er valgfritt om en radioamatør vil bruke sitt personlige kallesignal når en reléstasjon settes i drift, eller om en vil søke om et eget kallesignal til reléstasjonen.
+
+Merk at alle bestemmelsene i forskrift om radioamatørvirksomhet også gjelder for reléstasjoner, og vi viser i denne forbindelse spesielt til § 5a. (Frekvenser til radioamatørvirksomhet - full lisens), § 9 (Krav til utstyr) og § 7 (Krav til sendinger).
+
+Det er ønskelig at NRRL tildeler kallesignaler. NRRL har blitt tildelt kallesignalserier av Nkom for dette formålet. Det vanlige er at det er grupper tilsluttet NRRL som står ansvarlig for drift og kallesignaler til slike stasjoner.
+
+Frekvensplan og opplysninger om disse stasjonene kan du få ved å ta kontakt med NRRL.
+
+Kallesignal til contester - LC
+
+Radioamatører kan søke om et eget 2x1-kallesignal i LC-serien, som bare skal benytte i nasjonale og internasjonale tester.
+
+Det må betales et gebyr både hos NRRL og Nkom for å få tildelt dette kallesignalet, og det vil ha en varighet på fem år, med mulighet for forlengelse. Det er kun ved nyopprettelse av kallesignal at det påløper genyr fra Nkom.
+
+Detaljert bruk av LC-kallesignaler finner du her på NRRL sin side.
+
+Lenke til NRRL nettbutikk hvor en kan søke om LC-kallesignal
+
+Søknad om tildelt LC-kallesignal fra NRRL må du også søke om på Min side hos Nkom. Her er det også mulig å søke om forlenget varighet.
+
+Registrering av gyldige kallesignal via Min Side
+
+Alle som allerede har radioamatørlisens og kallesignal, må registrere seg via Min side . Formålet er at alle skal bli oppført i en oppdatert oversikt over gyldige norske kallesignal. Den tidligere oversikten vil over tid bli faset ut, og det er derfor viktig å registrere seg i den nye løsningen. Her må du logge inn med BankID, klikk på Opprett ny sak / søknad, og så velger du registrer deg.
+
+Forskrift om radioamatørvirksomhet
+
+Radioamatørtjenesten er en lovlig tjeneste og er regulert i egen forskrift. Formålet med forskrift om radioamatørvirksomhet er å regulere tildeling av radiofrekvenser og bruk av radioutstyr for radioamatørvirksomhet. Forskriften inneholder også en liste over de frekvensene du har lov å benytte.
+
+Forskrift om radioamatørvirksomhet
+
+Båndplan
+
+NRRL har laget en båndplan for Norge som vi anbefaler at du følger. Båndplan og informasjon om denne finner du her.
+
+Norsk Radio Relæ Liga (NRRL)
+
+NRRL er radioamatørenes organisasjon i Norge. Organisasjonens formål er å styrke samarbeidet og vennskapet mellom radioamatørene, høyne det faglige nivået, gjøre amatørradio kjent og ivareta radioamatørenes interesser overfor Nkom.
+
+Lenke til NRRL
+
+International Radio Amateur Union (IARU)
+
+IARU er en internasjonal sammenslutning av radioamatør organisasjoner. Det er en forening i hvert land, og NRRL representerer radioamatørene i Norge.
+
+IARU markedsfører og koordinerer radioamatørbruk over hele verden, oppmuntrer til internasjonalt vennskap, samt representerer radioamatørvirksomhet på internasjonale telekommunikasjonskonferanser.
+
+Lenke til IARU
+
+Relaterte
+
+Rapporter og dokumenter
+
+Norske kallesignaler - april 2026.xlsx
+
+Norske kallesignaler - april 2026.csv
+
+Lover og regler
+
+Forskrift om radioamatørvirksomhet
+
+Abonner på vårt nyhetsbrev. Velg hvilke saker du ønsker informasjon om. Så holder du deg oppdatert og får nyhetsvarsel fra oss hver gang vi sender ut viktige nyheter.
+
+Abonner på vårt nyhetsbrev!
+
+Abonner
+
+Kontakt oss
+
+Presse
+
+Information in English
+
+Informasjonskapsler/cookies
+
+Tilgjengelighetserklæring

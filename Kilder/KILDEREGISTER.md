@@ -41,3 +41,11 @@ For juridiske frekvens-, effekt- og båndbreddeverdier er REG-2026 den
 kontrollerende kilden. Andre oversikter brukes bare som kryssjekk. Båndplanene
 beskriver anbefalt bruk innenfor de juridiske grensene og skal ikke presenteres
 som frekvenstillatelse.
+
+## Beholdte tekstuttrekk
+
+Alle ni arkiverte nettkilder/PDF-er har et søkbart arbeidsuttrekk i
+[`tekst/`](tekst/). Uttrekkene er laget for gjenbruk, diff og søk slik at
+kildene ikke må ekstraheres på nytt. Genereringsmåte og begrensninger står i
+[`tekst/README.md`](tekst/README.md); originalfilen i `primar/` har alltid
+forrang dersom layout, tabeller eller symbolplassering er viktig.

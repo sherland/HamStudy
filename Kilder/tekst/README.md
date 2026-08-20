@@ -18,3 +18,9 @@ Regler:
 
 `CEPT_TR_61-02_2024-02-16.txt` og `CEPT_TR_61-01_2024-10-18.txt` genereres
 med [`../../scripts/extract_pdf_text.py`](../../scripts/extract_pdf_text.py).
+
+De arkiverte Nkom- og NRRL-nettsidene genereres med
+[`../../scripts/extract_html_text.py`](../../scripts/extract_html_text.py).
+IARU-PDF-ene genereres med det samme PDF-skriptet. Navigasjonstekst kan følge
+med fra nettsidene; original HTML/PDF er fortsatt autoritativ for layout og
+struktur.

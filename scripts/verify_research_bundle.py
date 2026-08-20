@@ -114,6 +114,7 @@ DOCUMENTS = {
     "Materiell/05-antenner-og-transmisjonslinjer.md",
     "Materiell/06-utbredelse-og-linkbudsjett.md",
     "Materiell/07-maleteknikk-emc.md",
+    "Materiell/08-sikkerhet.md",
 }
 
 

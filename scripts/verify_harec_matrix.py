@@ -17,6 +17,12 @@ EXPECTED_IDS = {
     "H-R1", "H-R2", "H-R3",
 }
 
+EXPECTED_COVERAGE = {
+    "FULL_INDIKERT_FRA_TOC",
+    "DELVIS_INDIKERT_FRA_TOC",
+    "IKKE_INDIKERT_FRA_TOC",
+}
+
 
 def main() -> None:
     path = Path("data/pensummatrise.csv")
@@ -35,6 +41,8 @@ def main() -> None:
         "laeringsmal",
         "detaljer",
         "primaerkilde",
+        "bokreferanse",
+        "dekning",
         "status",
         "kontrollert_dato",
     )
@@ -44,6 +52,7 @@ def main() -> None:
         assert "HAREC-2024 vedlegg 6, PDF-side " in row["primaerkilde"]
         page = int(row["primaerkilde"].rsplit(" ", 1)[1])
         assert 12 <= page <= 25
+        assert row["dekning"] in EXPECTED_COVERAGE
 
     by_id = {row["id"]: row for row in rows}
     checks = {
@@ -64,7 +73,15 @@ def main() -> None:
         missing = [fragment for fragment in fragments if fragment not in details]
         assert not missing, f"{identifier} mangler {missing}"
 
-    print("HAREC-matrisen dekker 58 kontrollerte læringsmål uten manglende felt")
+    coverage_counts = {
+        label: sum(row["dekning"] == label for row in rows)
+        for label in EXPECTED_COVERAGE
+    }
+    assert sum(coverage_counts.values()) == 58
+    print(
+        "HAREC-matrisen dekker 58 kontrollerte læringsmål; "
+        + ", ".join(f"{label}={coverage_counts[label]}" for label in sorted(coverage_counts))
+    )
 
 
 if __name__ == "__main__":

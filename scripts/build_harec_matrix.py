@@ -130,12 +130,86 @@ add("H-R2", "Regelverk", "c.2", "CEPT regulations", "Forstå CEPT-ordningen for 
 add("H-R3", "Regelverk", "c.3", "National laws, regulations and licence conditions", "Kjenne norske lover, forskrifter og lisensvilkår og forstå loggføring.", "Nasjonale lover; forskrifter og lisensvilkår; føre logg; formålet med loggen; hvilke data som registreres.", 25, "REG-2026; nummerforskriften § 35b")
 
 
+# Kartleggingen bygger bare på innholdsfortegnelsen i bokas 8. opplag (2025).
+# FULL betyr derfor at alle sentrale deltema er synlige i innholdsfortegnelsen,
+# ikke at selve bokteksten er kontrollert mot hvert HAREC-krav.
+FULL = "FULL_INDIKERT_FRA_TOC"
+PARTIAL = "DELVIS_INDIKERT_FRA_TOC"
+NOT_SHOWN = "IKKE_INDIKERT_FRA_TOC"
+
+BOOK_MAP: dict[str, tuple[str, str]] = {
+    "H-INTRO-A": ("Kap. 1 s. 1-3; kap. 2 s. 2-1", FULL),
+    "H-INTRO-B": ("Ikke eksplisitt angitt i innholdsfortegnelsen", NOT_SHOWN),
+    "H-INTRO-C": ("Kap. 1 s. 1-3", PARTIAL),
+    "H-INTRO-D": ("Beregninger fordelt i kap. 2, 8 og 11", PARTIAL),
+    "H-T1.1": ("Kap. 2 s. 2-1–2-5", FULL),
+    "H-T1.2": ("Kap. 2 s. 2-5", FULL),
+    "H-T1.3": ("Kap. 2; kap. 10 s. 10-1–10-8", PARTIAL),
+    "H-T1.4": ("Kap. 2; kap. 10 s. 10-1–10-8", PARTIAL),
+    "H-T1.5": ("Kap. 8 s. 8-9–8-18; kap. 9", PARTIAL),
+    "H-T1.6": ("Kap. 2 s. 2-11–2-19", FULL),
+    "H-T1.7": ("Kap. 2; kap. 5; kap. 6 s. 6-14", PARTIAL),
+    "H-T1.8": ("Kap. 4 s. 4-1–4-13", FULL),
+    "H-T1.9": ("Kap. 2 s. 2-2; kap. 4 s. 4-15–4-16; kap. 11 s. 11-11–11-15", FULL),
+    "H-T1.10": ("Kap. 7 s. 7-1–7-8", FULL),
+    "H-T2.1": ("Kap. 2 s. 2-2–2-3", FULL),
+    "H-T2.2": ("Kap. 2 s. 2-6–2-7 og 2-12–2-13", FULL),
+    "H-T2.3": ("Kap. 2 s. 2-9 og 2-13", FULL),
+    "H-T2.4": ("Kap. 2 s. 2-19", FULL),
+    "H-T2.5": ("Kap. 3 s. 3-1–3-5", FULL),
+    "H-T2.6": ("Kap. 3 s. 3-6–3-12", FULL),
+    "H-T2.7": ("Kap. 3 s. 3-14–3-15", FULL),
+    "H-T3.1": ("Kap. 2 s. 2-4–2-19", FULL),
+    "H-T3.2": ("Kap. 2 s. 2-16–2-20; kap. 5 s. 5-4; kap. 10 s. 10-15–10-18", FULL),
+    "H-T3.3": ("Kap. 3 s. 3-1–3-4 og 3-14; kap. 10 s. 10-5–10-18", PARTIAL),
+    "H-T3.4": ("Kap. 3 s. 3-6–3-12; kap. 4 s. 4-9–4-16", FULL),
+    "H-T3.5": ("Kap. 6 s. 6-10–6-13", FULL),
+    "H-T3.6": ("Kap. 4 s. 4-5–4-9", FULL),
+    "H-T3.7": ("Kap. 4 s. 4-6 (syntetisert lokaloscillator)", PARTIAL),
+    "H-T3.8": ("Kap. 7 s. 7-1–7-8", FULL),
+    "H-T4.1": ("Kap. 6 s. 6-1–6-3", FULL),
+    "H-T4.2": ("Kap. 6 s. 6-3–6-14", FULL),
+    "H-T4.3": ("Kap. 6 s. 6-3–6-14", FULL),
+    "H-T4.4": ("Kap. 6 s. 6-1–6-15", FULL),
+    "H-T5.1": ("Kap. 4 s. 4-1–4-17", FULL),
+    "H-T5.2": ("Kap. 4 s. 4-1–4-17", FULL),
+    "H-T5.3": ("Kap. 4 s. 4-1–4-17", FULL),
+    "H-T5.4": ("Kap. 4 s. 4-14–4-17; kap. 5 s. 5-1–5-10", FULL),
+    "H-T6.1": ("Kap. 8 s. 8-9–8-16", FULL),
+    "H-T6.2": ("Kap. 8 s. 8-9–8-18", FULL),
+    "H-T6.3": ("Kap. 8 s. 8-1–8-8", FULL),
+    "H-T7": ("Kap. 9 s. 9-1–9-9; systemforsterkning s. 8-18", PARTIAL),
+    "H-T8.1": ("Kap. 11 s. 11-1–11-19", FULL),
+    "H-T8.2": ("Kap. 11 s. 11-1–11-19", FULL),
+    "H-T9.1": ("Kap. 5 s. 5-1–5-10; kap. 10 s. 10-1–10-18", FULL),
+    "H-T9.2": ("Kap. 5 s. 5-1–5-10; kap. 10 s. 10-1–10-18", FULL),
+    "H-T9.3": ("Kap. 5 s. 5-1–5-10; kap. 10 s. 10-1–10-18", FULL),
+    "H-T10": ("Kap. 13 s. 13-1–13-12", FULL),
+    "H-O1": ("Kap. 16 s. 16-7", FULL),
+    "H-O2": ("Kap. 16 s. 16-1–16-4", FULL),
+    "H-O3": ("Kap. 16 s. 16-4–16-6", FULL),
+    "H-O4": ("Kap. 12 og 13; nødsignaler/katastrofesamband ikke eksplisitt angitt", PARTIAL),
+    "H-O5": ("Kap. 12 s. 12-12–12-16", FULL),
+    "H-O6": ("Kap. 12 s. 12-9 og 12-23; kap. 16 s. 16-1–16-2", FULL),
+    "H-O7.1": ("Kap. 12 s. 12-1–12-11", PARTIAL),
+    "H-O7.2": ("Kap. 12 s. 12-1–12-11", FULL),
+    "H-R1": ("Kap. 12 s. 12-12–12-18", FULL),
+    "H-R2": ("Kap. 12 s. 12-19; kap. 14 s. 14-1–14-2", PARTIAL),
+    "H-R3": ("Kap. 12 s. 12-12–12-24", FULL),
+}
+
+for row in ROWS:
+    row["bokreferanse"], row["dekning"] = BOOK_MAP[row["id"]]
+
+
 def main() -> None:
     identifiers = [row["id"] for row in ROWS]
     if len(identifiers) != len(set(identifiers)):
         raise ValueError("Dupliserte pensum-ID-er")
     if len(ROWS) != 58:
         raise ValueError(f"Forventet 58 læringsmål, fant {len(ROWS)}")
+    if set(BOOK_MAP) != set(identifiers):
+        raise ValueError("Bokkartleggingen samsvarer ikke med HAREC-ID-ene")
 
     destination = Path("data/pensummatrise.csv")
     destination.parent.mkdir(parents=True, exist_ok=True)

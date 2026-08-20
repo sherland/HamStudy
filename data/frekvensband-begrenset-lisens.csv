@@ -1,0 +1,12 @@
+frekvens_fra,frekvens_til,enhet,status,maks_utgangseffekt_w,maks_bandbredde,spesielle_vilkar,kilde,kontrollert_dato
+3500,3800,kHz,Primær,10,6 kHz,,REG-2026 § 5,2026-08-20
+7000,7200,kHz,Primær,10,6 kHz,,REG-2026 § 5,2026-08-20
+14000,14350,kHz,Primær,10,6 kHz,,REG-2026 § 5,2026-08-20
+18068,18168,kHz,Primær,10,6 kHz,,REG-2026 § 5,2026-08-20
+21000,21450,kHz,Primær,10,6 kHz,,REG-2026 § 5,2026-08-20
+28000,29700,kHz,Primær,10,18 kHz,,REG-2026 § 5,2026-08-20
+50,52,MHz,Primær,10,18 kHz,,REG-2026 § 5,2026-08-20
+144,146,MHz,Primær,10,18 kHz,,REG-2026 § 5,2026-08-20
+432,438,MHz,Primær,10,30 kHz,"Båndbredde 200 kHz er tillatt i frekvensområdet 433,6–434,0 MHz",REG-2026 § 5,2026-08-20
+2300,2450,MHz,Sekundær,5,20 MHz,,REG-2026 § 5,2026-08-20
+"10,25","10,50",GHz,Sekundær,1,50 MHz,,REG-2026 § 5,2026-08-20

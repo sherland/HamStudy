@@ -1,0 +1,39 @@
+frekvens_fra,frekvens_til,enhet,status,maks_utgangseffekt_w,maks_bandbredde,spesielle_vilkar,kilde,kontrollert_dato
+"135,7","137,8",kHz,Sekundær,200,1 kHz,Maksimal tillatt utstrålt effekt er 1 W e.i.r.p.,REG-2026 § 5a,2026-08-20
+472,479,kHz,Sekundær,100,1 kHz,Maksimal tillatt utstrålt effekt er 1 W e.i.r.p.,REG-2026 § 5a,2026-08-20
+1810,1850,kHz,Primær,1000,6 kHz,,REG-2026 § 5a,2026-08-20
+1850,2000,kHz,Sekundær,10,6 kHz,"Gjennomsnittlig sendeeffekt skal ikke overstige 10 W, uavhengig av modulasjonstype.",REG-2026 § 5a,2026-08-20
+3500,3800,kHz,Primær,1000,6 kHz,,REG-2026 § 5a,2026-08-20
+5260,5410,kHz,Sekundær,100,6 kHz,,REG-2026 § 5a,2026-08-20
+7000,7200,kHz,Primær,1000,6 kHz,,REG-2026 § 5a,2026-08-20
+10100,10150,kHz,Sekundær,1000,1 kHz,,REG-2026 § 5a,2026-08-20
+14000,14350,kHz,Primær,1000,6 kHz,,REG-2026 § 5a,2026-08-20
+18068,18168,kHz,Primær,1000,6 kHz,,REG-2026 § 5a,2026-08-20
+21000,21450,kHz,Primær,1000,6 kHz,,REG-2026 § 5a,2026-08-20
+24740,24890,kHz,Sekundær,1000,6 kHz,,REG-2026 § 5a,2026-08-20
+24890,24990,kHz,Primær,1000,6 kHz,,REG-2026 § 5a,2026-08-20
+28000,29700,kHz,Primær,1000,18 kHz,,REG-2026 § 5a,2026-08-20
+50,52,MHz,Primær,1000,18 kHz,,REG-2026 § 5a,2026-08-20
+"69,9","70,5",MHz,Sekundær,100,18 kHz,"1000 W tillates brukt til EME og MS forutsatt bruk av retningsantenne og logging av tid, asimut og elevasjon ved sending.",REG-2026 § 5a,2026-08-20
+144,146,MHz,Primær,300,18 kHz,"1000 W tillates brukt til EME og MS forutsatt bruk av retningsantenne og logging av tid, asimut og elevasjon ved sending.",REG-2026 § 5a,2026-08-20
+432,438,MHz,Primær,300,30 kHz,"1000 W tillates brukt til EME og MS forutsatt bruk av retningsantenne og logging av tid, asimut og elevasjon ved sending. Båndbredde 200 kHz er tillatt i frekvensområdet 433,6–434,0 MHz",REG-2026 § 5a,2026-08-20
+1240,1300,MHz,Sekundær,300,20 MHz,"Allokeringen gjelder til og med 31. desember 2027. Fra 1. januar 2028 kan kun allokeringene nedenfor benyttes. 1000 W tillates brukt til EME og MS forutsatt bruk av retningsantenne og logging av tid, asimut og elevasjon ved sending.",REG-2026 § 5a,2026-08-20
+1240,1258,MHz,Sekundær,300,18 MHz,,REG-2026 § 5a,2026-08-20
+1258,1296,MHz,Sekundær,"0,02",150 kHz,"Målt som utstrålt effekt e.i.r.p. Kommunikasjon mot satellitt er tillatt i frekvensområdet 1260-1270 MHz. For kommunikasjon mot satellitt i frekvensområdet 1260 til 1262 MHz er tillatt utstrålt effekt avhengig av elevasjonsvinkel (Ɵ) over horisonten: 0° < Ɵ < 15°: 0,5 W e.i.r.p. 15° ≤ Ɵ < 55°: 50 W e.i.r.p. 55° ≤ Ɵ < 90°: 478 W e.i.r.p. I frekvensområdet 1258–1300 MHz og med en båndbredde større enn 150 kHz, inkludert amatør TV (ATV), er maksimal tillatt utstrålt effekt 0,02 W/1 MHz e.i.r.p.",REG-2026 § 5a,2026-08-20
+1296,1298,MHz,Sekundær,50,150 kHz,"I frekvensområdet 1258–1300 MHz og med en båndbredde større enn150 kHz, inkludert amatør-TV (ATV), er maksimal tillatt utstrålt effekt 0,02 W/1 MHz e.i.r.p.",REG-2026 § 5a,2026-08-20
+1298,1300,MHz,Sekundær,158,150 kHz,"For EME tillates sendereffekt på 500 W forutsatt bruk av retningsbestemt antenne med minimum 30 dBi forsterkning og minimum elevasjonsvinkel 15° over horisonten. I frekvensområdet 1258–1300 MHz og med en båndbredde større enn 150 kHz, inkludert amatør TV (ATV), er maksimal tillatt utstrålt effekt 0,02 W/1 MHz e.i.r.p.",REG-2026 § 5a,2026-08-20
+2300,2450,MHz,Sekundær,100,20 MHz,,REG-2026 § 5a,2026-08-20
+3400,3410,MHz,Sekundær,100,7 MHz,,REG-2026 § 5a,2026-08-20
+5650,5850,MHz,Sekundær,100,20 MHz,,REG-2026 § 5a,2026-08-20
+"10,25","10,50",GHz,Sekundær,100,50 MHz,,REG-2026 § 5a,2026-08-20
+"24,0","24,05",GHz,Primær,100,50 MHz,,REG-2026 § 5a,2026-08-20
+"24,05","24,25",GHz,Sekundær,100,50 MHz,,REG-2026 § 5a,2026-08-20
+"47,0","47,2",GHz,Primær,100,50 MHz,,REG-2026 § 5a,2026-08-20
+"76,0","77,5",GHz,Sekundær,100,50 MHz,,REG-2026 § 5a,2026-08-20
+"77,5",78,GHz,Primær,100,50 MHz,,REG-2026 § 5a,2026-08-20
+78,81,GHz,Sekundær,100,50 MHz,,REG-2026 § 5a,2026-08-20
+"122,25",123,GHz,Sekundær,100,50 MHz,,REG-2026 § 5a,2026-08-20
+134,136,GHz,Primær,100,50 MHz,,REG-2026 § 5a,2026-08-20
+136,141,GHz,Sekundær,100,50 MHz,,REG-2026 § 5a,2026-08-20
+241,248,GHz,Sekundær,100,50 MHz,,REG-2026 § 5a,2026-08-20
+248,250,GHz,Primær,100,50 MHz,,REG-2026 § 5a,2026-08-20
